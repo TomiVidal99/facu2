@@ -1,0 +1,1234 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!doctype html>
+<html platform="linux" lang="en-US" dir="ltr">
+  <head>
+    <title id="reader-title">
+      Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024
+    </title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src chrome:; img-src data: *; media-src *; object-src 'none'"
+    />
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width; user-scalable=0" />
+    <link
+      rel="stylesheet"
+      href="chrome://global/skin/aboutReader.css"
+      type="text/css"
+    />
+    <link rel="localization" href="toolkit/about/aboutReader.ftl" />
+    <link rel="localization" href="toolkit/branding/brandings.ftl" />
+    <link rel="stylesheet" href="chrome://global/skin/narrate.css" />
+    <link
+      rel="shortcut icon"
+      href="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_32,h_32/https://csswolf.com/wp-content/uploads/2023/10/CssWolf_Logo-removebg-preview-150x150.png"
+    />
+  </head>
+
+  <body
+    class="dark sans-serif loaded"
+    style="--font-size: 20px; --content-width: 30em"
+  >
+    <div class="top-anchor"></div>
+
+    <div id="toolbar" class="toolbar-container scrolled">
+      <div class="toolbar reader-toolbar">
+        <div class="reader-controls" articledir="ltr">
+          <button
+            class="close-button toolbar-button"
+            aria-labelledby="toolbar-close"
+            data-telemetry-id="reader-close"
+          >
+            <span
+              class="hover-label"
+              id="toolbar-close"
+              data-l10n-id="about-reader-toolbar-close"
+              >Close Reader View</span
+            >
+          </button>
+          <ul class="dropdown style-dropdown">
+            <li>
+              <button
+                class="dropdown-toggle toolbar-button style-button"
+                aria-labelledby="toolbar-type-controls"
+                data-telemetry-id="reader-type-controls"
+              >
+                <span
+                  class="hover-label"
+                  id="toolbar-type-controls"
+                  data-l10n-id="about-reader-toolbar-type-controls"
+                  >Type controls</span
+                >
+              </button>
+            </li>
+            <li class="dropdown-popup">
+              <div class="dropdown-arrow"></div>
+              <div class="font-type-buttons radiorow">
+                <input
+                  id="radio-itemsans-serif-button"
+                  type="radio"
+                  class="radio-button"
+                  name="font-type"
+                  checked="checked"
+                /><label
+                  for="radio-itemsans-serif-button"
+                  class="sans-serif-button"
+                  data-l10n-id="about-reader-font-type-sans-serif"
+                  checked="true"
+                  >Sans-serif</label
+                ><input
+                  id="radio-itemserif-button"
+                  type="radio"
+                  class="radio-button"
+                  name="font-type"
+                /><label
+                  for="radio-itemserif-button"
+                  class="serif-button"
+                  data-l10n-id="about-reader-font-type-serif"
+                  >Serif</label
+                >
+              </div>
+              <div class="font-size-buttons buttonrow">
+                <button
+                  class="minus-button"
+                  data-l10n-id="about-reader-toolbar-minus"
+                  title="Decrease Font Size"
+                ></button>
+                <span class="font-size-value">5</span>
+                <button
+                  class="plus-button"
+                  data-l10n-id="about-reader-toolbar-plus"
+                  title="Increase Font Size"
+                ></button>
+              </div>
+              <div class="content-width-buttons buttonrow">
+                <button
+                  class="content-width-minus-button"
+                  data-l10n-id="about-reader-toolbar-contentwidthminus"
+                  title="Decrease Content Width"
+                ></button>
+                <span class="content-width-value">3</span>
+                <button
+                  class="content-width-plus-button"
+                  data-l10n-id="about-reader-toolbar-contentwidthplus"
+                  title="Increase Content Width"
+                ></button>
+              </div>
+              <div class="line-height-buttons buttonrow">
+                <button
+                  class="line-height-minus-button"
+                  data-l10n-id="about-reader-toolbar-lineheightminus"
+                  title="Decrease Line Height"
+                ></button>
+                <span class="line-height-value">4</span>
+                <button
+                  class="line-height-plus-button"
+                  data-l10n-id="about-reader-toolbar-lineheightplus"
+                  title="Increase Line Height"
+                ></button>
+              </div>
+              <div class="color-scheme-buttons radiorow">
+                <input
+                  id="radio-itemlight-button"
+                  type="radio"
+                  class="radio-button"
+                  name="color-scheme"
+                /><label
+                  for="radio-itemlight-button"
+                  class="light-button"
+                  data-l10n-id="about-reader-color-scheme-light"
+                  title="Color Scheme Light"
+                  >Light</label
+                ><input
+                  id="radio-itemdark-button"
+                  type="radio"
+                  class="radio-button"
+                  name="color-scheme"
+                /><label
+                  for="radio-itemdark-button"
+                  class="dark-button"
+                  data-l10n-id="about-reader-color-scheme-dark"
+                  title="Color Scheme Dark"
+                  >Dark</label
+                ><input
+                  id="radio-itemsepia-button"
+                  type="radio"
+                  class="radio-button"
+                  name="color-scheme"
+                /><label
+                  for="radio-itemsepia-button"
+                  class="sepia-button"
+                  data-l10n-id="about-reader-color-scheme-sepia"
+                  title="Color Scheme Sepia"
+                  >Sepia</label
+                ><input
+                  id="radio-itemauto-button"
+                  type="radio"
+                  class="radio-button"
+                  name="color-scheme"
+                  checked="checked"
+                /><label
+                  for="radio-itemauto-button"
+                  class="auto-button"
+                  data-l10n-id="about-reader-color-scheme-auto"
+                  checked="true"
+                  title="Color Scheme Auto"
+                  >Auto</label
+                >
+              </div>
+            </li>
+          </ul>
+          <ul class="dropdown narrate-dropdown">
+            <li>
+              <button
+                class="dropdown-toggle toolbar-button narrate-toggle"
+                data-telemetry-id="reader-listen"
+                aria-label="Listen (N)"
+                hidden=""
+              >
+                <span class="hover-label">Listen (N)</span>
+              </button>
+            </li>
+            <li class="dropdown-popup">
+              <div class="narrate-row narrate-control">
+                <button
+                  class="narrate-skip-previous"
+                  disabled="disabled"
+                  title="Back"
+                ></button
+                ><button class="narrate-start-stop" title="Start (N)"></button
+                ><button
+                  class="narrate-skip-next"
+                  disabled="disabled"
+                  title="Forward"
+                ></button>
+              </div>
+              <div class="narrate-row narrate-rate">
+                <input
+                  class="narrate-rate-input"
+                  value="0"
+                  step="5"
+                  max="100"
+                  min="-100"
+                  type="range"
+                  title="Speed"
+                />
+              </div>
+              <div class="narrate-row narrate-voices">
+                <div class="voiceselect voice-select">
+                  <button class="select-toggle" aria-controls="voice-options">
+                    <span class="label">Voice:</span>
+                    <span class="current-voice"></span>
+                  </button>
+                  <div class="options" id="voice-options" role="listbox"></div>
+                </div>
+              </div>
+              <div class="dropdown-arrow"></div>
+            </li>
+          </ul>
+          <button
+            data-buttonid="pocket-button"
+            data-telemetry-id="reader-save-to-pocket"
+            class="toolbar-button pocket-button"
+            aria-labelledby="label-pocket-button"
+            style="
+              background-image: url(&quot;chrome://global/skin/icons/pocket.svg&quot;);
+            "
+          >
+            <span
+              class="hover-label"
+              id="label-pocket-button"
+              data-l10n-id="about-reader-toolbar-savetopocket"
+              >Save To Pocket</span
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="--line-height: 1.6em" lang="en-US" dir="ltr">
+      <div class="header reader-header reader-show-element">
+        <a
+          class="domain reader-domain"
+          href="https://csswolf.com/excalidraw-keyboard-shortcuts-pdf/"
+          >csswolf.com</a
+        >
+        <div class="domain-border"></div>
+        <h1 class="reader-title">
+          Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024
+        </h1>
+        <div class="credits reader-credits"></div>
+        <div class="meta-data">
+          <div
+            class="reader-estimated-time"
+            data-l10n-args='{"range":"7–9","rangePlural":"other"}'
+            data-l10n-id="about-reader-estimated-read-time"
+            dir="ltr"
+          >
+            7–9 minutes
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="content">
+        <div class="moz-reader-content reader-show-element">
+          <div id="readability-page-1" class="page">
+            <div itemprop="text">
+              <p>✔︎ Last updated on November 25th, 2023</p>
+              <p>
+                Using vector programs like
+                <a href="https://excalidraw.com/" target="_blank" rel="noopener"
+                  >Excalidraw</a
+                >
+                can be a bit of a hassle without keyboard shortcuts. Clicking
+                and dragging the mouse to select and draw things can get tiring
+                after a while. What takes the mouse a few seconds to do can be
+                done instantly with a keyboard shortcut.
+              </p>
+              <p>
+                So, it’s a good idea to learn the keyboard shortcuts for the
+                program you use regularly. To make things easier, here’s a list
+                of all the keyboard shortcuts for Excalidraw for both Windows as
+                well as Mac.
+              </p>
+              <div
+                data-smooth-scroll="1"
+                data-smooth-scroll-offset="24"
+                data-lwptoc-initialized="1"
+              >
+                <ul>
+                  <li>
+                    <a href="#excalidraw_keyboard_shortcuts_for_windows">
+                      <span>Excalidraw Keyboard Shortcuts for Windows</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#excalidraw_keyboard_shortcuts_for_mac">
+                      <span>Excalidraw Keyboard Shortcuts for Mac</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#printable_pdf_of_excalidraw_hotkeys">
+                      <span>Printable PDF of Excalidraw hotkeys</span>
+                    </a>
+                    <ul>
+                      <li>
+                        <a href="#wrapping_up"> <span>Wrapping up</span> </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <h2>
+                <span id="excalidraw_keyboard_shortcuts_for_windows"
+                  >Excalidraw Keyboard Shortcuts for Windows</span
+                >
+              </h2>
+              <p>
+                Excalidraw comes with all the built-in hotkeys you’d expect from
+                a whiteboarding program.
+              </p>
+              <p>
+                You can use the <strong>Hand (panning tool)</strong> by pressing
+                <strong>H</strong>, which allows you to move around the canvas
+                effortlessly. The <strong>Selection</strong> tool, triggered by
+                <strong>V</strong> or <strong>1</strong>, enables you to select
+                objects quickly. Creating various shapes is also a breeze with
+                Excalidraw shortcuts; press <strong>R</strong> for a
+                <strong>Rectangle</strong>, <strong>O</strong> for an
+                <strong>Ellipse</strong>, and <strong>A</strong> for an
+                <strong>Arrow</strong>. The <strong>Text</strong> tool is
+                accessible with <strong>T</strong>, perfect for adding
+                annotations or labels. If you need to insert an image, simply
+                press <strong>9</strong>. For erasing mistakes, the
+                <strong>Eraser</strong> is available with <strong>E</strong>.
+              </p>
+              <p>
+                <strong>Also read: </strong
+                ><a
+                  href="https://csswolf.com/the-ultimate-excalidraw-tutorial-for-beginners/"
+                  data-type="post"
+                  data-id="938"
+                  >The Ultimate Excalidraw Tutorial for Beginners</a
+                >
+              </p>
+              <p>
+                Excalidraw also includes hotkeys for essential editing and
+                viewing commands. To edit line or arrow points, use
+                <strong>Ctrl + Enter</strong>, and to finish editing text,
+                <strong>Esc</strong> or <strong>Ctrl + Enter</strong> will do
+                the trick.
+              </p>
+              <p>
+                You can zoom in and out of your canvas with
+                <strong>Ctrl + +</strong> and <strong>Ctrl + –</strong>,
+                respectively. To align objects perfectly, use
+                <strong>Ctrl + Shift +</strong> followed by the arrow keys. When
+                you need to duplicate an element, <strong>Ctrl + D</strong> or
+                <strong>Alt + drag</strong> are your go-to commands. Lastly, to
+                undo or redo an action, <strong>Ctrl + Z</strong> and
+                <strong>Ctrl + Y</strong> or
+                <strong>Ctrl + Shift + Z</strong> are the shortcuts you’ll need.
+              </p>
+              <p>
+                Lastly, if you forget any of the keyboard shortcuts, you can
+                also pull up this list with the hotkey <code>Shift + /</code>.
+              </p>
+              <p>
+                👉 The above keyboard shortcuts are for Windows. If you are on a
+                Mac, use <code>Command</code> in place of <code>Ctrl</code> and
+                <code>Option</code> in place of the <code>Alt</code> key. The
+                full list of these keyboard shortcuts is also given below for
+                both Windows as well as Mac, along with a printable PDF.
+              </p>
+              <p>
+                Excalidraw has divided these keyboard shortcuts into various
+                categories. Here’s a list of them:
+              </p>
+              <p><strong>Tools</strong></p>
+              <figure>
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-align="left">Tool</th>
+                      <th data-align="center">Press This</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-align="left">Hand (panning tool)</td>
+                      <td data-align="center"><code>H</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Selection</td>
+                      <td data-align="center">
+                        <code>V</code> or <code>1</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Rectangle</td>
+                      <td data-align="center">
+                        <code>R</code> or <code>2</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Diamond</td>
+                      <td data-align="center">
+                        <code>D</code> or <code>3</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Ellipse</td>
+                      <td data-align="center">
+                        <code>O</code> or <code>4</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Arrow</td>
+                      <td data-align="center">
+                        <code>A</code> or <code>5</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Line</td>
+                      <td data-align="center">
+                        <code>L</code> or <code>6</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Draw</td>
+                      <td data-align="center">
+                        <code>P</code> or <code>7</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Text</td>
+                      <td data-align="center">
+                        <code>T</code> or <code>8</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Insert image</td>
+                      <td data-align="center"><code>9</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Eraser</td>
+                      <td data-align="center">
+                        <code>E</code> or <code>0</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Frame tool</td>
+                      <td data-align="center"><code>F</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Laser pointer</td>
+                      <td data-align="center"><code>K</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Pick a color from the canvas</td>
+                      <td data-align="center">
+                        <code>I</code> or <code>Shift + S</code> or
+                        <code>Shift + G</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Edit line/arrow points</td>
+                      <td data-align="center"><code>Ctrl + Enter</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Edit text / add label</td>
+                      <td data-align="center"><code>Enter</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Pick a color from canvas</td>
+                      <td data-align="center">
+                        <code>Enter</code> or <code>Shift + Enter</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Finish editing (text editor)</td>
+                      <td data-align="center">
+                        <code>Esc</code> or <code>Ctrl + Enter</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Curved arrow</td>
+                      <td data-align="center">
+                        <code>A + click + click + click</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Curved line</td>
+                      <td data-align="center">
+                        <code>L + click + click + click</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Add a new line (text editor)</td>
+                      <td data-align="center"><code>Q</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Prevent arrow binding</td>
+                      <td data-align="center"><code>Ctrl</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Add/ Update link for a selected shape
+                      </td>
+                      <td data-align="center"><code>Ctrl + K</code></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </figure>
+              <p><strong>View</strong></p>
+              <figure>
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-align="left">To Do This</th>
+                      <th data-align="center">Press This</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-align="left">Zoom in</td>
+                      <td data-align="center"><code>Ctrl + +</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zoom out</td>
+                      <td data-align="center"><code>Ctrl + -</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Reset zoom</td>
+                      <td data-align="center"><code>Ctrl + 0</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zoom to fit all elements</td>
+                      <td data-align="center"><code>Shift + 1</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zoom to selection</td>
+                      <td data-align="center"><code>Shift + 2</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Move page up/down</td>
+                      <td data-align="center">
+                        <code>PgUp</code> or <code>PgDn</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Move page left/right</td>
+                      <td data-align="center">
+                        <code>Shift + PgUp</code> or <code>Shift + PgDn</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Move the page up/down</td>
+                      <td data-align="center"><code>F</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zen mode</td>
+                      <td data-align="center"><code>Alt + Z</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Snap to objects</td>
+                      <td data-align="center"><code>Alt + S</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Show grid</td>
+                      <td data-align="center"><code>Ctrl + '</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">View mode</td>
+                      <td data-align="center"><code>Alt + R</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Toggle theme</td>
+                      <td data-align="center"><code>Alt + Shift + D</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Stats for nerds</td>
+                      <td data-align="center"><code>Alt + /</code></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </figure>
+              <p><strong>Editor</strong></p>
+              <figure>
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-align="left">To Do This</th>
+                      <th data-align="center">Press This</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-align="left">Move canvas</td>
+                      <td data-align="center">
+                        <code>Space + drag</code> or <code>Wheel + drag</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Reset the canvas</td>
+                      <td data-align="center"><code>Ctrl + Delete</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Delete</td>
+                      <td data-align="center"><code>Delete</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Cut</td>
+                      <td data-align="center"><code>Ctrl + X</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Copy</td>
+                      <td data-align="center"><code>Ctrl + C</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Paste</td>
+                      <td data-align="center"><code>Ctrl + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Paste as plaintext</td>
+                      <td data-align="center"><code>Ctrl + Shift + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Select all</td>
+                      <td data-align="center"><code>Ctrl + A</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Deep select within the box, and prevent dragging
+                      </td>
+                      <td data-align="center"><code>Shift + click</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Deep select</td>
+                      <td data-align="center"><code>Ctrl + click</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Deep select within box, and prevent dragging
+                      </td>
+                      <td data-align="center"><code>Ctrl + drag</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Copy to clipboard as PNG</td>
+                      <td data-align="center"><code>Shift + Alt + C</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Copy styles</td>
+                      <td data-align="center"><code>Ctrl + Alt + C</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Paste styles</td>
+                      <td data-align="center"><code>Ctrl + Alt + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Send to back</td>
+                      <td data-align="center"><code>Ctrl + Shift + [</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Bring to front</td>
+                      <td data-align="center"><code>Ctrl + Shift + ]</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Send backward</td>
+                      <td data-align="center"><code>Ctrl + [</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Bring forward</td>
+                      <td data-align="center"><code>Ctrl + ]</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align top</td>
+                      <td data-align="center">
+                        <code>Ctrl + Shift + Up</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align bottom</td>
+                      <td data-align="center">
+                        <code>Ctrl + Shift + Down</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align left</td>
+                      <td data-align="center">
+                        <code>Ctrl + Shift + Left</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align right</td>
+                      <td data-align="center">
+                        <code>Ctrl + Shift + Right</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Duplicate</td>
+                      <td data-align="center">
+                        <code>Ctrl + </code>D or <code>Alt + drag</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Lock/unlock selection</td>
+                      <td data-align="center"><code>Ctrl + Shift + L</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Undo</td>
+                      <td data-align="center"><code>Ctrl + Z</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Redo</td>
+                      <td data-align="center">
+                        <code>Ctrl + Y</code> or <code>Ctrl + Shift + Z</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Group selection</td>
+                      <td data-align="center"><code>Ctrl + G</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Ungroup selection</td>
+                      <td data-align="center"><code>Ctrl + Shift + G</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Flip horizontal</td>
+                      <td data-align="center"><code>Shift + H</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Flip vertical</td>
+                      <td data-align="center"><code>Shift + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Show stroke color picker</td>
+                      <td data-align="center"><code>S</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Show background color picker</td>
+                      <td data-align="center"><code>G</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Decrease font size</td>
+                      <td data-align="center">
+                        <code>Ctrl + Shift + &lt;</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Increase font size</td>
+                      <td data-align="center">
+                        <code>Ctrl + Shift + &gt;</code>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </figure>
+              <hr />
+              <p><strong>Tools</strong></p>
+              <figure>
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-align="left">Tools</th>
+                      <th data-align="center">Press This</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-align="left">Hand (panning tool)</td>
+                      <td data-align="center"><code>H</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Selection</td>
+                      <td data-align="center">
+                        <code>V</code> or <code>1</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Rectangle</td>
+                      <td data-align="center">
+                        <code>R</code> or <code>2</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Diamond</td>
+                      <td data-align="center">
+                        <code>D</code> or <code>3</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Ellipse</td>
+                      <td data-align="center">
+                        <code>O</code> or <code>4</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Arrow</td>
+                      <td data-align="center">
+                        <code>A</code> or <code>5</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Line</td>
+                      <td data-align="center">
+                        <code>L</code> or <code>6</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Draw</td>
+                      <td data-align="center">
+                        <code>P</code> or <code>7</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Text</td>
+                      <td data-align="center">
+                        <code>T</code> or <code>8</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Insert image</td>
+                      <td data-align="center"><code>9</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Eraser</td>
+                      <td data-align="center">
+                        <code>E</code> or <code>0</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Frame tool</td>
+                      <td data-align="center"><code>F</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Laser pointer</td>
+                      <td data-align="center"><code>K</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Add a new line (text editor)</td>
+                      <td data-align="center">
+                        <code>I</code> or <code>Shift + S</code> or
+                        <code>Shift + G</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Edit line/arrow points</td>
+                      <td data-align="center"><code>Cmd + Enter</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Edit text / add label</td>
+                      <td data-align="center"><code>Enter</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Keep the selected tool active after drawing
+                      </td>
+                      <td data-align="center">
+                        <code>Enter</code> or <code>Shift + Enter</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Finish editing (text editor)</td>
+                      <td data-align="center">
+                        <code>Esc</code> or <code>Cmd + Enter</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Curved arrow</td>
+                      <td data-align="center">
+                        <code>A + click + click + click</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Curved line</td>
+                      <td data-align="center">
+                        <code>L + click + click + click</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Keep selected tool active after drawing
+                      </td>
+                      <td data-align="center"><code>Q</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Prevent arrow binding</td>
+                      <td data-align="center"><code>Cmd</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Add/ Update link for a selected shape
+                      </td>
+                      <td data-align="center"><code>Cmd + K</code></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </figure>
+              <p><strong>View</strong></p>
+              <figure>
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-align="left">To Do This</th>
+                      <th data-align="center">Press This</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-align="left">Zoom in</td>
+                      <td data-align="center"><code>Cmd + +</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zoom out</td>
+                      <td data-align="center"><code>Cmd + -</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Reset zoom</td>
+                      <td data-align="center"><code>Cmd + 0</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zoom to fit all elements</td>
+                      <td data-align="center"><code>Shift + 1</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zoom to selection</td>
+                      <td data-align="center"><code>Shift + 2</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Fullscreen</td>
+                      <td data-align="center">
+                        <code>PgUp</code> or <code>PgDn</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Move page left/right</td>
+                      <td data-align="center">
+                        <code>Shift + PgUp</code> or <code>Shift + PgDn</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Full screen</td>
+                      <td data-align="center"><code>F</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Zen mode</td>
+                      <td data-align="center"><code>Option + Z</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Snap to objects</td>
+                      <td data-align="center"><code>Option + S</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Show grid</td>
+                      <td data-align="center"><code>Cmd + '</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">View mode</td>
+                      <td data-align="center"><code>Option + R</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Toggle theme</td>
+                      <td data-align="center">
+                        <code>Option + Shift + D</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Stats for nerds</td>
+                      <td data-align="center"><code>Option + /</code></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </figure>
+              <p><strong>Editor</strong></p>
+              <figure>
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-align="left">To Do This</th>
+                      <th data-align="center">Press This</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-align="left">Move canvas</td>
+                      <td data-align="center">
+                        <code>Space + drag</code> OR <code>Wheel + drag</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Reset the canvas</td>
+                      <td data-align="center"><code>Cmd + Delete</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Delete</td>
+                      <td data-align="center"><code>Delete</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Cut</td>
+                      <td data-align="center"><code>Cmd + X</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Copy</td>
+                      <td data-align="center"><code>Cmd + C</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Paste</td>
+                      <td data-align="center"><code>Cmd + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Paste as plaintext</td>
+                      <td data-align="center"><code>Cmd + Shift + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Select all</td>
+                      <td data-align="center"><code>Cmd + A</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Deep select within the box, and prevent dragging
+                      </td>
+                      <td data-align="center"><code>Shift + click</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Deep select</td>
+                      <td data-align="center"><code>Cmd + click</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">
+                        Deep select within box, and prevent dragging
+                      </td>
+                      <td data-align="center"><code>Cmd + drag</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Copy to clipboard as PNG</td>
+                      <td data-align="center">
+                        <code>Shift + Option + C</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Copy styles</td>
+                      <td data-align="center"><code>Cmd + Option + C</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Paste styles</td>
+                      <td data-align="center"><code>Cmd + Option + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Send to back</td>
+                      <td data-align="center"><code>Cmd + Option + [</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Bring to front</td>
+                      <td data-align="center"><code>Cmd + Option + ]</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Send backward</td>
+                      <td data-align="center"><code>Cmd + [</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Bring forward</td>
+                      <td data-align="center"><code>Cmd + ]</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align top</td>
+                      <td data-align="center"><code>Cmd + Shift + Up</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align bottom</td>
+                      <td data-align="center">
+                        <code>Cmd + Shift + Down</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align left</td>
+                      <td data-align="center">
+                        <code>Cmd + Shift + Left</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Align right</td>
+                      <td data-align="center">
+                        <code>Cmd + Shift + Right</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Duplicate</td>
+                      <td data-align="center">
+                        <code>Cmd + D</code> or <code>Option + drag</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Lock/unlock selection</td>
+                      <td data-align="center"><code>Cmd + Shift + L</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Undo</td>
+                      <td data-align="center"><code>Cmd + Z</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Redo</td>
+                      <td data-align="center"><code>Cmd + Shift + Z</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Group selection</td>
+                      <td data-align="center"><code>Cmd + G</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Ungroup selection</td>
+                      <td data-align="center"><code>Cmd + Shift + G</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Flip horizontal</td>
+                      <td data-align="center"><code>Shift + H</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Flip vertical</td>
+                      <td data-align="center"><code>Shift + V</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Show stroke color picker</td>
+                      <td data-align="center"><code>S</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Show background color picker</td>
+                      <td data-align="center"><code>G</code></td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Decrease font size</td>
+                      <td data-align="center">
+                        <code>Cmd + Shift + &lt;</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td data-align="left">Increase font size</td>
+                      <td data-align="center">
+                        <code>Cmd + Shift + &gt;</code>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </figure>
+              <hr />
+              <h2>
+                <span id="printable_pdf_of_excalidraw_hotkeys"
+                  >Printable PDF of Excalidraw hotkeys</span
+                >
+              </h2>
+              <p>
+                You can also download these shortcuts in a printable PDF for
+                quick reference:
+              </p>
+              <h3><span id="wrapping_up">Wrapping up</span></h3>
+              <p>
+                Using keyboard shortcuts can make using Excalidraw much faster.
+                The shortcuts allow you to do things with a couple of key
+                presses instead of clicking around with the mouse. This saves a
+                lot of time and effort.
+              </p>
+              <p>
+                This article listed many useful Excalidraw shortcuts for both
+                Windows and Mac computers. Things like zooming in and out,
+                copying, pasting, and aligning objects can all be done using the
+                keyboard within a second. The printable PDF lets you print out
+                the shortcuts to keep next to your computer.
+              </p>
+              <p>
+                Also, remember that you can’t learn all the shortcuts but it’s
+                worth learning some of the major ones. With some practice, you
+                can use Excalidraw much faster using the keyboard. Refer back to
+                the lists here and in the PDF to start using shortcuts for your
+                diagrams and drawings. It will speed up your work and allow you
+                to get more done.
+              </p>
+              <p>
+                I hope the pdf file containing the Excalidraw Keyboard shortcuts
+                helped you in some way. If it did, don’t forget to share that
+                with others.
+              </p>
+              <p>Thanks for reading.</p>
+              <p><strong>Further reading on Excalidraw: </strong></p>
+              <ol>
+                <li>
+                  <a
+                    href="https://csswolf.com/awesome-excalidraw-tips-and-tricks/"
+                    data-type="post"
+                    data-id="736"
+                    >17+ Awesome Excalidraw Tips for Insane Productivity</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://csswolf.com/creating-hand-drawn-flowcharts-with-chatgpt-and-excalidraw/"
+                    data-type="post"
+                    data-id="812"
+                    >Creating Hand-drawn Flowcharts with ChatGPT and
+                    Excalidraw</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://csswolf.com/maintaining-an-aspect-ratio-in-excalidraw/"
+                    data-type="post"
+                    data-id="684"
+                    >How to Set an Aspect Ratio in Excalidraw?</a
+                  >
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="reader-message"></div>
+      </div>
+      <div aria-owns="toolbar"></div>
+    </div>
+  </body>
+</html>
