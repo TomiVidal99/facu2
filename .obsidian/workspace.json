@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "69aa70f1565868b7",
+        "id": "7bfbfed28812695e",
         "type": "tabs",
         "children": [
           {
-            "id": "bd50a81cb7e962c1",
+            "id": "c94961f5119522a9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Facu/Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Facu/Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,18 +139,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bd50a81cb7e962c1",
+  "active": "c94961f5119522a9",
   "lastOpenFiles": [
+    "Facu/Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
     "Pasted Image 20240305192306_636.png",
     "Pasted Image 20240305191151_611.png",
     "Pasted Image 20240305183140_103.png",
+    "Pasted Image 20240305182354_729.png",
+    "Pasted Image 20240305224402_030.png",
     "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
     "Excalidraw shortcuts.md",
     "Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024.html",
     "Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024_files",
-    "Facu/Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
-    "Pasted Image 20240305182354_729.png",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
