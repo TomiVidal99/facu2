@@ -6,24 +6,44 @@
       {
         "id": "6c09e7287a94eaf4",
         "type": "tabs",
+        "dimension": 36.930294906166225,
         "children": [
           {
-            "id": "13bec4e9c6572cbb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Circuitos Electronicos I/01 Introducción a CE1.pdf"
-              }
-            }
-          },
-          {
-            "id": "d02ae86194c218f9",
+            "id": "bb59789346f135d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Circuitos Electronicos I/Circuitos Electronicos 1.md",
+                "file": "medidas/medidas 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a5fbae676017b7ec",
+        "type": "tabs",
+        "dimension": 63.06970509383378,
+        "children": [
+          {
+            "id": "43d4682fc6d00353",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "medidas/D2-2022-1.pdf"
+              }
+            }
+          },
+          {
+            "id": "474c79c3e04a919c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "medidas/medidas 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "061e7fcd42fc2e5d",
@@ -95,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Circuitos Electronicos I/01 Introducción a CE1.pdf",
+                "file": "medidas/medidas 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Circuitos Electronicos I/01 Introducción a CE1.pdf",
+                "file": "medidas/medidas 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Circuitos Electronicos I/01 Introducción a CE1.pdf"
+                "file": "medidas/medidas 2.md"
               }
             }
           }
@@ -157,22 +178,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "13bec4e9c6572cbb",
+  "active": "bb59789346f135d4",
   "lastOpenFiles": [
+    "medidas/D2-2022-1.pdf",
+    "medidas/medidas 1.md",
+    "medidas/medidas 2.md",
+    "medidas/preguntas-consultas.md",
+    "medidas/Medidas.md",
+    "medidas/D1-2022-1.pdf",
+    "FACU.md",
+    "Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
+    "Control Automatico 2/Control Automático 2.md",
+    "Control Automatico 2/consultas-control.md",
+    "Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
+    "Circuitos Electronicos I/01 Introducción a CE1.pdf",
     "Circuitos Electronicos I/Circuitos Electronicos 1.md",
     "Pasted image 20240304165833.png",
     "Pasted image 20240304171634.png",
     "Pasted image 20240304172617.png",
-    "Circuitos Electronicos I/01 Introducción a CE1.pdf",
-    "medidas/D1-2022-1.pdf",
     "Circuitos Electronicos I",
-    "medidas/preguntas-consultas.md",
-    "medidas/medidas 1.md",
-    "Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
     "Excalidraw",
-    "medidas/Medidas.md",
     "[[medidas.md",
-    "FACU.md",
     "medidas.md",
     "Untitled.md",
     "medidas/Plan_Actividades_2024-1.pdf",
