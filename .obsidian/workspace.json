@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c94961f5119522a9",
+            "id": "a4a340e11bb33c53",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/Control Automático 2.md",
-                "mode": "source",
-                "source": false
+                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/Control Automático 2.md",
+                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/Control Automático 2.md",
+                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +123,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/Control Automático 2.md"
+                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,17 +146,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c94961f5119522a9",
+  "active": "a4a340e11bb33c53",
   "lastOpenFiles": [
+    "Facu/Circuitos Electronicos I/01 Introducción a CE1.pdf",
+    "Facu/Excalidraw/resumen-bjt-mosfet.excalidraw.md",
+    "Pasted Image 20240306182501_221.png",
+    "Pasted Image 20240306182737_091.png",
+    "Pasted Image 20240306182329_190.png",
     "Pasted image 20240305232046.png",
-    "Facu/Control Automatico 2/Control Automático 2.md",
-    "Facu/Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
     "Pasted Image 20240305192306_636.png",
     "Pasted Image 20240305191151_611.png",
+    "Pasted Image 20240306181617_733.png",
+    "Facu/Circuitos Electronicos I/practica1-2023.pdf",
+    "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
+    "Facu/Control Automatico 2/Control Automático 2.md",
+    "Facu/medidas/medidas 2.md",
+    "Facu/medidas/D2-2022-1.pdf",
+    "Facu/Control Automatico 2/consultas-control.md",
     "Pasted Image 20240305183140_103.png",
     "Pasted Image 20240305182354_729.png",
     "Pasted Image 20240305224402_030.png",
-    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
     "Excalidraw shortcuts.md",
     "Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024.html",
@@ -165,7 +173,6 @@
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
-    "Facu/Circuitos Electronicos I/practica1-2023.pdf",
     "Facu/Circuitos Electronicos I/Untitled.md"
   ]
 }
