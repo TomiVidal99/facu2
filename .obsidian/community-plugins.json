@@ -1,5 +1,6 @@
 [
   "quick-latex",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-vimrc-support"
 ]
