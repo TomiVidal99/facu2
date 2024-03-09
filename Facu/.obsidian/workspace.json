@@ -6,7 +6,7 @@
       {
         "id": "6c09e7287a94eaf4",
         "type": "tabs",
-        "dimension": 33.10991957104557,
+        "dimension": 62.13136729222521,
         "children": [
           {
             "id": "bb59789346f135d4",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "medidas/medidas 3.md",
+                "file": "MOSFET.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "a5fbae676017b7ec",
         "type": "tabs",
-        "dimension": 66.89008042895442,
+        "dimension": 37.86863270777479,
         "children": [
           {
             "id": "43d4682fc6d00353",
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "061e7fcd42fc2e5d",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "medidas/D3-2022.pdf",
+                "file": "MOSFET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "medidas/D3-2022.pdf",
+                "file": "MOSFET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "medidas/D3-2022.pdf"
+                "file": "MOSFET.md"
               }
             }
           }
@@ -176,8 +175,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43d4682fc6d00353",
+  "active": "bb59789346f135d4",
   "lastOpenFiles": [
+    "Pasted image 20240309184840.png",
+    "Circuitos Electronicos I/Circuitos Electronicos 1.md",
+    "MOSFET.md",
     "medidas/medidas 3.md",
     "medidas/D3-2022.pdf",
     "medidas/TP1_2024.pdf",
@@ -194,7 +196,6 @@
     "Control Automatico 2/consultas-control.md",
     "Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
     "Circuitos Electronicos I/01 Introducción a CE1.pdf",
-    "Circuitos Electronicos I/Circuitos Electronicos 1.md",
     "Pasted image 20240304165833.png",
     "Pasted image 20240304171634.png",
     "Pasted image 20240304172617.png",
@@ -202,7 +203,6 @@
     "Excalidraw",
     "[[medidas.md",
     "medidas.md",
-    "Untitled.md",
     "medidas/Plan_Actividades_2024-1.pdf",
     "medidas",
     "Untitled 1.md",
