@@ -11,9 +11,11 @@
             "id": "a4a340e11bb33c53",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf"
+                "file": "Facu/Circuitos Electronicos I/MOSFET.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf",
+                "file": "Facu/Circuitos Electronicos I/MOSFET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf",
+                "file": "Facu/Circuitos Electronicos I/MOSFET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/practica1-2023.pdf"
+                "file": "Facu/Circuitos Electronicos I/MOSFET.md"
               }
             }
           }
@@ -146,10 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a4a340e11bb33c53",
+  "active": "a9bc1a6e24617e2a",
   "lastOpenFiles": [
+    "Facu/Circuitos Electronicos I/practica1-2023.pdf",
     "Facu/Circuitos Electronicos I/01 Introducción a CE1.pdf",
-    "Facu/Excalidraw/resumen-bjt-mosfet.excalidraw.md",
+    "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md",
     "Pasted Image 20240306182501_221.png",
     "Pasted Image 20240306182737_091.png",
     "Pasted Image 20240306182329_190.png",
@@ -157,7 +160,6 @@
     "Pasted Image 20240305192306_636.png",
     "Pasted Image 20240305191151_611.png",
     "Pasted Image 20240306181617_733.png",
-    "Facu/Circuitos Electronicos I/practica1-2023.pdf",
     "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
     "Facu/Control Automatico 2/Control Automático 2.md",
     "Facu/medidas/medidas 2.md",
