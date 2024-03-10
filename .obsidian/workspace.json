@@ -11,9 +11,11 @@
             "id": "04b85eed4ba56e52",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md"
+                "file": "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5110321044922
+    "width": 299.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "2c632b2a1eb56415",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md",
+                "file": "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md",
+                "file": "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md"
+                "file": "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md"
               }
             }
           }
@@ -146,8 +149,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a9bc1a6e24617e2a",
+  "active": "04b85eed4ba56e52",
   "lastOpenFiles": [
+    "Facu/Circuitos Electronicos I/consultas-CE1.md",
+    "Facu/Circuitos Electronicos I/tp1ej3.pdf",
+    "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
+    "Facu/Circuitos Electronicos I/tp1problema3.md",
+    "Pasted Image 20240310105654_947.png",
+    "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md",
+    "Facu/Circuitos Electronicos I/Untitled.md",
     "Facu/mosfet-eq.png",
     "Facu/Pasted image 20240309184840.png",
     "Pasted Image 20240305191151_611.png",
@@ -161,23 +171,18 @@
     "Excalidraw/Drawing 2024-03-09 20.05.58.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
     "Excalidraw/Drawing 2024-03-09 20.06.33.excalidraw.md",
-    "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md",
-    "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
     "2024-03-09.md",
     "Facu/Circuitos Electronicos I/01 Introducción a CE1.pdf",
-    "Pasted Image 20240306181617_733.png",
     "Facu/Control Automatico 2/Control Automático 2.md",
     "Facu/medidas/medidas 2.md",
     "Facu/medidas/D2-2022-1.pdf",
     "Facu/Control Automatico 2/consultas-control.md",
-    "Pasted Image 20240305183140_103.png",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
     "Excalidraw shortcuts.md",
     "Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024.html",
     "Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024_files",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "Excalidraw",
-    "Facu/Circuitos Electronicos I/Untitled.md"
+    "Excalidraw"
   ]
 }

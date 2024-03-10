@@ -20,5 +20,14 @@
       "key": "O"
     }
   ],
-  "editor:toggle-italics": []
+  "editor:toggle-italics": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
 }
