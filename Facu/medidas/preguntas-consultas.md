@@ -3,3 +3,4 @@
 - [ ] ![[Pasted image 20240304172617.png]]
 
 - [ ] Fondo de escala
+- [ ] Clases

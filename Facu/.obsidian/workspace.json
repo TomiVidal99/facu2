@@ -6,44 +6,36 @@
       {
         "id": "6c09e7287a94eaf4",
         "type": "tabs",
-        "dimension": 62.13136729222521,
         "children": [
           {
-            "id": "bb59789346f135d4",
+            "id": "bb1cfcb1be8e9e09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOSFET.md",
+                "file": "medidas/Medidas (clase 4).md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a5fbae676017b7ec",
-        "type": "tabs",
-        "dimension": 37.86863270777479,
-        "children": [
-          {
-            "id": "43d4682fc6d00353",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "medidas/D3-2022.pdf"
-              }
-            }
           },
           {
-            "id": "c57b1aec77a74790",
+            "id": "81ccb43f4f5fa0bd",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "medidas/TP1_2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "fc2585c4a75eb66a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "medidas/Plan_Actividades_2024-1.pdf"
               }
             }
           }
@@ -97,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 305.5,
+    "collapsed": true
   },
   "right": {
     "id": "061e7fcd42fc2e5d",
@@ -113,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOSFET.md",
+                "file": "medidas/Medidas (clase 4).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOSFET.md",
+                "file": "medidas/Medidas (clase 4).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOSFET.md"
+                "file": "medidas/Medidas (clase 4).md"
               }
             }
           }
@@ -175,36 +168,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bb59789346f135d4",
+  "active": "bb1cfcb1be8e9e09",
   "lastOpenFiles": [
-    "Pasted image 20240309184840.png",
-    "Circuitos Electronicos I/Circuitos Electronicos 1.md",
-    "MOSFET.md",
-    "medidas/medidas 3.md",
-    "medidas/D3-2022.pdf",
-    "medidas/TP1_2024.pdf",
-    "medidas/D2-2022-1.pdf",
-    "medidas/Medidas.md",
-    "medidas/medidas 2.md",
-    "Excalidraw/resumen-bjt-mosfet.excalidraw.md",
-    "medidas/medidas 1.md",
+    "medidas/D4-2022-1-1.pdf",
+    "medidas/Medidas (clase 4).md",
     "medidas/preguntas-consultas.md",
-    "medidas/D1-2022-1.pdf",
-    "FACU.md",
+    "medidas/Plan_Actividades_2024-1.pdf",
+    "medidas/TP1_2024.pdf",
+    "Pasted image 20240311135847.png",
+    "medidas/D3-2022.pdf",
+    "medidas/medidas 3.md",
     "Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
     "Control Automatico 2/Control Automático 2.md",
     "Control Automatico 2/consultas-control.md",
+    "Control Automatico 2/TP1_CA2_2023.pdf",
+    "Circuitos Electronicos I/practica1-2023.pdf",
+    "Circuitos Electronicos I/tp1ej3.pdf",
+    "Circuitos Electronicos I/consultas-CE1.md",
+    "Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md",
+    "mosfet-eq.png",
+    "Excalidraw/resumen-bjt-mosfet.excalidraw.md",
+    "MOSFET.md",
+    "Pasted image 20240309184840.png",
+    "Circuitos Electronicos I/Circuitos Electronicos 1.md",
+    "medidas/D2-2022-1.pdf",
+    "medidas/Medidas.md",
+    "medidas/medidas 2.md",
+    "medidas/medidas 1.md",
+    "medidas/D1-2022-1.pdf",
+    "FACU.md",
     "Excalidraw/Drawing 2024-03-04 17.02.00.excalidraw.md",
-    "Circuitos Electronicos I/01 Introducción a CE1.pdf",
     "Pasted image 20240304165833.png",
     "Pasted image 20240304171634.png",
     "Pasted image 20240304172617.png",
-    "Circuitos Electronicos I",
-    "Excalidraw",
     "[[medidas.md",
     "medidas.md",
-    "medidas/Plan_Actividades_2024-1.pdf",
-    "medidas",
     "Untitled 1.md",
     "Untitled 2.md"
   ]
