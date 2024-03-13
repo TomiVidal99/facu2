@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d59344dc918eb51",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5110321044922,
-    "collapsed": true
+    "width": 299.5110321044922
   },
   "right": {
     "id": "2c632b2a1eb56415",
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
+                "file": "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
+                "file": "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md"
+                "file": "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md"
               }
             }
           }
@@ -149,11 +159,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "04b85eed4ba56e52",
+  "active": "8d59344dc918eb51",
   "lastOpenFiles": [
+    "Pasted Image 20240313173328_570.png",
+    "Excalidraw/Drawing 2024-03-13 13.15.13_0.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-13 13.15.13.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-13 13.15.12_0.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-13 13.15.12.excalidraw.md",
+    "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
+    "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
+    "Facu/Arquitectura de computadores",
     "Facu/Circuitos Electronicos I/consultas-CE1.md",
     "Facu/Circuitos Electronicos I/tp1ej3.pdf",
-    "Facu/Circuitos Electronicos I/Circuitos Electronicos 1.md",
     "Facu/Circuitos Electronicos I/tp1problema3.md",
     "Pasted Image 20240310105654_947.png",
     "Facu/Circuitos Electronicos I/resumen-bjt-mosfet.excalidraw.md",
