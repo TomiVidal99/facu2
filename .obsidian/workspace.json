@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
+                "file": "Excalidraw/CE1-TP1-EJ11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
+                "file": "Excalidraw/CE1-TP1-EJ11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md"
+                "file": "Excalidraw/CE1-TP1-EJ11.md"
               }
             }
           }
@@ -192,11 +192,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a800da42a196e42",
+  "active": "02f9153bbb3a2392",
   "lastOpenFiles": [
-    "Excalidraw/CE1-TP1-EJ11.md",
+    "Facu/Circuitos Electronicos I/TP 1/TP1-EJ11.asc",
+    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
+    "Excalidraw/CE1-TP1-EJ11.md",
     "Pasted Image 20240313201720_476.png",
     "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md",
     "Facu/Circuitos Electronicos I/TP 1/Drawing 2024-03-13 20.15.50.excalidraw.md",
@@ -218,7 +220,6 @@
     "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Facu/Arquitectura de computadores",
-    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Facu/Circuitos Electronicos I/TP 1/tp1ej3.pdf",
     "Facu/Circuitos Electronicos I/tp1problema3.md",
     "Facu/Circuitos Electronicos I/Untitled.md",
