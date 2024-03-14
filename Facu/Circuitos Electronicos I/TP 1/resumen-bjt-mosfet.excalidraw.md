@@ -16,16 +16,7 @@ COLECTOR-COMúN ^Mf3BgX83
 
 MODELOS DE AC ^zKkOlcH7
 
-Los amplificadores en EC tienen una alta ganancia de voltaje y una
-alta ganancia de corriente. ^65xnI0RF
-
-La ganancia de voltaje de un amplificador en CC es aproximadamente 1
- y su ventajas principales son sus altas resistencia de entrada y ganancia de corriente ^WTsOb88P
-
 BASE-COMúN ^1pZSApYS
-
-Proporciona una alta ganancia de voltaje con una ganancia de corriente máxima de 1
-Su resistencia de entrada es baja ^MiWYDiQf
 
 EL GRAN BJT ^agT3Esum
 
@@ -85,6 +76,32 @@ MODELO T ^yK9gpEaR
 
 MODELO PI HIBRIDO ^0zzrnjKj
 
+    Voltage Gain (Av): High voltage gain.
+    Current Gain (Ai): High current gain.
+    Input Impedance (Zin): Moderate.
+    Output Impedance (Zout): Relatively high.
+    hFE Parameter: Higher hFE typically results in higher voltage gain.
+    Inversion: No inversion of voltage or current gain in the output. ^SiFfFeZq
+
+    Voltage Gain (Av): Unity or slightly less.
+    Current Gain (Ai): High current gain.
+    Input Impedance (Zin): High.
+    Output Impedance (Zout): Low.
+    hFE Parameter: Typically close to unity (hFE ≈ 1).
+    Inversion: No inversion of voltage or current gain in the output. ^hg89FobQ
+
+Voltage Gain (Av): Moderate. ^7zh8T81d
+
+Current Gain (Ai): Moderate. ^iIxda647
+
+Input Impedance (Zin): Relatively low. ^ZgTp4ows
+
+Output Impedance (Zout): High. ^QXG0Gp77
+
+hFE Parameter: Doesn't directly represent voltage or current gain. ^qamMnTTD
+
+Inversion: No inversion of voltage or current gain in the output. ^gVPMaZBu
+
 
 # Embedded files
 82f1f63b1a97bb146c9f927f9942cf4174be7137: [[Pasted Image 20240305191151_611.png]]
@@ -100,12 +117,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.23",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.24",
 	"elements": [
 		{
 			"type": "text",
-			"version": 737,
-			"versionNonce": 1540409734,
+			"version": 750,
+			"versionNonce": 972368131,
 			"isDeleted": false,
 			"id": "GqvxNNdE",
 			"fillStyle": "solid",
@@ -115,17 +132,17 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1277.9010558044693,
-			"y": 0.5247649843084332,
+			"y": -1.6625163502707778,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 335.64141845703125,
+			"width": 335.66082763671875,
 			"height": 54.311172368480094,
 			"seed": 1825269862,
 			"groupIds": [],
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"fontSize": 43.44893789478407,
@@ -137,12 +154,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "EMISOR-COMúN",
 			"lineHeight": 1.25,
-			"baseline": 37
+			"baseline": 38
 		},
 		{
 			"type": "text",
-			"version": 581,
-			"versionNonce": 496957914,
+			"version": 589,
+			"versionNonce": 1779440813,
 			"isDeleted": false,
 			"id": "8HerriN2",
 			"fillStyle": "solid",
@@ -155,7 +172,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -415.09761752348413,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1565.0076904296875,
+			"width": 1565.0506591796875,
 			"height": 199.40561217708822,
 			"seed": 1979807590,
 			"groupIds": [],
@@ -179,7 +196,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"fontSize": 159.52448974167058,
@@ -195,8 +212,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 749,
-			"versionNonce": 1263118534,
+			"version": 871,
+			"versionNonce": 336531619,
 			"isDeleted": false,
 			"id": "2ghXbDgTBtmPZ_T3xGRTA",
 			"fillStyle": "solid",
@@ -205,12 +222,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -894.8662080370145,
+			"x": -894.5003946788472,
 			"y": -192.0760713896256,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 195.3572245752057,
-			"height": 153.08207699632493,
+			"width": 192.18517804131966,
+			"height": 150.89479566174566,
 			"seed": 2084901626,
 			"groupIds": [],
 			"frameId": null,
@@ -218,7 +235,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -240,15 +257,15 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					0
 				],
 				[
-					-195.3572245752057,
-					153.08207699632493
+					-192.18517804131966,
+					150.89479566174566
 				]
 			]
 		},
 		{
 			"type": "freedraw",
-			"version": 486,
-			"versionNonce": 639020698,
+			"version": 499,
+			"versionNonce": 1151467277,
 			"isDeleted": false,
 			"id": "N4a7TD4BD2iVspV-vO9fy",
 			"fillStyle": "solid",
@@ -258,7 +275,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1208.6722208936735,
-			"y": 93.92176854121271,
+			"y": 91.7344872066335,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 3.7585978003399987,
@@ -268,7 +285,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -331,8 +348,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 496,
-			"versionNonce": 1860476934,
+			"version": 509,
+			"versionNonce": 1305150531,
 			"isDeleted": false,
 			"id": "QoEfqrkW2ASBrIg7dp4qq",
 			"fillStyle": "solid",
@@ -342,7 +359,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1210.5515197938435,
-			"y": 92.98211909112771,
+			"y": 90.7948377565485,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 30.53860712776168,
@@ -352,7 +369,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -455,8 +472,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 531,
-			"versionNonce": 1463405402,
+			"version": 544,
+			"versionNonce": 193500525,
 			"isDeleted": false,
 			"id": "Lmv3V88NsiM9ji2PoJZaU",
 			"fillStyle": "solid",
@@ -466,7 +483,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1207.2627467185464,
-			"y": 165.80495147271344,
+			"y": 163.61767013813423,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 50.74107030458879,
@@ -476,7 +493,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -719,8 +736,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 536,
-			"versionNonce": 715042630,
+			"version": 549,
+			"versionNonce": 1057457123,
 			"isDeleted": false,
 			"id": "zIgm4L2MZab-6pq62IIgM",
 			"fillStyle": "solid",
@@ -730,7 +747,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1204.4437983682915,
-			"y": 262.5888448314661,
+			"y": 260.40156349688687,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 86.44774940781792,
@@ -740,7 +757,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1003,8 +1020,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 485,
-			"versionNonce": 1465602074,
+			"version": 498,
+			"versionNonce": 973955021,
 			"isDeleted": false,
 			"id": "b1CKFnQPP4_B4RTyTAl4e",
 			"fillStyle": "solid",
@@ -1014,7 +1031,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1281.4950532752596,
-			"y": 248.49410308019145,
+			"y": 246.30682174561224,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 3.758597800339885,
@@ -1024,7 +1041,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1083,8 +1100,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 484,
-			"versionNonce": 1523897990,
+			"version": 497,
+			"versionNonce": 1070796675,
 			"isDeleted": false,
 			"id": "ATxhRPOPcRDPPBfY_T4o1",
 			"fillStyle": "solid",
@@ -1094,7 +1111,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1304.046640077299,
-			"y": 246.14497945497897,
+			"y": 243.95769812039975,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 4.228422525382371,
@@ -1104,7 +1121,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1159,8 +1176,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 486,
-			"versionNonce": 174996698,
+			"version": 499,
+			"versionNonce": 642375213,
 			"isDeleted": false,
 			"id": "-nrqLC_QJHcNJHCXIyK0N",
 			"fillStyle": "solid",
@@ -1170,7 +1187,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1308.2750626026814,
-			"y": 270.5758651571884,
+			"y": 268.3885838226092,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 34.29720492810168,
@@ -1180,7 +1197,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815395,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1243,8 +1260,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 517,
-			"versionNonce": 1212421574,
+			"version": 530,
+			"versionNonce": 577513251,
 			"isDeleted": false,
 			"id": "dYFraCW6eHFEkt0YO3PLj",
 			"fillStyle": "solid",
@@ -1254,7 +1271,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1203.9739736432489,
-			"y": 274.8042876825708,
+			"y": 272.6170063479916,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 38.52562745348405,
@@ -1264,7 +1281,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1451,8 +1468,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 490,
-			"versionNonce": 1577423258,
+			"version": 503,
+			"versionNonce": 656904333,
 			"isDeleted": false,
 			"id": "DOH6QcULlMrLt8BNS2Ktg",
 			"fillStyle": "solid",
@@ -1462,7 +1479,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1206.3230972684614,
-			"y": 345.27799643894406,
+			"y": 343.09071510436485,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 5.168071975467342,
@@ -1472,7 +1489,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1551,8 +1568,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 488,
-			"versionNonce": 470379782,
+			"version": 501,
+			"versionNonce": 1832995523,
 			"isDeleted": false,
 			"id": "NW1GDv4Lr_W4MzyBHK4Zi",
 			"fillStyle": "solid",
@@ -1562,7 +1579,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1227.9350346204158,
-			"y": 407.2948601445526,
+			"y": 405.1075788099734,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 48.86177140441873,
@@ -1572,7 +1589,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1663,8 +1680,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 477,
-			"versionNonce": 357846618,
+			"version": 490,
+			"versionNonce": 2053109485,
 			"isDeleted": false,
 			"id": "lxuo_m-aLHSl9cvgsjx4V",
 			"fillStyle": "solid",
@@ -1674,7 +1691,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1193.1680049672716,
-			"y": 411.523282669935,
+			"y": 409.3360013353558,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 12.21544285110474,
@@ -1684,7 +1701,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221468,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1731,8 +1748,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 476,
-			"versionNonce": 1403116614,
+			"version": 489,
+			"versionNonce": 1425078883,
 			"isDeleted": false,
 			"id": "_fyFFBO5jDQR9zbf5qpc2",
 			"fillStyle": "solid",
@@ -1742,7 +1759,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1223.7066120950335,
-			"y": 418.57065354557227,
+			"y": 416.38337221099306,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 12.685267576147226,
@@ -1752,7 +1769,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1795,8 +1812,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 476,
-			"versionNonce": 355300122,
+			"version": 489,
+			"versionNonce": 1786548557,
 			"isDeleted": false,
 			"id": "BFaH8UeooEr_jUxtOwVVp",
 			"fillStyle": "solid",
@@ -1806,7 +1823,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1211.9609939689713,
-			"y": 411.99310739497747,
+			"y": 409.80582606039826,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 7.51719560067977,
@@ -1816,7 +1833,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1859,8 +1876,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 480,
-			"versionNonce": 887776134,
+			"version": 493,
+			"versionNonce": 1984542211,
 			"isDeleted": false,
 			"id": "qHGNGJoiZNTnKXhQ9WwPe",
 			"fillStyle": "solid",
@@ -1870,7 +1887,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1199.7455511178664,
-			"y": 262.1190201064236,
+			"y": 259.9317387718444,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 89.26669775807284,
@@ -1880,7 +1897,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1939,8 +1956,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 478,
-			"versionNonce": 805568474,
+			"version": 491,
+			"versionNonce": 886497197,
 			"isDeleted": false,
 			"id": "l66p2RA0VfydGqBkJNiOR",
 			"fillStyle": "solid",
@@ -1950,7 +1967,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1117.9960489604734,
-			"y": 217.95549595242966,
+			"y": 215.76821461785045,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 4.228422525382371,
@@ -1960,7 +1977,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2011,8 +2028,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 487,
-			"versionNonce": 1109394118,
+			"version": 500,
+			"versionNonce": 1347026339,
 			"isDeleted": false,
 			"id": "4EeSwYc_xGnklOfBW46JP",
 			"fillStyle": "solid",
@@ -2022,7 +2039,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1112.3581522599636,
-			"y": 286.549905808633,
+			"y": 284.3626244740538,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 39.935101628611505,
@@ -2032,7 +2049,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2119,8 +2136,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 479,
-			"versionNonce": 1911223450,
+			"version": 492,
+			"versionNonce": 798515725,
 			"isDeleted": false,
 			"id": "ec0-fVytKeY7aD8wCFNFx",
 			"fillStyle": "solid",
@@ -2130,7 +2147,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1070.0739270061397,
-			"y": 311.45061623588487,
+			"y": 309.26333490130565,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 21.142112626911967,
@@ -2140,7 +2157,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2195,8 +2212,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 539,
-			"versionNonce": 769636870,
+			"version": 552,
+			"versionNonce": 2116047171,
 			"isDeleted": false,
 			"id": "aJkliwMyzD71JesBsr0xY",
 			"fillStyle": "solid",
@@ -2206,7 +2223,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1066.7851539308422,
-			"y": 326.01518271220203,
+			"y": 323.8279013776228,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 42.75404997886642,
@@ -2216,7 +2233,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2511,8 +2528,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 476,
-			"versionNonce": 1821725018,
+			"version": 489,
+			"versionNonce": 800757869,
 			"isDeleted": false,
 			"id": "0hc1ui4i2KUIQl5g26_nh",
 			"fillStyle": "solid",
@@ -2522,7 +2539,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1053.6300616296526,
-			"y": 431.2559211217195,
+			"y": 429.0686397871403,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 30.538607127761793,
@@ -2532,7 +2549,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2575,8 +2592,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 477,
-			"versionNonce": 1327925574,
+			"version": 490,
+			"versionNonce": 824914147,
 			"isDeleted": false,
 			"id": "CU8pg6LqHoPb_gHRX9dJY",
 			"fillStyle": "solid",
@@ -2586,7 +2603,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1027.7897017523158,
-			"y": 429.84644694659204,
+			"y": 427.6591656120128,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 5.168071975467228,
@@ -2596,7 +2613,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2643,8 +2660,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 477,
-			"versionNonce": 55973402,
+			"version": 490,
+			"versionNonce": 788988621,
 			"isDeleted": false,
 			"id": "14iYELnZRkuDytPWxIBY0",
 			"fillStyle": "solid",
@@ -2654,7 +2671,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1038.595670428293,
-			"y": 431.725745846762,
+			"y": 429.53846451218277,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 4.698247250424856,
@@ -2664,7 +2681,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2711,8 +2728,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 477,
-			"versionNonce": 357658758,
+			"version": 490,
+			"versionNonce": 1794710659,
 			"isDeleted": false,
 			"id": "FxSe67SGsAOCDruJtYaCj",
 			"fillStyle": "solid",
@@ -2722,7 +2739,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1047.5223402041001,
-			"y": 436.42399309718684,
+			"y": 434.2367117626076,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 7.047370875637398,
@@ -2732,7 +2749,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2779,8 +2796,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 575,
-			"versionNonce": 924861146,
+			"version": 588,
+			"versionNonce": 840376621,
 			"isDeleted": false,
 			"id": "V6mtX8sbDPIZP5PK9tj8K",
 			"fillStyle": "solid",
@@ -2790,7 +2807,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1114.707275885176,
-			"y": 247.55445363010645,
+			"y": 245.36717229552724,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 74.70213128175567,
@@ -2800,7 +2817,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3251,8 +3268,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 495,
-			"versionNonce": 2082303942,
+			"version": 508,
+			"versionNonce": 2001245219,
 			"isDeleted": false,
 			"id": "pxFzb3qNXS57mHAmhLMhb",
 			"fillStyle": "solid",
@@ -3262,7 +3279,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1070.543751731182,
-			"y": 102.37861359197748,
+			"y": 100.19133225739827,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 38.52562745348405,
@@ -3272,7 +3289,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3403,8 +3420,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 484,
-			"versionNonce": 1921439642,
+			"version": 497,
+			"versionNonce": 1851028365,
 			"isDeleted": false,
 			"id": "4yl4IWXREVHK26wFyTkUl",
 			"fillStyle": "solid",
@@ -3414,7 +3431,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1045.6430413039302,
-			"y": 341.98922336364666,
+			"y": 339.80194202906745,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 72.82283238158573,
@@ -3424,7 +3441,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3511,8 +3528,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 475,
-			"versionNonce": 2141685510,
+			"version": 488,
+			"versionNonce": 638064579,
 			"isDeleted": false,
 			"id": "jVt0CSuB02SyRz3Ge6V6m",
 			"fillStyle": "solid",
@@ -3522,7 +3539,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -988.3244248487466,
-			"y": 376.7562530167908,
+			"y": 374.5689716822116,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 44.63334887903636,
@@ -3532,7 +3549,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3583,8 +3600,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 474,
-			"versionNonce": 1438438490,
+			"version": 487,
+			"versionNonce": 804813293,
 			"isDeleted": false,
 			"id": "QZXwyet5rHBExYbnJMxec",
 			"fillStyle": "solid",
@@ -3594,7 +3611,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -982.2167034231943,
-			"y": 387.5622216927681,
+			"y": 385.3749403581889,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 46.9824725042489,
@@ -3604,7 +3621,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3651,8 +3668,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 476,
-			"versionNonce": 275560006,
+			"version": 489,
+			"versionNonce": 1163274083,
 			"isDeleted": false,
 			"id": "BT2KIY0zlcSupmdNk3InM",
 			"fillStyle": "solid",
@@ -3662,7 +3679,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -962.4840649714097,
-			"y": 395.54924201849036,
+			"y": 393.36196068391115,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 2.3491236252123144,
@@ -3672,7 +3689,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3727,8 +3744,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 473,
-			"versionNonce": 43333914,
+			"version": 486,
+			"versionNonce": 832589,
 			"isDeleted": false,
 			"id": "lD5YC13sYL5_Nq97NstO0",
 			"fillStyle": "solid",
@@ -3738,7 +3755,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -973.290033647387,
-			"y": 434.0748694719744,
+			"y": 431.8875881373952,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 40.87475107869648,
@@ -3748,7 +3765,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3791,8 +3808,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 472,
-			"versionNonce": 122289542,
+			"version": 485,
+			"versionNonce": 1535197955,
 			"isDeleted": false,
 			"id": "-i-drWYrel109GBUQQlZH",
 			"fillStyle": "solid",
@@ -3802,7 +3819,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -938.0531792692003,
-			"y": 437.3636425472718,
+			"y": 435.1763612126926,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 6.577546150594912,
@@ -3812,7 +3829,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3851,8 +3868,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 474,
-			"versionNonce": 1753417178,
+			"version": 487,
+			"versionNonce": 174760621,
 			"isDeleted": false,
 			"id": "oMyu-xn27rev4y8t4IaYa",
 			"fillStyle": "solid",
@@ -3862,7 +3879,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -948.8591479451776,
-			"y": 436.42399309718684,
+			"y": 434.2367117626076,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 7.047370875637284,
@@ -3872,7 +3889,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3919,8 +3936,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 471,
-			"versionNonce": 427580614,
+			"version": 484,
+			"versionNonce": 554166947,
 			"isDeleted": false,
 			"id": "gkchkgvU2JbEcKA9ZklrN",
 			"fillStyle": "solid",
@@ -3930,7 +3947,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -970.9409100221745,
-			"y": 441.1222403476118,
+			"y": 438.9349590130326,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 2.349123625212428,
@@ -3940,7 +3957,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3975,8 +3992,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 475,
-			"versionNonce": 278477466,
+			"version": 488,
+			"versionNonce": 1136379149,
 			"isDeleted": false,
 			"id": "K3pB8P2IWcz6BLDpd8K_V",
 			"fillStyle": "solid",
@@ -3986,7 +4003,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1069.1342775560547,
-			"y": 237.2183096791717,
+			"y": 235.0310283445925,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 61.077214255523586,
@@ -3996,7 +4013,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4047,8 +4064,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 473,
-			"versionNonce": 1285608454,
+			"version": 486,
+			"versionNonce": 983080515,
 			"isDeleted": false,
 			"id": "R50cZGTRy9WX2EcpzNEB4",
 			"fillStyle": "solid",
@@ -4058,7 +4075,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1013.694960001041,
-			"y": 208.5590014515799,
+			"y": 206.37172011700068,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 5.6378967005098275,
@@ -4068,7 +4085,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815396,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4115,8 +4132,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 473,
-			"versionNonce": 1770706778,
+			"version": 486,
+			"versionNonce": 1333369709,
 			"isDeleted": false,
 			"id": "UEBRW_2Dbrk-4QEydPGGx",
 			"fillStyle": "solid",
@@ -4126,7 +4143,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1001.0096924248938,
-			"y": 208.5590014515799,
+			"y": 206.37172011700068,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 7.047370875637398,
@@ -4136,7 +4153,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4183,8 +4200,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 475,
-			"versionNonce": 1790206790,
+			"version": 488,
+			"versionNonce": 856808931,
 			"isDeleted": false,
 			"id": "Vgca-URbOMRrENJgKh5DS",
 			"fillStyle": "solid",
@@ -4194,7 +4211,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1000.0700429748088,
-			"y": 238.15795912925668,
+			"y": 235.97067779467747,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 92.08564610832764,
@@ -4204,7 +4221,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4259,8 +4276,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 483,
-			"versionNonce": 329964570,
+			"version": 496,
+			"versionNonce": 636331469,
 			"isDeleted": false,
 			"id": "Ky1mQqcHsBCYH5h2od9gW",
 			"fillStyle": "solid",
@@ -4270,7 +4287,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -907.9843968664811,
-			"y": 233.4597118788318,
+			"y": 231.2724305442526,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 17.383514826572082,
@@ -4280,7 +4297,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4367,8 +4384,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 484,
-			"versionNonce": 1981024902,
+			"version": 497,
+			"versionNonce": 897722755,
 			"isDeleted": false,
 			"id": "HclJCIeM3vn0-usMFnrrF",
 			"fillStyle": "solid",
@@ -4378,7 +4395,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1353.8480609318026,
-			"y": 266.8172673568485,
+			"y": 264.6299860222693,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
 			"width": 25.840359877336823,
@@ -4388,7 +4405,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4479,8 +4496,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 473,
-			"versionNonce": 753682650,
+			"version": 486,
+			"versionNonce": 2050057261,
 			"isDeleted": false,
 			"id": "TM1bNTxJhbzM87SYYrIdV",
 			"fillStyle": "solid",
@@ -4490,7 +4507,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1418.2140482626237,
-			"y": 298.2955239346952,
+			"y": 296.108242600116,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 23.96106097716688,
@@ -4500,7 +4517,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4567,8 +4584,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 468,
-			"versionNonce": 494717382,
+			"version": 481,
+			"versionNonce": 120062243,
 			"isDeleted": false,
 			"id": "7S18LE95R2dn-MxgxlhQ5",
 			"fillStyle": "solid",
@@ -4578,7 +4595,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1391.434038935202,
-			"y": 325.07553326211706,
+			"y": 322.88825192753785,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 1.4094741751275706,
@@ -4588,7 +4605,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4635,8 +4652,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 466,
-			"versionNonce": 484580762,
+			"version": 479,
+			"versionNonce": 1613649549,
 			"isDeleted": false,
 			"id": "CGEAu3VOzrrJ3H8JV6cjE",
 			"fillStyle": "solid",
@@ -4646,7 +4663,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1396.1322861856268,
-			"y": 326.954832162287,
+			"y": 324.7675508277078,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 14.094741751274682,
@@ -4656,7 +4673,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4695,8 +4712,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 466,
-			"versionNonce": 806068486,
+			"version": 479,
+			"versionNonce": 1097983171,
 			"isDeleted": false,
 			"id": "pI_kzzesptBjF0qZJ_OzU",
 			"fillStyle": "solid",
@@ -4706,7 +4723,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1399.4210592609243,
-			"y": 341.98922336364666,
+			"y": 339.80194202906745,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 17.853339551614567,
@@ -4716,7 +4733,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4755,8 +4772,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 481,
-			"versionNonce": 1623153242,
+			"version": 494,
+			"versionNonce": 849214701,
 			"isDeleted": false,
 			"id": "MRma5l88i7kLfJpZGbhdk",
 			"fillStyle": "solid",
@@ -4766,7 +4783,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1372.1712252084599,
-			"y": 326.954832162287,
+			"y": 324.7675508277078,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 19.262813726742024,
@@ -4776,7 +4793,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4875,8 +4892,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 474,
-			"versionNonce": 289247302,
+			"version": 487,
+			"versionNonce": 1274958947,
 			"isDeleted": false,
 			"id": "LuJwlWaurnI2l7Xu-Z5B7",
 			"fillStyle": "solid",
@@ -4886,7 +4903,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -907.5145721414386,
-			"y": 266.8172673568485,
+			"y": 264.6299860222693,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 21.14211262691208,
@@ -4896,7 +4913,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4967,8 +4984,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 477,
-			"versionNonce": 1465319194,
+			"version": 490,
+			"versionNonce": 956946253,
 			"isDeleted": false,
 			"id": "mN4zcY2CT_q3M0skozmg_",
 			"fillStyle": "solid",
@@ -4978,7 +4995,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -879.3250886388893,
-			"y": 291.71797778410036,
+			"y": 289.53069644952114,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 14.564566476317168,
@@ -4988,7 +5005,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5071,8 +5088,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 468,
-			"versionNonce": 753899398,
+			"version": 481,
+			"versionNonce": 379310083,
 			"isDeleted": false,
 			"id": "udvruIpZ_0YZYMZhzuPbp",
 			"fillStyle": "solid",
@@ -5082,7 +5099,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -852.5450793114675,
-			"y": 292.6576272341853,
+			"y": 290.4703458996061,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 13.624917026232197,
@@ -5092,7 +5109,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5139,8 +5156,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 467,
-			"versionNonce": 219941850,
+			"version": 480,
+			"versionNonce": 231433645,
 			"isDeleted": false,
 			"id": "vH5RxCetYC2CGnlYn4RVg",
 			"fillStyle": "solid",
@@ -5150,7 +5167,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -826.234894709088,
-			"y": 288.42920470880296,
+			"y": 286.24192337422375,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 2.8189483502549137,
@@ -5160,7 +5177,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5203,8 +5220,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 467,
-			"versionNonce": 1801369286,
+			"version": 480,
+			"versionNonce": 323540899,
 			"isDeleted": false,
 			"id": "5Yv7KhSv4gkAwhY5vdich",
 			"fillStyle": "solid",
@@ -5214,7 +5231,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -837.9805128351503,
-			"y": 283.2611327333356,
+			"y": 281.0738513987564,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 21.611937351954452,
@@ -5224,7 +5241,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5267,8 +5284,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 473,
-			"versionNonce": 136413338,
+			"version": 486,
+			"versionNonce": 1141647373,
 			"isDeleted": false,
 			"id": "9wx4CFMGQXEPgNNvDzNcN",
 			"fillStyle": "solid",
@@ -5278,7 +5295,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -907.5145721414386,
-			"y": 322.72640963690463,
+			"y": 320.5391283023254,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 19.262813726742024,
@@ -5288,7 +5305,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5355,8 +5372,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 466,
-			"versionNonce": 623373830,
+			"version": 479,
+			"versionNonce": 1882450755,
 			"isDeleted": false,
 			"id": "igj-imWy9Hc7ePDhPGkOx",
 			"fillStyle": "solid",
@@ -5366,7 +5383,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -893.8896551152064,
-			"y": 329.30395578749943,
+			"y": 327.1166744529202,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 0.9396494500849712,
@@ -5376,7 +5393,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5415,8 +5432,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 468,
-			"versionNonce": 337272154,
+			"version": 481,
+			"versionNonce": 1304796781,
 			"isDeleted": false,
 			"id": "buheCi6-iKgr60S-XACDB",
 			"fillStyle": "solid",
@@ -5426,7 +5443,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -903.2861496160562,
-			"y": 342.45904808868914,
+			"y": 340.27176675410993,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 24.900710427251852,
@@ -5436,7 +5453,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5483,8 +5500,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 467,
-			"versionNonce": 390610246,
+			"version": 480,
+			"versionNonce": 297503459,
 			"isDeleted": false,
 			"id": "qiCbN1NeCMIVr_uKyOpFs",
 			"fillStyle": "solid",
@@ -5494,7 +5511,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -882.6138617141867,
-			"y": 345.74782116398654,
+			"y": 343.56053982940733,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 2.8189483502549137,
@@ -5504,7 +5521,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5547,8 +5564,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 463,
-			"versionNonce": 240755226,
+			"version": 476,
+			"versionNonce": 566315213,
 			"isDeleted": false,
 			"id": "vSmlThAfmFsE7xRJFWwQV",
 			"fillStyle": "solid",
@@ -5558,7 +5575,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -889.1914078647816,
-			"y": 340.5797491885192,
+			"y": 338.39246785394,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 3.758597800339885,
@@ -5568,7 +5585,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5603,8 +5620,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 465,
-			"versionNonce": 1461494918,
+			"version": 478,
+			"versionNonce": 1282291331,
 			"isDeleted": false,
 			"id": "ywCCC57CeC3z6NDNABKWp",
 			"fillStyle": "solid",
@@ -5614,7 +5631,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -898.5879023656313,
-			"y": 347.6271200641565,
+			"y": 345.4398387295773,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 7.987020325722369,
@@ -5624,7 +5641,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5667,8 +5684,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 474,
-			"versionNonce": 835866330,
+			"version": 487,
+			"versionNonce": 563652397,
 			"isDeleted": false,
 			"id": "s_QCZ6_e_pJPEFSgl4BVY",
 			"fillStyle": "solid",
@@ -5678,7 +5695,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1350.5592878565053,
-			"y": 307.692018435545,
+			"y": 305.50473710096577,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 13.155092301189711,
@@ -5688,7 +5705,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5767,8 +5784,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 465,
-			"versionNonce": 1180836806,
+			"version": 478,
+			"versionNonce": 1594519075,
 			"isDeleted": false,
 			"id": "Mb85jkGAr8dRgze2gA3Vq",
 			"fillStyle": "solid",
@@ -5778,7 +5795,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1344.4515664309529,
-			"y": 318.49798711152226,
+			"y": 316.31070577694305,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 0,
@@ -5788,7 +5805,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5831,8 +5848,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 464,
-			"versionNonce": 1662477210,
+			"version": 477,
+			"versionNonce": 1068841357,
 			"isDeleted": false,
 			"id": "dobUowH-09SeQUiCmSEGK",
 			"fillStyle": "solid",
@@ -5842,7 +5859,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1346.8006900561654,
-			"y": 341.5193986386042,
+			"y": 339.33211730402496,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 15.50421592640214,
@@ -5852,7 +5869,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5891,8 +5908,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 465,
-			"versionNonce": 120961798,
+			"version": 478,
+			"versionNonce": 746500547,
 			"isDeleted": false,
 			"id": "8pufP5byy6IvRrCK8LLrI",
 			"fillStyle": "solid",
@@ -5902,7 +5919,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1333.1757730299332,
-			"y": 340.1099244634767,
+			"y": 337.9226431288975,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 4.698247250424856,
@@ -5912,7 +5929,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5955,8 +5972,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 465,
-			"versionNonce": 2086395994,
+			"version": 478,
+			"versionNonce": 1699774445,
 			"isDeleted": false,
 			"id": "OgmTswjgnScb2JETur_Qb",
 			"fillStyle": "solid",
@@ -5966,7 +5983,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1340.2231439055706,
-			"y": 343.8685222638166,
+			"y": 341.6812409292374,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 4.698247250424856,
@@ -5976,7 +5993,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6019,8 +6036,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 465,
-			"versionNonce": 1880386118,
+			"version": 478,
+			"versionNonce": 904495459,
 			"isDeleted": false,
 			"id": "Lojajo0A8R_B1gJ4wQGCq",
 			"fillStyle": "solid",
@@ -6030,7 +6047,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1345.391215881038,
-			"y": 342.92887281373163,
+			"y": 340.7415914791524,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 7.047370875637284,
@@ -6040,7 +6057,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6083,8 +6100,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 881,
-			"versionNonce": 426951962,
+			"version": 891,
+			"versionNonce": 1754642595,
 			"isDeleted": false,
 			"id": "Mf3BgX83",
 			"fillStyle": "solid",
@@ -6097,14 +6114,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 0.6475286658281618,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 430.40283203125,
+			"width": 430.43829345703125,
 			"height": 58.33114293606062,
 			"seed": 1142151782,
 			"groupIds": [],
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815397,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"fontSize": 46.6649143488485,
@@ -6120,8 +6137,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 819,
-			"versionNonce": 2145071494,
+			"version": 837,
+			"versionNonce": 1399270211,
 			"isDeleted": false,
 			"id": "Odk1I6Too9BEXgLzIeYC5",
 			"fillStyle": "solid",
@@ -6130,12 +6147,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -206.02198510618715,
+			"x": -206.11636631227037,
 			"y": -199.1480663927776,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 4.2284350438131355,
-			"height": 148.55559186817064,
+			"width": 4.042965317168296,
+			"height": 148.55559186817067,
 			"seed": 1533945062,
 			"groupIds": [],
 			"frameId": null,
@@ -6143,18 +6160,18 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234504,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "8HerriN2",
-				"focus": -0.03788982377034329,
-				"gap": 16.543938953618337
+				"gap": 16.543938953618337,
+				"focus": -0.03788982377034329
 			},
 			"endBinding": {
 				"elementId": "AB_AUxtFrfszy784T4KjC",
-				"focus": -0.10147214703757242,
-				"gap": 24.207331905782553
+				"gap": 24.207331905782553,
+				"focus": -0.10147214703757242
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -6165,15 +6182,15 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					0
 				],
 				[
-					4.2284350438131355,
-					148.55559186817064
+					4.042965317168296,
+					148.55559186817067
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 653,
-			"versionNonce": 1674514906,
+			"version": 661,
+			"versionNonce": 1643718829,
 			"isDeleted": false,
 			"id": "zKkOlcH7",
 			"fillStyle": "solid",
@@ -6186,7 +6203,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -666.6055210513116,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1377.098388671875,
+			"width": 1377.13623046875,
 			"height": 199.40561217708822,
 			"seed": 929582394,
 			"groupIds": [],
@@ -6202,7 +6219,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815398,
+			"updated": 1710373221469,
 			"link": null,
 			"locked": false,
 			"fontSize": 159.52448974167058,
@@ -6217,46 +6234,46 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"baseline": 140
 		},
 		{
+			"id": "SiFfFeZq",
 			"type": "text",
-			"version": 675,
-			"versionNonce": 1372000454,
-			"isDeleted": false,
-			"id": "65xnI0RF",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
+			"x": -1438.5842234404847,
+			"y": 483.8225690532101,
+			"width": 692.0594482421875,
+			"height": 150,
 			"angle": 0,
-			"x": -1402.5257091823432,
-			"y": 573.3043082725941,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 611.02880859375,
-			"height": 45.11485450663329,
-			"seed": 827920954,
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
 			"groupIds": [],
 			"frameId": "k-bvrnA_XdqlTetk6H_1S",
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1709763815398,
+			"seed": 386874307,
+			"version": 168,
+			"versionNonce": 1938393869,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373221470,
 			"link": null,
 			"locked": false,
-			"fontSize": 18.045941802653317,
+			"text": "    Voltage Gain (Av): High voltage gain.\n    Current Gain (Ai): High current gain.\n    Input Impedance (Zin): Moderate.\n    Output Impedance (Zout): Relatively high.\n    hFE Parameter: Higher hFE typically results in higher voltage gain.\n    Inversion: No inversion of voltage or current gain in the output.",
+			"rawText": "    Voltage Gain (Av): High voltage gain.\n    Current Gain (Ai): High current gain.\n    Input Impedance (Zin): Moderate.\n    Output Impedance (Zout): Relatively high.\n    hFE Parameter: Higher hFE typically results in higher voltage gain.\n    Inversion: No inversion of voltage or current gain in the output.",
+			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "Los amplificadores en EC tienen una alta ganancia de voltaje y una\nalta ganancia de corriente.",
-			"rawText": "Los amplificadores en EC tienen una alta ganancia de voltaje y una\nalta ganancia de corriente.",
 			"textAlign": "left",
 			"verticalAlign": "top",
+			"baseline": 143,
 			"containerId": null,
-			"originalText": "Los amplificadores en EC tienen una alta ganancia de voltaje y una\nalta ganancia de corriente.",
-			"lineHeight": 1.25,
-			"baseline": 38
+			"originalText": "    Voltage Gain (Av): High voltage gain.\n    Current Gain (Ai): High current gain.\n    Input Impedance (Zin): Moderate.\n    Output Impedance (Zout): Relatively high.\n    hFE Parameter: Higher hFE typically results in higher voltage gain.\n    Inversion: No inversion of voltage or current gain in the output.",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "frame",
-			"version": 435,
-			"versionNonce": 1585694362,
+			"version": 499,
+			"versionNonce": 200423491,
 			"isDeleted": false,
 			"id": "k-bvrnA_XdqlTetk6H_1S",
 			"fillStyle": "solid",
@@ -6266,11 +6283,11 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": -1501.2067858998143,
-			"y": -23.66631764395538,
+			"y": -25.853598978534592,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
 			"width": 798.2404656870191,
-			"height": 674.1566106288936,
+			"height": 687.3909869387718,
 			"seed": 1086937402,
 			"groupIds": [],
 			"frameId": null,
@@ -6285,7 +6302,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815398,
+			"updated": 1710373221470,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -6298,46 +6315,9 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"name": null
 		},
 		{
-			"type": "text",
-			"version": 471,
-			"versionNonce": 292882438,
-			"isDeleted": false,
-			"id": "WTsOb88P",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -568.7478083768405,
-			"y": 565.3280141367418,
-			"strokeColor": "#f08c00",
-			"backgroundColor": "transparent",
-			"width": 878.6591186523438,
-			"height": 50,
-			"seed": 695850086,
-			"groupIds": [],
-			"frameId": "AB_AUxtFrfszy784T4KjC",
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1709763815398,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 1,
-			"text": "La ganancia de voltaje de un amplificador en CC es aproximadamente 1\n y su ventajas principales son sus altas resistencia de entrada y ganancia de corriente",
-			"rawText": "La ganancia de voltaje de un amplificador en CC es aproximadamente 1\n y su ventajas principales son sus altas resistencia de entrada y ganancia de corriente",
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "La ganancia de voltaje de un amplificador en CC es aproximadamente 1\n y su ventajas principales son sus altas resistencia de entrada y ganancia de corriente",
-			"lineHeight": 1.25,
-			"baseline": 41
-		},
-		{
 			"type": "freedraw",
-			"version": 559,
-			"versionNonce": 843309914,
+			"version": 569,
+			"versionNonce": 725396547,
 			"isDeleted": false,
 			"id": "XUFpgXBaW1MEFaFHw9BAM",
 			"fillStyle": "solid",
@@ -6357,7 +6337,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6588,8 +6568,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 534,
-			"versionNonce": 1860310854,
+			"version": 544,
+			"versionNonce": 895839597,
 			"isDeleted": false,
 			"id": "6Rd8EpioR90yakiu5js9A",
 			"fillStyle": "solid",
@@ -6609,7 +6589,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6740,8 +6720,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 564,
-			"versionNonce": 2036492314,
+			"version": 574,
+			"versionNonce": 1342450659,
 			"isDeleted": false,
 			"id": "s_WWZmd4K7SGSzSVFu-YP",
 			"fillStyle": "solid",
@@ -6761,7 +6741,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7012,8 +6992,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 517,
-			"versionNonce": 309018246,
+			"version": 527,
+			"versionNonce": 1116682189,
 			"isDeleted": false,
 			"id": "zScTLJPw7_aZa2_Jfl_vk",
 			"fillStyle": "solid",
@@ -7033,7 +7013,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7096,8 +7076,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 515,
-			"versionNonce": 198333658,
+			"version": 525,
+			"versionNonce": 1526380419,
 			"isDeleted": false,
 			"id": "AWtb7WwvGRRC5v4CWnTUe",
 			"fillStyle": "solid",
@@ -7117,7 +7097,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7172,8 +7152,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 281902534,
+			"version": 524,
+			"versionNonce": 1892726317,
 			"isDeleted": false,
 			"id": "dj1zWSeOq07-8ue3ygHyL",
 			"fillStyle": "solid",
@@ -7193,7 +7173,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7244,8 +7224,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 512,
-			"versionNonce": 1260824986,
+			"version": 522,
+			"versionNonce": 1247727395,
 			"isDeleted": false,
 			"id": "W46SRCHWBXxkRfkFNKgbU",
 			"fillStyle": "solid",
@@ -7265,7 +7245,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7308,8 +7288,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 1596314886,
+			"version": 524,
+			"versionNonce": 722692237,
 			"isDeleted": false,
 			"id": "6Z4bv742Dv_HU6pMoH6c7",
 			"fillStyle": "solid",
@@ -7329,7 +7309,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7380,8 +7360,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 517,
-			"versionNonce": 1855088218,
+			"version": 527,
+			"versionNonce": 1352594115,
 			"isDeleted": false,
 			"id": "1MfsBLhmgVjeLxxvzJl4_",
 			"fillStyle": "solid",
@@ -7401,7 +7381,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7464,8 +7444,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 1190216774,
+			"version": 524,
+			"versionNonce": 1125175021,
 			"isDeleted": false,
 			"id": "ywgjM3bpqUHhUvjeGO4Hl",
 			"fillStyle": "solid",
@@ -7485,7 +7465,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7536,8 +7516,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 1323862810,
+			"version": 523,
+			"versionNonce": 1314497123,
 			"isDeleted": false,
 			"id": "UlnXML3WNv-8Fa7Z_JHop",
 			"fillStyle": "solid",
@@ -7557,7 +7537,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7604,8 +7584,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 517,
-			"versionNonce": 1510787974,
+			"version": 527,
+			"versionNonce": 391276877,
 			"isDeleted": false,
 			"id": "cDeHHItRovyuTHMqiMbFA",
 			"fillStyle": "solid",
@@ -7625,7 +7605,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7688,8 +7668,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 524,
-			"versionNonce": 849090522,
+			"version": 534,
+			"versionNonce": 207445507,
 			"isDeleted": false,
 			"id": "MkR640iV9Di0JQCB-34sr",
 			"fillStyle": "solid",
@@ -7709,7 +7689,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7800,8 +7780,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 523,
-			"versionNonce": 1723165382,
+			"version": 533,
+			"versionNonce": 2033301421,
 			"isDeleted": false,
 			"id": "EK44UtOrJSptCZWR_a7vA",
 			"fillStyle": "solid",
@@ -7821,7 +7801,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7908,8 +7888,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 512,
-			"versionNonce": 432016538,
+			"version": 522,
+			"versionNonce": 900244899,
 			"isDeleted": false,
 			"id": "dHR10OHNLFhbich18eIG9",
 			"fillStyle": "solid",
@@ -7929,7 +7909,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7972,8 +7952,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 1804083718,
+			"version": 524,
+			"versionNonce": 1389902349,
 			"isDeleted": false,
 			"id": "aYTPc764tDdzOsL8jLSPd",
 			"fillStyle": "solid",
@@ -7993,7 +7973,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8044,8 +8024,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 168257882,
+			"version": 523,
+			"versionNonce": 292157763,
 			"isDeleted": false,
 			"id": "rfsUsedDvVXhkEZA9FEh1",
 			"fillStyle": "solid",
@@ -8065,7 +8045,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8112,8 +8092,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 193065286,
+			"version": 523,
+			"versionNonce": 222261357,
 			"isDeleted": false,
 			"id": "Cf_DVz41b-5Nj6q1VzQ6p",
 			"fillStyle": "solid",
@@ -8133,7 +8113,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8180,8 +8160,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 1522871834,
+			"version": 524,
+			"versionNonce": 2097141987,
 			"isDeleted": false,
 			"id": "G9nHKbWqZlrkCQMyX9Y-Q",
 			"fillStyle": "solid",
@@ -8201,7 +8181,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8252,8 +8232,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 515,
-			"versionNonce": 33544326,
+			"version": 525,
+			"versionNonce": 909171405,
 			"isDeleted": false,
 			"id": "EIfg4KcdJ7dCq0hc9yJGY",
 			"fillStyle": "solid",
@@ -8273,7 +8253,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815398,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8328,8 +8308,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 15489754,
+			"version": 524,
+			"versionNonce": 637060227,
 			"isDeleted": false,
 			"id": "omtN3v0bsFtbBClLOLtob",
 			"fillStyle": "solid",
@@ -8349,7 +8329,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8400,8 +8380,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 381605830,
+			"version": 524,
+			"versionNonce": 1715861805,
 			"isDeleted": false,
 			"id": "X3JppT6wRHrlVv5G04lgB",
 			"fillStyle": "solid",
@@ -8421,7 +8401,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8472,8 +8452,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 516,
-			"versionNonce": 1527771034,
+			"version": 526,
+			"versionNonce": 68369443,
 			"isDeleted": false,
 			"id": "ebXNkTnhA7MvSGfo0RAqm",
 			"fillStyle": "solid",
@@ -8493,7 +8473,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8552,8 +8532,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 515,
-			"versionNonce": 299626246,
+			"version": 525,
+			"versionNonce": 1726499725,
 			"isDeleted": false,
 			"id": "DsQNLVbFC35kgAraEIN7g",
 			"fillStyle": "solid",
@@ -8573,7 +8553,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8628,8 +8608,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 518,
-			"versionNonce": 2103635034,
+			"version": 528,
+			"versionNonce": 322813891,
 			"isDeleted": false,
 			"id": "pN1Kia4Lq3rklurqTz0L4",
 			"fillStyle": "solid",
@@ -8649,7 +8629,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8716,8 +8696,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 802430534,
+			"version": 523,
+			"versionNonce": 407982573,
 			"isDeleted": false,
 			"id": "RvynoWNK4T-EuAe4PCa1r",
 			"fillStyle": "solid",
@@ -8737,7 +8717,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8784,8 +8764,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 2109231386,
+			"version": 523,
+			"versionNonce": 1301729123,
 			"isDeleted": false,
 			"id": "Sj2Vvx9Z6nDgk5-xHVVw-",
 			"fillStyle": "solid",
@@ -8805,7 +8785,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -8852,8 +8832,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 538,
-			"versionNonce": 360998278,
+			"version": 548,
+			"versionNonce": 394955853,
 			"isDeleted": false,
 			"id": "Y-2tRbHkisrKCL5jjmzuK",
 			"fillStyle": "solid",
@@ -8873,7 +8853,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9020,8 +9000,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 523,
-			"versionNonce": 1065557466,
+			"version": 533,
+			"versionNonce": 1701636867,
 			"isDeleted": false,
 			"id": "_kqQJGCFdDgenhMxPhnDG",
 			"fillStyle": "solid",
@@ -9041,7 +9021,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9128,8 +9108,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 1143588038,
+			"version": 524,
+			"versionNonce": 611154605,
 			"isDeleted": false,
 			"id": "QWor7pGDFM-C090GoafaD",
 			"fillStyle": "solid",
@@ -9149,7 +9129,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9200,8 +9180,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 1071010458,
+			"version": 523,
+			"versionNonce": 1061065379,
 			"isDeleted": false,
 			"id": "cPuQmubsXhyW0AdyF1mAW",
 			"fillStyle": "solid",
@@ -9221,7 +9201,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9268,8 +9248,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 224476166,
+			"version": 524,
+			"versionNonce": 1201904909,
 			"isDeleted": false,
 			"id": "eF9cVaeSbHi6VID61iK6W",
 			"fillStyle": "solid",
@@ -9289,7 +9269,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9340,8 +9320,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 1634004826,
+			"version": 524,
+			"versionNonce": 733627971,
 			"isDeleted": false,
 			"id": "OfuRB_bf8eprnppC5PsrJ",
 			"fillStyle": "solid",
@@ -9361,7 +9341,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9412,8 +9392,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 518,
-			"versionNonce": 120048454,
+			"version": 528,
+			"versionNonce": 950432621,
 			"isDeleted": false,
 			"id": "t6KW23IzmcP-W_TYnCjmW",
 			"fillStyle": "solid",
@@ -9433,7 +9413,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9500,8 +9480,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 948040730,
+			"version": 523,
+			"versionNonce": 1639876067,
 			"isDeleted": false,
 			"id": "A4XeekMKO5rPLzicjzXiW",
 			"fillStyle": "solid",
@@ -9521,7 +9501,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9572,8 +9552,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 2145022598,
+			"version": 523,
+			"versionNonce": 62881229,
 			"isDeleted": false,
 			"id": "xgoyTErfti8tHdivmXqMi",
 			"fillStyle": "solid",
@@ -9593,7 +9573,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9644,8 +9624,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 1461739738,
+			"version": 523,
+			"versionNonce": 945410435,
 			"isDeleted": false,
 			"id": "CZV29UlN5vLYrx0T61bhC",
 			"fillStyle": "solid",
@@ -9665,7 +9645,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9716,8 +9696,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 1916154310,
+			"version": 524,
+			"versionNonce": 1879587885,
 			"isDeleted": false,
 			"id": "X70n5aRLz_PgFxbTB96CR",
 			"fillStyle": "solid",
@@ -9737,7 +9717,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9792,8 +9772,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 416495002,
+			"version": 524,
+			"versionNonce": 550152483,
 			"isDeleted": false,
 			"id": "oGa6u1icVaZDvtzdb58dV",
 			"fillStyle": "solid",
@@ -9813,7 +9793,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9868,8 +9848,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 2035812614,
+			"version": 523,
+			"versionNonce": 627715725,
 			"isDeleted": false,
 			"id": "IohLNGNrnK2uaUhIRniMw",
 			"fillStyle": "solid",
@@ -9889,7 +9869,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9940,8 +9920,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 511,
-			"versionNonce": 1858957914,
+			"version": 521,
+			"versionNonce": 1618971843,
 			"isDeleted": false,
 			"id": "jigfteYf5LPT5pkxjuqua",
 			"fillStyle": "solid",
@@ -9961,7 +9941,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10004,8 +9984,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 1153235014,
+			"version": 523,
+			"versionNonce": 312399085,
 			"isDeleted": false,
 			"id": "y09FPiHdAVsTRQ1YdD5aB",
 			"fillStyle": "solid",
@@ -10025,7 +10005,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10076,8 +10056,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 523,
-			"versionNonce": 736237338,
+			"version": 533,
+			"versionNonce": 186055779,
 			"isDeleted": false,
 			"id": "QvGUTZLVH-74ZjSYt783d",
 			"fillStyle": "solid",
@@ -10097,7 +10077,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10188,8 +10168,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 520,
-			"versionNonce": 205651846,
+			"version": 530,
+			"versionNonce": 321892173,
 			"isDeleted": false,
 			"id": "DUj6wR3GKGhONglkKYTCH",
 			"fillStyle": "solid",
@@ -10209,7 +10189,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10288,8 +10268,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 511,
-			"versionNonce": 1350837210,
+			"version": 521,
+			"versionNonce": 1012889603,
 			"isDeleted": false,
 			"id": "YUXHChLX4su0UCyfe88pn",
 			"fillStyle": "solid",
@@ -10309,7 +10289,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10352,8 +10332,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 511,
-			"versionNonce": 69476038,
+			"version": 521,
+			"versionNonce": 1433812397,
 			"isDeleted": false,
 			"id": "QcbVI7h_eO5e19rwWbXKj",
 			"fillStyle": "solid",
@@ -10373,7 +10353,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10416,8 +10396,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 1455855770,
+			"version": 523,
+			"versionNonce": 307724195,
 			"isDeleted": false,
 			"id": "NLvCj9kcp3TKwYEDkv091",
 			"fillStyle": "solid",
@@ -10437,7 +10417,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815399,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10488,8 +10468,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 513,
-			"versionNonce": 1358976518,
+			"version": 523,
+			"versionNonce": 10223629,
 			"isDeleted": false,
 			"id": "xfciBg9taDZ4lVmQzo2pP",
 			"fillStyle": "solid",
@@ -10509,7 +10489,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10560,8 +10540,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 510,
-			"versionNonce": 2119988570,
+			"version": 520,
+			"versionNonce": 1731040067,
 			"isDeleted": false,
 			"id": "NeDWXwqzq5epdoNabFyt7",
 			"fillStyle": "solid",
@@ -10581,7 +10561,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10620,8 +10600,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 515,
-			"versionNonce": 2077467974,
+			"version": 525,
+			"versionNonce": 446330477,
 			"isDeleted": false,
 			"id": "302ZGwxAF6TX21p4O5BJs",
 			"fillStyle": "solid",
@@ -10641,7 +10621,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10700,8 +10680,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 519,
-			"versionNonce": 412662298,
+			"version": 529,
+			"versionNonce": 1262498531,
 			"isDeleted": false,
 			"id": "0ZvD67SUNIyA38WgCKHx7",
 			"fillStyle": "solid",
@@ -10721,7 +10701,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10812,8 +10792,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 510,
-			"versionNonce": 1710951558,
+			"version": 520,
+			"versionNonce": 775626957,
 			"isDeleted": false,
 			"id": "VO_gI2-GP58InGaymd31s",
 			"fillStyle": "solid",
@@ -10833,7 +10813,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10888,8 +10868,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 509,
-			"versionNonce": 1416521434,
+			"version": 519,
+			"versionNonce": 1058922115,
 			"isDeleted": false,
 			"id": "qilRDd94k3diUQGeHn7e_",
 			"fillStyle": "solid",
@@ -10909,7 +10889,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10960,8 +10940,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 509,
-			"versionNonce": 1026788294,
+			"version": 519,
+			"versionNonce": 823623469,
 			"isDeleted": false,
 			"id": "MT_7N2X9yslCg3tsle9Qz",
 			"fillStyle": "solid",
@@ -10981,7 +10961,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11036,8 +11016,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 514,
-			"versionNonce": 175143834,
+			"version": 524,
+			"versionNonce": 763696675,
 			"isDeleted": false,
 			"id": "gxuAv5TwJPJvNbrQbF-_G",
 			"fillStyle": "solid",
@@ -11057,7 +11037,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11132,8 +11112,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 508,
-			"versionNonce": 1872372486,
+			"version": 518,
+			"versionNonce": 697897357,
 			"isDeleted": false,
 			"id": "n0JnswePfNrPZgKsA6UMS",
 			"fillStyle": "solid",
@@ -11153,7 +11133,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11204,8 +11184,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 506,
-			"versionNonce": 147978330,
+			"version": 516,
+			"versionNonce": 627333571,
 			"isDeleted": false,
 			"id": "qg66b9YOFs7H4IUqfgX72",
 			"fillStyle": "solid",
@@ -11225,7 +11205,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11268,8 +11248,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 506,
-			"versionNonce": 531354182,
+			"version": 516,
+			"versionNonce": 351885293,
 			"isDeleted": false,
 			"id": "SCaI8GB9LmOxUaIt223Dl",
 			"fillStyle": "solid",
@@ -11289,7 +11269,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11332,8 +11312,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 525,
-			"versionNonce": 1600511258,
+			"version": 535,
+			"versionNonce": 1406806371,
 			"isDeleted": false,
 			"id": "w5wSKgNofHbaEunkD3ufa",
 			"fillStyle": "solid",
@@ -11353,7 +11333,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11472,8 +11452,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 507,
-			"versionNonce": 407214470,
+			"version": 517,
+			"versionNonce": 222417485,
 			"isDeleted": false,
 			"id": "PeuJ9HsIRnEwcLvX_WBDt",
 			"fillStyle": "solid",
@@ -11493,7 +11473,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11540,8 +11520,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 507,
-			"versionNonce": 731851226,
+			"version": 517,
+			"versionNonce": 1043662083,
 			"isDeleted": false,
 			"id": "D5tOEwTWS4jnOWPgj-Au6",
 			"fillStyle": "solid",
@@ -11561,7 +11541,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11608,8 +11588,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 505,
-			"versionNonce": 1084520646,
+			"version": 515,
+			"versionNonce": 793510061,
 			"isDeleted": false,
 			"id": "7kWx8h5b5C7tV4eyVI2tz",
 			"fillStyle": "solid",
@@ -11629,7 +11609,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11668,8 +11648,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 507,
-			"versionNonce": 1687215770,
+			"version": 517,
+			"versionNonce": 1005808803,
 			"isDeleted": false,
 			"id": "lnDE1PTAFj_tAWxD1KnE6",
 			"fillStyle": "solid",
@@ -11689,7 +11669,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11736,8 +11716,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 507,
-			"versionNonce": 275083270,
+			"version": 517,
+			"versionNonce": 1086415629,
 			"isDeleted": false,
 			"id": "8TOgDIMQ8pqsQ9PuMoWwj",
 			"fillStyle": "solid",
@@ -11757,7 +11737,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11804,8 +11784,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 506,
-			"versionNonce": 653130586,
+			"version": 516,
+			"versionNonce": 818143299,
 			"isDeleted": false,
 			"id": "S-hmQpQ9__GbD2WADRi5h",
 			"fillStyle": "solid",
@@ -11825,7 +11805,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -11867,9 +11847,46 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"pressures": []
 		},
 		{
+			"id": "hg89FobQ",
+			"type": "text",
+			"x": -449.9330602106834,
+			"y": 533.0363990812422,
+			"width": 671.7993774414062,
+			"height": 150,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "AB_AUxtFrfszy784T4KjC",
+			"roundness": null,
+			"seed": 385689923,
+			"version": 80,
+			"versionNonce": 1505697667,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373238131,
+			"link": null,
+			"locked": false,
+			"text": "    Voltage Gain (Av): Unity or slightly less.\n    Current Gain (Ai): High current gain.\n    Input Impedance (Zin): High.\n    Output Impedance (Zout): Low.\n    hFE Parameter: Typically close to unity (hFE ≈ 1).\n    Inversion: No inversion of voltage or current gain in the output.",
+			"rawText": "    Voltage Gain (Av): Unity or slightly less.\n    Current Gain (Ai): High current gain.\n    Input Impedance (Zin): High.\n    Output Impedance (Zout): Low.\n    hFE Parameter: Typically close to unity (hFE ≈ 1).\n    Inversion: No inversion of voltage or current gain in the output.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 143,
+			"containerId": null,
+			"originalText": "    Voltage Gain (Av): Unity or slightly less.\n    Current Gain (Ai): High current gain.\n    Input Impedance (Zin): High.\n    Output Impedance (Zout): Low.\n    hFE Parameter: Typically close to unity (hFE ≈ 1).\n    Inversion: No inversion of voltage or current gain in the output.",
+			"lineHeight": 1.25
+		},
+		{
 			"type": "frame",
-			"version": 509,
-			"versionNonce": 59080518,
+			"version": 522,
+			"versionNonce": 1906249731,
 			"isDeleted": false,
 			"id": "AB_AUxtFrfszy784T4KjC",
 			"fillStyle": "solid",
@@ -11883,7 +11900,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
 			"width": 955.4983326717327,
-			"height": 693.3488354455162,
+			"height": 745.8435874754175,
 			"seed": 1924279398,
 			"groupIds": [],
 			"frameId": null,
@@ -11898,7 +11915,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815400,
+			"updated": 1710373234503,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -11912,8 +11929,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 953,
-			"versionNonce": 17399834,
+			"version": 964,
+			"versionNonce": 1197838381,
 			"isDeleted": false,
 			"id": "1pZSApYS",
 			"fillStyle": "solid",
@@ -11923,17 +11940,17 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 756.0587737595299,
-			"y": -1.178894507799214,
+			"y": -0.08525384050972207,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 298.365966796875,
+			"width": 298.390625,
 			"height": 58.33114293606062,
 			"seed": 1275231738,
 			"groupIds": [],
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"fontSize": 46.6649143488485,
@@ -11948,46 +11965,9 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"baseline": 41
 		},
 		{
-			"type": "text",
-			"version": 531,
-			"versionNonce": 241280646,
-			"isDeleted": false,
-			"id": "MiWYDiQf",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 481.8245369030401,
-			"y": 559.1091775882016,
-			"strokeColor": "#f08c00",
-			"backgroundColor": "transparent",
-			"width": 840.7190551757812,
-			"height": 50,
-			"seed": 565489338,
-			"groupIds": [],
-			"frameId": "fM5kbr_4i-RMPS15XLB6c",
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1709763815400,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 1,
-			"text": "Proporciona una alta ganancia de voltaje con una ganancia de corriente máxima de 1\nSu resistencia de entrada es baja",
-			"rawText": "Proporciona una alta ganancia de voltaje con una ganancia de corriente máxima de 1\nSu resistencia de entrada es baja",
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "Proporciona una alta ganancia de voltaje con una ganancia de corriente máxima de 1\nSu resistencia de entrada es baja",
-			"lineHeight": 1.25,
-			"baseline": 41
-		},
-		{
 			"type": "freedraw",
-			"version": 420,
-			"versionNonce": 1054239962,
+			"version": 431,
+			"versionNonce": 1308426893,
 			"isDeleted": false,
 			"id": "L5H0bcaRp8BApD-g7AZU_",
 			"fillStyle": "solid",
@@ -11997,7 +11977,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 630.7768160424347,
-			"y": 396.81989335022615,
+			"y": 397.91353401751564,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 60.546846796660255,
@@ -12007,7 +11987,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12058,8 +12038,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 419,
-			"versionNonce": 297199046,
+			"version": 430,
+			"versionNonce": 1580464323,
 			"isDeleted": false,
 			"id": "7WRVVdoDo_JC4geQjy_o4",
 			"fillStyle": "solid",
@@ -12069,7 +12049,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 687.6541616193276,
-			"y": 399.5720576003014,
+			"y": 400.66569826759087,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 12.843228712352355,
@@ -12079,7 +12059,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12126,8 +12106,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 420,
-			"versionNonce": 904380826,
+			"version": 431,
+			"versionNonce": 1236740333,
 			"isDeleted": false,
 			"id": "9Qujp9_rK3ZFgaFwymku6",
 			"fillStyle": "solid",
@@ -12137,7 +12117,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 662.8849900506485,
-			"y": 405.9936719564776,
+			"y": 407.0873126237671,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 6.421614356176177,
@@ -12147,7 +12127,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12198,8 +12178,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 417,
-			"versionNonce": 1319255302,
+			"version": 428,
+			"versionNonce": 794683491,
 			"isDeleted": false,
 			"id": "ZBD0UWj1jwzZZ7OyTAjOM",
 			"fillStyle": "solid",
@@ -12209,7 +12189,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 627.1073148226674,
-			"y": 402.3241707367103,
+			"y": 403.4178114039998,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 7.339002439534661,
@@ -12219,7 +12199,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815400,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12258,8 +12238,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 421,
-			"versionNonce": 292585050,
+			"version": 432,
+			"versionNonce": 1813873485,
 			"isDeleted": false,
 			"id": "4LdLi4NYmbV8Lzh2b3Nwp",
 			"fillStyle": "solid",
@@ -12269,7 +12249,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 663.802378134007,
-			"y": 392.23305516076675,
+			"y": 393.32669582805624,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 3.6695012197671777,
@@ -12279,7 +12259,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12334,8 +12314,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 419,
-			"versionNonce": 1520479302,
+			"version": 430,
+			"versionNonce": 283698179,
 			"isDeleted": false,
 			"id": "scCidgmra04uWoT4edoAD",
 			"fillStyle": "solid",
@@ -12345,7 +12325,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 664.7197662173653,
-			"y": 308.75176184847794,
+			"y": 309.84540251576743,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 42.1993406978236,
@@ -12355,7 +12335,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12402,8 +12382,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 421,
-			"versionNonce": 507749146,
+			"version": 432,
+			"versionNonce": 2039058861,
 			"isDeleted": false,
 			"id": "SwCI70e8nqWnr-IQ5DChd",
 			"fillStyle": "solid",
@@ -12413,7 +12393,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 711.5059451046483,
-			"y": 278.4783384501478,
+			"y": 279.5719791174373,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 2.7521131364088465,
@@ -12423,7 +12403,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12478,8 +12458,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 419,
-			"versionNonce": 328151942,
+			"version": 430,
+			"versionNonce": 1792240547,
 			"isDeleted": false,
 			"id": "u25Iqj_CQLrSerkKCUBNy",
 			"fillStyle": "solid",
@@ -12489,7 +12469,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 724.3492249306671,
-			"y": 275.7262253137389,
+			"y": 276.8198659810284,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 3.6695012197673305,
@@ -12499,7 +12479,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12546,8 +12526,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 418,
-			"versionNonce": 383004634,
+			"version": 429,
+			"versionNonce": 1864684557,
 			"isDeleted": false,
 			"id": "---NUA5zBYOFmnspUSpKc",
 			"fillStyle": "solid",
@@ -12557,7 +12537,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 725.2666130140256,
-			"y": 303.2475100188269,
+			"y": 304.3411506861164,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 62.38162296337707,
@@ -12567,7 +12547,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12610,8 +12590,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 423,
-			"versionNonce": 329962182,
+			"version": 434,
+			"versionNonce": 558628675,
 			"isDeleted": false,
 			"id": "kKV0kx87sLBSyTkPSNSps",
 			"fillStyle": "solid",
@@ -12621,7 +12601,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 788.5655729470946,
-			"y": 298.66062071570116,
+			"y": 299.75426138299065,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 6.421614356176177,
@@ -12631,7 +12611,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12734,8 +12714,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 449,
-			"versionNonce": 1865753754,
+			"version": 460,
+			"versionNonce": 1760086637,
 			"isDeleted": false,
 			"id": "57nnMjz3rzMe5ijKnS6JK",
 			"fillStyle": "solid",
@@ -12745,7 +12725,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 790.4003491138116,
-			"y": 174.8148139859719,
+			"y": 175.9084546532614,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 31.190837038521607,
@@ -12755,7 +12735,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12970,8 +12950,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 413,
-			"versionNonce": 630229510,
+			"version": 424,
+			"versionNonce": 246488803,
 			"isDeleted": false,
 			"id": "-OY9HyP7zgjCvfEc6FSN5",
 			"fillStyle": "solid",
@@ -12981,7 +12961,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 791.31773719717,
-			"y": 250.03966566170135,
+			"y": 251.13330632899084,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 5.504226272817693,
@@ -12991,7 +12971,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13062,8 +13042,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 405,
-			"versionNonce": 555319642,
+			"version": 416,
+			"versionNonce": 1201599693,
 			"isDeleted": false,
 			"id": "uSrYjCECy0uLHNSB1UdHN",
 			"fillStyle": "solid",
@@ -13073,7 +13053,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 791.31773719717,
-			"y": 305.99964871206896,
+			"y": 307.09328937935845,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 0.9173880833584843,
@@ -13083,7 +13063,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13126,8 +13106,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 433,
-			"versionNonce": 943544646,
+			"version": 444,
+			"versionNonce": 1032931971,
 			"isDeleted": false,
 			"id": "f4rbi24kn1iyLZNnDF8ep",
 			"fillStyle": "solid",
@@ -13137,7 +13117,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 780.3091824242017,
-			"y": 344.529437076459,
+			"y": 345.62307774374847,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 39.447176447748454,
@@ -13147,7 +13127,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13302,8 +13282,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 421,
-			"versionNonce": 2010400282,
+			"version": 432,
+			"versionNonce": 383832877,
 			"isDeleted": false,
 			"id": "y2XEQ6hDM63F8Wa5HYXpg",
 			"fillStyle": "solid",
@@ -13313,7 +13293,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 782.1439585909184,
-			"y": 373.88549794826383,
+			"y": 374.9791386155533,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 23.8517834853208,
@@ -13323,7 +13303,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13430,8 +13410,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 408,
-			"versionNonce": 1393442950,
+			"version": 419,
+			"versionNonce": 1655374371,
 			"isDeleted": false,
 			"id": "ValgdZUbdJ-k4oUwfIFx8",
 			"fillStyle": "solid",
@@ -13441,7 +13421,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 774.8049561513839,
-			"y": 401.4067826533519,
+			"y": 402.5004233206414,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 43.11667766751563,
@@ -13451,7 +13431,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13506,8 +13486,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 407,
-			"versionNonce": 1549300442,
+			"version": 418,
+			"versionNonce": 857204109,
 			"isDeleted": false,
 			"id": "8usmXV_1mqP28pn4qV8r2",
 			"fillStyle": "solid",
@@ -13517,7 +13497,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 813.3347445157737,
-			"y": 402.3241707367103,
+			"y": 403.4178114039998,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 12.843279826018655,
@@ -13527,7 +13507,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13578,8 +13558,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 407,
-			"versionNonce": 163594182,
+			"version": 418,
+			"versionNonce": 384615875,
 			"isDeleted": false,
 			"id": "lA1heNueB2caBbXZZ8Dze",
 			"fillStyle": "solid",
@@ -13589,7 +13569,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 795.9046265002955,
-			"y": 405.0762838731192,
+			"y": 406.1699245404087,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 10.091166689609809,
@@ -13599,7 +13579,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13650,8 +13630,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 405,
-			"versionNonce": 557385626,
+			"version": 416,
+			"versionNonce": 796765165,
 			"isDeleted": false,
 			"id": "ebWuZVWOp-dvM45OfniLX",
 			"fillStyle": "solid",
@@ -13661,7 +13641,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 782.1439585909184,
-			"y": 412.4153374263202,
+			"y": 413.5089780936097,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 6.421614356176177,
@@ -13671,7 +13651,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13714,8 +13694,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 405,
-			"versionNonce": 1886410502,
+			"version": 416,
+			"versionNonce": 1366627683,
 			"isDeleted": false,
 			"id": "7pUW0ud_R7kI-VgrzCPTi",
 			"fillStyle": "solid",
@@ -13725,7 +13705,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 795.9046265002955,
-			"y": 298.66062071570116,
+			"y": 299.75426138299065,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 51.37306819040893,
@@ -13735,7 +13715,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13778,8 +13758,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 409,
-			"versionNonce": 1319699546,
+			"version": 420,
+			"versionNonce": 2082186829,
 			"isDeleted": false,
 			"id": "tiowX2uZTJGB7WmQrOR3L",
 			"fillStyle": "solid",
@@ -13789,7 +13769,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 845.4429185239875,
-			"y": 246.37016444193407,
+			"y": 247.46380510922356,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 7.339053553200962,
@@ -13799,7 +13779,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13858,8 +13838,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 407,
-			"versionNonce": 261850694,
+			"version": 418,
+			"versionNonce": 563245315,
 			"isDeleted": false,
 			"id": "deXd_vQTuFBxprWehwn2o",
 			"fillStyle": "solid",
@@ -13869,7 +13849,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 853.6993090468807,
-			"y": 283.9826158366319,
+			"y": 285.0762565039214,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 48.62095505399978,
@@ -13879,7 +13859,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13930,8 +13910,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 407,
-			"versionNonce": 1853581594,
+			"version": 418,
+			"versionNonce": 1271616685,
 			"isDeleted": false,
 			"id": "OjMezptGTzDVghb60Owbz",
 			"fillStyle": "solid",
@@ -13941,7 +13921,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 902.3202641008804,
-			"y": 252.79180435494342,
+			"y": 253.88544502223291,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 8.256390522893145,
@@ -13951,7 +13931,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14002,8 +13982,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 409,
-			"versionNonce": 1478413702,
+			"version": 420,
+			"versionNonce": 683890851,
 			"isDeleted": false,
 			"id": "o5W9ZMVeEaejkS_yHthwU",
 			"fillStyle": "solid",
@@ -14013,7 +13993,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 851.8645839938301,
-			"y": 296.8258701058175,
+			"y": 297.919510773107,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 44.9514538342326,
@@ -14023,7 +14003,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14082,8 +14062,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 406,
-			"versionNonce": 1478702554,
+			"version": 417,
+			"versionNonce": 976631565,
 			"isDeleted": false,
 			"id": "lA3asE4S43J9YkTKrLjdu",
 			"fillStyle": "solid",
@@ -14093,7 +14073,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 891.3117604415784,
-			"y": 300.49537132558487,
+			"y": 301.58901199287436,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 16.512781045786138,
@@ -14103,7 +14083,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14162,8 +14142,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 409,
-			"versionNonce": 389491910,
+			"version": 420,
+			"versionNonce": 1421233219,
 			"isDeleted": false,
 			"id": "L4Yv796_psltt7aAAZ7_C",
 			"fillStyle": "solid",
@@ -14173,7 +14153,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 901.4029271311883,
-			"y": 317.008152371371,
+			"y": 318.1017930386605,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 26.603896621729646,
@@ -14183,7 +14163,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14254,8 +14234,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 436,
-			"versionNonce": 2092133018,
+			"version": 447,
+			"versionNonce": 836095341,
 			"isDeleted": false,
 			"id": "IxiAW4grPpvA562AdF-CP",
 			"fillStyle": "solid",
@@ -14265,7 +14245,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 911.4940427071319,
-			"y": 202.33609869105996,
+			"y": 203.42973935834945,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 38.52978836438997,
@@ -14275,7 +14255,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14470,8 +14450,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 398,
-			"versionNonce": 1786881030,
+			"version": 409,
+			"versionNonce": 1498008547,
 			"isDeleted": false,
 			"id": "jpRCuX0Z_DaVsJX6OuF-r",
 			"fillStyle": "solid",
@@ -14481,7 +14461,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 901.4029271311883,
-			"y": 152.79775555370168,
+			"y": 153.89139622099117,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 1.8347761667168156,
@@ -14491,7 +14471,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14534,8 +14514,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 398,
-			"versionNonce": 853477210,
+			"version": 409,
+			"versionNonce": 301176781,
 			"isDeleted": false,
 			"id": "PXRFuZMUbWXBvzwnXFjpJ",
 			"fillStyle": "solid",
@@ -14545,7 +14525,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 787.6482359774027,
-			"y": 168.39317407296255,
+			"y": 169.48681474025204,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 0.9173369696918776,
@@ -14555,7 +14535,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14598,8 +14578,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 397,
-			"versionNonce": 872100678,
+			"version": 408,
+			"versionNonce": 1787582339,
 			"isDeleted": false,
 			"id": "yr5fYU_hWkwQTch4rHZDR",
 			"fillStyle": "solid",
@@ -14609,7 +14589,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 785.8134598106857,
-			"y": 163.8062847698368,
+			"y": 164.89992543712629,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 1.8347761667169686,
@@ -14619,7 +14599,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815401,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14658,8 +14638,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 399,
-			"versionNonce": 49875994,
+			"version": 410,
+			"versionNonce": 346625581,
 			"isDeleted": false,
 			"id": "kXaq-pD70KLBhXzMsLulm",
 			"fillStyle": "solid",
@@ -14669,7 +14649,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 789.482961030453,
-			"y": 128.94597206838097,
+			"y": 130.03961273567046,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 13.760616795710838,
@@ -14679,7 +14659,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14726,8 +14706,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 399,
-			"versionNonce": 234936966,
+			"version": 410,
+			"versionNonce": 918318883,
 			"isDeleted": false,
 			"id": "eA4nsyB_j90HaO0szxOdk",
 			"fillStyle": "solid",
@@ -14737,7 +14717,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 791.31773719717,
-			"y": 133.53286137150673,
+			"y": 134.62650203879622,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 14.678004879069169,
@@ -14747,7 +14727,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14794,8 +14774,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 400,
-			"versionNonce": 1928624346,
+			"version": 411,
+			"versionNonce": 1960822925,
 			"isDeleted": false,
 			"id": "apM1rwqM6yMcJAEKYxTQS",
 			"fillStyle": "solid",
@@ -14805,7 +14785,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 897.7333747977548,
-			"y": 122.52433215537155,
+			"y": 123.61797282266105,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 13.760616795710991,
@@ -14815,7 +14795,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14866,8 +14846,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 398,
-			"versionNonce": 1062181318,
+			"version": 409,
+			"versionNonce": 541627075,
 			"isDeleted": false,
 			"id": "NW9TV68CMUrAMY5hLFAUE",
 			"fillStyle": "solid",
@@ -14877,7 +14857,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 903.2376521842389,
-			"y": 120.68958154548795,
+			"y": 121.78322221277745,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 17.43016912914447,
@@ -14887,7 +14867,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -14930,8 +14910,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 427,
-			"versionNonce": 1382305178,
+			"version": 438,
+			"versionNonce": 1414606573,
 			"isDeleted": false,
 			"id": "zOayW1rjfvkfZ01XcCZk9",
 			"fillStyle": "solid",
@@ -14941,7 +14921,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 912.4114307904902,
-			"y": 203.25346121758517,
+			"y": 204.34710188487466,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 10.091115575943508,
@@ -14951,7 +14931,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15110,8 +15090,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 401,
-			"versionNonce": 788820230,
+			"version": 412,
+			"versionNonce": 936329827,
 			"isDeleted": false,
 			"id": "Gi-3SGKhimd6sx1rYXSvg",
 			"fillStyle": "solid",
@@ -15121,7 +15101,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 909.6593176540814,
-			"y": 205.08823738430198,
+			"y": 206.18187805159147,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 72.47273853932057,
@@ -15131,7 +15111,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15186,8 +15166,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 400,
-			"versionNonce": 108759642,
+			"version": 411,
+			"versionNonce": 1636223309,
 			"isDeleted": false,
 			"id": "Z4L6GcVShNvfBSnzwFv_A",
 			"fillStyle": "solid",
@@ -15197,7 +15177,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 980.2972800266851,
-			"y": 175.73217651249718,
+			"y": 176.82581717978667,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 3.6695012197673305,
@@ -15207,7 +15187,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15258,8 +15238,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 399,
-			"versionNonce": 1486643270,
+			"version": 410,
+			"versionNonce": 1981742595,
 			"isDeleted": false,
 			"id": "ZKfxUI3FqRzKP2IU_X5uo",
 			"fillStyle": "solid",
@@ -15269,7 +15249,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 994.9752849057545,
-			"y": 177.56692712238083,
+			"y": 178.66056778967032,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 3.6695523334336313,
@@ -15279,7 +15259,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15326,8 +15306,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 400,
-			"versionNonce": 1443704602,
+			"version": 411,
+			"versionNonce": 1037703085,
 			"isDeleted": false,
 			"id": "kkiiIOPE_BDJ4GDTHooan",
 			"fillStyle": "solid",
@@ -15337,7 +15317,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 995.8926729891127,
-			"y": 200.5013480811763,
+			"y": 201.5949887484658,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 22.934395401962163,
@@ -15347,7 +15327,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15398,8 +15378,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 423,
-			"versionNonce": 1072981894,
+			"version": 434,
+			"versionNonce": 909526435,
 			"isDeleted": false,
 			"id": "3gA6YFU_SDlgnzkio9z9i",
 			"fillStyle": "solid",
@@ -15409,7 +15389,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1014.2402302016158,
-			"y": 195.91445877805054,
+			"y": 197.00809944534004,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 17.43016912914447,
@@ -15419,7 +15399,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15562,8 +15542,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 452,
-			"versionNonce": 898382810,
+			"version": 463,
+			"versionNonce": 594844173,
 			"isDeleted": false,
 			"id": "13pSfBgBq91kwKcA4J_7w",
 			"fillStyle": "solid",
@@ -15573,7 +15553,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 928.832012630998,
-			"y": 360.95784546913706,
+			"y": 362.05148613642655,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 51.28603709040258,
@@ -15583,7 +15563,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15878,8 +15858,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 391,
-			"versionNonce": 1699317446,
+			"version": 402,
+			"versionNonce": 1866701123,
 			"isDeleted": false,
 			"id": "lphvCljMtxTu8F7MMolxp",
 			"fillStyle": "solid",
@@ -15889,7 +15869,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 921.8008661015842,
-			"y": 417.20705227116247,
+			"y": 418.30069293845196,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 24.81581399139847,
@@ -15899,7 +15879,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -15950,8 +15930,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 391,
-			"versionNonce": 319533210,
+			"version": 402,
+			"versionNonce": 1263521901,
 			"isDeleted": false,
 			"id": "vhRTH0fsxnFRx8Arul25u",
 			"fillStyle": "solid",
@@ -15961,7 +15941,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 946.6166800929827,
-			"y": 415.139063931133,
+			"y": 416.2327045984225,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 6.61754425251237,
@@ -15971,7 +15951,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16022,8 +16002,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 960019974,
+			"version": 401,
+			"versionNonce": 782596323,
 			"isDeleted": false,
 			"id": "KAqVD_LaURIlEZGzADv_4",
 			"fillStyle": "solid",
@@ -16033,7 +16013,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 936.276761437313,
-			"y": 421.7566081836454,
+			"y": 422.8502488509349,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 5.376737421808294,
@@ -16043,7 +16023,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16090,8 +16070,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 574524762,
+			"version": 400,
+			"versionNonce": 322255565,
 			"isDeleted": false,
 			"id": "b_tNQ4ma9pxlpth1Mt3qM",
 			"fillStyle": "solid",
@@ -16101,7 +16081,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 925.1096382278405,
-			"y": 423.82459652367487,
+			"y": 424.91823719096436,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 4.963135144907191,
@@ -16111,7 +16091,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16154,8 +16134,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 400,
-			"versionNonce": 280956230,
+			"version": 411,
+			"versionNonce": 1374315651,
 			"isDeleted": false,
 			"id": "kiuvDH0sc9pcjQfchGYOz",
 			"fillStyle": "solid",
@@ -16165,7 +16145,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1016.9281914760741,
-			"y": 268.3120991893394,
+			"y": 269.4057398566289,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 18.61187201578751,
@@ -16175,7 +16155,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16262,8 +16242,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 678941210,
+			"version": 401,
+			"versionNonce": 1673419053,
 			"isDeleted": false,
 			"id": "tIY5MIfHgkXGkHfEDbpkg",
 			"fillStyle": "solid",
@@ -16273,7 +16253,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1023.1321334516851,
-			"y": 272.86167814629954,
+			"y": 273.95531881358903,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 0.4136022769012564,
@@ -16283,7 +16263,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16330,8 +16310,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 423195782,
+			"version": 401,
+			"versionNonce": 13687843,
 			"isDeleted": false,
 			"id": "Abvf0ANLNZ325_o-WPYSx",
 			"fillStyle": "solid",
@@ -16341,7 +16321,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1010.3106472235618,
-			"y": 291.05994788518575,
+			"y": 292.15358855247524,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 25.229416268300035,
@@ -16351,7 +16331,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16398,8 +16378,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 391,
-			"versionNonce": 1219133146,
+			"version": 402,
+			"versionNonce": 1448389517,
 			"isDeleted": false,
 			"id": "HJUiWZA-Mqiz5cDf0wOo-",
 			"fillStyle": "solid",
@@ -16409,7 +16389,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1034.2992566611576,
-			"y": 291.4735501620871,
+			"y": 292.5671908293766,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 5.790339698709704,
@@ -16419,7 +16399,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16470,8 +16450,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 392,
-			"versionNonce": 1281684422,
+			"version": 403,
+			"versionNonce": 1732730819,
 			"isDeleted": false,
 			"id": "Z9lnb5peCn1g47EIjLORk",
 			"fillStyle": "solid",
@@ -16481,7 +16461,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1028.0953146855468,
-			"y": 293.54151545763926,
+			"y": 294.63515612492876,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 9.926316378768554,
@@ -16491,7 +16471,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16546,8 +16526,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 1332319130,
+			"version": 401,
+			"versionNonce": 456241645,
 			"isDeleted": false,
 			"id": "NPiat7weGFRWYOlw3APrk",
 			"fillStyle": "solid",
@@ -16557,7 +16537,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1012.3786125191141,
-			"y": 295.1959245652446,
+			"y": 296.2895652325341,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 3.722374403157441,
@@ -16567,7 +16547,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16614,8 +16594,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 396,
-			"versionNonce": 1683917574,
+			"version": 407,
+			"versionNonce": 795635555,
 			"isDeleted": false,
 			"id": "CTEtevLUytv1heYn4LvIv",
 			"fillStyle": "solid",
@@ -16625,7 +16605,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1064.4918541633192,
-			"y": 217.0260736211755,
+			"y": 218.119714288465,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 24.402211714497216,
@@ -16635,7 +16615,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16706,8 +16686,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 401,
-			"versionNonce": 2129137754,
+			"version": 412,
+			"versionNonce": 526314573,
 			"isDeleted": false,
 			"id": "JjE62GlFvBFv30v7b3BCb",
 			"fillStyle": "solid",
@@ -16717,7 +16697,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1085.5852937515601,
-			"y": 253.42261309894795,
+			"y": 254.51625376623744,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 17.784667461984846,
@@ -16727,7 +16707,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16818,8 +16798,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 395,
-			"versionNonce": 1336097350,
+			"version": 406,
+			"versionNonce": 999197443,
 			"isDeleted": false,
 			"id": "MnmSTuDDpWpxY-955yTMC",
 			"fillStyle": "solid",
@@ -16829,7 +16809,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1111.641914573663,
-			"y": 257.55857825676816,
+			"y": 258.65221892405765,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 13.235134593979064,
@@ -16839,7 +16819,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16906,8 +16886,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 391,
-			"versionNonce": 1526265114,
+			"version": 402,
+			"versionNonce": 1924520621,
 			"isDeleted": false,
 			"id": "VpsLe1B-doEsyrqEgH9K2",
 			"fillStyle": "solid",
@@ -16917,7 +16897,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1139.3529445033707,
-			"y": 255.90419219364009,
+			"y": 256.9978328609296,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 0.8271584648483405,
@@ -16927,7 +16907,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -16978,8 +16958,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 391,
-			"versionNonce": 621805958,
+			"version": 402,
+			"versionNonce": 539767459,
 			"isDeleted": false,
 			"id": "4f6znVHU6QByrP9Z9CGdK",
 			"fillStyle": "solid",
@@ -16989,7 +16969,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1130.6673888663515,
-			"y": 257.97218053366953,
+			"y": 259.065821200959,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 25.64301854520129,
@@ -16999,7 +16979,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17050,8 +17030,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 1963934170,
+			"version": 401,
+			"versionNonce": 1843395853,
 			"isDeleted": false,
 			"id": "K-Wn40NfuCynBui2ghnLy",
 			"fillStyle": "solid",
@@ -17061,7 +17041,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1033.4720981963096,
-			"y": 224.05722015058922,
+			"y": 225.1508608178787,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 1.2408068307039222,
@@ -17071,7 +17051,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815402,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17118,8 +17098,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 400679110,
+			"version": 400,
+			"versionNonce": 1576265283,
 			"isDeleted": false,
 			"id": "w08ufWMtgvmlxHAZFzf60",
 			"fillStyle": "solid",
@@ -17129,7 +17109,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1026.0273493899945,
-			"y": 231.91555971156697,
+			"y": 233.00920037885646,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 12.821486228123483,
@@ -17139,7 +17119,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17182,8 +17162,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 943584922,
+			"version": 400,
+			"versionNonce": 408343405,
 			"isDeleted": false,
 			"id": "6FkyviciLb-_7Nhlf50cP",
 			"fillStyle": "solid",
@@ -17193,7 +17173,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1031.404086811803,
-			"y": 249.2866364188891,
+			"y": 250.38027708617858,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 12.407930040176398,
@@ -17203,7 +17183,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17246,8 +17226,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 403,
-			"versionNonce": 1807079430,
+			"version": 414,
+			"versionNonce": 1539581411,
 			"isDeleted": false,
 			"id": "o6q_opXWufYcz4NQohNLe",
 			"fillStyle": "solid",
@@ -17257,7 +17237,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 997.4890918620067,
-			"y": 341.1052011893614,
+			"y": 342.1988418566509,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 8.685555637018957,
@@ -17267,7 +17247,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17370,8 +17350,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 401,
-			"versionNonce": 892867418,
+			"version": 412,
+			"versionNonce": 1315167693,
 			"isDeleted": false,
 			"id": "zCnKF5W-QM_nM1net2aEK",
 			"fillStyle": "solid",
@@ -17381,7 +17361,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 998.3162964158093,
-			"y": 374.6065477733018,
+			"y": 375.7001884405913,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 11.580725486373886,
@@ -17391,7 +17371,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17486,8 +17466,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 1753802566,
+			"version": 401,
+			"versionNonce": 548106627,
 			"isDeleted": false,
 			"id": "plJX_JEV4tEbFmBJoSiAm",
 			"fillStyle": "solid",
@@ -17497,7 +17477,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1002.0386708189669,
-			"y": 381.22411507029136,
+			"y": 382.31775573758085,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 1.2408068307039222,
@@ -17507,7 +17487,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17558,8 +17538,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 1850775578,
+			"version": 401,
+			"versionNonce": 656448557,
 			"isDeleted": false,
 			"id": "RzhdS7GBQS4fyuIPP1JAM",
 			"fillStyle": "solid",
@@ -17569,7 +17549,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 994.593922012652,
-			"y": 401.90395238163114,
+			"y": 402.99759304892063,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 21.507041865142288,
@@ -17579,7 +17559,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17630,8 +17610,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 1320685190,
+			"version": 400,
+			"versionNonce": 1307068707,
 			"isDeleted": false,
 			"id": "VMz8pL7lClUpIjaO0157N",
 			"fillStyle": "solid",
@@ -17641,7 +17621,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1014.032998582242,
-			"y": 402.31755465853246,
+			"y": 403.41119532582195,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 5.7903857876641815,
@@ -17651,7 +17631,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17698,8 +17678,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 391,
-			"versionNonce": 595231962,
+			"version": 402,
+			"versionNonce": 443977357,
 			"isDeleted": false,
 			"id": "toUcwMybzR32lMt1btWzF",
 			"fillStyle": "solid",
@@ -17709,7 +17689,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1007.4154543297298,
-			"y": 403.5583384447592,
+			"y": 404.6519791120487,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 5.7903857876641815,
@@ -17719,7 +17699,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17774,8 +17754,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 388,
-			"versionNonce": 1258311110,
+			"version": 399,
+			"versionNonce": 1491676355,
 			"isDeleted": false,
 			"id": "fQSr32QeeJnii98IcjoXZ",
 			"fillStyle": "solid",
@@ -17785,7 +17765,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 997.0754895851055,
-			"y": 402.73115693543383,
+			"y": 403.8247976027233,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 2.8951698493549283,
@@ -17795,7 +17775,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17838,8 +17818,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 508090778,
+			"version": 400,
+			"versionNonce": 1730098413,
 			"isDeleted": false,
 			"id": "8k9MFP8aSqbdargST-OyV",
 			"fillStyle": "solid",
@@ -17849,7 +17829,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1021.8913496654584,
-			"y": 338.2100082955294,
+			"y": 339.3036489628189,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 2.8951698493549283,
@@ -17859,7 +17839,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17906,8 +17886,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 386,
-			"versionNonce": 1786684678,
+			"version": 397,
+			"versionNonce": 88906851,
 			"isDeleted": false,
 			"id": "DV7i-uFB2C-yfg4BHooCF",
 			"fillStyle": "solid",
@@ -17917,7 +17897,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1018.168975262301,
-			"y": 346.0683593787457,
+			"y": 347.1620000460352,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 8.685509548064632,
@@ -17927,7 +17907,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -17962,8 +17942,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 387,
-			"versionNonce": 2112788058,
+			"version": 398,
+			"versionNonce": 950275917,
 			"isDeleted": false,
 			"id": "79JEGJ3yA_YFFfpL5oXaR",
 			"fillStyle": "solid",
@@ -17973,7 +17953,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1021.8913496654584,
-			"y": 372.12498020084826,
+			"y": 373.21862086813775,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 9.099111824965888,
@@ -17983,7 +17963,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18022,8 +18002,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 394,
-			"versionNonce": 246420550,
+			"version": 405,
+			"versionNonce": 518068227,
 			"isDeleted": false,
 			"id": "0ijf9nb07AfduSSzlXi8t",
 			"fillStyle": "solid",
@@ -18033,7 +18013,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1045.0527545492516,
-			"y": 344.8275525480418,
+			"y": 345.9211932153313,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 20.266281123392844,
@@ -18043,7 +18023,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18110,8 +18090,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 390,
-			"versionNonce": 54442778,
+			"version": 401,
+			"versionNonce": 224304557,
 			"isDeleted": false,
 			"id": "ybrIxchzG2UTKwPrL3jb0",
 			"fillStyle": "solid",
@@ -18121,7 +18101,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1065.732637949546,
-			"y": 369.22978730701624,
+			"y": 370.32342797430573,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 3.722374403157441,
@@ -18131,7 +18111,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18182,8 +18162,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 388,
-			"versionNonce": 1634835334,
+			"version": 399,
+			"versionNonce": 1940201379,
 			"isDeleted": false,
 			"id": "Wl-k7o1NmovSTHIMbQSRX",
 			"fillStyle": "solid",
@@ -18193,7 +18173,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1064.0782288419407,
-			"y": 369.64338958391755,
+			"y": 370.73703025120705,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 12.407930040176398,
@@ -18203,7 +18183,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18246,8 +18226,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 1554794458,
+			"version": 400,
+			"versionNonce": 1551392781,
 			"isDeleted": false,
 			"id": "dhOgLAPEPwWSEPeFjgbLT",
 			"fillStyle": "solid",
@@ -18257,7 +18237,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1063.251024288138,
-			"y": 382.8785011334195,
+			"y": 383.972141800709,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 17.784667461984846,
@@ -18267,7 +18247,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18314,8 +18294,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 406,
-			"versionNonce": 1224751814,
+			"version": 417,
+			"versionNonce": 231158595,
 			"isDeleted": false,
 			"id": "ForSh5xDHrEIhZs0f4fPS",
 			"fillStyle": "solid",
@@ -18325,7 +18305,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1090.962054217846,
-			"y": 372.95216171017375,
+			"y": 374.04580237746325,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 26.0566208221027,
@@ -18335,7 +18315,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18450,8 +18430,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 1917467802,
+			"version": 400,
+			"versionNonce": 2078987885,
 			"isDeleted": false,
 			"id": "W9AFs0oqkj1T_vA6tp6Gu",
 			"fillStyle": "solid",
@@ -18461,7 +18441,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1070.2821708175518,
-			"y": 370.8841733701443,
+			"y": 371.9778140374338,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
 			"width": 12.407883951222226,
@@ -18471,7 +18451,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18518,8 +18498,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 387,
-			"versionNonce": 1543041542,
+			"version": 398,
+			"versionNonce": 765842147,
 			"isDeleted": false,
 			"id": "3OIZH1e-KRSefJLnapF3b",
 			"fillStyle": "solid",
@@ -18529,7 +18509,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 922.6280476109098,
-			"y": 344.8275525480418,
+			"y": 345.9211932153313,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 18.198269738886104,
@@ -18539,7 +18519,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18578,8 +18558,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 405,
-			"versionNonce": 835426650,
+			"version": 416,
+			"versionNonce": 1182761165,
 			"isDeleted": false,
 			"id": "bsNIjVfaiWcID5w8QR0R8",
 			"fillStyle": "solid",
@@ -18589,7 +18569,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 926.3504220140671,
-			"y": 344.4139733156176,
+			"y": 345.5076139829071,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 25.64301854520129,
@@ -18599,7 +18579,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18710,8 +18690,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 389,
-			"versionNonce": 1431880006,
+			"version": 400,
+			"versionNonce": 63929987,
 			"isDeleted": false,
 			"id": "acG2i4OwBMbtgoJ-Kt5mv",
 			"fillStyle": "solid",
@@ -18721,7 +18701,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 957.3701779810767,
-			"y": 328.28369191676086,
+			"y": 329.37733258405035,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 2.8952159383094065,
@@ -18731,7 +18711,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18786,8 +18766,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 391,
-			"versionNonce": 1518558746,
+			"version": 402,
+			"versionNonce": 30400301,
 			"isDeleted": false,
 			"id": "Ipj732RscwNPw13lI2_pI",
 			"fillStyle": "solid",
@@ -18797,7 +18777,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 959.8517916424847,
-			"y": 341.1052011893614,
+			"y": 342.1988418566509,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
 			"width": 39.291709327127286,
@@ -18807,7 +18787,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fM5kbr_4i-RMPS15XLB6c",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241056,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -18869,9 +18849,231 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"pressures": []
 		},
 		{
+			"id": "7zh8T81d",
+			"type": "text",
+			"x": 609.8047463929414,
+			"y": 537.4109617504008,
+			"width": 286.97979736328125,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "fM5kbr_4i-RMPS15XLB6c",
+			"roundness": null,
+			"seed": 1293329667,
+			"version": 117,
+			"versionNonce": 1807239405,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373269844,
+			"link": null,
+			"locked": false,
+			"text": "Voltage Gain (Av): Moderate.",
+			"rawText": "Voltage Gain (Av): Moderate.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Voltage Gain (Av): Moderate.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "iIxda647",
+			"type": "text",
+			"x": 609.8047463929414,
+			"y": 572.4109617504008,
+			"width": 281.6397705078125,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "fM5kbr_4i-RMPS15XLB6c",
+			"roundness": null,
+			"seed": 819224749,
+			"version": 117,
+			"versionNonce": 1895473997,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373269844,
+			"link": null,
+			"locked": false,
+			"text": "Current Gain (Ai): Moderate.",
+			"rawText": "Current Gain (Ai): Moderate.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Current Gain (Ai): Moderate.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "ZgTp4ows",
+			"type": "text",
+			"x": 609.8047463929414,
+			"y": 607.4109617504008,
+			"width": 370.5397033691406,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "fM5kbr_4i-RMPS15XLB6c",
+			"roundness": null,
+			"seed": 1033964707,
+			"version": 117,
+			"versionNonce": 633516461,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373269844,
+			"link": null,
+			"locked": false,
+			"text": "Input Impedance (Zin): Relatively low.",
+			"rawText": "Input Impedance (Zin): Relatively low.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Input Impedance (Zin): Relatively low.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "QXG0Gp77",
+			"type": "text",
+			"x": 609.8047463929414,
+			"y": 642.4109617504008,
+			"width": 309.459716796875,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "fM5kbr_4i-RMPS15XLB6c",
+			"roundness": null,
+			"seed": 842908429,
+			"version": 117,
+			"versionNonce": 2000286733,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373269844,
+			"link": null,
+			"locked": false,
+			"text": "Output Impedance (Zout): High.",
+			"rawText": "Output Impedance (Zout): High.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Output Impedance (Zout): High.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "qamMnTTD",
+			"type": "text",
+			"x": 609.8047463929414,
+			"y": 677.4109617504008,
+			"width": 664.5394287109375,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "fM5kbr_4i-RMPS15XLB6c",
+			"roundness": null,
+			"seed": 1807581251,
+			"version": 119,
+			"versionNonce": 1901718125,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373269844,
+			"link": null,
+			"locked": false,
+			"text": "hFE Parameter: Doesn't directly represent voltage or current gain.",
+			"rawText": "hFE Parameter: Doesn't directly represent voltage or current gain.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "hFE Parameter: Doesn't directly represent voltage or current gain.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "gVPMaZBu",
+			"type": "text",
+			"x": 609.8047463929414,
+			"y": 712.4109617504008,
+			"width": 631.7994995117188,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "fM5kbr_4i-RMPS15XLB6c",
+			"roundness": null,
+			"seed": 1493948781,
+			"version": 117,
+			"versionNonce": 1693193421,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710373269844,
+			"link": null,
+			"locked": false,
+			"text": "Inversion: No inversion of voltage or current gain in the output.",
+			"rawText": "Inversion: No inversion of voltage or current gain in the output.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Inversion: No inversion of voltage or current gain in the output.",
+			"lineHeight": 1.25
+		},
+		{
 			"type": "frame",
-			"version": 554,
-			"versionNonce": 142387334,
+			"version": 572,
+			"versionNonce": 609344099,
 			"isDeleted": false,
 			"id": "fM5kbr_4i-RMPS15XLB6c",
 			"fillStyle": "solid",
@@ -18881,11 +19083,11 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 431.0658011984882,
-			"y": -32.60397916736446,
+			"y": -31.510338500074965,
 			"strokeColor": "#bbb",
 			"backgroundColor": "transparent",
 			"width": 955.4983326717327,
-			"height": 693.3488354455162,
+			"height": 821.3047935183997,
 			"seed": 770504762,
 			"groupIds": [],
 			"frameId": null,
@@ -18900,7 +19102,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815403,
+			"updated": 1710373241000,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -18914,8 +19116,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 422,
-			"versionNonce": 1231325914,
+			"version": 450,
+			"versionNonce": 619896227,
 			"isDeleted": false,
 			"id": "Y4jhrfjqVyGInhF1_beB2",
 			"fillStyle": "solid",
@@ -18924,12 +19126,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 472.3677690256594,
-			"y": -190.18901625428518,
+			"x": 454.2832434387876,
+			"y": -190.18901625428515,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 401.91612805523255,
-			"height": 139.21026209826024,
+			"width": 384.2694676284161,
+			"height": 140.30390276554965,
 			"seed": 689928742,
 			"groupIds": [],
 			"frameId": null,
@@ -18937,18 +19139,18 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815403,
+			"updated": 1710373241001,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "8HerriN2",
-				"focus": -0.3312975368577559,
-				"gap": 25.502989092110752
+				"gap": 25.502989092110752,
+				"focus": -0.3312975368577559
 			},
 			"endBinding": {
 				"elementId": "fM5kbr_4i-RMPS15XLB6c",
-				"focus": 0.6894236177892775,
-				"gap": 18.37477498866042
+				"gap": 18.37477498866042,
+				"focus": 0.6894236177892775
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -18959,15 +19161,15 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					0
 				],
 				[
-					401.91612805523255,
-					139.21026209826024
+					384.2694676284161,
+					140.30390276554965
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 425,
-			"versionNonce": 1428268998,
+			"version": 433,
+			"versionNonce": 1192533485,
 			"isDeleted": false,
 			"id": "agT3Esum",
 			"fillStyle": "solid",
@@ -18980,7 +19182,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -2355.4540747455103,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 4291.14697265625,
+			"width": 4291.15380859375,
 			"height": 744.4855523216947,
 			"seed": 547440186,
 			"groupIds": [],
@@ -19000,7 +19202,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815404,
+			"updated": 1710373221472,
 			"link": null,
 			"locked": false,
 			"fontSize": 595.5884418573557,
@@ -19012,12 +19214,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "EL GRAN BJT",
 			"lineHeight": 1.25,
-			"baseline": 525
+			"baseline": 524
 		},
 		{
 			"type": "arrow",
-			"version": 346,
-			"versionNonce": 1157767066,
+			"version": 354,
+			"versionNonce": 1484669795,
 			"isDeleted": false,
 			"id": "ueY_GM1jXMDwEOXjKcFTF",
 			"fillStyle": "solid",
@@ -19039,7 +19241,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221472,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -19068,8 +19270,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 345,
-			"versionNonce": 459587334,
+			"version": 353,
+			"versionNonce": 671373389,
 			"isDeleted": false,
 			"id": "c1Q4GkihijJdsY5PCbN-c",
 			"fillStyle": "solid",
@@ -19091,7 +19293,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221472,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -19120,8 +19322,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 587,
-			"versionNonce": 1234115674,
+			"version": 595,
+			"versionNonce": 189128451,
 			"isDeleted": false,
 			"id": "zvh6LIbiY653fzzXFAN1R",
 			"fillStyle": "solid",
@@ -19141,7 +19343,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221472,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19192,8 +19394,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 587,
-			"versionNonce": 801304134,
+			"version": 595,
+			"versionNonce": 466470573,
 			"isDeleted": false,
 			"id": "fLQOrbCx989_xWD-F7a5f",
 			"fillStyle": "solid",
@@ -19213,7 +19415,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221472,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19264,8 +19466,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 590,
-			"versionNonce": 1423868186,
+			"version": 598,
+			"versionNonce": 634980003,
 			"isDeleted": false,
 			"id": "4zJT6hSPICSgOFwvb998-",
 			"fillStyle": "solid",
@@ -19285,7 +19487,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221472,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19348,8 +19550,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 588,
-			"versionNonce": 1327052166,
+			"version": 596,
+			"versionNonce": 85616909,
 			"isDeleted": false,
 			"id": "TFj31SLIHO6aXs2PEoud8",
 			"fillStyle": "solid",
@@ -19369,7 +19571,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19424,8 +19626,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 593,
-			"versionNonce": 845368794,
+			"version": 601,
+			"versionNonce": 1055275587,
 			"isDeleted": false,
 			"id": "LZ5XfDlLhQA7YIWy61lS0",
 			"fillStyle": "solid",
@@ -19445,7 +19647,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19520,8 +19722,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 589,
-			"versionNonce": 312775878,
+			"version": 597,
+			"versionNonce": 895729517,
 			"isDeleted": false,
 			"id": "9OTSzQPf1V7ME3CU5xmmH",
 			"fillStyle": "solid",
@@ -19541,7 +19743,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19600,8 +19802,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 589,
-			"versionNonce": 1194361498,
+			"version": 597,
+			"versionNonce": 323746275,
 			"isDeleted": false,
 			"id": "o6NX2FBumt9uyJh74tr-Z",
 			"fillStyle": "solid",
@@ -19621,7 +19823,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19680,8 +19882,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 615,
-			"versionNonce": 1677855750,
+			"version": 623,
+			"versionNonce": 317934029,
 			"isDeleted": false,
 			"id": "ArKArALP3fiBOplGLXi6M",
 			"fillStyle": "solid",
@@ -19701,7 +19903,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19864,8 +20066,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 593,
-			"versionNonce": 1576607578,
+			"version": 601,
+			"versionNonce": 1075365251,
 			"isDeleted": false,
 			"id": "BkKtcUG_fOPe-ktpUTI2E",
 			"fillStyle": "solid",
@@ -19885,7 +20087,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -19960,8 +20162,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 592,
-			"versionNonce": 1898879814,
+			"version": 600,
+			"versionNonce": 2128775213,
 			"isDeleted": false,
 			"id": "gkRn4RoVYbo7O7hFNEbd4",
 			"fillStyle": "solid",
@@ -19981,7 +20183,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -20052,8 +20254,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 584,
-			"versionNonce": 1930437658,
+			"version": 592,
+			"versionNonce": 1015749923,
 			"isDeleted": false,
 			"id": "LF1WzdzOtkbPHE-8klofK",
 			"fillStyle": "solid",
@@ -20073,7 +20275,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -20112,8 +20314,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 584,
-			"versionNonce": 545735302,
+			"version": 592,
+			"versionNonce": 2065365645,
 			"isDeleted": false,
 			"id": "e7_SP12eA8jBpG3NAyJ28",
 			"fillStyle": "solid",
@@ -20133,7 +20335,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -20172,8 +20374,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 609,
-			"versionNonce": 6852826,
+			"version": 617,
+			"versionNonce": 336691395,
 			"isDeleted": false,
 			"id": "ZG17FVFJ_w2ClY_VFXGKf",
 			"fillStyle": "solid",
@@ -20193,7 +20395,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -20380,8 +20582,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 603,
-			"versionNonce": 80282054,
+			"version": 611,
+			"versionNonce": 274079981,
 			"isDeleted": false,
 			"id": "h5IxunsKEV_5K80yKapKl",
 			"fillStyle": "solid",
@@ -20401,7 +20603,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -20564,8 +20766,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 576,
-			"versionNonce": 1234527642,
+			"version": 584,
+			"versionNonce": 1615491171,
 			"isDeleted": false,
 			"id": "MrLEv-16Phm6vlFzwGl7S",
 			"fillStyle": "solid",
@@ -20585,7 +20787,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -20640,8 +20842,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 585,
-			"versionNonce": 1360058630,
+			"version": 593,
+			"versionNonce": 1948089165,
 			"isDeleted": false,
 			"id": "80BRktLRklFTW3Ng9YzYz",
 			"fillStyle": "solid",
@@ -20661,7 +20863,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -20752,8 +20954,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 661,
-			"versionNonce": 667525722,
+			"version": 669,
+			"versionNonce": 50621443,
 			"isDeleted": false,
 			"id": "XbY7myChZiKnupPBbOWvp",
 			"fillStyle": "solid",
@@ -20773,7 +20975,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815404,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21168,8 +21370,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 575,
-			"versionNonce": 248442566,
+			"version": 583,
+			"versionNonce": 1858767277,
 			"isDeleted": false,
 			"id": "tk46at0oH8L6h-g2jHFRV",
 			"fillStyle": "solid",
@@ -21189,7 +21391,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21248,8 +21450,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 584,
-			"versionNonce": 1022412954,
+			"version": 592,
+			"versionNonce": 540930979,
 			"isDeleted": false,
 			"id": "WBcw0ohmXsQ4LXGBVmCXG",
 			"fillStyle": "solid",
@@ -21269,7 +21471,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21364,8 +21566,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 587,
-			"versionNonce": 1573987846,
+			"version": 595,
+			"versionNonce": 25611277,
 			"isDeleted": false,
 			"id": "kCiC7ffxDjq-PUYKsTYrp",
 			"fillStyle": "solid",
@@ -21385,7 +21587,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21492,8 +21694,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 577,
-			"versionNonce": 2143331674,
+			"version": 585,
+			"versionNonce": 1478854467,
 			"isDeleted": false,
 			"id": "uNGolN9q41vvF_tafkU2r",
 			"fillStyle": "solid",
@@ -21513,7 +21715,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21580,8 +21782,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 570,
-			"versionNonce": 1443525958,
+			"version": 578,
+			"versionNonce": 1280033389,
 			"isDeleted": false,
 			"id": "hiax3WkrUgcOs6cSwd2wu",
 			"fillStyle": "solid",
@@ -21601,7 +21803,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21640,8 +21842,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 570,
-			"versionNonce": 1039591962,
+			"version": 578,
+			"versionNonce": 1092200163,
 			"isDeleted": false,
 			"id": "_F-APOrXKO0j-A66HpfAk",
 			"fillStyle": "solid",
@@ -21661,7 +21863,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21700,8 +21902,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 601,
-			"versionNonce": 1893194886,
+			"version": 609,
+			"versionNonce": 870509773,
 			"isDeleted": false,
 			"id": "dA7Kz3wcFw8uAmksv1jrY",
 			"fillStyle": "solid",
@@ -21721,7 +21923,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -21884,8 +22086,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 586,
-			"versionNonce": 243701466,
+			"version": 594,
+			"versionNonce": 564712067,
 			"isDeleted": false,
 			"id": "CcPF2-wQ1wVv97O2MKHbv",
 			"fillStyle": "solid",
@@ -21905,7 +22107,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22008,8 +22210,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 576,
-			"versionNonce": 1945525190,
+			"version": 584,
+			"versionNonce": 1206242093,
 			"isDeleted": false,
 			"id": "cFGSeWP2pdyspzmOg96Ph",
 			"fillStyle": "solid",
@@ -22029,7 +22231,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22092,8 +22294,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 597,
-			"versionNonce": 839035802,
+			"version": 605,
+			"versionNonce": 1787922979,
 			"isDeleted": false,
 			"id": "d5d9HGxuSNhsa9GTZM1Ho",
 			"fillStyle": "solid",
@@ -22113,7 +22315,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22212,8 +22414,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 597,
-			"versionNonce": 1703080710,
+			"version": 605,
+			"versionNonce": 1757273485,
 			"isDeleted": false,
 			"id": "lz9NLeOFDrrXpuY4bQvpt",
 			"fillStyle": "solid",
@@ -22233,7 +22435,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22332,8 +22534,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 613,
-			"versionNonce": 1587423322,
+			"version": 621,
+			"versionNonce": 1891782083,
 			"isDeleted": false,
 			"id": "rgf0QvytPGCIzKl9ESs_I",
 			"fillStyle": "solid",
@@ -22353,7 +22555,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815405,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22464,8 +22666,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 47347226,
+			"version": 168,
+			"versionNonce": 765764589,
 			"isDeleted": false,
 			"id": "Z6NjKWjg-_1g8jTENgrOB",
 			"fillStyle": "solid",
@@ -22485,7 +22687,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815406,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22660,8 +22862,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 137,
-			"versionNonce": 575344774,
+			"version": 145,
+			"versionNonce": 1733926243,
 			"isDeleted": false,
 			"id": "URkToIvyAPe0IGsdv4kPo",
 			"fillStyle": "solid",
@@ -22681,7 +22883,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815406,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22764,8 +22966,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 1209049818,
+			"version": 168,
+			"versionNonce": 178495053,
 			"isDeleted": false,
 			"id": "5Y1hGSK3_MRdlpr_j3ZMS",
 			"fillStyle": "solid",
@@ -22785,7 +22987,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815406,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -22960,8 +23162,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 2028146630,
+			"version": 139,
+			"versionNonce": 430307587,
 			"isDeleted": false,
 			"id": "sBhy4VHWxPQ_aoMgFV6A8",
 			"fillStyle": "solid",
@@ -22981,7 +23183,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815406,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23040,8 +23242,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 127,
-			"versionNonce": 1181431706,
+			"version": 135,
+			"versionNonce": 915688621,
 			"isDeleted": false,
 			"id": "lxLOxsbXzLIumsKGR877N",
 			"fillStyle": "solid",
@@ -23061,7 +23263,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815406,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23104,8 +23306,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 128,
-			"versionNonce": 314124038,
+			"version": 136,
+			"versionNonce": 1696981155,
 			"isDeleted": false,
 			"id": "PXO8qUuo-PhsLfT6sB9ze",
 			"fillStyle": "solid",
@@ -23125,7 +23327,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815406,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23172,8 +23374,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 152,
-			"versionNonce": 1846883418,
+			"version": 160,
+			"versionNonce": 1361063693,
 			"isDeleted": false,
 			"id": "yK9gpEaR",
 			"fillStyle": "solid",
@@ -23186,14 +23388,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -253.8494486201957,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 182.0582733154297,
+			"width": 182.13519287109375,
 			"height": 40.839341547998124,
 			"seed": 575324422,
 			"groupIds": [],
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815406,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"fontSize": 32.6714732383985,
@@ -23209,8 +23411,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 128,
-			"versionNonce": 273307206,
+			"version": 136,
+			"versionNonce": 1938281539,
 			"isDeleted": false,
 			"id": "-wzsIbGha049qd9mYDmyv",
 			"fillStyle": "solid",
@@ -23230,7 +23432,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23393,8 +23595,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 101,
-			"versionNonce": 820091162,
+			"version": 109,
+			"versionNonce": 1220593005,
 			"isDeleted": false,
 			"id": "TN0FF6GxgHVo_Iei6DUd0",
 			"fillStyle": "solid",
@@ -23414,7 +23616,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23469,8 +23671,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 95,
-			"versionNonce": 2054397318,
+			"version": 103,
+			"versionNonce": 883577827,
 			"isDeleted": false,
 			"id": "phiLHhcxdlFLlDbDvpPMl",
 			"fillStyle": "solid",
@@ -23490,7 +23692,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23529,8 +23731,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 95,
-			"versionNonce": 1313039834,
+			"version": 103,
+			"versionNonce": 12554189,
 			"isDeleted": false,
 			"id": "SblCFatHnp3jFzIdKBMqk",
 			"fillStyle": "solid",
@@ -23550,7 +23752,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23589,8 +23791,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 58,
-			"versionNonce": 1052902214,
+			"version": 66,
+			"versionNonce": 412868483,
 			"isDeleted": false,
 			"id": "HnRAoSQMQokJ45M2z1Ige",
 			"fillStyle": "solid",
@@ -23610,7 +23812,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23761,8 +23963,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 35,
-			"versionNonce": 147274778,
+			"version": 43,
+			"versionNonce": 926289453,
 			"isDeleted": false,
 			"id": "W3jUsvtcJkRbt5Tv9TQm2",
 			"fillStyle": "solid",
@@ -23782,7 +23984,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23841,8 +24043,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 31,
-			"versionNonce": 929933958,
+			"version": 39,
+			"versionNonce": 161150755,
 			"isDeleted": false,
 			"id": "udUr8wfftVXjTFXnqbza3",
 			"fillStyle": "solid",
@@ -23862,7 +24064,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23905,8 +24107,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 30,
-			"versionNonce": 2138876122,
+			"version": 38,
+			"versionNonce": 722321549,
 			"isDeleted": false,
 			"id": "jBuCKm2gzjFb_Mh12My_7",
 			"fillStyle": "solid",
@@ -23926,7 +24128,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -23965,8 +24167,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 30,
-			"versionNonce": 1117940166,
+			"version": 38,
+			"versionNonce": 638982851,
 			"isDeleted": false,
 			"id": "LKsjN9mall602TU_LxPpe",
 			"fillStyle": "solid",
@@ -23986,7 +24188,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24025,8 +24227,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 32,
-			"versionNonce": 2120646042,
+			"version": 40,
+			"versionNonce": 33564397,
 			"isDeleted": false,
 			"id": "3HM66LTX_RT36CTZtNEol",
 			"fillStyle": "solid",
@@ -24046,7 +24248,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24093,8 +24295,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 47,
-			"versionNonce": 1602044166,
+			"version": 55,
+			"versionNonce": 984336995,
 			"isDeleted": false,
 			"id": "CUJLaH4lRjsEu5BNj8oGQ",
 			"fillStyle": "solid",
@@ -24114,7 +24316,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24225,8 +24427,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 32,
-			"versionNonce": 1387772506,
+			"version": 40,
+			"versionNonce": 1855373645,
 			"isDeleted": false,
 			"id": "ki0D_FdVMTaV2wzvNFAMu",
 			"fillStyle": "solid",
@@ -24246,7 +24448,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24297,8 +24499,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 59,
-			"versionNonce": 561721414,
+			"version": 67,
+			"versionNonce": 2083161603,
 			"isDeleted": false,
 			"id": "mHghUuv_UO6xNBYTBUB-d",
 			"fillStyle": "solid",
@@ -24318,7 +24520,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24477,8 +24679,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 56,
-			"versionNonce": 725835546,
+			"version": 64,
+			"versionNonce": 371920813,
 			"isDeleted": false,
 			"id": "HTHY7jXWdrDiUR_0xMMOL",
 			"fillStyle": "solid",
@@ -24498,7 +24700,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24645,8 +24847,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 48,
-			"versionNonce": 611923846,
+			"version": 56,
+			"versionNonce": 26267043,
 			"isDeleted": false,
 			"id": "mtk-fNmFL1D9qilOkGqXQ",
 			"fillStyle": "solid",
@@ -24666,7 +24868,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815407,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24785,8 +24987,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 28,
-			"versionNonce": 1685875674,
+			"version": 36,
+			"versionNonce": 921080333,
 			"isDeleted": false,
 			"id": "wPu7GQJpwW_xCPKSSUoqI",
 			"fillStyle": "solid",
@@ -24806,7 +25008,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24845,8 +25047,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 31,
-			"versionNonce": 11818694,
+			"version": 39,
+			"versionNonce": 2114789699,
 			"isDeleted": false,
 			"id": "65EU-oTlIHdowE3C4SKJE",
 			"fillStyle": "solid",
@@ -24866,7 +25068,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -24917,8 +25119,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 65,
-			"versionNonce": 1417011354,
+			"version": 73,
+			"versionNonce": 230869101,
 			"isDeleted": false,
 			"id": "Jq8Ihf037qz6CTNF6DJBc",
 			"fillStyle": "solid",
@@ -24938,7 +25140,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -25125,8 +25327,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 34,
-			"versionNonce": 1053396486,
+			"version": 42,
+			"versionNonce": 989724899,
 			"isDeleted": false,
 			"id": "GjCglfVbqf2QbSBfzGo39",
 			"fillStyle": "solid",
@@ -25146,7 +25348,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -25209,8 +25411,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 65,
-			"versionNonce": 383958362,
+			"version": 73,
+			"versionNonce": 2089366221,
 			"isDeleted": false,
 			"id": "PtJQ7ztmKiK-ZUOxRkRvA",
 			"fillStyle": "solid",
@@ -25230,7 +25432,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -25417,8 +25619,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 30,
-			"versionNonce": 1270209862,
+			"version": 38,
+			"versionNonce": 1374809219,
 			"isDeleted": false,
 			"id": "NN8bW-wSBpU6vOa6yuLTH",
 			"fillStyle": "solid",
@@ -25438,7 +25640,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -25485,8 +25687,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 30,
-			"versionNonce": 1494614554,
+			"version": 38,
+			"versionNonce": 1876119853,
 			"isDeleted": false,
 			"id": "AptyKqqctvs2Bws9J1hKz",
 			"fillStyle": "solid",
@@ -25506,7 +25708,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221473,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -25553,8 +25755,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 46,
-			"versionNonce": 1825981574,
+			"version": 54,
+			"versionNonce": 648504355,
 			"isDeleted": false,
 			"id": "KGFUX9M7j_jRK48gP9XBv",
 			"fillStyle": "solid",
@@ -25574,7 +25776,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -25689,8 +25891,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 52,
-			"versionNonce": 637710042,
+			"version": 60,
+			"versionNonce": 84583309,
 			"isDeleted": false,
 			"id": "EjRBfJ1eAmWX_sYOaliEU",
 			"fillStyle": "solid",
@@ -25710,7 +25912,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -25857,8 +26059,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 51,
-			"versionNonce": 870826950,
+			"version": 59,
+			"versionNonce": 554493891,
 			"isDeleted": false,
 			"id": "1IEZuNY7vcTBvOqyaYotY",
 			"fillStyle": "solid",
@@ -25878,7 +26080,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26033,8 +26235,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 24,
-			"versionNonce": 842777498,
+			"version": 32,
+			"versionNonce": 1885907437,
 			"isDeleted": false,
 			"id": "87y3nGAlnIneaErWQA3VT",
 			"fillStyle": "solid",
@@ -26054,7 +26256,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26101,8 +26303,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 24,
-			"versionNonce": 1929861894,
+			"version": 32,
+			"versionNonce": 658569059,
 			"isDeleted": false,
 			"id": "HxoRL3544das8qSQCYp9p",
 			"fillStyle": "solid",
@@ -26122,7 +26324,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26169,8 +26371,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 26,
-			"versionNonce": 670318682,
+			"version": 34,
+			"versionNonce": 586605645,
 			"isDeleted": false,
 			"id": "48W4IIKf8oly1FtW7fEAy",
 			"fillStyle": "solid",
@@ -26190,7 +26392,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26245,8 +26447,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 26,
-			"versionNonce": 816974406,
+			"version": 34,
+			"versionNonce": 1469190915,
 			"isDeleted": false,
 			"id": "RMJNN8L-WwAxlC3O9-XoS",
 			"fillStyle": "solid",
@@ -26266,7 +26468,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26321,8 +26523,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 23,
-			"versionNonce": 1929323802,
+			"version": 31,
+			"versionNonce": 814666413,
 			"isDeleted": false,
 			"id": "8PD_7NwYTxawQXpOseS4Z",
 			"fillStyle": "solid",
@@ -26342,7 +26544,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26385,8 +26587,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 29,
-			"versionNonce": 465883526,
+			"version": 37,
+			"versionNonce": 41859747,
 			"isDeleted": false,
 			"id": "X4a0j_hbZE8C_Cxl4XZse",
 			"fillStyle": "solid",
@@ -26406,7 +26608,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26477,8 +26679,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 43,
-			"versionNonce": 214921690,
+			"version": 51,
+			"versionNonce": 1977218317,
 			"isDeleted": false,
 			"id": "W2d0dWCTEr6033LFkWX_7",
 			"fillStyle": "solid",
@@ -26498,7 +26700,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26625,8 +26827,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 30,
-			"versionNonce": 2138878150,
+			"version": 38,
+			"versionNonce": 1689611843,
 			"isDeleted": false,
 			"id": "JoMt94VsRzAr12aYuSFWh",
 			"fillStyle": "solid",
@@ -26646,7 +26848,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26721,8 +26923,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 26,
-			"versionNonce": 1215833754,
+			"version": 34,
+			"versionNonce": 2119289709,
 			"isDeleted": false,
 			"id": "kWnYVcqOUIDOKl7Dod8-W",
 			"fillStyle": "solid",
@@ -26742,7 +26944,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26801,8 +27003,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 31,
-			"versionNonce": 930523142,
+			"version": 39,
+			"versionNonce": 555003363,
 			"isDeleted": false,
 			"id": "NDmFItJrloAzRbpHHQL3D",
 			"fillStyle": "solid",
@@ -26822,7 +27024,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -26901,8 +27103,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 31,
-			"versionNonce": 514605914,
+			"version": 39,
+			"versionNonce": 708826573,
 			"isDeleted": false,
 			"id": "Yv58eDUkvmATJiYTLms8K",
 			"fillStyle": "solid",
@@ -26922,7 +27124,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27001,8 +27203,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 28,
-			"versionNonce": 598718278,
+			"version": 36,
+			"versionNonce": 2058025347,
 			"isDeleted": false,
 			"id": "tawmr8V4VRNdFGZlL4MiY",
 			"fillStyle": "solid",
@@ -27022,7 +27224,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27089,8 +27291,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 23,
-			"versionNonce": 2042546202,
+			"version": 31,
+			"versionNonce": 347968557,
 			"isDeleted": false,
 			"id": "OgYMKrR-LSAW853NukW44",
 			"fillStyle": "solid",
@@ -27110,7 +27312,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27157,8 +27359,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 134,
-			"versionNonce": 478469766,
+			"version": 142,
+			"versionNonce": 1320603939,
 			"isDeleted": false,
 			"id": "5AJS2H-5csIwjMz_RZivl",
 			"fillStyle": "solid",
@@ -27178,7 +27380,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27297,8 +27499,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 117,
-			"versionNonce": 27440346,
+			"version": 125,
+			"versionNonce": 968132237,
 			"isDeleted": false,
 			"id": "9L2X_zZVjdi8Fcxh1_kXs",
 			"fillStyle": "solid",
@@ -27318,7 +27520,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27369,8 +27571,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 117,
-			"versionNonce": 1723014598,
+			"version": 125,
+			"versionNonce": 1319548099,
 			"isDeleted": false,
 			"id": "IOWyy-R-1PPe8J7gtnIgx",
 			"fillStyle": "solid",
@@ -27390,7 +27592,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27441,8 +27643,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 115,
-			"versionNonce": 1743456666,
+			"version": 123,
+			"versionNonce": 1541287149,
 			"isDeleted": false,
 			"id": "-TIS4V9ZU3koUqAxAjLo_",
 			"fillStyle": "solid",
@@ -27462,7 +27664,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815408,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27505,8 +27707,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 121,
-			"versionNonce": 660043014,
+			"version": 129,
+			"versionNonce": 2048468067,
 			"isDeleted": false,
 			"id": "g__A_LQm88F_BQmnlbUmU",
 			"fillStyle": "solid",
@@ -27526,7 +27728,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27593,8 +27795,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 115,
-			"versionNonce": 868927066,
+			"version": 123,
+			"versionNonce": 717489997,
 			"isDeleted": false,
 			"id": "fPRChxA7zi4_fZ6N4kIeQ",
 			"fillStyle": "solid",
@@ -27614,7 +27816,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27657,8 +27859,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 116,
-			"versionNonce": 1475273798,
+			"version": 124,
+			"versionNonce": 1490853891,
 			"isDeleted": false,
 			"id": "HcuSHKbvVIkF9frbgh5TP",
 			"fillStyle": "solid",
@@ -27678,7 +27880,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27725,8 +27927,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 29,
-			"versionNonce": 236251930,
+			"version": 37,
+			"versionNonce": 683644333,
 			"isDeleted": false,
 			"id": "75Ka9PVorm-0tBkr12JID",
 			"fillStyle": "solid",
@@ -27746,7 +27948,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27821,8 +28023,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 46,
-			"versionNonce": 978742150,
+			"version": 54,
+			"versionNonce": 1961863075,
 			"isDeleted": false,
 			"id": "Xzn2nrC7aUGUULfLmIFQK",
 			"fillStyle": "solid",
@@ -27842,7 +28044,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -27985,8 +28187,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 50,
-			"versionNonce": 222066650,
+			"version": 58,
+			"versionNonce": 1358583821,
 			"isDeleted": false,
 			"id": "PPK6GnN4wPqYMUaJ0awCS",
 			"fillStyle": "solid",
@@ -28006,7 +28208,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -28165,8 +28367,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 32,
-			"versionNonce": 1288374982,
+			"version": 40,
+			"versionNonce": 343980867,
 			"isDeleted": false,
 			"id": "wRbcM4J-N1u6FimDUUB_7",
 			"fillStyle": "solid",
@@ -28186,7 +28388,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -28273,8 +28475,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 55,
-			"versionNonce": 22310042,
+			"version": 63,
+			"versionNonce": 2104348269,
 			"isDeleted": false,
 			"id": "COPZf9kQV-Cm-KgC7bd6L",
 			"fillStyle": "solid",
@@ -28294,7 +28496,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -28473,8 +28675,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 25,
-			"versionNonce": 1038729734,
+			"version": 33,
+			"versionNonce": 871258851,
 			"isDeleted": false,
 			"id": "NVPbx32RKSC2M8lcDuPMR",
 			"fillStyle": "solid",
@@ -28494,7 +28696,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -28553,8 +28755,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 21,
-			"versionNonce": 1074776410,
+			"version": 29,
+			"versionNonce": 216234189,
 			"isDeleted": false,
 			"id": "RQvTPrCSBIDpZKrtcT1wn",
 			"fillStyle": "solid",
@@ -28574,7 +28776,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -28617,8 +28819,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 20,
-			"versionNonce": 1622118726,
+			"version": 28,
+			"versionNonce": 1070007939,
 			"isDeleted": false,
 			"id": "1hYS56NeC_fmGH0vn4hs9",
 			"fillStyle": "solid",
@@ -28638,7 +28840,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "EMryfNRN1PfjZfXzXNfex",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -28677,8 +28879,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "frame",
-			"version": 603,
-			"versionNonce": 1891733018,
+			"version": 611,
+			"versionNonce": 1224005421,
 			"isDeleted": false,
 			"id": "EMryfNRN1PfjZfXzXNfex",
 			"fillStyle": "solid",
@@ -28703,7 +28905,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -28717,8 +28919,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 560,
-			"versionNonce": 544831622,
+			"version": 568,
+			"versionNonce": 248069667,
 			"isDeleted": false,
 			"id": "tffpRcdpJeEZaGz4PKlVY",
 			"fillStyle": "solid",
@@ -28740,7 +28942,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -28765,8 +28967,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 693,
-			"versionNonce": 1482472154,
+			"version": 701,
+			"versionNonce": 202074509,
 			"isDeleted": false,
 			"id": "IlspoMm3",
 			"fillStyle": "solid",
@@ -28779,7 +28981,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 650.8235618734864,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1565.0076904296875,
+			"width": 1565.0506591796875,
 			"height": 199.40561217708822,
 			"seed": 2124243238,
 			"groupIds": [],
@@ -28803,7 +29005,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"fontSize": 159.52448974167058,
@@ -28819,8 +29021,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 1408,
-			"versionNonce": 1963227078,
+			"version": 1416,
+			"versionNonce": 467894723,
 			"isDeleted": false,
 			"id": "OuwhGHsAv-0b45_ve8KOd",
 			"fillStyle": "solid",
@@ -28842,7 +29044,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -28871,8 +29073,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 1202,
-			"versionNonce": 628379546,
+			"version": 1210,
+			"versionNonce": 660647917,
 			"isDeleted": false,
 			"id": "P9WfmiznM1ngQU4ZCDHol",
 			"fillStyle": "solid",
@@ -28894,7 +29096,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -28923,8 +29125,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 698,
-			"versionNonce": 1450020614,
+			"version": 706,
+			"versionNonce": 3428707,
 			"isDeleted": false,
 			"id": "l6pTvxaY",
 			"fillStyle": "solid",
@@ -28937,7 +29139,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -550.0701245319451,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1377.098388671875,
+			"width": 1377.13623046875,
 			"height": 199.40561217708822,
 			"seed": 1054534374,
 			"groupIds": [],
@@ -28949,7 +29151,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"fontSize": 159.52448974167058,
@@ -28965,8 +29167,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 1009,
-			"versionNonce": 1010519130,
+			"version": 1017,
+			"versionNonce": 150874701,
 			"isDeleted": false,
 			"id": "OfFLCuTu",
 			"fillStyle": "solid",
@@ -28979,14 +29181,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 1246.4800975550372,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 339.42047119140625,
+			"width": 339.44012451171875,
 			"height": 54.311172368480094,
 			"seed": 2135465510,
 			"groupIds": [],
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"fontSize": 43.44893789478407,
@@ -28998,12 +29200,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "FUENTE-COMúN",
 			"lineHeight": 1.25,
-			"baseline": 37
+			"baseline": 38
 		},
 		{
 			"type": "text",
-			"version": 281,
-			"versionNonce": 825343558,
+			"version": 289,
+			"versionNonce": 755641603,
 			"isDeleted": false,
 			"id": "tCVeAGDR",
 			"fillStyle": "solid",
@@ -29016,14 +29218,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 1480.1299846680947,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 350.46136474609375,
+			"width": 350.60198974609375,
 			"height": 43.033672344365655,
 			"seed": 467669082,
 			"groupIds": [],
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"fontSize": 34.42693787549253,
@@ -29039,8 +29241,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 178,
-			"versionNonce": 42250522,
+			"version": 186,
+			"versionNonce": 566057133,
 			"isDeleted": false,
 			"id": "KCjXzJtbfcE1bfVwhdO4F",
 			"fillStyle": "solid",
@@ -29060,7 +29262,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29143,8 +29345,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 177,
-			"versionNonce": 1512965510,
+			"version": 185,
+			"versionNonce": 1709413539,
 			"isDeleted": false,
 			"id": "IDxa1h9oRds1fw6aH5M1P",
 			"fillStyle": "solid",
@@ -29164,7 +29366,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29243,8 +29445,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 734232026,
+			"version": 172,
+			"versionNonce": 189250317,
 			"isDeleted": false,
 			"id": "f48BPfc0XCZtvM9N6fxIs",
 			"fillStyle": "solid",
@@ -29264,7 +29466,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29311,8 +29513,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 44000454,
+			"version": 172,
+			"versionNonce": 2054096963,
 			"isDeleted": false,
 			"id": "43ikQ2uLdsXZpRpBLbPss",
 			"fillStyle": "solid",
@@ -29332,7 +29534,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29379,8 +29581,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 84587162,
+			"version": 173,
+			"versionNonce": 1846989165,
 			"isDeleted": false,
 			"id": "DUudGT--thcEF1JBPG3F9",
 			"fillStyle": "solid",
@@ -29400,7 +29602,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29451,8 +29653,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 166,
-			"versionNonce": 740482054,
+			"version": 174,
+			"versionNonce": 1082853347,
 			"isDeleted": false,
 			"id": "gXaTAA6oZSWcjEH7yhZKJ",
 			"fillStyle": "solid",
@@ -29472,7 +29674,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815409,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29527,8 +29729,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 1091391322,
+			"version": 173,
+			"versionNonce": 661920717,
 			"isDeleted": false,
 			"id": "kDHoUMjn5CVpHq3tPO0Ea",
 			"fillStyle": "solid",
@@ -29548,7 +29750,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29599,8 +29801,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 163,
-			"versionNonce": 481651526,
+			"version": 171,
+			"versionNonce": 1313215363,
 			"isDeleted": false,
 			"id": "CjeOpZ-QfqPDAO4mkjx7Y",
 			"fillStyle": "solid",
@@ -29620,7 +29822,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29663,8 +29865,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 163,
-			"versionNonce": 1142838298,
+			"version": 171,
+			"versionNonce": 796465709,
 			"isDeleted": false,
 			"id": "m95PR2EboKWZBUv40rgPS",
 			"fillStyle": "solid",
@@ -29684,7 +29886,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29727,8 +29929,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 1387532934,
+			"version": 172,
+			"versionNonce": 1943972643,
 			"isDeleted": false,
 			"id": "bKBipQMg3kNBel1qD53YS",
 			"fillStyle": "solid",
@@ -29748,7 +29950,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29795,8 +29997,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1882243290,
+			"version": 166,
+			"versionNonce": 1057967245,
 			"isDeleted": false,
 			"id": "u7LCUAt3Kn7eDQ1LR2jnP",
 			"fillStyle": "solid",
@@ -29816,7 +30018,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29903,8 +30105,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 2027672006,
+			"version": 173,
+			"versionNonce": 1975733955,
 			"isDeleted": false,
 			"id": "l04-BOVOweCjSDZvGuj-Y",
 			"fillStyle": "solid",
@@ -29924,7 +30126,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -29975,8 +30177,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 1893176730,
+			"version": 172,
+			"versionNonce": 904934125,
 			"isDeleted": false,
 			"id": "hXm1Dyae___yv3CupqX69",
 			"fillStyle": "solid",
@@ -29996,7 +30198,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30043,8 +30245,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 1514776838,
+			"version": 172,
+			"versionNonce": 110263907,
 			"isDeleted": false,
 			"id": "sm9HJWVcxaz2xW5grkPIr",
 			"fillStyle": "solid",
@@ -30064,7 +30266,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221474,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30111,8 +30313,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 178,
-			"versionNonce": 122016346,
+			"version": 186,
+			"versionNonce": 1084575053,
 			"isDeleted": false,
 			"id": "dp6tUM6hSNfhp0coSBMyB",
 			"fillStyle": "solid",
@@ -30132,7 +30334,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30235,8 +30437,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 168,
-			"versionNonce": 1450874950,
+			"version": 176,
+			"versionNonce": 18528771,
 			"isDeleted": false,
 			"id": "ZvEHKITt_X__e1DkuIlu_",
 			"fillStyle": "solid",
@@ -30256,7 +30458,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30319,8 +30521,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 167,
-			"versionNonce": 1447982874,
+			"version": 175,
+			"versionNonce": 1049107373,
 			"isDeleted": false,
 			"id": "gTtXvJiQ0y-FzTXr6ZLXN",
 			"fillStyle": "solid",
@@ -30340,7 +30542,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30399,8 +30601,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 1431019398,
+			"version": 173,
+			"versionNonce": 1650098595,
 			"isDeleted": false,
 			"id": "f3Blzc17-_rGUQkbOvdmI",
 			"fillStyle": "solid",
@@ -30420,7 +30622,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30471,8 +30673,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 167,
-			"versionNonce": 778339290,
+			"version": 175,
+			"versionNonce": 1740774925,
 			"isDeleted": false,
 			"id": "azA2YGp_HrB81nBn-KcLW",
 			"fillStyle": "solid",
@@ -30492,7 +30694,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30551,8 +30753,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 223,
-			"versionNonce": 989445830,
+			"version": 231,
+			"versionNonce": 58742083,
 			"isDeleted": false,
 			"id": "OfivqO9NEzOyCSBaE_-vW",
 			"fillStyle": "solid",
@@ -30572,7 +30774,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30855,8 +31057,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 1503328410,
+			"version": 172,
+			"versionNonce": 860673133,
 			"isDeleted": false,
 			"id": "DvjosSYtJnGTA-P_cda0f",
 			"fillStyle": "solid",
@@ -30876,7 +31078,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30923,8 +31125,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 163,
-			"versionNonce": 1545729542,
+			"version": 171,
+			"versionNonce": 334148835,
 			"isDeleted": false,
 			"id": "JKs5U1LWUE5uDO9ENOdfH",
 			"fillStyle": "solid",
@@ -30944,7 +31146,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -30987,8 +31189,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 1738855770,
+			"version": 172,
+			"versionNonce": 2096217805,
 			"isDeleted": false,
 			"id": "zftMltxbB0gGNIMA7SXlg",
 			"fillStyle": "solid",
@@ -31008,7 +31210,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31055,8 +31257,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 1908491590,
+			"version": 173,
+			"versionNonce": 1395138691,
 			"isDeleted": false,
 			"id": "F7Aq4fF0cQpyMBDfLkHKL",
 			"fillStyle": "solid",
@@ -31076,7 +31278,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31127,8 +31329,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 168,
-			"versionNonce": 2044008986,
+			"version": 176,
+			"versionNonce": 1800035629,
 			"isDeleted": false,
 			"id": "OvXoN3zUoIak_S52c8w7-",
 			"fillStyle": "solid",
@@ -31148,7 +31350,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31211,8 +31413,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 166,
-			"versionNonce": 221555846,
+			"version": 174,
+			"versionNonce": 183965731,
 			"isDeleted": false,
 			"id": "JNrH1CxP2r5IHa5BBveso",
 			"fillStyle": "solid",
@@ -31232,7 +31434,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31287,8 +31489,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 162,
-			"versionNonce": 253675226,
+			"version": 170,
+			"versionNonce": 364916621,
 			"isDeleted": false,
 			"id": "IMMlfhhJ0hAq2oDKOmNNU",
 			"fillStyle": "solid",
@@ -31308,7 +31510,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31387,8 +31589,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 205073350,
+			"version": 168,
+			"versionNonce": 1229331395,
 			"isDeleted": false,
 			"id": "raOeCPwUImu8U9rY0s-Sy",
 			"fillStyle": "solid",
@@ -31408,7 +31610,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31479,8 +31681,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 1343544218,
+			"version": 163,
+			"versionNonce": 1787606509,
 			"isDeleted": false,
 			"id": "LPZsAuEtLuXJ0ngQ16yjr",
 			"fillStyle": "solid",
@@ -31500,7 +31702,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31551,8 +31753,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 174,
-			"versionNonce": 216777478,
+			"version": 182,
+			"versionNonce": 1513335651,
 			"isDeleted": false,
 			"id": "FPY5t0w97_VY7zmsFkAuL",
 			"fillStyle": "solid",
@@ -31572,7 +31774,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31699,8 +31901,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 1525307482,
+			"version": 167,
+			"versionNonce": 1421439053,
 			"isDeleted": false,
 			"id": "wNQIvmXAtBuucGcvvSxsF",
 			"fillStyle": "solid",
@@ -31720,7 +31922,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815410,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31787,8 +31989,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 172,
-			"versionNonce": 1640591942,
+			"version": 180,
+			"versionNonce": 34490115,
 			"isDeleted": false,
 			"id": "PIHMXBAkGOwfrly56Fgz2",
 			"fillStyle": "solid",
@@ -31808,7 +32010,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31931,8 +32133,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 259144986,
+			"version": 160,
+			"versionNonce": 572513965,
 			"isDeleted": false,
 			"id": "zHVdK0J6FOTpXddM76I6Y",
 			"fillStyle": "solid",
@@ -31952,7 +32154,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -31995,8 +32197,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 229,
-			"versionNonce": 95369606,
+			"version": 237,
+			"versionNonce": 2002022051,
 			"isDeleted": false,
 			"id": "PuOVWNbHxeErKT5wTriZi",
 			"fillStyle": "solid",
@@ -32016,7 +32218,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -32367,8 +32569,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 1528793562,
+			"version": 164,
+			"versionNonce": 694780173,
 			"isDeleted": false,
 			"id": "sYLpUY16b-kV22WxN9K9p",
 			"fillStyle": "solid",
@@ -32388,7 +32590,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -32447,8 +32649,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 265951430,
+			"version": 161,
+			"versionNonce": 481600067,
 			"isDeleted": false,
 			"id": "s66vGbEqcMkO76tw9hOSI",
 			"fillStyle": "solid",
@@ -32468,7 +32670,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -32515,8 +32717,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 84229786,
+			"version": 160,
+			"versionNonce": 806344557,
 			"isDeleted": false,
 			"id": "K5Ay7-WKRxzhDpoPAM4Gu",
 			"fillStyle": "solid",
@@ -32536,7 +32738,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -32579,8 +32781,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 669454342,
+			"version": 160,
+			"versionNonce": 2064474595,
 			"isDeleted": false,
 			"id": "6y7g-OpADO0BW6obSqMCD",
 			"fillStyle": "solid",
@@ -32600,7 +32802,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -32643,8 +32845,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 2044091226,
+			"version": 162,
+			"versionNonce": 274489805,
 			"isDeleted": false,
 			"id": "Is3Gco1sabiTXUglYUpys",
 			"fillStyle": "solid",
@@ -32664,7 +32866,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -32715,8 +32917,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 228,
-			"versionNonce": 2043879238,
+			"version": 236,
+			"versionNonce": 2070752643,
 			"isDeleted": false,
 			"id": "1t00-baRQ_ZdWYVlNCgvH",
 			"fillStyle": "solid",
@@ -32736,7 +32938,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33087,8 +33289,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 194,
-			"versionNonce": 400941082,
+			"version": 202,
+			"versionNonce": 526950445,
 			"isDeleted": false,
 			"id": "sFL7i6Et4Ay-uwZdQQw-j",
 			"fillStyle": "solid",
@@ -33108,7 +33310,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33323,8 +33525,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 704333446,
+			"version": 164,
+			"versionNonce": 1628603683,
 			"isDeleted": false,
 			"id": "XQu_NHMhaoMxrEsdn0HgB",
 			"fillStyle": "solid",
@@ -33344,7 +33546,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33407,8 +33609,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 2066140378,
+			"version": 164,
+			"versionNonce": 1394479757,
 			"isDeleted": false,
 			"id": "XnFxbLW1RxRHvbr-UG2SA",
 			"fillStyle": "solid",
@@ -33428,7 +33630,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33491,8 +33693,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 1226606022,
+			"version": 163,
+			"versionNonce": 57403587,
 			"isDeleted": false,
 			"id": "hBr_emkHtZaeUjnga24xG",
 			"fillStyle": "solid",
@@ -33512,7 +33714,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33571,8 +33773,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 162,
-			"versionNonce": 1227628954,
+			"version": 170,
+			"versionNonce": 674642157,
 			"isDeleted": false,
 			"id": "M1YHWCO-cc_Rxi6RUyLXa",
 			"fillStyle": "solid",
@@ -33592,7 +33794,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33679,8 +33881,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 1213455622,
+			"version": 172,
+			"versionNonce": 1209522275,
 			"isDeleted": false,
 			"id": "STmxIqzeDQVJQZBMb3i-F",
 			"fillStyle": "solid",
@@ -33700,7 +33902,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33795,8 +33997,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 2099830362,
+			"version": 161,
+			"versionNonce": 1211798349,
 			"isDeleted": false,
 			"id": "QNjRMcjZvmecQLu7alpiW",
 			"fillStyle": "solid",
@@ -33816,7 +34018,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33867,8 +34069,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 1830702150,
+			"version": 160,
+			"versionNonce": 1558500355,
 			"isDeleted": false,
 			"id": "Za6m1o9F7b-CZCU9kF8XW",
 			"fillStyle": "solid",
@@ -33888,7 +34090,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -33935,8 +34137,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 871367450,
+			"version": 162,
+			"versionNonce": 1870963117,
 			"isDeleted": false,
 			"id": "MxXzgZMDzYoY-FEOie3A2",
 			"fillStyle": "solid",
@@ -33956,7 +34158,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34011,8 +34213,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 1163449222,
+			"version": 161,
+			"versionNonce": 835804067,
 			"isDeleted": false,
 			"id": "2qtYy5W7RQLWBB9P8rzy4",
 			"fillStyle": "solid",
@@ -34032,7 +34234,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34083,8 +34285,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 2012516314,
+			"version": 160,
+			"versionNonce": 322823181,
 			"isDeleted": false,
 			"id": "P5XkWtixRylq4LHbw21-w",
 			"fillStyle": "solid",
@@ -34104,7 +34306,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34151,8 +34353,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 150,
-			"versionNonce": 457208518,
+			"version": 158,
+			"versionNonce": 856420163,
 			"isDeleted": false,
 			"id": "PahNGg13wBL_3ANgADUdB",
 			"fillStyle": "solid",
@@ -34172,7 +34374,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34211,8 +34413,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 222921882,
+			"version": 160,
+			"versionNonce": 1197464173,
 			"isDeleted": false,
 			"id": "hTqeM4ntF5w-HOsER9hht",
 			"fillStyle": "solid",
@@ -34232,7 +34434,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34279,8 +34481,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 1769089542,
+			"version": 160,
+			"versionNonce": 1123225315,
 			"isDeleted": false,
 			"id": "r5j5CtX6TBy6JDapYEif0",
 			"fillStyle": "solid",
@@ -34300,7 +34502,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34347,8 +34549,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 1034019162,
+			"version": 169,
+			"versionNonce": 1689519309,
 			"isDeleted": false,
 			"id": "o-pSphFa4I4oHlqxBBvuz",
 			"fillStyle": "solid",
@@ -34368,7 +34570,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34451,8 +34653,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 1324022086,
+			"version": 173,
+			"versionNonce": 1947548291,
 			"isDeleted": false,
 			"id": "u3L6v9cIFDWmW_OPNpOId",
 			"fillStyle": "solid",
@@ -34472,7 +34674,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34571,8 +34773,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 609265178,
+			"version": 163,
+			"versionNonce": 1859380013,
 			"isDeleted": false,
 			"id": "nErpibIYzHBnCFF8hMJSD",
 			"fillStyle": "solid",
@@ -34592,7 +34794,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34651,8 +34853,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 50847878,
+			"version": 162,
+			"versionNonce": 53539363,
 			"isDeleted": false,
 			"id": "DI-ZIVxfnGW5HAZZ_yLOp",
 			"fillStyle": "solid",
@@ -34672,7 +34874,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815411,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34727,8 +34929,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 151,
-			"versionNonce": 2051592922,
+			"version": 159,
+			"versionNonce": 975762829,
 			"isDeleted": false,
 			"id": "MpDj3RuuDJUO1Fxoefz_0",
 			"fillStyle": "solid",
@@ -34748,7 +34950,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34791,8 +34993,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 168,
-			"versionNonce": 1233510342,
+			"version": 176,
+			"versionNonce": 288667075,
 			"isDeleted": false,
 			"id": "z7IoNDTqWFq71KmvNyWTo",
 			"fillStyle": "solid",
@@ -34812,7 +35014,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -34923,8 +35125,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 168,
-			"versionNonce": 1646094234,
+			"version": 176,
+			"versionNonce": 1374469101,
 			"isDeleted": false,
 			"id": "abmXF0hP7Ohr6O6QX4wZM",
 			"fillStyle": "solid",
@@ -34944,7 +35146,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35019,8 +35221,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 180,
-			"versionNonce": 1719793414,
+			"version": 188,
+			"versionNonce": 490669411,
 			"isDeleted": false,
 			"id": "U4KQegv5lQ9_fGlAb_nUk",
 			"fillStyle": "solid",
@@ -35040,7 +35242,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35163,8 +35365,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 180,
-			"versionNonce": 872506458,
+			"version": 188,
+			"versionNonce": 505984589,
 			"isDeleted": false,
 			"id": "gRdCQgJ2n2CosBwAKj7D4",
 			"fillStyle": "solid",
@@ -35184,7 +35386,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35307,8 +35509,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 309929542,
+			"version": 161,
+			"versionNonce": 1050566915,
 			"isDeleted": false,
 			"id": "BQTdVTI901QTqXTwZkcT3",
 			"fillStyle": "solid",
@@ -35328,7 +35530,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35383,8 +35585,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 1237829914,
+			"version": 161,
+			"versionNonce": 1236690093,
 			"isDeleted": false,
 			"id": "xmBwjRvvRKG4brl60wts1",
 			"fillStyle": "solid",
@@ -35404,7 +35606,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35463,8 +35665,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 172,
-			"versionNonce": 1850240390,
+			"version": 180,
+			"versionNonce": 517032099,
 			"isDeleted": false,
 			"id": "t2e4DWfMo_4ctuuNSxlWH",
 			"fillStyle": "solid",
@@ -35484,7 +35686,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35571,8 +35773,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 171,
-			"versionNonce": 1256429018,
+			"version": 179,
+			"versionNonce": 1748977421,
 			"isDeleted": false,
 			"id": "TZ5BD14AFmntpTtwutYc6",
 			"fillStyle": "solid",
@@ -35592,7 +35794,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35683,8 +35885,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1999424710,
+			"version": 166,
+			"versionNonce": 864435267,
 			"isDeleted": false,
 			"id": "xYvafQERkM_KtKagUdH5C",
 			"fillStyle": "solid",
@@ -35704,7 +35906,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221475,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35743,8 +35945,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 2020067994,
+			"version": 166,
+			"versionNonce": 1547492717,
 			"isDeleted": false,
 			"id": "OjXMRn5kVxB4fB5Tj9upM",
 			"fillStyle": "solid",
@@ -35764,7 +35966,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35803,8 +36005,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 2059617286,
+			"version": 168,
+			"versionNonce": 949730275,
 			"isDeleted": false,
 			"id": "zBz38LK6DcAr2Ll5Y2woJ",
 			"fillStyle": "solid",
@@ -35824,7 +36026,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35871,8 +36073,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 2030528346,
+			"version": 169,
+			"versionNonce": 2096670669,
 			"isDeleted": false,
 			"id": "1HLYRj-ATjuYjdV8RCFyU",
 			"fillStyle": "solid",
@@ -35892,7 +36094,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -35943,8 +36145,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 185127750,
+			"version": 169,
+			"versionNonce": 1780500355,
 			"isDeleted": false,
 			"id": "84gmfcZsbtExQNBOyIk7A",
 			"fillStyle": "solid",
@@ -35964,7 +36166,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36015,8 +36217,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 622160922,
+			"version": 166,
+			"versionNonce": 2089559597,
 			"isDeleted": false,
 			"id": "i4ZWZRilfdCk8ai8yxUeE",
 			"fillStyle": "solid",
@@ -36036,7 +36238,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36075,8 +36277,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 1918532230,
+			"version": 167,
+			"versionNonce": 2119327523,
 			"isDeleted": false,
 			"id": "voJTiDrB3YdPpx3-duPsL",
 			"fillStyle": "solid",
@@ -36096,7 +36298,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36139,8 +36341,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1384437978,
+			"version": 166,
+			"versionNonce": 232839309,
 			"isDeleted": false,
 			"id": "l-_HHaEpF1x-GU8ApCSEq",
 			"fillStyle": "solid",
@@ -36160,7 +36362,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36203,8 +36405,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 170,
-			"versionNonce": 661993926,
+			"version": 178,
+			"versionNonce": 1604354755,
 			"isDeleted": false,
 			"id": "GuFuitYZvb2oNx0mmwt1U",
 			"fillStyle": "solid",
@@ -36224,7 +36426,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36315,8 +36517,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 552119706,
+			"version": 167,
+			"versionNonce": 1253064429,
 			"isDeleted": false,
 			"id": "DLFJia7hp5zmo_rkfHex-",
 			"fillStyle": "solid",
@@ -36336,7 +36538,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36383,8 +36585,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1098256646,
+			"version": 166,
+			"versionNonce": 648622691,
 			"isDeleted": false,
 			"id": "NopQjLqP_0Q_c8vYcA_Xl",
 			"fillStyle": "solid",
@@ -36404,7 +36606,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36447,8 +36649,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1165224538,
+			"version": 166,
+			"versionNonce": 1501813069,
 			"isDeleted": false,
 			"id": "GzTmZgRYYAXAzfefxNmm1",
 			"fillStyle": "solid",
@@ -36468,7 +36670,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36511,8 +36713,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 174,
-			"versionNonce": 1809449030,
+			"version": 182,
+			"versionNonce": 1413148163,
 			"isDeleted": false,
 			"id": "ONIPASqGSJ9Z9CxVCmcN_",
 			"fillStyle": "solid",
@@ -36532,7 +36734,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36639,8 +36841,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 1459195674,
+			"version": 167,
+			"versionNonce": 1404381101,
 			"isDeleted": false,
 			"id": "jdSca1EThBOBXWWByJkq8",
 			"fillStyle": "solid",
@@ -36660,7 +36862,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36707,8 +36909,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 1518208902,
+			"version": 169,
+			"versionNonce": 1263809955,
 			"isDeleted": false,
 			"id": "OW3WUOXyn-RJ3h6xsa0X4",
 			"fillStyle": "solid",
@@ -36728,7 +36930,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36783,8 +36985,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 434936794,
+			"version": 169,
+			"versionNonce": 1802349069,
 			"isDeleted": false,
 			"id": "EKdNZPVTYmnoFCOXFKDls",
 			"fillStyle": "solid",
@@ -36804,7 +37006,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36859,8 +37061,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 1033840326,
+			"version": 168,
+			"versionNonce": 186878275,
 			"isDeleted": false,
 			"id": "I8ikSUxxGQ3MeOgEqYZBi",
 			"fillStyle": "solid",
@@ -36880,7 +37082,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815412,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -36931,8 +37133,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 1281364122,
+			"version": 168,
+			"versionNonce": 1369890925,
 			"isDeleted": false,
 			"id": "UAofkB-LMGE1X6DlK2osx",
 			"fillStyle": "solid",
@@ -36952,7 +37154,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37003,8 +37205,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 224,
-			"versionNonce": 903503366,
+			"version": 232,
+			"versionNonce": 688351459,
 			"isDeleted": false,
 			"id": "N1YFETvT8maU9e_wVQzgH",
 			"fillStyle": "solid",
@@ -37024,7 +37226,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37331,8 +37533,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 1913056602,
+			"version": 168,
+			"versionNonce": 1546275533,
 			"isDeleted": false,
 			"id": "wZBM-ge3mD2beNQfAaoJc",
 			"fillStyle": "solid",
@@ -37352,7 +37554,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37403,8 +37605,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 1210887494,
+			"version": 167,
+			"versionNonce": 177099907,
 			"isDeleted": false,
 			"id": "ht-1fhEy0B1JLS-2xFdWK",
 			"fillStyle": "solid",
@@ -37424,7 +37626,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37471,8 +37673,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 540291610,
+			"version": 168,
+			"versionNonce": 1804691757,
 			"isDeleted": false,
 			"id": "_07wEDsunemgNRN6CHjPV",
 			"fillStyle": "solid",
@@ -37492,7 +37694,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37543,8 +37745,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 1374884998,
+			"version": 168,
+			"versionNonce": 1601621027,
 			"isDeleted": false,
 			"id": "SuiCNoUT-NFdUWwsd-4xJ",
 			"fillStyle": "solid",
@@ -37564,7 +37766,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37615,8 +37817,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1239080666,
+			"version": 166,
+			"versionNonce": 289782669,
 			"isDeleted": false,
 			"id": "cpqxHYZ8skCDeW5gEa4Xk",
 			"fillStyle": "solid",
@@ -37636,7 +37838,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37679,8 +37881,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 2095748038,
+			"version": 168,
+			"versionNonce": 1538215875,
 			"isDeleted": false,
 			"id": "MSxaJpdJCeiWPDUzlgjYQ",
 			"fillStyle": "solid",
@@ -37700,7 +37902,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37751,8 +37953,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 193852314,
+			"version": 169,
+			"versionNonce": 1971372525,
 			"isDeleted": false,
 			"id": "Q0tw3njabtim91nA_17mG",
 			"fillStyle": "solid",
@@ -37772,7 +37974,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37831,8 +38033,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 858794758,
+			"version": 167,
+			"versionNonce": 827744099,
 			"isDeleted": false,
 			"id": "TsbLK2g2CapoNOV8ha03O",
 			"fillStyle": "solid",
@@ -37852,7 +38054,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37903,8 +38105,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 2004906074,
+			"version": 164,
+			"versionNonce": 2102131789,
 			"isDeleted": false,
 			"id": "9I3PQn5VhLtX_UKIqr1tt",
 			"fillStyle": "solid",
@@ -37924,7 +38126,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -37967,8 +38169,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 323017286,
+			"version": 164,
+			"versionNonce": 1253735171,
 			"isDeleted": false,
 			"id": "U9SaTf05VahjI_HCY8Wtj",
 			"fillStyle": "solid",
@@ -37988,7 +38190,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38031,8 +38233,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 1636128026,
+			"version": 164,
+			"versionNonce": 813755053,
 			"isDeleted": false,
 			"id": "kU4nNYAMV0UuHoQCtcwF1",
 			"fillStyle": "solid",
@@ -38052,7 +38254,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38095,8 +38297,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 1677304198,
+			"version": 163,
+			"versionNonce": 1146757795,
 			"isDeleted": false,
 			"id": "JM1m2n8vaPh6Sf07Fek38",
 			"fillStyle": "solid",
@@ -38116,7 +38318,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38155,8 +38357,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 722444762,
+			"version": 164,
+			"versionNonce": 1607011597,
 			"isDeleted": false,
 			"id": "EmtmNj0Op4En-ot3myben",
 			"fillStyle": "solid",
@@ -38176,7 +38378,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38219,8 +38421,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 144146630,
+			"version": 166,
+			"versionNonce": 652465731,
 			"isDeleted": false,
 			"id": "T49V3-903LRGq0o_bJVnm",
 			"fillStyle": "solid",
@@ -38240,7 +38442,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38291,8 +38493,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 171,
-			"versionNonce": 254957210,
+			"version": 179,
+			"versionNonce": 178119533,
 			"isDeleted": false,
 			"id": "nTsugQWV5LP5Czc0jQ7es",
 			"fillStyle": "solid",
@@ -38312,7 +38514,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38415,8 +38617,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 167,
-			"versionNonce": 1958180870,
+			"version": 175,
+			"versionNonce": 1630934499,
 			"isDeleted": false,
 			"id": "-vgOmhJMlAxAR2GZ_AlwY",
 			"fillStyle": "solid",
@@ -38436,7 +38638,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38523,8 +38725,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 1856009050,
+			"version": 169,
+			"versionNonce": 88665549,
 			"isDeleted": false,
 			"id": "XeC91E_uJyeN4UiUV1hfw",
 			"fillStyle": "solid",
@@ -38544,7 +38746,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38607,8 +38809,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 230,
-			"versionNonce": 542541638,
+			"version": 238,
+			"versionNonce": 39805315,
 			"isDeleted": false,
 			"id": "TLlRns6JJZDOIMCoJyMGR",
 			"fillStyle": "solid",
@@ -38628,7 +38830,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -38967,8 +39169,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 176,
-			"versionNonce": 464320538,
+			"version": 184,
+			"versionNonce": 1591979053,
 			"isDeleted": false,
 			"id": "lkXDFVrw_g6sxCW_q5FtR",
 			"fillStyle": "solid",
@@ -38988,7 +39190,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815413,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39119,8 +39321,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 2077339270,
+			"version": 167,
+			"versionNonce": 866007331,
 			"isDeleted": false,
 			"id": "Ucj2TklefbgUsmtHTRTzF",
 			"fillStyle": "solid",
@@ -39140,7 +39342,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39203,8 +39405,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 200,
-			"versionNonce": 642442458,
+			"version": 208,
+			"versionNonce": 123182733,
 			"isDeleted": false,
 			"id": "Elon_0JZ2CodDSRkv9TXE",
 			"fillStyle": "solid",
@@ -39224,7 +39426,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39451,8 +39653,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 1676012998,
+			"version": 167,
+			"versionNonce": 1918966979,
 			"isDeleted": false,
 			"id": "os3H8UcpApWZ0hUDotiu5",
 			"fillStyle": "solid",
@@ -39472,7 +39674,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39535,8 +39737,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 671955354,
+			"version": 162,
+			"versionNonce": 895370477,
 			"isDeleted": false,
 			"id": "NLejQ4DM645zgkRryyVID",
 			"fillStyle": "solid",
@@ -39556,7 +39758,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39599,8 +39801,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 148,
-			"versionNonce": 363873542,
+			"version": 156,
+			"versionNonce": 172395619,
 			"isDeleted": false,
 			"id": "VOuixfyiXU97Tl49cv9yO",
 			"fillStyle": "solid",
@@ -39620,7 +39822,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39639,8 +39841,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 270988890,
+			"version": 172,
+			"versionNonce": 209788749,
 			"isDeleted": false,
 			"id": "GidnjlzxGwuwxOio68rYp",
 			"fillStyle": "solid",
@@ -39660,7 +39862,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39743,8 +39945,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 168,
-			"versionNonce": 581809222,
+			"version": 176,
+			"versionNonce": 1327302659,
 			"isDeleted": false,
 			"id": "oSooY86trbcOSHBfvJJtA",
 			"fillStyle": "solid",
@@ -39764,7 +39966,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39863,8 +40065,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 1869290266,
+			"version": 160,
+			"versionNonce": 52014509,
 			"isDeleted": false,
 			"id": "TOCDjF5C_AAxkusKyrs5g",
 			"fillStyle": "solid",
@@ -39884,7 +40086,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39927,8 +40129,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 1689992070,
+			"version": 160,
+			"versionNonce": 383979427,
 			"isDeleted": false,
 			"id": "HVKJc5OKxTC9dUYBGoUit",
 			"fillStyle": "solid",
@@ -39948,7 +40150,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -39991,8 +40193,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 1145874394,
+			"version": 168,
+			"versionNonce": 139554829,
 			"isDeleted": false,
 			"id": "uNR_4jDeKD0lKqx0zUV90",
 			"fillStyle": "solid",
@@ -40012,7 +40214,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -40087,8 +40289,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 170,
-			"versionNonce": 1914034886,
+			"version": 178,
+			"versionNonce": 1942430531,
 			"isDeleted": false,
 			"id": "TpJhC3cYcuBcYal4H_FsQ",
 			"fillStyle": "solid",
@@ -40108,7 +40310,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -40223,8 +40425,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 169,
-			"versionNonce": 1188994202,
+			"version": 177,
+			"versionNonce": 1780606573,
 			"isDeleted": false,
 			"id": "81zlsFreuwT42IOJGTxPy",
 			"fillStyle": "solid",
@@ -40244,7 +40446,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -40355,8 +40557,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 223,
-			"versionNonce": 291148294,
+			"version": 231,
+			"versionNonce": 774357731,
 			"isDeleted": false,
 			"id": "ElJRslOmK-f33zPs8sIPh",
 			"fillStyle": "solid",
@@ -40376,7 +40578,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -40707,8 +40909,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 886307162,
+			"version": 173,
+			"versionNonce": 2069139661,
 			"isDeleted": false,
 			"id": "Lv8v391qOkRDVfcZM6OJn",
 			"fillStyle": "solid",
@@ -40728,7 +40930,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -40827,8 +41029,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 151,
-			"versionNonce": 763781446,
+			"version": 159,
+			"versionNonce": 2123591299,
 			"isDeleted": false,
 			"id": "9cSW4vzA34h5KC0O2hd1C",
 			"fillStyle": "solid",
@@ -40848,7 +41050,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -40891,8 +41093,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 151,
-			"versionNonce": 494911002,
+			"version": 159,
+			"versionNonce": 2038624045,
 			"isDeleted": false,
 			"id": "R-zompB6pxvzlB7jtYuR2",
 			"fillStyle": "solid",
@@ -40912,7 +41114,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -40955,8 +41157,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 157,
-			"versionNonce": 1240877190,
+			"version": 165,
+			"versionNonce": 130590243,
 			"isDeleted": false,
 			"id": "myS8vXAdCkL2ERNsO9KHg",
 			"fillStyle": "solid",
@@ -40976,7 +41178,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815414,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41043,8 +41245,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 171,
-			"versionNonce": 768928474,
+			"version": 179,
+			"versionNonce": 857112973,
 			"isDeleted": false,
 			"id": "CkkUfMRRLeowoeeOrB-Q_",
 			"fillStyle": "solid",
@@ -41064,7 +41266,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221476,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41187,8 +41389,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 167,
-			"versionNonce": 1986480070,
+			"version": 175,
+			"versionNonce": 280357315,
 			"isDeleted": false,
 			"id": "YepwoFlftTk3h5ZLh6goI",
 			"fillStyle": "solid",
@@ -41208,7 +41410,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41315,8 +41517,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 193,
-			"versionNonce": 2087092122,
+			"version": 201,
+			"versionNonce": 1833486317,
 			"isDeleted": false,
 			"id": "BZhdO_TAig8kADX68PZ2N",
 			"fillStyle": "solid",
@@ -41336,7 +41538,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41547,8 +41749,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 157,
-			"versionNonce": 1123442438,
+			"version": 165,
+			"versionNonce": 2121906531,
 			"isDeleted": false,
 			"id": "bL_RK2z_YCKoftNLhqwp7",
 			"fillStyle": "solid",
@@ -41568,7 +41770,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41635,8 +41837,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 1432845402,
+			"version": 162,
+			"versionNonce": 170082893,
 			"isDeleted": false,
 			"id": "WwH_qRICxE0oLeSLcjats",
 			"fillStyle": "solid",
@@ -41656,7 +41858,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41711,8 +41913,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 874548806,
+			"version": 162,
+			"versionNonce": 241341699,
 			"isDeleted": false,
 			"id": "-RHWh8NUpTxv3YbBolI7d",
 			"fillStyle": "solid",
@@ -41732,7 +41934,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41787,8 +41989,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 111862042,
+			"version": 161,
+			"versionNonce": 1853845677,
 			"isDeleted": false,
 			"id": "QILgvukl5fkxcr26jnMWJ",
 			"fillStyle": "solid",
@@ -41808,7 +42010,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41859,8 +42061,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 165,
-			"versionNonce": 918738310,
+			"version": 173,
+			"versionNonce": 1341062307,
 			"isDeleted": false,
 			"id": "PDoqOc0RW_I22kiS9AZjr",
 			"fillStyle": "solid",
@@ -41880,7 +42082,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -41979,8 +42181,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 164,
-			"versionNonce": 732147162,
+			"version": 172,
+			"versionNonce": 671535885,
 			"isDeleted": false,
 			"id": "9ZnjXf1L4ZqXYjBOh1wMM",
 			"fillStyle": "solid",
@@ -42000,7 +42202,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42095,8 +42297,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 337261766,
+			"version": 162,
+			"versionNonce": 1590521923,
 			"isDeleted": false,
 			"id": "vO0cL9lPnAOz-NoCSFnHg",
 			"fillStyle": "solid",
@@ -42116,7 +42318,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42171,8 +42373,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 151,
-			"versionNonce": 2036654746,
+			"version": 159,
+			"versionNonce": 1395845485,
 			"isDeleted": false,
 			"id": "Q0pZPbHijARg2gLfn7HQR",
 			"fillStyle": "solid",
@@ -42192,7 +42394,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42235,8 +42437,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 1707322374,
+			"version": 161,
+			"versionNonce": 1557950435,
 			"isDeleted": false,
 			"id": "FCjWKJqETAnwdCOJegk4q",
 			"fillStyle": "solid",
@@ -42256,7 +42458,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42307,8 +42509,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 178356058,
+			"version": 160,
+			"versionNonce": 1095578573,
 			"isDeleted": false,
 			"id": "joxPd6xspJNn3kqUGJ4Wd",
 			"fillStyle": "solid",
@@ -42328,7 +42530,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42375,8 +42577,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 163330886,
+			"version": 161,
+			"versionNonce": 740981635,
 			"isDeleted": false,
 			"id": "0Emv1gEkTkJFHMaXdSNar",
 			"fillStyle": "solid",
@@ -42396,7 +42598,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42447,8 +42649,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 150,
-			"versionNonce": 732726298,
+			"version": 158,
+			"versionNonce": 1584345645,
 			"isDeleted": false,
 			"id": "pcaWeY0bd-G23scteN_rj",
 			"fillStyle": "solid",
@@ -42468,7 +42670,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42507,8 +42709,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 152,
-			"versionNonce": 375448198,
+			"version": 160,
+			"versionNonce": 1760957219,
 			"isDeleted": false,
 			"id": "J24vh9Pi2AuZQCqi6Akv-",
 			"fillStyle": "solid",
@@ -42528,7 +42730,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42575,8 +42777,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 150,
-			"versionNonce": 645460186,
+			"version": 158,
+			"versionNonce": 1468163213,
 			"isDeleted": false,
 			"id": "m_WetiJsxhigD3la9OxmM",
 			"fillStyle": "solid",
@@ -42596,7 +42798,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42635,8 +42837,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1315873222,
+			"version": 166,
+			"versionNonce": 598587075,
 			"isDeleted": false,
 			"id": "_gmuURiPdP30ORfxRf1Cx",
 			"fillStyle": "solid",
@@ -42656,7 +42858,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42727,8 +42929,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 163,
-			"versionNonce": 244958618,
+			"version": 171,
+			"versionNonce": 4213485,
 			"isDeleted": false,
 			"id": "lW1GpjobfauLF3JrtcbV5",
 			"fillStyle": "solid",
@@ -42748,7 +42950,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42855,8 +43057,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 153,
-			"versionNonce": 352483590,
+			"version": 161,
+			"versionNonce": 1525671523,
 			"isDeleted": false,
 			"id": "mSmUYYex4CauY6mI83Z3M",
 			"fillStyle": "solid",
@@ -42876,7 +43078,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -42943,8 +43145,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 149,
-			"versionNonce": 222429786,
+			"version": 157,
+			"versionNonce": 2033345869,
 			"isDeleted": false,
 			"id": "vSHhSorT8H4__sY5irsvK",
 			"fillStyle": "solid",
@@ -42964,7 +43166,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43015,8 +43217,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 148,
-			"versionNonce": 1637443654,
+			"version": 156,
+			"versionNonce": 898310659,
 			"isDeleted": false,
 			"id": "Cpv4RG5vGqlgDfkAYIV4M",
 			"fillStyle": "solid",
@@ -43036,7 +43238,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43083,8 +43285,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 145,
-			"versionNonce": 759473946,
+			"version": 153,
+			"versionNonce": 364000173,
 			"isDeleted": false,
 			"id": "o6lPsZFwpG7oToM07Q42Z",
 			"fillStyle": "solid",
@@ -43104,7 +43306,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43147,8 +43349,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 148,
-			"versionNonce": 873492358,
+			"version": 156,
+			"versionNonce": 2088626595,
 			"isDeleted": false,
 			"id": "aKrRhyQam9oU16WqBS-bV",
 			"fillStyle": "solid",
@@ -43168,7 +43370,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43223,8 +43425,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 147,
-			"versionNonce": 655668186,
+			"version": 155,
+			"versionNonce": 32060941,
 			"isDeleted": false,
 			"id": "Vf98WjRW19VkadWhwjpUY",
 			"fillStyle": "solid",
@@ -43244,7 +43446,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43295,8 +43497,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 147,
-			"versionNonce": 145002182,
+			"version": 155,
+			"versionNonce": 1425456451,
 			"isDeleted": false,
 			"id": "AivKiGOY4Kds-0JdoMhpE",
 			"fillStyle": "solid",
@@ -43316,7 +43518,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815415,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43367,8 +43569,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 146,
-			"versionNonce": 751118490,
+			"version": 154,
+			"versionNonce": 684780653,
 			"isDeleted": false,
 			"id": "M0rotZm4XC5jR_7eEZHzB",
 			"fillStyle": "solid",
@@ -43388,7 +43590,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43435,8 +43637,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 84,
-			"versionNonce": 1274201606,
+			"version": 92,
+			"versionNonce": 978590947,
 			"isDeleted": false,
 			"id": "vc-7466NKUQNaVkLKwbzb",
 			"fillStyle": "solid",
@@ -43456,7 +43658,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43503,8 +43705,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 83,
-			"versionNonce": 906560858,
+			"version": 91,
+			"versionNonce": 1513281229,
 			"isDeleted": false,
 			"id": "ha0WfvDFDkSCTvLV9XIPO",
 			"fillStyle": "solid",
@@ -43524,7 +43726,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43567,8 +43769,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 83,
-			"versionNonce": 1324881222,
+			"version": 91,
+			"versionNonce": 941918339,
 			"isDeleted": false,
 			"id": "1mG2OhY_NjPzKh4IJuqoO",
 			"fillStyle": "solid",
@@ -43588,7 +43790,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43631,8 +43833,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 100,
-			"versionNonce": 1278429722,
+			"version": 108,
+			"versionNonce": 816346413,
 			"isDeleted": false,
 			"id": "q9LdOt8bQpbhVbJzcJIWH",
 			"fillStyle": "solid",
@@ -43652,7 +43854,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43763,8 +43965,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 83,
-			"versionNonce": 991001734,
+			"version": 91,
+			"versionNonce": 1680244771,
 			"isDeleted": false,
 			"id": "9chOuboB87_IfYjUl99bh",
 			"fillStyle": "solid",
@@ -43784,7 +43986,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43827,8 +44029,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 81,
-			"versionNonce": 1446442714,
+			"version": 89,
+			"versionNonce": 932923277,
 			"isDeleted": false,
 			"id": "yFR9XDOQVuBtUECkP1D5G",
 			"fillStyle": "solid",
@@ -43848,7 +44050,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43883,8 +44085,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 84,
-			"versionNonce": 100400070,
+			"version": 92,
+			"versionNonce": 407405507,
 			"isDeleted": false,
 			"id": "kQs5fh_3m0DO7ApsNy6eO",
 			"fillStyle": "solid",
@@ -43904,7 +44106,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -43951,8 +44153,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 83,
-			"versionNonce": 1688669082,
+			"version": 91,
+			"versionNonce": 1363463661,
 			"isDeleted": false,
 			"id": "vJznw5PMM3nt9WwW_IPL6",
 			"fillStyle": "solid",
@@ -43972,7 +44174,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44015,8 +44217,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 84,
-			"versionNonce": 1708430086,
+			"version": 92,
+			"versionNonce": 1823019875,
 			"isDeleted": false,
 			"id": "IdY3aBwqAnjAhcBX3RP7N",
 			"fillStyle": "solid",
@@ -44036,7 +44238,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44083,8 +44285,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 85,
-			"versionNonce": 2109114458,
+			"version": 93,
+			"versionNonce": 1554942029,
 			"isDeleted": false,
 			"id": "Qn2rnSpmJutsSDPK6cTIm",
 			"fillStyle": "solid",
@@ -44104,7 +44306,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44155,8 +44357,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 92,
-			"versionNonce": 1159217734,
+			"version": 100,
+			"versionNonce": 1905700611,
 			"isDeleted": false,
 			"id": "PP5ZdZlZ-Wuk-AYoAsIvx",
 			"fillStyle": "solid",
@@ -44176,7 +44378,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44255,8 +44457,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 95,
-			"versionNonce": 1765305626,
+			"version": 103,
+			"versionNonce": 464647853,
 			"isDeleted": false,
 			"id": "FWCHtUt_kjwCr5a_jfzxa",
 			"fillStyle": "solid",
@@ -44276,7 +44478,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44367,8 +44569,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 95,
-			"versionNonce": 916720006,
+			"version": 103,
+			"versionNonce": 697292451,
 			"isDeleted": false,
 			"id": "5erM4S8r44Xr1rWxGPIN4",
 			"fillStyle": "solid",
@@ -44388,7 +44590,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44479,8 +44681,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 82,
-			"versionNonce": 2090842586,
+			"version": 90,
+			"versionNonce": 1492687117,
 			"isDeleted": false,
 			"id": "2dj91Op44FlcJszqBY00c",
 			"fillStyle": "solid",
@@ -44500,7 +44702,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44539,8 +44741,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 91,
-			"versionNonce": 1773463750,
+			"version": 99,
+			"versionNonce": 1128467011,
 			"isDeleted": false,
 			"id": "CvT0c-6S3trycO9sVj4od",
 			"fillStyle": "solid",
@@ -44560,7 +44762,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44635,8 +44837,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 98,
-			"versionNonce": 1728016026,
+			"version": 106,
+			"versionNonce": 1308356461,
 			"isDeleted": false,
 			"id": "BGZBOzzC-pckaLNDi8iRx",
 			"fillStyle": "solid",
@@ -44656,7 +44858,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44759,8 +44961,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 95,
-			"versionNonce": 501735430,
+			"version": 103,
+			"versionNonce": 328124899,
 			"isDeleted": false,
 			"id": "lplZUA4rjgkdq_MWZTUKO",
 			"fillStyle": "solid",
@@ -44780,7 +44982,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44871,8 +45073,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 85,
-			"versionNonce": 2097843034,
+			"version": 93,
+			"versionNonce": 1225095629,
 			"isDeleted": false,
 			"id": "vyXX0oHJKohOnNdGtrmoV",
 			"fillStyle": "solid",
@@ -44892,7 +45094,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -44943,8 +45145,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 88,
-			"versionNonce": 389672774,
+			"version": 96,
+			"versionNonce": 1333892483,
 			"isDeleted": false,
 			"id": "KFKGmnFoUmrPZWhBTJxeb",
 			"fillStyle": "solid",
@@ -44964,7 +45166,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45027,8 +45229,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 102,
-			"versionNonce": 85200922,
+			"version": 110,
+			"versionNonce": 321828909,
 			"isDeleted": false,
 			"id": "MW4VqiccZIdp8cYNufa4D",
 			"fillStyle": "solid",
@@ -45048,7 +45250,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45167,8 +45369,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 93,
-			"versionNonce": 302519942,
+			"version": 101,
+			"versionNonce": 106556707,
 			"isDeleted": false,
 			"id": "hbou8p38gNruoim9ecLty",
 			"fillStyle": "solid",
@@ -45188,7 +45390,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45271,8 +45473,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 85,
-			"versionNonce": 51313882,
+			"version": 93,
+			"versionNonce": 375466637,
 			"isDeleted": false,
 			"id": "BrWekRsOhRlm-5XUlDg_p",
 			"fillStyle": "solid",
@@ -45292,7 +45494,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45343,8 +45545,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 95,
-			"versionNonce": 923751878,
+			"version": 103,
+			"versionNonce": 1535529155,
 			"isDeleted": false,
 			"id": "-8WG-eb8FPbKKSQdQU0P1",
 			"fillStyle": "solid",
@@ -45364,7 +45566,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45455,8 +45657,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 85,
-			"versionNonce": 76435866,
+			"version": 93,
+			"versionNonce": 1129730285,
 			"isDeleted": false,
 			"id": "bKY8ONsaVsUdxUwyuabsF",
 			"fillStyle": "solid",
@@ -45476,7 +45678,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45527,8 +45729,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 86,
-			"versionNonce": 258780422,
+			"version": 94,
+			"versionNonce": 10829923,
 			"isDeleted": false,
 			"id": "7jLPydshUrpcDpjdCgwIy",
 			"fillStyle": "solid",
@@ -45548,7 +45750,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45603,8 +45805,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 89,
-			"versionNonce": 1824853594,
+			"version": 97,
+			"versionNonce": 932686669,
 			"isDeleted": false,
 			"id": "OCZpz-NCU1uR38i7GUhUT",
 			"fillStyle": "solid",
@@ -45624,7 +45826,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815416,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45691,8 +45893,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 97,
-			"versionNonce": 2023562310,
+			"version": 105,
+			"versionNonce": 1871002627,
 			"isDeleted": false,
 			"id": "xL6dIb5S-lqnEcdRu-Ec9",
 			"fillStyle": "solid",
@@ -45712,7 +45914,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45811,8 +46013,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 86,
-			"versionNonce": 1082536730,
+			"version": 94,
+			"versionNonce": 595507629,
 			"isDeleted": false,
 			"id": "xvvzev-MAMWx3tD3TWG4O",
 			"fillStyle": "solid",
@@ -45832,7 +46034,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221477,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45887,8 +46089,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 86,
-			"versionNonce": 410887046,
+			"version": 94,
+			"versionNonce": 1680130979,
 			"isDeleted": false,
 			"id": "CD-t3T79bQMzG1DiXVSSl",
 			"fillStyle": "solid",
@@ -45908,7 +46110,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -45963,8 +46165,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 83,
-			"versionNonce": 1917108186,
+			"version": 91,
+			"versionNonce": 1882520589,
 			"isDeleted": false,
 			"id": "bBxudJdybVPSpmRbU3RY3",
 			"fillStyle": "solid",
@@ -45984,7 +46186,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46027,8 +46229,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 92,
-			"versionNonce": 1363886790,
+			"version": 100,
+			"versionNonce": 380786499,
 			"isDeleted": false,
 			"id": "Uu6j52_L0067guOqC6s4J",
 			"fillStyle": "solid",
@@ -46048,7 +46250,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46127,8 +46329,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 82,
-			"versionNonce": 773043354,
+			"version": 90,
+			"versionNonce": 632549997,
 			"isDeleted": false,
 			"id": "2-mzXCuWrONl7kIDAQuTT",
 			"fillStyle": "solid",
@@ -46148,7 +46350,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46187,8 +46389,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 83,
-			"versionNonce": 899873286,
+			"version": 91,
+			"versionNonce": 898397923,
 			"isDeleted": false,
 			"id": "4ypUOYZcqNtp6glEtryEK",
 			"fillStyle": "solid",
@@ -46208,7 +46410,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46251,8 +46453,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 107,
-			"versionNonce": 631640410,
+			"version": 115,
+			"versionNonce": 281353421,
 			"isDeleted": false,
 			"id": "ybyMQkEVRJY1arv98deva",
 			"fillStyle": "solid",
@@ -46272,7 +46474,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46411,8 +46613,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 106,
-			"versionNonce": 2088880454,
+			"version": 114,
+			"versionNonce": 524395139,
 			"isDeleted": false,
 			"id": "EsiDofhOsJASkteHLQYjL",
 			"fillStyle": "solid",
@@ -46432,7 +46634,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46567,8 +46769,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 108,
-			"versionNonce": 1548670490,
+			"version": 116,
+			"versionNonce": 687995693,
 			"isDeleted": false,
 			"id": "JfmQimOKxF4kakLd9GEFD",
 			"fillStyle": "solid",
@@ -46588,7 +46790,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46731,8 +46933,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 99,
-			"versionNonce": 1967435910,
+			"version": 107,
+			"versionNonce": 1552964131,
 			"isDeleted": false,
 			"id": "sVRT0GeOuEQWR3cUyVA3w",
 			"fillStyle": "solid",
@@ -46752,7 +46954,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -46859,8 +47061,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 106,
-			"versionNonce": 1929446106,
+			"version": 114,
+			"versionNonce": 919866765,
 			"isDeleted": false,
 			"id": "b-wUV-ts05gYI-4SkyGct",
 			"fillStyle": "solid",
@@ -46880,7 +47082,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47015,8 +47217,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 78,
-			"versionNonce": 2074652614,
+			"version": 86,
+			"versionNonce": 1516707267,
 			"isDeleted": false,
 			"id": "fswPfwfoQXuy22xBahxHn",
 			"fillStyle": "solid",
@@ -47036,7 +47238,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47075,8 +47277,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 77,
-			"versionNonce": 1951373210,
+			"version": 85,
+			"versionNonce": 963957741,
 			"isDeleted": false,
 			"id": "EA0_JVqOETi9O8BwfWJZs",
 			"fillStyle": "solid",
@@ -47096,7 +47298,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47131,8 +47333,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 79,
-			"versionNonce": 1808451334,
+			"version": 87,
+			"versionNonce": 1675914595,
 			"isDeleted": false,
 			"id": "cYSQhh03wOVn7UhnYsSNc",
 			"fillStyle": "solid",
@@ -47152,7 +47354,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47195,8 +47397,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 93,
-			"versionNonce": 544052314,
+			"version": 101,
+			"versionNonce": 216911437,
 			"isDeleted": false,
 			"id": "qnjI6gQZCv9ber9nemFHp",
 			"fillStyle": "solid",
@@ -47216,7 +47418,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47315,8 +47517,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 78,
-			"versionNonce": 371717702,
+			"version": 86,
+			"versionNonce": 1549191427,
 			"isDeleted": false,
 			"id": "sJ48mzzWT7X_tpZjb-5L1",
 			"fillStyle": "solid",
@@ -47336,7 +47538,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47375,8 +47577,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 80,
-			"versionNonce": 959314202,
+			"version": 88,
+			"versionNonce": 1343782061,
 			"isDeleted": false,
 			"id": "5YDoSbd3866XaTT8es4uW",
 			"fillStyle": "solid",
@@ -47396,7 +47598,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47443,8 +47645,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 98,
-			"versionNonce": 865942918,
+			"version": 106,
+			"versionNonce": 960278691,
 			"isDeleted": false,
 			"id": "HUIPIA2ab1sj8RowckTRy",
 			"fillStyle": "solid",
@@ -47464,7 +47666,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47599,8 +47801,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 79,
-			"versionNonce": 1308870106,
+			"version": 87,
+			"versionNonce": 178151181,
 			"isDeleted": false,
 			"id": "XhPBHknPpZD02hp2xQsQz",
 			"fillStyle": "solid",
@@ -47620,7 +47822,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47679,8 +47881,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 77,
-			"versionNonce": 1499962566,
+			"version": 85,
+			"versionNonce": 1011131459,
 			"isDeleted": false,
 			"id": "C3CAkbnh4l1TN2Rlv1UfI",
 			"fillStyle": "solid",
@@ -47700,7 +47902,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47751,8 +47953,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 77,
-			"versionNonce": 134347418,
+			"version": 85,
+			"versionNonce": 318305645,
 			"isDeleted": false,
 			"id": "30_58Id4cR5mt3HmW6p4v",
 			"fillStyle": "solid",
@@ -47772,7 +47974,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47823,8 +48025,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 103,
-			"versionNonce": 1831080966,
+			"version": 111,
+			"versionNonce": 1833772003,
 			"isDeleted": false,
 			"id": "gbf0ezr3sh71NLKJhOa8P",
 			"fillStyle": "solid",
@@ -47844,7 +48046,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -47999,8 +48201,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 81,
-			"versionNonce": 1977325402,
+			"version": 89,
+			"versionNonce": 879869901,
 			"isDeleted": false,
 			"id": "ATpWL2ugwDYbOnUQlSC7n",
 			"fillStyle": "solid",
@@ -48020,7 +48222,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48111,8 +48313,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 71,
-			"versionNonce": 416260934,
+			"version": 79,
+			"versionNonce": 1415884675,
 			"isDeleted": false,
 			"id": "Sq7S9F1VqE94eAjr4Bj-Z",
 			"fillStyle": "solid",
@@ -48132,7 +48334,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48183,8 +48385,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 69,
-			"versionNonce": 1474534426,
+			"version": 77,
+			"versionNonce": 354565677,
 			"isDeleted": false,
 			"id": "OvFGnDQQrsQokYcdnVEuv",
 			"fillStyle": "solid",
@@ -48204,7 +48406,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48247,8 +48449,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 73,
-			"versionNonce": 1053248134,
+			"version": 81,
+			"versionNonce": 1942603555,
 			"isDeleted": false,
 			"id": "53C5em8jfoz80-q7JitsC",
 			"fillStyle": "solid",
@@ -48268,7 +48470,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815417,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48327,8 +48529,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 76,
-			"versionNonce": 1812793562,
+			"version": 84,
+			"versionNonce": 1542713485,
 			"isDeleted": false,
 			"id": "ejKZS7IYlmZ97kXAElw7M",
 			"fillStyle": "solid",
@@ -48348,7 +48550,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48419,8 +48621,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 83,
-			"versionNonce": 1841826246,
+			"version": 91,
+			"versionNonce": 32172739,
 			"isDeleted": false,
 			"id": "TE0Fmw2IbYE6cEa79AxKc",
 			"fillStyle": "solid",
@@ -48440,7 +48642,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48543,8 +48745,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 78,
-			"versionNonce": 971693466,
+			"version": 86,
+			"versionNonce": 379606765,
 			"isDeleted": false,
 			"id": "gGQUX-gaX0GidN4gXZ6q6",
 			"fillStyle": "solid",
@@ -48564,7 +48766,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48647,8 +48849,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 71,
-			"versionNonce": 1424941318,
+			"version": 79,
+			"versionNonce": 1667668579,
 			"isDeleted": false,
 			"id": "gLr3gOJBAjNpwOjQod5l-",
 			"fillStyle": "solid",
@@ -48668,7 +48870,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48723,8 +48925,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 68,
-			"versionNonce": 1588599386,
+			"version": 76,
+			"versionNonce": 1605431629,
 			"isDeleted": false,
 			"id": "mAws-Ub9kNRHLoawF_fWL",
 			"fillStyle": "solid",
@@ -48744,7 +48946,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48787,8 +48989,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 69,
-			"versionNonce": 934858822,
+			"version": 77,
+			"versionNonce": 1695241731,
 			"isDeleted": false,
 			"id": "e5CugaznN74vJdziRQQ-q",
 			"fillStyle": "solid",
@@ -48808,7 +49010,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48855,8 +49057,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 67,
-			"versionNonce": 1496301338,
+			"version": 75,
+			"versionNonce": 1149190061,
 			"isDeleted": false,
 			"id": "1aMAxnrHMwBu9pTHjgaDR",
 			"fillStyle": "solid",
@@ -48876,7 +49078,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -48915,8 +49117,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 81,
-			"versionNonce": 1644353414,
+			"version": 89,
+			"versionNonce": 903323043,
 			"isDeleted": false,
 			"id": "knEUHNM3jXPEScT_CQz0o",
 			"fillStyle": "solid",
@@ -48936,7 +49138,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49031,8 +49233,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 79,
-			"versionNonce": 1440533466,
+			"version": 87,
+			"versionNonce": 1798619661,
 			"isDeleted": false,
 			"id": "TUFgewm4ubsRvFmV4Figq",
 			"fillStyle": "solid",
@@ -49052,7 +49254,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49139,8 +49341,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 80,
-			"versionNonce": 470415046,
+			"version": 88,
+			"versionNonce": 553251139,
 			"isDeleted": false,
 			"id": "cxuSKFbjK7WPKKFL41LMs",
 			"fillStyle": "solid",
@@ -49160,7 +49362,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49251,8 +49453,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 71,
-			"versionNonce": 2060075162,
+			"version": 79,
+			"versionNonce": 2026567789,
 			"isDeleted": false,
 			"id": "_djjThJtdwcxU8I0U6gGA",
 			"fillStyle": "solid",
@@ -49272,7 +49474,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49327,8 +49529,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 73,
-			"versionNonce": 510340614,
+			"version": 81,
+			"versionNonce": 131125475,
 			"isDeleted": false,
 			"id": "hem2BopyO0i5au8Crhd_s",
 			"fillStyle": "solid",
@@ -49348,7 +49550,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49411,8 +49613,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 69,
-			"versionNonce": 866852186,
+			"version": 77,
+			"versionNonce": 923493069,
 			"isDeleted": false,
 			"id": "kzVUM_WPx_b3IQMic3awB",
 			"fillStyle": "solid",
@@ -49432,7 +49634,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49479,8 +49681,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 99,
-			"versionNonce": 102989126,
+			"version": 107,
+			"versionNonce": 468368515,
 			"isDeleted": false,
 			"id": "rda87L6G9ZvGQ_Q5Lz2FE",
 			"fillStyle": "solid",
@@ -49500,7 +49702,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49667,8 +49869,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 75,
-			"versionNonce": 2110939674,
+			"version": 83,
+			"versionNonce": 2056225069,
 			"isDeleted": false,
 			"id": "rHr5ZZ19fUrWPb9Phhnmc",
 			"fillStyle": "solid",
@@ -49688,7 +49890,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49759,8 +49961,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 67,
-			"versionNonce": 1217389702,
+			"version": 75,
+			"versionNonce": 1493578787,
 			"isDeleted": false,
 			"id": "L5v-7bVs_PJsJ4k6Zk88q",
 			"fillStyle": "solid",
@@ -49780,7 +49982,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49819,8 +50021,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 96,
-			"versionNonce": 875761370,
+			"version": 104,
+			"versionNonce": 1220596621,
 			"isDeleted": false,
 			"id": "zxcvkCZ5_XDXH1_duqiKs",
 			"fillStyle": "solid",
@@ -49840,7 +50042,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -49995,8 +50197,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 78,
-			"versionNonce": 661480390,
+			"version": 86,
+			"versionNonce": 1058125763,
 			"isDeleted": false,
 			"id": "Y3yj_GDws28LhrFH2WJMT",
 			"fillStyle": "solid",
@@ -50016,7 +50218,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50099,8 +50301,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 76,
-			"versionNonce": 1533027226,
+			"version": 84,
+			"versionNonce": 1037621741,
 			"isDeleted": false,
 			"id": "tjnHaYLhWps30kHCgXr4a",
 			"fillStyle": "solid",
@@ -50120,7 +50322,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50195,8 +50397,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 79,
-			"versionNonce": 618199814,
+			"version": 87,
+			"versionNonce": 1277937507,
 			"isDeleted": false,
 			"id": "QWpSYl9QVjxAZCZtDFsLd",
 			"fillStyle": "solid",
@@ -50216,7 +50418,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50303,8 +50505,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 92,
-			"versionNonce": 1837932634,
+			"version": 100,
+			"versionNonce": 853611597,
 			"isDeleted": false,
 			"id": "uK-A7YsINcAPqKrUXKotW",
 			"fillStyle": "solid",
@@ -50324,7 +50526,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50463,8 +50665,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 88,
-			"versionNonce": 2001709638,
+			"version": 96,
+			"versionNonce": 916644611,
 			"isDeleted": false,
 			"id": "zZsxMI-U70iL-Wq7IVBDw",
 			"fillStyle": "solid",
@@ -50484,7 +50686,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50607,8 +50809,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 646677786,
+			"version": 168,
+			"versionNonce": 598934189,
 			"isDeleted": false,
 			"id": "k-HnPVSoOQL_EzqRPy6-r",
 			"fillStyle": "solid",
@@ -50628,7 +50830,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50671,8 +50873,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 2108584326,
+			"version": 167,
+			"versionNonce": 1727367843,
 			"isDeleted": false,
 			"id": "zbr0RyM-l5m2JyAlvzzkR",
 			"fillStyle": "solid",
@@ -50692,7 +50894,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50731,8 +50933,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 1339019738,
+			"version": 168,
+			"versionNonce": 1425548557,
 			"isDeleted": false,
 			"id": "8ysN1-vMbg770h2SBwnkP",
 			"fillStyle": "solid",
@@ -50752,7 +50954,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50795,8 +50997,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 175,
-			"versionNonce": 858935494,
+			"version": 183,
+			"versionNonce": 835862083,
 			"isDeleted": false,
 			"id": "uSg9Hgvr9c9yVn5OD0PGj",
 			"fillStyle": "solid",
@@ -50816,7 +51018,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815418,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50919,8 +51121,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 208438938,
+			"version": 167,
+			"versionNonce": 975829869,
 			"isDeleted": false,
 			"id": "6vB2gQdevHaKm8o3CC3SH",
 			"fillStyle": "solid",
@@ -50940,7 +51142,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -50979,8 +51181,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 160,
-			"versionNonce": 595085318,
+			"version": 168,
+			"versionNonce": 1377271267,
 			"isDeleted": false,
 			"id": "AH_maH3xJmo6ItWDAQZNS",
 			"fillStyle": "solid",
@@ -51000,7 +51202,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221478,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51043,8 +51245,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 622109530,
+			"version": 169,
+			"versionNonce": 462554573,
 			"isDeleted": false,
 			"id": "o2IIIN2uA5sGL7UZhIkz7",
 			"fillStyle": "solid",
@@ -51064,7 +51266,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51111,8 +51313,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 1585272646,
+			"version": 169,
+			"versionNonce": 584305027,
 			"isDeleted": false,
 			"id": "oLFCPdQ_9wWKZC2ov4B5M",
 			"fillStyle": "solid",
@@ -51132,7 +51334,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51179,8 +51381,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1411065882,
+			"version": 166,
+			"versionNonce": 2085209133,
 			"isDeleted": false,
 			"id": "6dfXed5X_QFL2U4pBYyB_",
 			"fillStyle": "solid",
@@ -51200,7 +51402,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51235,8 +51437,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 176,
-			"versionNonce": 1822326406,
+			"version": 184,
+			"versionNonce": 423993635,
 			"isDeleted": false,
 			"id": "PP9PAUGmbB8UalIhX6ro3",
 			"fillStyle": "solid",
@@ -51256,7 +51458,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51363,8 +51565,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 167,
-			"versionNonce": 292754650,
+			"version": 175,
+			"versionNonce": 1077589645,
 			"isDeleted": false,
 			"id": "vd1wvbvaTfPo8zk0xNZZi",
 			"fillStyle": "solid",
@@ -51384,7 +51586,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51463,8 +51665,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 168,
-			"versionNonce": 1117306310,
+			"version": 176,
+			"versionNonce": 2128315587,
 			"isDeleted": false,
 			"id": "fK-ygQzf9BVs6KkRvz8Cl",
 			"fillStyle": "solid",
@@ -51484,7 +51686,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51567,8 +51769,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 1588554138,
+			"version": 166,
+			"versionNonce": 303979757,
 			"isDeleted": false,
 			"id": "vZBvQbNZ9fUoaULUMzdyY",
 			"fillStyle": "solid",
@@ -51588,7 +51790,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51635,8 +51837,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 898176262,
+			"version": 166,
+			"versionNonce": 1798567011,
 			"isDeleted": false,
 			"id": "63bdue8rNAXefMya8Xr4a",
 			"fillStyle": "solid",
@@ -51656,7 +51858,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51711,8 +51913,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 318973530,
+			"version": 164,
+			"versionNonce": 159266637,
 			"isDeleted": false,
 			"id": "qzxD4LLcizNTqpyfC5oJN",
 			"fillStyle": "solid",
@@ -51732,7 +51934,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51779,8 +51981,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 162,
-			"versionNonce": 1860994118,
+			"version": 170,
+			"versionNonce": 2115858435,
 			"isDeleted": false,
 			"id": "QaumqD6Xa8yfHHmro4B9K",
 			"fillStyle": "solid",
@@ -51800,7 +52002,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51871,8 +52073,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 154,
-			"versionNonce": 658590490,
+			"version": 162,
+			"versionNonce": 280217005,
 			"isDeleted": false,
 			"id": "HBaJ-Z9l_fcurTZn3Jcjb",
 			"fillStyle": "solid",
@@ -51892,7 +52094,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51931,8 +52133,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 1621101446,
+			"version": 163,
+			"versionNonce": 1503033251,
 			"isDeleted": false,
 			"id": "P7H6-nV6g4CgJP2v-qgf2",
 			"fillStyle": "solid",
@@ -51952,7 +52154,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -51995,8 +52197,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 182,
-			"versionNonce": 31250394,
+			"version": 190,
+			"versionNonce": 183011341,
 			"isDeleted": false,
 			"id": "ewzCs8siGjx2EEVjb-2UX",
 			"fillStyle": "solid",
@@ -52016,7 +52218,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52167,8 +52369,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 176,
-			"versionNonce": 954247878,
+			"version": 184,
+			"versionNonce": 1540197187,
 			"isDeleted": false,
 			"id": "_FED7jYkYZXzuFolpIiow",
 			"fillStyle": "solid",
@@ -52188,7 +52390,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52315,8 +52517,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 179,
-			"versionNonce": 1122552986,
+			"version": 187,
+			"versionNonce": 974519917,
 			"isDeleted": false,
 			"id": "qPa2Zg-4paOAVlOAI-c5z",
 			"fillStyle": "solid",
@@ -52336,7 +52538,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52475,8 +52677,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 175,
-			"versionNonce": 1447780870,
+			"version": 183,
+			"versionNonce": 421604067,
 			"isDeleted": false,
 			"id": "Eu05S66Aoz_m_qS4FQTNy",
 			"fillStyle": "solid",
@@ -52496,7 +52698,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52619,8 +52821,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 178,
-			"versionNonce": 270018906,
+			"version": 186,
+			"versionNonce": 1694869709,
 			"isDeleted": false,
 			"id": "Zbl1zPnTn79o0Xa35xJ6s",
 			"fillStyle": "solid",
@@ -52640,7 +52842,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52775,8 +52977,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 1004351814,
+			"version": 164,
+			"versionNonce": 371185283,
 			"isDeleted": false,
 			"id": "z-0VGvPX27_TIzycLpUno",
 			"fillStyle": "solid",
@@ -52796,7 +52998,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52843,8 +53045,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 1623059994,
+			"version": 164,
+			"versionNonce": 1028720429,
 			"isDeleted": false,
 			"id": "0NFKYeqMi_hqpUcuz_Ped",
 			"fillStyle": "solid",
@@ -52864,7 +53066,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52911,8 +53113,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 83040390,
+			"version": 163,
+			"versionNonce": 1099435555,
 			"isDeleted": false,
 			"id": "Pawv7lRN7C4y3znzGKFLN",
 			"fillStyle": "solid",
@@ -52932,7 +53134,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -52975,8 +53177,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 169,
-			"versionNonce": 1238178522,
+			"version": 177,
+			"versionNonce": 90282381,
 			"isDeleted": false,
 			"id": "8B0iYYX5aJJVCk-CwwS4c",
 			"fillStyle": "solid",
@@ -52996,7 +53198,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53095,8 +53297,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 1498027974,
+			"version": 163,
+			"versionNonce": 776491459,
 			"isDeleted": false,
 			"id": "s8m9jeambW3b54zmkurAF",
 			"fillStyle": "solid",
@@ -53116,7 +53318,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53159,8 +53361,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 1238937498,
+			"version": 164,
+			"versionNonce": 1987108845,
 			"isDeleted": false,
 			"id": "lqaoUoYlZrsRA4SGi4oZh",
 			"fillStyle": "solid",
@@ -53180,7 +53382,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53227,8 +53429,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 179,
-			"versionNonce": 1627336454,
+			"version": 187,
+			"versionNonce": 226435427,
 			"isDeleted": false,
 			"id": "6xTBEMFdrevVeB4piDDnc",
 			"fillStyle": "solid",
@@ -53248,7 +53450,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815419,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53391,8 +53593,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 171,
-			"versionNonce": 353610842,
+			"version": 179,
+			"versionNonce": 1720212045,
 			"isDeleted": false,
 			"id": "56cJ0zKK2ar6zuI5xs_1K",
 			"fillStyle": "solid",
@@ -53412,7 +53614,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53527,8 +53729,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 148,
-			"versionNonce": 948919878,
+			"version": 156,
+			"versionNonce": 1752890627,
 			"isDeleted": false,
 			"id": "RwA-hvRu9N_GysBsmpe5W",
 			"fillStyle": "solid",
@@ -53548,7 +53750,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53603,8 +53805,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 149,
-			"versionNonce": 1632702746,
+			"version": 157,
+			"versionNonce": 780241069,
 			"isDeleted": false,
 			"id": "zzhoBfI0mcKcVFKoRh6dW",
 			"fillStyle": "solid",
@@ -53624,7 +53826,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53683,8 +53885,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 149,
-			"versionNonce": 1691854214,
+			"version": 157,
+			"versionNonce": 448423075,
 			"isDeleted": false,
 			"id": "x2mfPFPBpMjKmcqm-uH-X",
 			"fillStyle": "solid",
@@ -53704,7 +53906,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221479,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53763,8 +53965,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 151,
-			"versionNonce": 839114202,
+			"version": 159,
+			"versionNonce": 1342565133,
 			"isDeleted": false,
 			"id": "l62dwU5VSODziWaPMTZqo",
 			"fillStyle": "solid",
@@ -53784,7 +53986,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53851,8 +54053,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 1192559814,
+			"version": 167,
+			"versionNonce": 200005699,
 			"isDeleted": false,
 			"id": "u7K5KXscwyMbslwcMgTsb",
 			"fillStyle": "solid",
@@ -53872,7 +54074,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -53971,8 +54173,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 608113306,
+			"version": 164,
+			"versionNonce": 1536098669,
 			"isDeleted": false,
 			"id": "aXrz555EadknwTC5-dlgI",
 			"fillStyle": "solid",
@@ -53992,7 +54194,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54079,8 +54281,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 147,
-			"versionNonce": 283409414,
+			"version": 155,
+			"versionNonce": 703453155,
 			"isDeleted": false,
 			"id": "9EywPISrBHI1fSFUq6CU3",
 			"fillStyle": "solid",
@@ -54100,7 +54302,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54151,8 +54353,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 145,
-			"versionNonce": 984985434,
+			"version": 153,
+			"versionNonce": 375802829,
 			"isDeleted": false,
 			"id": "NUafkOzZTZrEUttShUOgg",
 			"fillStyle": "solid",
@@ -54172,7 +54374,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54215,8 +54417,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 146,
-			"versionNonce": 943917894,
+			"version": 154,
+			"versionNonce": 583984003,
 			"isDeleted": false,
 			"id": "7TkM0dVYQQSg7M4bOjMXH",
 			"fillStyle": "solid",
@@ -54236,7 +54438,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54283,8 +54485,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 145,
-			"versionNonce": 700101658,
+			"version": 153,
+			"versionNonce": 1621445165,
 			"isDeleted": false,
 			"id": "lZ6y07upAKPZFPtQdyFcy",
 			"fillStyle": "solid",
@@ -54304,7 +54506,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54347,8 +54549,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 161,
-			"versionNonce": 1804448390,
+			"version": 169,
+			"versionNonce": 1590524707,
 			"isDeleted": false,
 			"id": "YEUNPc83q4AsE2QbA8Nlk",
 			"fillStyle": "solid",
@@ -54368,7 +54570,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54479,8 +54681,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 591470810,
+			"version": 163,
+			"versionNonce": 1530231949,
 			"isDeleted": false,
 			"id": "js0DSQKzajqe0AIKTljm3",
 			"fillStyle": "solid",
@@ -54500,7 +54702,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54587,8 +54789,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 158,
-			"versionNonce": 92369350,
+			"version": 166,
+			"versionNonce": 978853571,
 			"isDeleted": false,
 			"id": "ELRJCdIPOf8yvBnEzs1_f",
 			"fillStyle": "solid",
@@ -54608,7 +54810,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54707,8 +54909,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 147,
-			"versionNonce": 584840602,
+			"version": 155,
+			"versionNonce": 1305502445,
 			"isDeleted": false,
 			"id": "6G9jqm1gEXkc5JLt2zSIB",
 			"fillStyle": "solid",
@@ -54728,7 +54930,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -54783,8 +54985,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "frame",
-			"version": 705,
-			"versionNonce": 20662534,
+			"version": 713,
+			"versionNonce": 872035,
 			"isDeleted": false,
 			"id": "OLpUd3gTWpdstfpmv2au1",
 			"fillStyle": "solid",
@@ -54809,7 +55011,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -54823,8 +55025,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 1050,
-			"versionNonce": 968766042,
+			"version": 1058,
+			"versionNonce": 1291812173,
 			"isDeleted": false,
 			"id": "rZ82mdFO",
 			"fillStyle": "solid",
@@ -54837,14 +55039,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 1083.2504095738727,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 469.0341796875,
+			"width": 469.07281494140625,
 			"height": 58.33114293606062,
 			"seed": 1473559270,
 			"groupIds": [],
 			"frameId": "CGGYtStntPigbzzZtyhvR",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"fontSize": 46.6649143488485,
@@ -54860,8 +55062,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "frame",
-			"version": 642,
-			"versionNonce": 1849178182,
+			"version": 650,
+			"versionNonce": 582715907,
 			"isDeleted": false,
 			"id": "CGGYtStntPigbzzZtyhvR",
 			"fillStyle": "solid",
@@ -54886,7 +55088,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -54900,8 +55102,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 1291,
-			"versionNonce": 1522194202,
+			"version": 1299,
+			"versionNonce": 538725293,
 			"isDeleted": false,
 			"id": "q6eu86Uq",
 			"fillStyle": "solid",
@@ -54914,14 +55116,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 1125.8758447991088,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 395.177490234375,
+			"width": 395.21002197265625,
 			"height": 58.33114293606062,
 			"seed": 1731651558,
 			"groupIds": [],
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"fontSize": 46.6649143488485,
@@ -54937,8 +55139,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 216,
-			"versionNonce": 1683308422,
+			"version": 224,
+			"versionNonce": 929124771,
 			"isDeleted": false,
 			"id": "NT3glTMP",
 			"fillStyle": "solid",
@@ -54951,14 +55153,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 1299.1408307354213,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 604.3167114257812,
+			"width": 604.37158203125,
 			"height": 68.29124371227957,
 			"seed": 2117301126,
 			"groupIds": [],
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"fontSize": 54.632994969823656,
@@ -54970,12 +55172,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "E-MOSFET de canal N",
 			"lineHeight": 1.25,
-			"baseline": 47
+			"baseline": 48
 		},
 		{
 			"type": "freedraw",
-			"version": 143,
-			"versionNonce": 642048986,
+			"version": 151,
+			"versionNonce": 1733316109,
 			"isDeleted": false,
 			"id": "Lz7EzdNeYiTFnoKEH6pp7",
 			"fillStyle": "solid",
@@ -54995,7 +55197,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55082,8 +55284,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 144,
-			"versionNonce": 2010078918,
+			"version": 152,
+			"versionNonce": 791487811,
 			"isDeleted": false,
 			"id": "ZpRWTpJsLx47YtW3hx0O7",
 			"fillStyle": "solid",
@@ -55103,7 +55305,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55194,8 +55396,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 133,
-			"versionNonce": 913266842,
+			"version": 141,
+			"versionNonce": 26543213,
 			"isDeleted": false,
 			"id": "DWSo5uWZdzAXBYfWweUZ7",
 			"fillStyle": "solid",
@@ -55215,7 +55417,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55262,8 +55464,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 134,
-			"versionNonce": 759404038,
+			"version": 142,
+			"versionNonce": 1367180515,
 			"isDeleted": false,
 			"id": "WMO8nLMdOtid1UcsM0Q67",
 			"fillStyle": "solid",
@@ -55283,7 +55485,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55334,8 +55536,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 134,
-			"versionNonce": 1793930586,
+			"version": 142,
+			"versionNonce": 850652877,
 			"isDeleted": false,
 			"id": "GUplDz5Lg92gSZO9tVfr6",
 			"fillStyle": "solid",
@@ -55355,7 +55557,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55406,8 +55608,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 134,
-			"versionNonce": 1840178502,
+			"version": 142,
+			"versionNonce": 1977675907,
 			"isDeleted": false,
 			"id": "4YBo3yH0TwgBWtF7RwZfZ",
 			"fillStyle": "solid",
@@ -55427,7 +55629,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815420,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55478,8 +55680,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 133,
-			"versionNonce": 890337818,
+			"version": 141,
+			"versionNonce": 155618605,
 			"isDeleted": false,
 			"id": "QbtaIgOfH2MASZ3oOFPen",
 			"fillStyle": "solid",
@@ -55499,7 +55701,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55546,8 +55748,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 156,
-			"versionNonce": 2054048902,
+			"version": 164,
+			"versionNonce": 2115364899,
 			"isDeleted": false,
 			"id": "vI-hHq3d5ns7y7XJ2js8-",
 			"fillStyle": "solid",
@@ -55567,7 +55769,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55614,8 +55816,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 1674520282,
+			"version": 163,
+			"versionNonce": 79060877,
 			"isDeleted": false,
 			"id": "ZL_ISaNUjhZVjsdoxkg1N",
 			"fillStyle": "solid",
@@ -55635,7 +55837,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55678,8 +55880,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 157,
-			"versionNonce": 1631505350,
+			"version": 165,
+			"versionNonce": 269151171,
 			"isDeleted": false,
 			"id": "QQml5bppG3AqDEZ5gGxnJ",
 			"fillStyle": "solid",
@@ -55699,7 +55901,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55750,8 +55952,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 180,
-			"versionNonce": 1874410394,
+			"version": 188,
+			"versionNonce": 2067588589,
 			"isDeleted": false,
 			"id": "1V7JOp0q7GnqwS3ooubfr",
 			"fillStyle": "solid",
@@ -55771,7 +55973,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55854,8 +56056,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 172,
-			"versionNonce": 1883071238,
+			"version": 180,
+			"versionNonce": 266238819,
 			"isDeleted": false,
 			"id": "RALToFY71Q1c0MZQKJETe",
 			"fillStyle": "solid",
@@ -55875,7 +56077,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55926,8 +56128,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 170,
-			"versionNonce": 1191360602,
+			"version": 178,
+			"versionNonce": 1071882317,
 			"isDeleted": false,
 			"id": "4Esk2gIAPKfgzVgxH6F0v",
 			"fillStyle": "solid",
@@ -55947,7 +56149,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -55990,8 +56192,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 169,
-			"versionNonce": 703009350,
+			"version": 177,
+			"versionNonce": 1507792643,
 			"isDeleted": false,
 			"id": "p5uqkqZ5oY3mR-X4BMlnx",
 			"fillStyle": "solid",
@@ -56011,7 +56213,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56050,8 +56252,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 187,
-			"versionNonce": 427728154,
+			"version": 195,
+			"versionNonce": 142872237,
 			"isDeleted": false,
 			"id": "s8aATn2fgqm2dRxyRJv-U",
 			"fillStyle": "solid",
@@ -56071,7 +56273,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56182,8 +56384,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 170,
-			"versionNonce": 957929862,
+			"version": 178,
+			"versionNonce": 1015758499,
 			"isDeleted": false,
 			"id": "4S62klWxOR80-_qQ_e3aI",
 			"fillStyle": "solid",
@@ -56203,7 +56405,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56246,8 +56448,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 134,
-			"versionNonce": 614459866,
+			"version": 142,
+			"versionNonce": 331854093,
 			"isDeleted": false,
 			"id": "6aLhtDl2raXMZctfogeMY",
 			"fillStyle": "solid",
@@ -56267,7 +56469,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56322,8 +56524,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 134,
-			"versionNonce": 1695529158,
+			"version": 142,
+			"versionNonce": 848392771,
 			"isDeleted": false,
 			"id": "Mo4k2QPqi_yCxCd7J_TE3",
 			"fillStyle": "solid",
@@ -56343,7 +56545,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56398,8 +56600,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 135,
-			"versionNonce": 2138676890,
+			"version": 143,
+			"versionNonce": 254281581,
 			"isDeleted": false,
 			"id": "1cZTsL17FdR2nr40xO7_Q",
 			"fillStyle": "solid",
@@ -56419,7 +56621,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56478,8 +56680,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 132,
-			"versionNonce": 90746886,
+			"version": 140,
+			"versionNonce": 1557148131,
 			"isDeleted": false,
 			"id": "cn5FBhMw5KOG0Zi83jNGc",
 			"fillStyle": "solid",
@@ -56499,7 +56701,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56546,8 +56748,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 149,
-			"versionNonce": 1723775834,
+			"version": 157,
+			"versionNonce": 1022267853,
 			"isDeleted": false,
 			"id": "XP6GUvelW0xFKzPpxaNLJ",
 			"fillStyle": "solid",
@@ -56567,7 +56769,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56682,8 +56884,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 171,
-			"versionNonce": 1981857606,
+			"version": 179,
+			"versionNonce": 1012268419,
 			"isDeleted": false,
 			"id": "pKiv4Cp-DGwitAkQP6Mtu",
 			"fillStyle": "solid",
@@ -56703,7 +56905,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56906,8 +57108,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 135,
-			"versionNonce": 146948122,
+			"version": 143,
+			"versionNonce": 1513410605,
 			"isDeleted": false,
 			"id": "Q5UwD3wq4f4FDbETw_a8m",
 			"fillStyle": "solid",
@@ -56927,7 +57129,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -56986,8 +57188,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 146,
-			"versionNonce": 194307718,
+			"version": 154,
+			"versionNonce": 744576291,
 			"isDeleted": false,
 			"id": "KkfuO26JyujOAtXeMwYHI",
 			"fillStyle": "solid",
@@ -57007,7 +57209,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57110,8 +57312,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 140,
-			"versionNonce": 1366764762,
+			"version": 148,
+			"versionNonce": 1155809933,
 			"isDeleted": false,
 			"id": "iWolt71Dy8aen8NOIBpbI",
 			"fillStyle": "solid",
@@ -57131,7 +57333,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57210,8 +57412,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 109192646,
+			"version": 139,
+			"versionNonce": 476100803,
 			"isDeleted": false,
 			"id": "J2vIWk1AY7nlFVeQMPtIi",
 			"fillStyle": "solid",
@@ -57231,7 +57433,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57274,8 +57476,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 132,
-			"versionNonce": 913342874,
+			"version": 140,
+			"versionNonce": 1639344365,
 			"isDeleted": false,
 			"id": "iSOGDtvw6Css2HcmZbhGp",
 			"fillStyle": "solid",
@@ -57295,7 +57497,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57342,8 +57544,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 147,
-			"versionNonce": 134577414,
+			"version": 155,
+			"versionNonce": 166897763,
 			"isDeleted": false,
 			"id": "tK5BTx6lFQ-9N1moSkdo_",
 			"fillStyle": "solid",
@@ -57363,7 +57565,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57470,8 +57672,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 149,
-			"versionNonce": 48315994,
+			"version": 157,
+			"versionNonce": 1110754125,
 			"isDeleted": false,
 			"id": "M2a9AgCSpJKKH4gxDoTR2",
 			"fillStyle": "solid",
@@ -57491,7 +57693,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57606,8 +57808,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 132,
-			"versionNonce": 94104646,
+			"version": 140,
+			"versionNonce": 988128259,
 			"isDeleted": false,
 			"id": "TXo6Uf3TbSZNkH8IAXvaz",
 			"fillStyle": "solid",
@@ -57627,7 +57829,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57674,8 +57876,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 133,
-			"versionNonce": 597451546,
+			"version": 141,
+			"versionNonce": 179884461,
 			"isDeleted": false,
 			"id": "o81NXXa5Ql-udUtV9sv1d",
 			"fillStyle": "solid",
@@ -57695,7 +57897,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57746,8 +57948,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 136,
-			"versionNonce": 1025667974,
+			"version": 144,
+			"versionNonce": 926428067,
 			"isDeleted": false,
 			"id": "TEC6ly9JY2HPufQ7PIOme",
 			"fillStyle": "solid",
@@ -57767,7 +57969,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815421,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57830,8 +58032,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 136,
-			"versionNonce": 1930751962,
+			"version": 144,
+			"versionNonce": 409736205,
 			"isDeleted": false,
 			"id": "jsyhxWWUgRoQq21GpxO3u",
 			"fillStyle": "solid",
@@ -57851,7 +58053,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57914,8 +58116,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 136,
-			"versionNonce": 685118150,
+			"version": 144,
+			"versionNonce": 51953475,
 			"isDeleted": false,
 			"id": "BrorN8tCg_HwMFkE9JOAI",
 			"fillStyle": "solid",
@@ -57935,7 +58137,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -57998,8 +58200,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 148,
-			"versionNonce": 90039450,
+			"version": 156,
+			"versionNonce": 1732774509,
 			"isDeleted": false,
 			"id": "wBT8IJcnEjPAlpzT3rP9V",
 			"fillStyle": "solid",
@@ -58019,7 +58221,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58130,8 +58332,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 149,
-			"versionNonce": 1934871046,
+			"version": 157,
+			"versionNonce": 417717987,
 			"isDeleted": false,
 			"id": "LFGeMV4AuI7KaXI0TqT4P",
 			"fillStyle": "solid",
@@ -58151,7 +58353,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58266,8 +58468,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 135,
-			"versionNonce": 1948926298,
+			"version": 143,
+			"versionNonce": 940979405,
 			"isDeleted": false,
 			"id": "r3EwoFrU_l7n4PDuCHf6i",
 			"fillStyle": "solid",
@@ -58287,7 +58489,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58346,8 +58548,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 142,
-			"versionNonce": 1805162822,
+			"version": 150,
+			"versionNonce": 590219907,
 			"isDeleted": false,
 			"id": "qrgSSh-qqBz7aJYeqoMMn",
 			"fillStyle": "solid",
@@ -58367,7 +58569,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58454,8 +58656,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 139,
-			"versionNonce": 718079514,
+			"version": 147,
+			"versionNonce": 1987056429,
 			"isDeleted": false,
 			"id": "35yCeZRmrPel_yELapqIi",
 			"fillStyle": "solid",
@@ -58475,7 +58677,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221480,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58550,8 +58752,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 132,
-			"versionNonce": 2030141574,
+			"version": 140,
+			"versionNonce": 1991229987,
 			"isDeleted": false,
 			"id": "R1i8_zeD7BdXuI-aA-aH7",
 			"fillStyle": "solid",
@@ -58571,7 +58773,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58618,8 +58820,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 842609370,
+			"version": 139,
+			"versionNonce": 1589585293,
 			"isDeleted": false,
 			"id": "ZSu7PqE45vH0Ov9DO9z5-",
 			"fillStyle": "solid",
@@ -58639,7 +58841,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58682,8 +58884,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 145,
-			"versionNonce": 256606150,
+			"version": 153,
+			"versionNonce": 1280935363,
 			"isDeleted": false,
 			"id": "sGd_qQgiP3ty--PwJjrdY",
 			"fillStyle": "solid",
@@ -58703,7 +58905,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58802,8 +59004,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 145,
-			"versionNonce": 2097268634,
+			"version": 153,
+			"versionNonce": 1681714157,
 			"isDeleted": false,
 			"id": "B3gDHjm8ui2Y0wpuQzs4x",
 			"fillStyle": "solid",
@@ -58823,7 +59025,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -58922,8 +59124,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 136,
-			"versionNonce": 580097798,
+			"version": 144,
+			"versionNonce": 994694499,
 			"isDeleted": false,
 			"id": "GyorDXQ63YTbEouNLeHJQ",
 			"fillStyle": "solid",
@@ -58943,7 +59145,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59006,8 +59208,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 171,
-			"versionNonce": 861520986,
+			"version": 179,
+			"versionNonce": 1458759245,
 			"isDeleted": false,
 			"id": "5pKgjHRaX6HlQyVOR0LG4",
 			"fillStyle": "solid",
@@ -59027,7 +59229,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59234,8 +59436,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 138,
-			"versionNonce": 458671686,
+			"version": 146,
+			"versionNonce": 1926181123,
 			"isDeleted": false,
 			"id": "J3HL6VgqM9T7XrC5eVGDX",
 			"fillStyle": "solid",
@@ -59255,7 +59457,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59330,8 +59532,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 133,
-			"versionNonce": 2132027674,
+			"version": 141,
+			"versionNonce": 1236964525,
 			"isDeleted": false,
 			"id": "h0fNAalbsFf_gLpP39dcq",
 			"fillStyle": "solid",
@@ -59351,7 +59553,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59406,8 +59608,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 1248988550,
+			"version": 139,
+			"versionNonce": 879237283,
 			"isDeleted": false,
 			"id": "GljdNZy4lfhW0YtSQEr1C",
 			"fillStyle": "solid",
@@ -59427,7 +59629,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59474,8 +59676,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 1470363098,
+			"version": 139,
+			"versionNonce": 943552269,
 			"isDeleted": false,
 			"id": "Xa4ecBoRCBnfn0kk-zy_W",
 			"fillStyle": "solid",
@@ -59495,7 +59697,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59542,8 +59744,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 130,
-			"versionNonce": 1562537158,
+			"version": 138,
+			"versionNonce": 230886467,
 			"isDeleted": false,
 			"id": "Qi9xH3rL49SeDHarHZNQZ",
 			"fillStyle": "solid",
@@ -59563,7 +59765,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59606,8 +59808,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 159,
-			"versionNonce": 1310468762,
+			"version": 167,
+			"versionNonce": 1827999085,
 			"isDeleted": false,
 			"id": "owCmI7rEaa3-coFJPEeJp",
 			"fillStyle": "solid",
@@ -59627,7 +59829,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59786,8 +59988,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 133,
-			"versionNonce": 1359275014,
+			"version": 141,
+			"versionNonce": 1388219363,
 			"isDeleted": false,
 			"id": "MCDbS5gvIuWLupjW8r3y3",
 			"fillStyle": "solid",
@@ -59807,7 +60009,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59862,8 +60064,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 1496303450,
+			"version": 139,
+			"versionNonce": 657119181,
 			"isDeleted": false,
 			"id": "pY5Wk1jYl4pRI5q9_PYxc",
 			"fillStyle": "solid",
@@ -59883,7 +60085,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -59930,8 +60132,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 132,
-			"versionNonce": 1746301766,
+			"version": 140,
+			"versionNonce": 1466505091,
 			"isDeleted": false,
 			"id": "R5i_vLu5Zo9wLscCPzbZJ",
 			"fillStyle": "solid",
@@ -59951,7 +60153,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60002,8 +60204,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 556911642,
+			"version": 139,
+			"versionNonce": 16274989,
 			"isDeleted": false,
 			"id": "yMBoIp8w4xHSZTWxDk3aj",
 			"fillStyle": "solid",
@@ -60023,7 +60225,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60070,8 +60272,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 144,
-			"versionNonce": 481565318,
+			"version": 152,
+			"versionNonce": 1778462499,
 			"isDeleted": false,
 			"id": "_bWvirSnb5jfbH7CCXe8y",
 			"fillStyle": "solid",
@@ -60091,7 +60293,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60190,8 +60392,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 142,
-			"versionNonce": 1276459226,
+			"version": 150,
+			"versionNonce": 356976781,
 			"isDeleted": false,
 			"id": "w4vSVm5UafqDI_g0CnYez",
 			"fillStyle": "solid",
@@ -60211,7 +60413,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60302,8 +60504,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 362469830,
+			"version": 139,
+			"versionNonce": 217404099,
 			"isDeleted": false,
 			"id": "rvfLSFIwfOnZaj669jdbO",
 			"fillStyle": "solid",
@@ -60323,7 +60525,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60370,8 +60572,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 1231883674,
+			"version": 139,
+			"versionNonce": 1708158701,
 			"isDeleted": false,
 			"id": "TLV7LGCbe53kiQw5nroGF",
 			"fillStyle": "solid",
@@ -60391,7 +60593,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815422,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60438,8 +60640,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 132,
-			"versionNonce": 434614534,
+			"version": 140,
+			"versionNonce": 1893991011,
 			"isDeleted": false,
 			"id": "lJdsuhhoPrfOBt8TRPT6c",
 			"fillStyle": "solid",
@@ -60459,7 +60661,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60510,8 +60712,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 510413402,
+			"version": 139,
+			"versionNonce": 18745677,
 			"isDeleted": false,
 			"id": "5ua5ZcoXiylPYv2Ee2PfS",
 			"fillStyle": "solid",
@@ -60531,7 +60733,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60578,8 +60780,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 130,
-			"versionNonce": 85434438,
+			"version": 138,
+			"versionNonce": 781958659,
 			"isDeleted": false,
 			"id": "UDDKDgP2NSsKjIToL9Ze2",
 			"fillStyle": "solid",
@@ -60599,7 +60801,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60642,8 +60844,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 130,
-			"versionNonce": 837152538,
+			"version": 138,
+			"versionNonce": 1753831341,
 			"isDeleted": false,
 			"id": "HHiEZ59eDmPbBz1jygZpb",
 			"fillStyle": "solid",
@@ -60663,7 +60865,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60706,8 +60908,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 129,
-			"versionNonce": 990357382,
+			"version": 137,
+			"versionNonce": 1092289955,
 			"isDeleted": false,
 			"id": "VedC5ISDKozzFv2XNrkIE",
 			"fillStyle": "solid",
@@ -60727,7 +60929,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60766,8 +60968,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 129,
-			"versionNonce": 407698394,
+			"version": 137,
+			"versionNonce": 909892109,
 			"isDeleted": false,
 			"id": "ye6mJiuYKtHrHzH5WIlC9",
 			"fillStyle": "solid",
@@ -60787,7 +60989,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60826,8 +61028,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 140,
-			"versionNonce": 469026502,
+			"version": 148,
+			"versionNonce": 1066424643,
 			"isDeleted": false,
 			"id": "EwKjOJ22gHbTL_nNRHXjY",
 			"fillStyle": "solid",
@@ -60847,7 +61049,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -60930,8 +61132,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 143,
-			"versionNonce": 1605660826,
+			"version": 151,
+			"versionNonce": 53416045,
 			"isDeleted": false,
 			"id": "Qgf7YkYDaxa_W5WAiNNE3",
 			"fillStyle": "solid",
@@ -60951,7 +61153,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -61046,8 +61248,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 135,
-			"versionNonce": 2021391878,
+			"version": 143,
+			"versionNonce": 1465530595,
 			"isDeleted": false,
 			"id": "5Di_YeJYxich_B1afMjam",
 			"fillStyle": "solid",
@@ -61067,7 +61269,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -61130,8 +61332,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 132,
-			"versionNonce": 1540312410,
+			"version": 140,
+			"versionNonce": 221018829,
 			"isDeleted": false,
 			"id": "ncCXrQ3g-UUFF3ARb9w70",
 			"fillStyle": "solid",
@@ -61151,7 +61353,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -61202,8 +61404,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 129,
-			"versionNonce": 93998406,
+			"version": 137,
+			"versionNonce": 101131395,
 			"isDeleted": false,
 			"id": "ddVWGHHgj2TGd88f8POvn",
 			"fillStyle": "solid",
@@ -61223,7 +61425,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -61262,8 +61464,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 241,
-			"versionNonce": 1911591450,
+			"version": 249,
+			"versionNonce": 483236141,
 			"isDeleted": false,
 			"id": "iz_YtKw0OsQzo7hvY_-eu",
 			"fillStyle": "solid",
@@ -61283,7 +61485,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -61774,8 +61976,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 94,
-			"versionNonce": 1353495686,
+			"version": 102,
+			"versionNonce": 324377635,
 			"isDeleted": false,
 			"id": "KDjnDKzD",
 			"fillStyle": "solid",
@@ -61788,14 +61990,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 1983.8952538208462,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 386.0809326171875,
+			"width": 386.13946533203125,
 			"height": 42.04350766705693,
 			"seed": 707033498,
 			"groupIds": [],
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"fontSize": 33.63480613364554,
@@ -61807,12 +62009,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "1) High Input Impedance",
 			"lineHeight": 1.25,
-			"baseline": 30
+			"baseline": 29
 		},
 		{
 			"type": "text",
-			"version": 94,
-			"versionNonce": 1695235802,
+			"version": 102,
+			"versionNonce": 729541517,
 			"isDeleted": false,
 			"id": "F3bmRsSo",
 			"fillStyle": "solid",
@@ -61825,14 +62027,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 2042.7561645547257,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 429.2889404296875,
+			"width": 429.3540344238281,
 			"height": 42.043507667056915,
 			"seed": 1403847942,
 			"groupIds": [],
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"fontSize": 33.63480613364553,
@@ -61844,12 +62046,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "2) Low Output Impedance",
 			"lineHeight": 1.25,
-			"baseline": 30
+			"baseline": 29
 		},
 		{
 			"type": "text",
-			"version": 94,
-			"versionNonce": 862991302,
+			"version": 102,
+			"versionNonce": 1261707203,
 			"isDeleted": false,
 			"id": "5FZHtXb8",
 			"fillStyle": "solid",
@@ -61862,14 +62064,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 2101.6170752886055,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 416.14154052734375,
+			"width": 416.20465087890625,
 			"height": 42.043507667056915,
 			"seed": 1297495642,
 			"groupIds": [],
 			"frameId": "ZU_Gkrc4yVqqc0DkIujfE",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"fontSize": 33.63480613364553,
@@ -61881,12 +62083,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "3) Sub-unity voltage gain",
 			"lineHeight": 1.25,
-			"baseline": 30
+			"baseline": 29
 		},
 		{
 			"type": "frame",
-			"version": 948,
-			"versionNonce": 565334938,
+			"version": 956,
+			"versionNonce": 1232138733,
 			"isDeleted": false,
 			"id": "ZU_Gkrc4yVqqc0DkIujfE",
 			"fillStyle": "solid",
@@ -61911,7 +62113,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -61925,8 +62127,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 1327,
-			"versionNonce": 1208077062,
+			"version": 1335,
+			"versionNonce": 2009149283,
 			"isDeleted": false,
 			"id": "327XmypmFoDAdUSzbl9hi",
 			"fillStyle": "solid",
@@ -61948,7 +62150,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -61977,8 +62179,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 519,
-			"versionNonce": 169398362,
+			"version": 527,
+			"versionNonce": 1136012365,
 			"isDeleted": false,
 			"id": "rKP1CFT5",
 			"fillStyle": "solid",
@@ -61991,7 +62193,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -2263.852297696427,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 6730.638671875,
+			"width": 6730.650390625,
 			"height": 744.4855523216947,
 			"seed": 1987161510,
 			"groupIds": [],
@@ -62015,7 +62217,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815423,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"fontSize": 595.5884418573557,
@@ -62027,12 +62229,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "EL MALDITO MOSFET",
 			"lineHeight": 1.25,
-			"baseline": 525
+			"baseline": 524
 		},
 		{
 			"type": "arrow",
-			"version": 704,
-			"versionNonce": 1558084166,
+			"version": 712,
+			"versionNonce": 457919235,
 			"isDeleted": false,
 			"id": "NaAvts0n4pEYOkt0YZ0-3",
 			"fillStyle": "solid",
@@ -62054,7 +62256,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -62083,8 +62285,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 577,
-			"versionNonce": 1108456730,
+			"version": 585,
+			"versionNonce": 170203821,
 			"isDeleted": false,
 			"id": "6cWfLpIqSLgNmy07McrfJ",
 			"fillStyle": "solid",
@@ -62106,7 +62308,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -62135,8 +62337,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 340,
-			"versionNonce": 1759723910,
+			"version": 348,
+			"versionNonce": 1783689891,
 			"isDeleted": false,
 			"id": "zOvWhb44tYiiCXmKI3ULD",
 			"fillStyle": "solid",
@@ -62156,7 +62358,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62227,8 +62429,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 335,
-			"versionNonce": 2064646618,
+			"version": 343,
+			"versionNonce": 1432829197,
 			"isDeleted": false,
 			"id": "HAqEQz02Avnwq-tMGCA1F",
 			"fillStyle": "solid",
@@ -62248,7 +62450,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62299,8 +62501,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 337,
-			"versionNonce": 2135761094,
+			"version": 345,
+			"versionNonce": 92317251,
 			"isDeleted": false,
 			"id": "BRjJkyeB7ARREIcxi6FdJ",
 			"fillStyle": "solid",
@@ -62320,7 +62522,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62379,8 +62581,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 336,
-			"versionNonce": 1076278938,
+			"version": 344,
+			"versionNonce": 217453421,
 			"isDeleted": false,
 			"id": "Uiu0gfa6ccdsxKyLrkS26",
 			"fillStyle": "solid",
@@ -62400,7 +62602,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62455,8 +62657,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 349,
-			"versionNonce": 1136203782,
+			"version": 357,
+			"versionNonce": 1941497315,
 			"isDeleted": false,
 			"id": "iKk-e2Od2lXz9KjUXsek9",
 			"fillStyle": "solid",
@@ -62476,7 +62678,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62583,8 +62785,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 333,
-			"versionNonce": 1107874650,
+			"version": 341,
+			"versionNonce": 1830493645,
 			"isDeleted": false,
 			"id": "v2bdOi7RZ-CwUnQIQfdAJ",
 			"fillStyle": "solid",
@@ -62604,7 +62806,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62655,8 +62857,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 332,
-			"versionNonce": 1579427654,
+			"version": 340,
+			"versionNonce": 1544040835,
 			"isDeleted": false,
 			"id": "h1Xbb1VVLp35I8nYAexOt",
 			"fillStyle": "solid",
@@ -62676,7 +62878,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62723,8 +62925,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 339,
-			"versionNonce": 587814938,
+			"version": 347,
+			"versionNonce": 1827658797,
 			"isDeleted": false,
 			"id": "gisLTbORBF-Fg3AAbINmR",
 			"fillStyle": "solid",
@@ -62744,7 +62946,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62819,8 +63021,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 335,
-			"versionNonce": 1860914822,
+			"version": 343,
+			"versionNonce": 2142046499,
 			"isDeleted": false,
 			"id": "ZnNsh2Kl5qmz-UwnZudng",
 			"fillStyle": "solid",
@@ -62840,7 +63042,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -62899,8 +63101,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 302,
-			"versionNonce": 1125860570,
+			"version": 310,
+			"versionNonce": 1683869325,
 			"isDeleted": false,
 			"id": "n2ownOI7ELVM27S7Gu0s-",
 			"fillStyle": "solid",
@@ -62920,7 +63122,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -63023,8 +63225,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 297,
-			"versionNonce": 46894534,
+			"version": 305,
+			"versionNonce": 1947593923,
 			"isDeleted": false,
 			"id": "ol4QmHU-BfGjP5FrAl1CI",
 			"fillStyle": "solid",
@@ -63044,7 +63246,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -63143,8 +63345,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 305,
-			"versionNonce": 198285722,
+			"version": 313,
+			"versionNonce": 1914598637,
 			"isDeleted": false,
 			"id": "AkmHMsFwE4viybJHzaDhy",
 			"fillStyle": "solid",
@@ -63164,7 +63366,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -63303,8 +63505,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 301,
-			"versionNonce": 115467526,
+			"version": 309,
+			"versionNonce": 484531299,
 			"isDeleted": false,
 			"id": "5wDvWUarR8yuq4WTPIU93",
 			"fillStyle": "solid",
@@ -63324,7 +63526,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221481,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -63447,8 +63649,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 295,
-			"versionNonce": 1012880986,
+			"version": 303,
+			"versionNonce": 565923661,
 			"isDeleted": false,
 			"id": "5RSMUO4G4CDVARMzAK437",
 			"fillStyle": "solid",
@@ -63468,7 +63670,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -63571,8 +63773,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 353,
-			"versionNonce": 1017861190,
+			"version": 361,
+			"versionNonce": 1709037571,
 			"isDeleted": false,
 			"id": "kN3_Ba7op7JKJia-Orc_B",
 			"fillStyle": "solid",
@@ -63592,7 +63794,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -63743,8 +63945,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 357,
-			"versionNonce": 899119898,
+			"version": 365,
+			"versionNonce": 1368251821,
 			"isDeleted": false,
 			"id": "5KBfnV04ilxsyUECFl7Ax",
 			"fillStyle": "solid",
@@ -63764,7 +63966,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -63903,8 +64105,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 350,
-			"versionNonce": 772070278,
+			"version": 358,
+			"versionNonce": 1024057251,
 			"isDeleted": false,
 			"id": "ohyJRSNtevRDg_XWtCTQy",
 			"fillStyle": "solid",
@@ -63924,7 +64126,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64035,8 +64237,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 334,
-			"versionNonce": 1173161946,
+			"version": 342,
+			"versionNonce": 1488953357,
 			"isDeleted": false,
 			"id": "Mm6b_9FUUu6eifUVOSRFa",
 			"fillStyle": "solid",
@@ -64056,7 +64258,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64103,8 +64305,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 336,
-			"versionNonce": 556497606,
+			"version": 344,
+			"versionNonce": 1284764483,
 			"isDeleted": false,
 			"id": "HhF7r11iFMLWG2tGOmD-5",
 			"fillStyle": "solid",
@@ -64124,7 +64326,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64203,8 +64405,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 368,
-			"versionNonce": 1970470042,
+			"version": 376,
+			"versionNonce": 1833571949,
 			"isDeleted": false,
 			"id": "ciPFE0brwoumu-54hks2G",
 			"fillStyle": "solid",
@@ -64224,7 +64426,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64431,8 +64633,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 332,
-			"versionNonce": 213660166,
+			"version": 340,
+			"versionNonce": 1960481507,
 			"isDeleted": false,
 			"id": "LrvR9wEY3LEKyXBoHDd08",
 			"fillStyle": "solid",
@@ -64452,7 +64654,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64515,8 +64717,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 333,
-			"versionNonce": 1373395290,
+			"version": 341,
+			"versionNonce": 1240907981,
 			"isDeleted": false,
 			"id": "5dqeq34qQUpitJgj1GzR9",
 			"fillStyle": "solid",
@@ -64536,7 +64738,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64603,8 +64805,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 338,
-			"versionNonce": 196346182,
+			"version": 346,
+			"versionNonce": 107757187,
 			"isDeleted": false,
 			"id": "sPZXykZYCpn7KIHzqwzgf",
 			"fillStyle": "solid",
@@ -64624,7 +64826,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815424,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64711,8 +64913,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 335,
-			"versionNonce": 981212698,
+			"version": 343,
+			"versionNonce": 341778221,
 			"isDeleted": false,
 			"id": "ruIoplB0UJ7S6Qi56WQ3I",
 			"fillStyle": "solid",
@@ -64732,7 +64934,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64811,8 +65013,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 346,
-			"versionNonce": 1366288518,
+			"version": 354,
+			"versionNonce": 1007121955,
 			"isDeleted": false,
 			"id": "nihREzvubjW8A5ooemjk4",
 			"fillStyle": "solid",
@@ -64832,7 +65034,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -64971,8 +65173,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 349,
-			"versionNonce": 742738650,
+			"version": 357,
+			"versionNonce": 49066381,
 			"isDeleted": false,
 			"id": "4lKYcK3gHVhQdUxYnE6dI",
 			"fillStyle": "solid",
@@ -64992,7 +65194,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -65143,8 +65345,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 340,
-			"versionNonce": 497870790,
+			"version": 348,
+			"versionNonce": 1956297155,
 			"isDeleted": false,
 			"id": "NjyBvgzejqwIYkn0q_tCe",
 			"fillStyle": "solid",
@@ -65164,7 +65366,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -65279,8 +65481,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 345,
-			"versionNonce": 231399322,
+			"version": 353,
+			"versionNonce": 1121515501,
 			"isDeleted": false,
 			"id": "F54GCNzWU_SiDz24eaa1v",
 			"fillStyle": "solid",
@@ -65300,7 +65502,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -65435,8 +65637,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 361,
-			"versionNonce": 814219014,
+			"version": 369,
+			"versionNonce": 759466339,
 			"isDeleted": false,
 			"id": "wni23RUwbIirberF-BIin",
 			"fillStyle": "solid",
@@ -65456,7 +65658,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -65659,8 +65861,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 332,
-			"versionNonce": 2067782746,
+			"version": 340,
+			"versionNonce": 506294861,
 			"isDeleted": false,
 			"id": "7Rrn9-R2gSRcwvx6e0z3Z",
 			"fillStyle": "solid",
@@ -65680,7 +65882,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -65767,8 +65969,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 343,
-			"versionNonce": 1048456774,
+			"version": 351,
+			"versionNonce": 995321091,
 			"isDeleted": false,
 			"id": "aiKGKf42GqP6fN7IYE2W6",
 			"fillStyle": "solid",
@@ -65788,7 +65990,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -65919,8 +66121,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 335,
-			"versionNonce": 309805338,
+			"version": 343,
+			"versionNonce": 1640210605,
 			"isDeleted": false,
 			"id": "7V-t1a6SqxtZHmHhAKK5g",
 			"fillStyle": "solid",
@@ -65940,7 +66142,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66039,8 +66241,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 303,
-			"versionNonce": 1684829574,
+			"version": 311,
+			"versionNonce": 1178979491,
 			"isDeleted": false,
 			"id": "twsvzeWvWgKLEBnx5KRDE",
 			"fillStyle": "solid",
@@ -66060,7 +66262,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66255,8 +66457,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 275,
-			"versionNonce": 1055133146,
+			"version": 283,
+			"versionNonce": 54854413,
 			"isDeleted": false,
 			"id": "EBvIbE1ipzuPYUEbcFOBj",
 			"fillStyle": "solid",
@@ -66276,7 +66478,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66359,8 +66561,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 284,
-			"versionNonce": 462410950,
+			"version": 292,
+			"versionNonce": 30031939,
 			"isDeleted": false,
 			"id": "4zQTF5WZhlZTx3TyjHZGx",
 			"fillStyle": "solid",
@@ -66380,7 +66582,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66515,8 +66717,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 276,
-			"versionNonce": 93930138,
+			"version": 284,
+			"versionNonce": 120265069,
 			"isDeleted": false,
 			"id": "Hkl66JZp1cbCDViaUjfj_",
 			"fillStyle": "solid",
@@ -66536,7 +66738,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66639,8 +66841,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 260,
-			"versionNonce": 763710470,
+			"version": 268,
+			"versionNonce": 666845155,
 			"isDeleted": false,
 			"id": "mpvOp8bq3Sht-lQGWvnd6",
 			"fillStyle": "solid",
@@ -66660,7 +66862,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66699,8 +66901,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 262,
-			"versionNonce": 1363795802,
+			"version": 270,
+			"versionNonce": 650077133,
 			"isDeleted": false,
 			"id": "r7YkompVVA9X0N8P8xNb7",
 			"fillStyle": "solid",
@@ -66720,7 +66922,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66767,8 +66969,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 260,
-			"versionNonce": 675928902,
+			"version": 268,
+			"versionNonce": 842222467,
 			"isDeleted": false,
 			"id": "QbU10Iy7q0vBsRh0TyNez",
 			"fillStyle": "solid",
@@ -66788,7 +66990,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66827,8 +67029,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 318,
-			"versionNonce": 1044964378,
+			"version": 326,
+			"versionNonce": 907764269,
 			"isDeleted": false,
 			"id": "voDv3AdF5CknG3bF73dAD",
 			"fillStyle": "solid",
@@ -66848,7 +67050,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66895,8 +67097,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 316,
-			"versionNonce": 1379566214,
+			"version": 324,
+			"versionNonce": 1432675107,
 			"isDeleted": false,
 			"id": "QNIps1cNihfrM08PxmhLr",
 			"fillStyle": "solid",
@@ -66916,7 +67118,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -66955,8 +67157,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 314,
-			"versionNonce": 1720275162,
+			"version": 322,
+			"versionNonce": 1244173453,
 			"isDeleted": false,
 			"id": "VWDw46TDA167ZPnQ7vEZt",
 			"fillStyle": "solid",
@@ -66976,7 +67178,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67015,8 +67217,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 317,
-			"versionNonce": 504644038,
+			"version": 325,
+			"versionNonce": 969049795,
 			"isDeleted": false,
 			"id": "fkD96WhXu0nIh1pc9H4xF",
 			"fillStyle": "solid",
@@ -67036,7 +67238,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67123,8 +67325,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 312,
-			"versionNonce": 765339034,
+			"version": 320,
+			"versionNonce": 513833709,
 			"isDeleted": false,
 			"id": "8jRpA3yEQPkxNv5nBpNhC",
 			"fillStyle": "solid",
@@ -67144,7 +67346,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67211,8 +67413,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 338,
-			"versionNonce": 519313670,
+			"version": 346,
+			"versionNonce": 1978316387,
 			"isDeleted": false,
 			"id": "oVcjaN9sDR1eVtQdKx8ND",
 			"fillStyle": "solid",
@@ -67232,7 +67434,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67403,8 +67605,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 315,
-			"versionNonce": 213541466,
+			"version": 323,
+			"versionNonce": 1007457613,
 			"isDeleted": false,
 			"id": "41Jyi8s8MfrF25fuX1Llo",
 			"fillStyle": "solid",
@@ -67424,7 +67626,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67503,8 +67705,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 313,
-			"versionNonce": 2086078534,
+			"version": 321,
+			"versionNonce": 1219228163,
 			"isDeleted": false,
 			"id": "B1yZdS_eFI6E0EgeIYKrM",
 			"fillStyle": "solid",
@@ -67524,7 +67726,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67627,8 +67829,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 307,
-			"versionNonce": 1588659994,
+			"version": 315,
+			"versionNonce": 1573282733,
 			"isDeleted": false,
 			"id": "R8MkMCCPp28WfHqDb694C",
 			"fillStyle": "solid",
@@ -67648,7 +67850,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815425,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67727,8 +67929,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 315,
-			"versionNonce": 1712983942,
+			"version": 323,
+			"versionNonce": 319076771,
 			"isDeleted": false,
 			"id": "daMwjQ_v__2lp6toD9HKr",
 			"fillStyle": "solid",
@@ -67748,7 +67950,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67859,8 +68061,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 317,
-			"versionNonce": 737481690,
+			"version": 325,
+			"versionNonce": 402089485,
 			"isDeleted": false,
 			"id": "5I8BknRMdtekh5zq-yyc5",
 			"fillStyle": "solid",
@@ -67880,7 +68082,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -67999,8 +68201,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 291,
-			"versionNonce": 142225094,
+			"version": 299,
+			"versionNonce": 304319811,
 			"isDeleted": false,
 			"id": "cTl5_o9EZFIgS4EOTTGuT",
 			"fillStyle": "solid",
@@ -68020,7 +68222,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68115,8 +68317,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 283,
-			"versionNonce": 1989773466,
+			"version": 291,
+			"versionNonce": 1033444461,
 			"isDeleted": false,
 			"id": "o3Td2Ut_NkNhGpkZAAa1X",
 			"fillStyle": "solid",
@@ -68136,7 +68338,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68199,8 +68401,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 321,
-			"versionNonce": 1336838,
+			"version": 329,
+			"versionNonce": 1499917539,
 			"isDeleted": false,
 			"id": "pCdss-KqgPUv_yzYoRbjt",
 			"fillStyle": "solid",
@@ -68220,7 +68422,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68431,8 +68633,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 277,
-			"versionNonce": 105997658,
+			"version": 285,
+			"versionNonce": 108332749,
 			"isDeleted": false,
 			"id": "YZ3gl-qiNqWIq3z0gAC8j",
 			"fillStyle": "solid",
@@ -68452,7 +68654,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68491,8 +68693,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 282,
-			"versionNonce": 1306899782,
+			"version": 290,
+			"versionNonce": 207444099,
 			"isDeleted": false,
 			"id": "xtAblV_iwrv1OxLM-Ltk4",
 			"fillStyle": "solid",
@@ -68512,7 +68714,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68571,8 +68773,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 289,
-			"versionNonce": 879733274,
+			"version": 297,
+			"versionNonce": 1965335853,
 			"isDeleted": false,
 			"id": "X-QJeRocDSAqWo4-6lFYD",
 			"fillStyle": "solid",
@@ -68592,7 +68794,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68679,8 +68881,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 295,
-			"versionNonce": 1263213702,
+			"version": 303,
+			"versionNonce": 1489326115,
 			"isDeleted": false,
 			"id": "Qbfyr7lopwBgyuEvbrBek",
 			"fillStyle": "solid",
@@ -68700,7 +68902,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68811,8 +69013,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 283,
-			"versionNonce": 937907930,
+			"version": 291,
+			"versionNonce": 2098296717,
 			"isDeleted": false,
 			"id": "zhuOU1N17xZjusjSLMiOm",
 			"fillStyle": "solid",
@@ -68832,7 +69034,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -68895,8 +69097,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 289,
-			"versionNonce": 503421894,
+			"version": 297,
+			"versionNonce": 814568387,
 			"isDeleted": false,
 			"id": "n89aUmaL2soUsWoo0w7s_",
 			"fillStyle": "solid",
@@ -68916,7 +69118,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69019,8 +69221,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 272,
-			"versionNonce": 1900768154,
+			"version": 280,
+			"versionNonce": 1752497645,
 			"isDeleted": false,
 			"id": "qHhPv_h-eK8ihuZEJhZpM",
 			"fillStyle": "solid",
@@ -69040,7 +69242,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69083,8 +69285,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 280,
-			"versionNonce": 740700934,
+			"version": 288,
+			"versionNonce": 1137959779,
 			"isDeleted": false,
 			"id": "pWz-zYtk7WO-X4RZ-ITM-",
 			"fillStyle": "solid",
@@ -69104,7 +69306,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69183,8 +69385,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 292,
-			"versionNonce": 919529562,
+			"version": 300,
+			"versionNonce": 2119743565,
 			"isDeleted": false,
 			"id": "lqyiRfZBdHFoNsqpqHKmW",
 			"fillStyle": "solid",
@@ -69204,7 +69406,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69331,8 +69533,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 231,
-			"versionNonce": 271966790,
+			"version": 239,
+			"versionNonce": 988249859,
 			"isDeleted": false,
 			"id": "PL8wCFM3EJiFMHC3IMCSk",
 			"fillStyle": "solid",
@@ -69352,7 +69554,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69539,8 +69741,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 197,
-			"versionNonce": 541379866,
+			"version": 205,
+			"versionNonce": 1754670765,
 			"isDeleted": false,
 			"id": "KhL0hYOI8aKqn-ms3NItz",
 			"fillStyle": "solid",
@@ -69560,7 +69762,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69611,8 +69813,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 196,
-			"versionNonce": 218999174,
+			"version": 204,
+			"versionNonce": 809936547,
 			"isDeleted": false,
 			"id": "Jp7VDKLpwJun2ajxinpbV",
 			"fillStyle": "solid",
@@ -69632,7 +69834,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69679,8 +69881,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 196,
-			"versionNonce": 1394612698,
+			"version": 204,
+			"versionNonce": 1507248397,
 			"isDeleted": false,
 			"id": "gsSls004uIoiRNtWZ9EAA",
 			"fillStyle": "solid",
@@ -69700,7 +69902,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69747,8 +69949,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 196,
-			"versionNonce": 32147654,
+			"version": 204,
+			"versionNonce": 1788860995,
 			"isDeleted": false,
 			"id": "x3tjtG9_FdnLq4hXmIjtX",
 			"fillStyle": "solid",
@@ -69768,7 +69970,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221482,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69819,8 +70021,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 200,
-			"versionNonce": 1316212378,
+			"version": 208,
+			"versionNonce": 1939087213,
 			"isDeleted": false,
 			"id": "JDajmkz2qZxDepOjajZ_L",
 			"fillStyle": "solid",
@@ -69840,7 +70042,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69907,8 +70109,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 229,
-			"versionNonce": 1583972358,
+			"version": 237,
+			"versionNonce": 1456576995,
 			"isDeleted": false,
 			"id": "MDXNu7JS1d7d6ceWcDL0D",
 			"fillStyle": "solid",
@@ -69928,7 +70130,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -69979,8 +70181,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 230,
-			"versionNonce": 921889626,
+			"version": 238,
+			"versionNonce": 1813490125,
 			"isDeleted": false,
 			"id": "yXeXzp-q2bVUBjXMGVi9M",
 			"fillStyle": "solid",
@@ -70000,7 +70202,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70055,8 +70257,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 226,
-			"versionNonce": 377982790,
+			"version": 234,
+			"versionNonce": 1105880451,
 			"isDeleted": false,
 			"id": "cCQUBVsZgp4dkh1y9U-gt",
 			"fillStyle": "solid",
@@ -70076,7 +70278,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70115,8 +70317,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 246,
-			"versionNonce": 586182682,
+			"version": 254,
+			"versionNonce": 1954211885,
 			"isDeleted": false,
 			"id": "8idOwzdXQYIW6jfyLVygP",
 			"fillStyle": "solid",
@@ -70136,7 +70338,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70255,8 +70457,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 228,
-			"versionNonce": 379696774,
+			"version": 236,
+			"versionNonce": 1395178787,
 			"isDeleted": false,
 			"id": "AK1g9wbNDLHoOkud3eh8H",
 			"fillStyle": "solid",
@@ -70276,7 +70478,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70323,8 +70525,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 228,
-			"versionNonce": 1717525722,
+			"version": 236,
+			"versionNonce": 1588025997,
 			"isDeleted": false,
 			"id": "WF7T5tu4PFltiU0XNdO0T",
 			"fillStyle": "solid",
@@ -70344,7 +70546,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815426,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70391,8 +70593,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 241,
-			"versionNonce": 930411974,
+			"version": 249,
+			"versionNonce": 1174085827,
 			"isDeleted": false,
 			"id": "WHCsTqAIMRzlMvO5ZWJh3",
 			"fillStyle": "solid",
@@ -70412,7 +70614,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70511,8 +70713,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 234,
-			"versionNonce": 1590866330,
+			"version": 242,
+			"versionNonce": 56000749,
 			"isDeleted": false,
 			"id": "O-J1U3HTn0luicEvUxnov",
 			"fillStyle": "solid",
@@ -70532,7 +70734,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70603,8 +70805,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 254,
-			"versionNonce": 840846598,
+			"version": 262,
+			"versionNonce": 1677725795,
 			"isDeleted": false,
 			"id": "PLVYsjfaLcKaEDZfVCFZB",
 			"fillStyle": "solid",
@@ -70624,7 +70826,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70775,8 +70977,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 235,
-			"versionNonce": 1065184858,
+			"version": 243,
+			"versionNonce": 1746000717,
 			"isDeleted": false,
 			"id": "hHmNjfJm22d9WnFnFFwnL",
 			"fillStyle": "solid",
@@ -70796,7 +70998,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -70871,8 +71073,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 252,
-			"versionNonce": 337296454,
+			"version": 260,
+			"versionNonce": 1057360899,
 			"isDeleted": false,
 			"id": "wonCtu_92gjDpgrRSstvQ",
 			"fillStyle": "solid",
@@ -70892,7 +71094,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -71035,8 +71237,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 241,
-			"versionNonce": 1563595546,
+			"version": 249,
+			"versionNonce": 624093613,
 			"isDeleted": false,
 			"id": "49ApGialrzGN4wOyuYqvd",
 			"fillStyle": "solid",
@@ -71056,7 +71258,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "M6smj0Dal0mXx9dMtMq_9",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -71155,8 +71357,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "frame",
-			"version": 594,
-			"versionNonce": 860308358,
+			"version": 602,
+			"versionNonce": 722178979,
 			"isDeleted": false,
 			"id": "M6smj0Dal0mXx9dMtMq_9",
 			"fillStyle": "solid",
@@ -71181,7 +71383,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -71195,8 +71397,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 595,
-			"versionNonce": 2053447642,
+			"version": 603,
+			"versionNonce": 199437325,
 			"isDeleted": false,
 			"id": "PpNtGTj4J8agMG1gi8fDK",
 			"fillStyle": "solid",
@@ -71218,7 +71420,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -71243,8 +71445,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 398,
-			"versionNonce": 568386246,
+			"version": 406,
+			"versionNonce": 2017404739,
 			"isDeleted": false,
 			"id": "p6OwdvNg",
 			"fillStyle": "solid",
@@ -71257,14 +71459,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1434.9519911668135,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 877.9590454101562,
+			"width": 877.9594116210938,
 			"height": 25,
 			"seed": 1629642278,
 			"groupIds": [],
 			"frameId": "cARZEL-wDQXpeGm12VsD4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -71276,12 +71478,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "Cuando se utiliza en aplicaciones de amplificador, el FET ofrece una importante ventaja",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 18
 		},
 		{
 			"type": "text",
-			"version": 398,
-			"versionNonce": 321393818,
+			"version": 406,
+			"versionNonce": 203170413,
 			"isDeleted": false,
 			"id": "S6xi6uhI",
 			"fillStyle": "solid",
@@ -71294,14 +71496,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1399.9519911668135,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 935.2589111328125,
+			"width": 935.2593994140625,
 			"height": 25,
 			"seed": 2136375098,
 			"groupIds": [],
 			"frameId": "cARZEL-wDQXpeGm12VsD4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -71313,12 +71515,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "comparado con el BJT debido a la impedancia de entrada extremadamente alta del FET. Las",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 18
 		},
 		{
 			"type": "text",
-			"version": 398,
-			"versionNonce": 579115526,
+			"version": 406,
+			"versionNonce": 1828669155,
 			"isDeleted": false,
 			"id": "mcJBuhsY",
 			"fillStyle": "solid",
@@ -71331,14 +71533,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1364.9519911668135,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 883.3790893554688,
+			"width": 883.37939453125,
 			"height": 25,
 			"seed": 650094950,
 			"groupIds": [],
 			"frameId": "cARZEL-wDQXpeGm12VsD4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -71350,12 +71552,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "desventajas, sin embargo, incluyen una alta distorsión y una baja ganancia. La aplicación",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 18
 		},
 		{
 			"type": "text",
-			"version": 424,
-			"versionNonce": 690909530,
+			"version": 432,
+			"versionNonce": 1520913613,
 			"isDeleted": false,
 			"id": "NHjgCh8g",
 			"fillStyle": "solid",
@@ -71368,14 +71570,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1329.9519911668135,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 918.4591064453125,
+			"width": 918.459228515625,
 			"height": 25,
 			"seed": 1702266874,
 			"groupIds": [],
 			"frameId": "cARZEL-wDQXpeGm12VsD4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -71387,12 +71589,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "particular normalmente determinará qué tipo de transistor es el más adecuado. El amplifica-",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 18
 		},
 		{
 			"type": "text",
-			"version": 398,
-			"versionNonce": 472869190,
+			"version": 406,
+			"versionNonce": 2145022595,
 			"isDeleted": false,
 			"id": "U28td8oz",
 			"fillStyle": "solid",
@@ -71405,14 +71607,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1294.9519911668135,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 889.5191650390625,
+			"width": 889.519287109375,
 			"height": 25,
 			"seed": 957451430,
 			"groupIds": [],
 			"frameId": "cARZEL-wDQXpeGm12VsD4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -71424,12 +71626,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "dor en fuente común (CS) es similar al amplificador de BJT de emisor común estudiado en",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 18
 		},
 		{
 			"type": "text",
-			"version": 398,
-			"versionNonce": 264975898,
+			"version": 406,
+			"versionNonce": 1461594925,
 			"isDeleted": false,
 			"id": "EaY7Wfb0",
 			"fillStyle": "solid",
@@ -71442,14 +71644,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1259.9519911668135,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 132.99984741210938,
+			"width": 132.99989318847656,
 			"height": 25,
 			"seed": 1142388922,
 			"groupIds": [],
 			"frameId": "cARZEL-wDQXpeGm12VsD4",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -71461,12 +71663,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "el capítulo 6.",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 18
 		},
 		{
 			"type": "frame",
-			"version": 385,
-			"versionNonce": 238964870,
+			"version": 393,
+			"versionNonce": 1368336931,
 			"isDeleted": false,
 			"id": "cARZEL-wDQXpeGm12VsD4",
 			"fillStyle": "solid",
@@ -71491,7 +71693,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -71505,8 +71707,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 582,
-			"versionNonce": 938566362,
+			"version": 590,
+			"versionNonce": 837434765,
 			"isDeleted": false,
 			"id": "SDtjbUk3zV29obcDhYs21",
 			"fillStyle": "solid",
@@ -71528,7 +71730,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -71553,8 +71755,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "image",
-			"version": 346,
-			"versionNonce": 74338246,
+			"version": 354,
+			"versionNonce": 1728835011,
 			"isDeleted": false,
 			"id": "Uuq85s1PaPAYEj6GU-i9R",
 			"fillStyle": "solid",
@@ -71579,7 +71781,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -71591,8 +71793,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 288,
-			"versionNonce": 2083780506,
+			"version": 296,
+			"versionNonce": 1380254701,
 			"isDeleted": false,
 			"id": "QnhDHNRngjb_MyLG3_zd9",
 			"fillStyle": "solid",
@@ -71612,7 +71814,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -71631,8 +71833,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "image",
-			"version": 291,
-			"versionNonce": 182216454,
+			"version": 299,
+			"versionNonce": 594492771,
 			"isDeleted": false,
 			"id": "hpD5Bzn9Iw4U3iS2MfoMh",
 			"fillStyle": "solid",
@@ -71665,7 +71867,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -71677,8 +71879,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 339,
-			"versionNonce": 1824912474,
+			"version": 461,
+			"versionNonce": 2084044365,
 			"isDeleted": false,
 			"id": "gmVtauitPTFPZ4oPMOQNk",
 			"fillStyle": "solid",
@@ -71687,12 +71889,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": -969.7113547276529,
-			"y": 679.576248008568,
+			"x": -954.8522341194752,
+			"y": 690.6233429838669,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 607.9720052083335,
-			"height": 213.61175537109375,
+			"width": 593.1128846001558,
+			"height": 203.83611156736492,
 			"seed": 1333713274,
 			"groupIds": [],
 			"frameId": null,
@@ -71700,18 +71902,18 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "k-bvrnA_XdqlTetk6H_1S",
-				"focus": 0.6696994627042534,
-				"gap": 29.085955023629708
+				"gap": 29.085955023629708,
+				"focus": 0.6696994627042534
 			},
 			"endBinding": {
 				"elementId": "hpD5Bzn9Iw4U3iS2MfoMh",
-				"focus": -0.3789853782541122,
-				"gap": 28.317830403645758
+				"gap": 28.317830403645758,
+				"focus": -0.3789853782541122
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -71722,15 +71924,15 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					0
 				],
 				[
-					607.9720052083335,
-					213.61175537109375
+					593.1128846001558,
+					203.83611156736492
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 308,
-			"versionNonce": 570791494,
+			"version": 326,
+			"versionNonce": 1808889475,
 			"isDeleted": false,
 			"id": "Ea8wJ4EPYk1eg8-Bne6Fu",
 			"fillStyle": "solid",
@@ -71739,12 +71941,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": -126.21851618598612,
-			"y": 679.576248008568,
+			"x": -125.05083979698473,
+			"y": 732.0710000384693,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 3.6513264973957575,
-			"height": 140.58207194010424,
+			"width": 2.3784206160066077,
+			"height": 88.08731991020295,
 			"seed": 1063868326,
 			"groupIds": [],
 			"frameId": null,
@@ -71752,18 +71954,18 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373234504,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "AB_AUxtFrfszy784T4KjC",
-				"focus": -0.012752107994675433,
-				"gap": 12.612555181876132
+				"gap": 12.612555181876132,
+				"focus": -0.012752107994675433
 			},
 			"endBinding": {
 				"elementId": "hpD5Bzn9Iw4U3iS2MfoMh",
-				"focus": -0.03387544667076676,
-				"gap": 16.054850260416742
+				"gap": 16.054850260416742,
+				"focus": -0.03387544667076676
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -71774,15 +71976,15 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					0
 				],
 				[
-					3.6513264973957575,
-					140.58207194010424
+					2.3784206160066077,
+					88.08731991020295
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 325,
-			"versionNonce": 461003034,
+			"version": 353,
+			"versionNonce": 1495011555,
 			"isDeleted": false,
 			"id": "jSGNFLTFGCWhR025ZcPrh",
 			"fillStyle": "solid",
@@ -71791,12 +71993,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": 832.2958881108891,
-			"y": 686.879206179141,
+			"x": 592.3387053026936,
+			"y": 815.928804919314,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 697.4334716796877,
-			"height": 220.91471354166674,
+			"width": 457.4762888714922,
+			"height": 105.07225339782349,
 			"seed": 807880826,
 			"groupIds": [],
 			"frameId": null,
@@ -71804,18 +72006,18 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373241001,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "fM5kbr_4i-RMPS15XLB6c",
-				"focus": -0.699937258959439,
-				"gap": 26.134349900989264
+				"gap": 26.134349900989264,
+				"focus": -0.699937258959439
 			},
 			"endBinding": {
 				"elementId": "hpD5Bzn9Iw4U3iS2MfoMh",
-				"focus": 0.4326238292417336,
-				"gap": 26.283935546874943
+				"gap": 26.283935546874943,
+				"focus": 0.4326238292417336
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -71826,15 +72028,15 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					0
 				],
 				[
-					-697.4334716796877,
-					220.91471354166674
+					-457.4762888714922,
+					105.07225339782349
 				]
 			]
 		},
 		{
 			"type": "freedraw",
-			"version": 345,
-			"versionNonce": 851893638,
+			"version": 353,
+			"versionNonce": 273907875,
 			"isDeleted": false,
 			"id": "Rowds_b_IO1jr1WlI9Lvg",
 			"fillStyle": "solid",
@@ -71854,7 +72056,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -71913,8 +72115,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 344,
-			"versionNonce": 1740907994,
+			"version": 352,
+			"versionNonce": 1897697037,
 			"isDeleted": false,
 			"id": "arkdlTy-7FPvubSRbH3dp",
 			"fillStyle": "solid",
@@ -71934,7 +72136,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -71989,8 +72191,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 346,
-			"versionNonce": 39664838,
+			"version": 354,
+			"versionNonce": 671183939,
 			"isDeleted": false,
 			"id": "-qVgEHd3LdZFmBDPDQTJu",
 			"fillStyle": "solid",
@@ -72010,7 +72212,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72073,8 +72275,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 343,
-			"versionNonce": 1253464730,
+			"version": 351,
+			"versionNonce": 1781605741,
 			"isDeleted": false,
 			"id": "Oie96157km1mYxBs588K_",
 			"fillStyle": "solid",
@@ -72094,7 +72296,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815427,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72145,8 +72347,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 347,
-			"versionNonce": 644199430,
+			"version": 355,
+			"versionNonce": 1760556003,
 			"isDeleted": false,
 			"id": "lcT3eb-J9NgBKxMQeuEAW",
 			"fillStyle": "solid",
@@ -72166,7 +72368,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72233,8 +72435,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 346,
-			"versionNonce": 587462490,
+			"version": 354,
+			"versionNonce": 1428418509,
 			"isDeleted": false,
 			"id": "i7DjcNo_QEFKrx_S2Qh2U",
 			"fillStyle": "solid",
@@ -72254,7 +72456,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72317,8 +72519,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 345,
-			"versionNonce": 2027766598,
+			"version": 353,
+			"versionNonce": 1932361603,
 			"isDeleted": false,
 			"id": "RqL-7FQmLiPImlqWBsVEy",
 			"fillStyle": "solid",
@@ -72338,7 +72540,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72397,8 +72599,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 370,
-			"versionNonce": 16776218,
+			"version": 378,
+			"versionNonce": 1074687533,
 			"isDeleted": false,
 			"id": "_i7fPu9m4kxptGxwPYHWf",
 			"fillStyle": "solid",
@@ -72418,7 +72620,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72577,8 +72779,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 346,
-			"versionNonce": 203483782,
+			"version": 354,
+			"versionNonce": 1626904355,
 			"isDeleted": false,
 			"id": "Xe7yPuSdofRwn3hIM-jdu",
 			"fillStyle": "solid",
@@ -72598,7 +72800,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72661,8 +72863,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 342,
-			"versionNonce": 1922918618,
+			"version": 350,
+			"versionNonce": 970596493,
 			"isDeleted": false,
 			"id": "JaTVyUo54UlNVOo9gieWD",
 			"fillStyle": "solid",
@@ -72682,7 +72884,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72729,8 +72931,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 340,
-			"versionNonce": 518891974,
+			"version": 348,
+			"versionNonce": 12565187,
 			"isDeleted": false,
 			"id": "vGKew4Kg4ZC7fccXjxJ7T",
 			"fillStyle": "solid",
@@ -72750,7 +72952,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72789,8 +72991,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 347,
-			"versionNonce": 1332690330,
+			"version": 355,
+			"versionNonce": 943752941,
 			"isDeleted": false,
 			"id": "11lDTi4LYVPjsDEc1Cuk_",
 			"fillStyle": "solid",
@@ -72810,7 +73012,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72877,8 +73079,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 352,
-			"versionNonce": 274759942,
+			"version": 360,
+			"versionNonce": 1327589987,
 			"isDeleted": false,
 			"id": "o4QnzJ_77LkMUHJXNWFNu",
 			"fillStyle": "solid",
@@ -72898,7 +73100,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -72985,8 +73187,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 353,
-			"versionNonce": 78150234,
+			"version": 361,
+			"versionNonce": 1036722509,
 			"isDeleted": false,
 			"id": "OR5BpNx0SkwMOpNipWFkl",
 			"fillStyle": "solid",
@@ -73006,7 +73208,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73097,8 +73299,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 352,
-			"versionNonce": 1408659526,
+			"version": 360,
+			"versionNonce": 820782595,
 			"isDeleted": false,
 			"id": "nwGTZv_tc4CD3-af-hfe6",
 			"fillStyle": "solid",
@@ -73118,7 +73320,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73205,8 +73407,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 365,
-			"versionNonce": 1629232922,
+			"version": 373,
+			"versionNonce": 1070821293,
 			"isDeleted": false,
 			"id": "9n0F0hXr",
 			"fillStyle": "solid",
@@ -73219,14 +73421,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1375.6933832707373,
 			"strokeColor": "#099268",
 			"backgroundColor": "transparent",
-			"width": 127.32449340820312,
+			"width": 127.32814025878906,
 			"height": 81.66407952388836,
 			"seed": 1080154470,
 			"groupIds": [],
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"fontSize": 65.33126361911069,
@@ -73242,8 +73444,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 382,
-			"versionNonce": 1703704454,
+			"version": 390,
+			"versionNonce": 1830710691,
 			"isDeleted": false,
 			"id": "FRAmmWsB0yWierSXQSTLJ",
 			"fillStyle": "solid",
@@ -73263,7 +73465,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73354,8 +73556,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 371,
-			"versionNonce": 1631398874,
+			"version": 379,
+			"versionNonce": 1283650061,
 			"isDeleted": false,
 			"id": "d653iyCF0KwtjiS5VNUQw",
 			"fillStyle": "solid",
@@ -73375,7 +73577,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73422,8 +73624,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 373,
-			"versionNonce": 1029674694,
+			"version": 381,
+			"versionNonce": 1726398787,
 			"isDeleted": false,
 			"id": "hpAbCJ-Bj_3o03DqLPZbJ",
 			"fillStyle": "solid",
@@ -73443,7 +73645,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73506,8 +73708,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 376,
-			"versionNonce": 2065604762,
+			"version": 384,
+			"versionNonce": 1892886637,
 			"isDeleted": false,
 			"id": "VcKNHh2iIc_da-Ecy9RG9",
 			"fillStyle": "solid",
@@ -73527,7 +73729,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73602,8 +73804,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 372,
-			"versionNonce": 1141689862,
+			"version": 380,
+			"versionNonce": 396599523,
 			"isDeleted": false,
 			"id": "f9ZL5Io69wMzFZPngKcq0",
 			"fillStyle": "solid",
@@ -73623,7 +73825,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73682,8 +73884,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 373,
-			"versionNonce": 1785953626,
+			"version": 381,
+			"versionNonce": 1586336461,
 			"isDeleted": false,
 			"id": "kd9rO-NhW4vNcnJHK2KMF",
 			"fillStyle": "solid",
@@ -73703,7 +73905,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73766,8 +73968,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 372,
-			"versionNonce": 1183915334,
+			"version": 380,
+			"versionNonce": 1222872195,
 			"isDeleted": false,
 			"id": "HJ1qbY60jWJCYFhIVm0T6",
 			"fillStyle": "solid",
@@ -73787,7 +73989,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221483,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73846,8 +74048,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 376,
-			"versionNonce": 2089730586,
+			"version": 384,
+			"versionNonce": 1380692269,
 			"isDeleted": false,
 			"id": "yaXfzrJQdnDgraOeseYQk",
 			"fillStyle": "solid",
@@ -73867,7 +74069,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -73942,8 +74144,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 381,
-			"versionNonce": 1783202950,
+			"version": 389,
+			"versionNonce": 241501219,
 			"isDeleted": false,
 			"id": "HLtXwmf6y28A3S5fWrO3J",
 			"fillStyle": "solid",
@@ -73963,7 +74165,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -74058,8 +74260,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 381,
-			"versionNonce": 1550020314,
+			"version": 389,
+			"versionNonce": 964101005,
 			"isDeleted": false,
 			"id": "pM-3IhD8-wcCPgqTKbJAV",
 			"fillStyle": "solid",
@@ -74079,7 +74281,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -74174,8 +74376,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 372,
-			"versionNonce": 552797126,
+			"version": 380,
+			"versionNonce": 1476547,
 			"isDeleted": false,
 			"id": "Ix5cMRlk8_1yDb9c74vz-",
 			"fillStyle": "solid",
@@ -74195,7 +74397,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -74254,8 +74456,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 374,
-			"versionNonce": 1585742746,
+			"version": 382,
+			"versionNonce": 407439853,
 			"isDeleted": false,
 			"id": "CgUN-0__xDKb4Wo7Xc5CQ",
 			"fillStyle": "solid",
@@ -74275,7 +74477,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -74342,8 +74544,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 369,
-			"versionNonce": 480942854,
+			"version": 377,
+			"versionNonce": 873895779,
 			"isDeleted": false,
 			"id": "ymGP7TiTAnbfbyMc6jss0",
 			"fillStyle": "solid",
@@ -74363,7 +74565,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -74410,8 +74612,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 366,
-			"versionNonce": 1294270554,
+			"version": 374,
+			"versionNonce": 801850445,
 			"isDeleted": false,
 			"id": "WWA228sKotX085nxucgfM",
 			"fillStyle": "solid",
@@ -74431,7 +74633,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -74466,8 +74668,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 398,
-			"versionNonce": 1139624518,
+			"version": 406,
+			"versionNonce": 2025042691,
 			"isDeleted": false,
 			"id": "Uye-C37qxt1dGZ9SONXM0",
 			"fillStyle": "solid",
@@ -74487,7 +74689,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815428,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -74650,8 +74852,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 480,
-			"versionNonce": 873981210,
+			"version": 488,
+			"versionNonce": 1675047597,
 			"isDeleted": false,
 			"id": "YskVHUPh",
 			"fillStyle": "solid",
@@ -74664,14 +74866,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1370.070947689325,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 112.0927734375,
+			"width": 112.12095642089844,
 			"height": 71.29757163028283,
 			"seed": 1190765222,
 			"groupIds": [],
 			"frameId": "nCDjlCKlZH3v2HSpsUqYZ",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815429,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 57.038057304226264,
@@ -74687,8 +74889,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "frame",
-			"version": 512,
-			"versionNonce": 630722950,
+			"version": 520,
+			"versionNonce": 1315723939,
 			"isDeleted": false,
 			"id": "nCDjlCKlZH3v2HSpsUqYZ",
 			"fillStyle": "solid",
@@ -74713,7 +74915,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815429,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -74727,8 +74929,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 293,
-			"versionNonce": 751841754,
+			"version": 301,
+			"versionNonce": 1628853517,
 			"isDeleted": false,
 			"id": "BORQamMveXDMZTlTxrSYU",
 			"fillStyle": "solid",
@@ -74750,7 +74952,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815429,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -74779,8 +74981,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 351,
-			"versionNonce": 1827139782,
+			"version": 359,
+			"versionNonce": 569314883,
 			"isDeleted": false,
 			"id": "v1ZWcM5DNdLJRXJuHKYkf",
 			"fillStyle": "solid",
@@ -74802,7 +75004,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815429,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -74831,8 +75033,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 245,
-			"versionNonce": 1197438433,
+			"version": 253,
+			"versionNonce": 50473837,
 			"isDeleted": false,
 			"id": "8oo5KKe7l4gGwLvTI3VBg",
 			"fillStyle": "solid",
@@ -74854,7 +75056,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1710025719344,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -74879,8 +75081,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "image",
-			"version": 326,
-			"versionNonce": 1804125487,
+			"version": 334,
+			"versionNonce": 1176128995,
 			"isDeleted": false,
 			"id": "5sBIfsd_Qp6cx8f7-yCGP",
 			"fillStyle": "solid",
@@ -74900,7 +75102,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fewJj9TXIohZos2Qi9UJt",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025719464,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -74912,8 +75114,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 317,
-			"versionNonce": 37005633,
+			"version": 325,
+			"versionNonce": 2044999117,
 			"isDeleted": false,
 			"id": "Ef2yXShb",
 			"fillStyle": "solid",
@@ -74926,14 +75128,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1196.6892557889958,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 913.5862426757812,
+			"width": 913.6983642578125,
 			"height": 126.19009711211616,
 			"seed": 1223057370,
 			"groupIds": [],
 			"frameId": "fewJj9TXIohZos2Qi9UJt",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025719464,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 100.95207768969293,
@@ -74945,12 +75147,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "Canal N eMOSFET",
 			"lineHeight": 1.25,
-			"baseline": 89
+			"baseline": 88
 		},
 		{
 			"type": "text",
-			"version": 218,
-			"versionNonce": 1739999055,
+			"version": 226,
+			"versionNonce": 771529091,
 			"isDeleted": false,
 			"id": "F4OwbK7M",
 			"fillStyle": "solid",
@@ -74963,14 +75165,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -575.8303417117171,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 549.276611328125,
+			"width": 549.393798828125,
 			"height": 87.98809051513679,
 			"seed": 2037894746,
 			"groupIds": [],
 			"frameId": "fewJj9TXIohZos2Qi9UJt",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025719464,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 70.39047241210943,
@@ -74982,12 +75184,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "Características",
 			"lineHeight": 1.25,
-			"baseline": 61
+			"baseline": 62
 		},
 		{
 			"type": "image",
-			"version": 197,
-			"versionNonce": 1261426977,
+			"version": 205,
+			"versionNonce": 819328045,
 			"isDeleted": false,
 			"id": "3dLLSTSuryz6w3uN1x8jo",
 			"fillStyle": "solid",
@@ -75007,7 +75209,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fewJj9TXIohZos2Qi9UJt",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025719464,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -75019,8 +75221,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "image",
-			"version": 187,
-			"versionNonce": 590251375,
+			"version": 195,
+			"versionNonce": 1725198627,
 			"isDeleted": false,
 			"id": "9RZQjBDCn_9LDQDCxQIHL",
 			"fillStyle": "solid",
@@ -75040,7 +75242,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "fewJj9TXIohZos2Qi9UJt",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025719464,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -75052,8 +75254,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "frame",
-			"version": 267,
-			"versionNonce": 1565056513,
+			"version": 275,
+			"versionNonce": 1942021773,
 			"isDeleted": false,
 			"id": "fewJj9TXIohZos2Qi9UJt",
 			"fillStyle": "solid",
@@ -75078,7 +75280,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1710025719344,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -75092,8 +75294,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 422,
-			"versionNonce": 1181984038,
+			"version": 430,
+			"versionNonce": 1376801987,
 			"isDeleted": false,
 			"id": "Q3przNhc",
 			"fillStyle": "solid",
@@ -75106,14 +75308,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1301.7147503573851,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 915.3021850585938,
+			"width": 915.41455078125,
 			"height": 126.19009711211616,
 			"seed": 1529385734,
 			"groupIds": [],
 			"frameId": "GHK9ema9zGOGCsxs8yWE5",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025197111,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 100.95207768969293,
@@ -75125,12 +75327,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "Canal P eMOSFET",
 			"lineHeight": 1.25,
-			"baseline": 89
+			"baseline": 88
 		},
 		{
 			"type": "text",
-			"version": 322,
-			"versionNonce": 5247078,
+			"version": 330,
+			"versionNonce": 1432259821,
 			"isDeleted": false,
 			"id": "McvUmzfv",
 			"fillStyle": "solid",
@@ -75143,14 +75345,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -680.8558362801064,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 549.276611328125,
+			"width": 549.393798828125,
 			"height": 87.98809051513679,
 			"seed": 1877754438,
 			"groupIds": [],
 			"frameId": "GHK9ema9zGOGCsxs8yWE5",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025197111,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 70.39047241210943,
@@ -75162,12 +75364,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "Características",
 			"lineHeight": 1.25,
-			"baseline": 61
+			"baseline": 62
 		},
 		{
 			"type": "text",
-			"version": 322,
-			"versionNonce": 1912411046,
+			"version": 330,
+			"versionNonce": 525255779,
 			"isDeleted": false,
 			"id": "ontlikki",
 			"fillStyle": "solid",
@@ -75180,14 +75382,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -680.8558362801064,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 549.276611328125,
+			"width": 549.393798828125,
 			"height": 87.98809051513679,
 			"seed": 1877754438,
 			"groupIds": [],
 			"frameId": "GHK9ema9zGOGCsxs8yWE5",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710025197111,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 70.39047241210943,
@@ -75199,12 +75401,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": "Características",
 			"lineHeight": 1.25,
-			"baseline": 61
+			"baseline": 62
 		},
 		{
 			"type": "frame",
-			"version": 333,
-			"versionNonce": 1906307942,
+			"version": 341,
+			"versionNonce": 1429759821,
 			"isDeleted": false,
 			"id": "GHK9ema9zGOGCsxs8yWE5",
 			"fillStyle": "solid",
@@ -75229,7 +75431,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1710025197111,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -75243,8 +75445,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 336,
-			"versionNonce": 1486541286,
+			"version": 344,
+			"versionNonce": 106840067,
 			"isDeleted": false,
 			"id": "180mqSy5H5M0MSEOy_f37",
 			"fillStyle": "solid",
@@ -75266,7 +75468,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1710025197111,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -75295,8 +75497,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 116,
-			"versionNonce": 443394842,
+			"version": 124,
+			"versionNonce": 1168635309,
 			"isDeleted": false,
 			"id": "op8XXFbR",
 			"fillStyle": "hachure",
@@ -75309,14 +75511,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -1034.6058300637883,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 9.999984741210938,
+			"width": 10,
 			"height": 25,
 			"seed": 44957,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815429,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -75328,12 +75530,12 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"containerId": null,
 			"originalText": " ",
 			"lineHeight": 1.25,
-			"baseline": 16
+			"baseline": 18
 		},
 		{
 			"type": "text",
-			"version": 329,
-			"versionNonce": 1290382214,
+			"version": 337,
+			"versionNonce": 1094535075,
 			"isDeleted": false,
 			"id": "SFeH3ikw",
 			"fillStyle": "solid",
@@ -75346,14 +75548,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": 1477.444692181954,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "transparent",
-			"width": 346.8143310546875,
+			"width": 346.95343017578125,
 			"height": 43.033672344365655,
 			"seed": 878985158,
 			"groupIds": [],
 			"frameId": "OLpUd3gTWpdstfpmv2au1",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815429,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 34.42693787549253,
@@ -75369,8 +75571,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "text",
-			"version": 194,
-			"versionNonce": 137711578,
+			"version": 202,
+			"versionNonce": 1909897229,
 			"isDeleted": false,
 			"id": "0zzrnjKj",
 			"fillStyle": "solid",
@@ -75383,14 +75585,14 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"y": -243.76707595998084,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 360.1651306152344,
+			"width": 360.31732177734375,
 			"height": 40.839341547998124,
 			"seed": 1537336006,
 			"groupIds": [],
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815432,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"fontSize": 32.6714732383985,
@@ -75406,8 +75608,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 135,
-			"versionNonce": 562937030,
+			"version": 143,
+			"versionNonce": 1176132419,
 			"isDeleted": false,
 			"id": "7AV3on5YQzODMHevObU1v",
 			"fillStyle": "solid",
@@ -75427,7 +75629,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -75522,8 +75724,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 123,
-			"versionNonce": 193344518,
+			"version": 131,
+			"versionNonce": 62795373,
 			"isDeleted": false,
 			"id": "jfiULweMax7miukd0CCtW",
 			"fillStyle": "solid",
@@ -75543,7 +75745,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -75590,8 +75792,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 208,
-			"versionNonce": 1710080838,
+			"version": 216,
+			"versionNonce": 1096022755,
 			"isDeleted": false,
 			"id": "nFei7ApOxzzrnutOsSuFw",
 			"fillStyle": "solid",
@@ -75611,7 +75813,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -75998,8 +76200,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 126,
-			"versionNonce": 52521606,
+			"version": 134,
+			"versionNonce": 707254477,
 			"isDeleted": false,
 			"id": "MVE5piOlSdwnOdbf_fDEQ",
 			"fillStyle": "solid",
@@ -76019,7 +76221,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76078,8 +76280,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 127,
-			"versionNonce": 1641949638,
+			"version": 135,
+			"versionNonce": 1333307011,
 			"isDeleted": false,
 			"id": "PsVNpl29P-qVo45QIU-pj",
 			"fillStyle": "solid",
@@ -76099,7 +76301,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76162,8 +76364,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 124,
-			"versionNonce": 557908230,
+			"version": 132,
+			"versionNonce": 2125281069,
 			"isDeleted": false,
 			"id": "z9E5M5fgtDq7KMnqBDYSk",
 			"fillStyle": "solid",
@@ -76183,7 +76385,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76234,8 +76436,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 125,
-			"versionNonce": 1959194694,
+			"version": 133,
+			"versionNonce": 2001133091,
 			"isDeleted": false,
 			"id": "FpteclV08XIcrdip0b83R",
 			"fillStyle": "solid",
@@ -76255,7 +76457,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76310,8 +76512,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 124,
-			"versionNonce": 407697286,
+			"version": 132,
+			"versionNonce": 733464973,
 			"isDeleted": false,
 			"id": "cJvOeyLI_3OEhmgaEpO9d",
 			"fillStyle": "solid",
@@ -76331,7 +76533,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76382,8 +76584,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 127,
-			"versionNonce": 1141905094,
+			"version": 135,
+			"versionNonce": 1672290755,
 			"isDeleted": false,
 			"id": "Fy3RrQpcdjJ6gjpRvRmgb",
 			"fillStyle": "solid",
@@ -76403,7 +76605,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76466,8 +76668,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 123,
-			"versionNonce": 548228614,
+			"version": 131,
+			"versionNonce": 1384189933,
 			"isDeleted": false,
 			"id": "UHFkmkkTw2cA3TW8Fb7ZT",
 			"fillStyle": "solid",
@@ -76487,7 +76689,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818205,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76534,8 +76736,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 122,
-			"versionNonce": 992058694,
+			"version": 130,
+			"versionNonce": 1573515619,
 			"isDeleted": false,
 			"id": "WdSoqaU6dAJpjzcqZRF7O",
 			"fillStyle": "solid",
@@ -76555,7 +76757,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76598,8 +76800,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 128,
-			"versionNonce": 2026505350,
+			"version": 136,
+			"versionNonce": 823298637,
 			"isDeleted": false,
 			"id": "m2STr9aNYjtzyach1cg7h",
 			"fillStyle": "solid",
@@ -76619,7 +76821,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76694,8 +76896,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 155,
-			"versionNonce": 191071174,
+			"version": 163,
+			"versionNonce": 116116739,
 			"isDeleted": false,
 			"id": "Jh6ov0s1a6LptH6Ajoe0V",
 			"fillStyle": "solid",
@@ -76715,7 +76917,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -76902,8 +77104,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 133,
-			"versionNonce": 1695226630,
+			"version": 141,
+			"versionNonce": 138786989,
 			"isDeleted": false,
 			"id": "S506pJzpMuUDPV3b7EZEl",
 			"fillStyle": "solid",
@@ -76923,7 +77125,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77022,8 +77224,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 123,
-			"versionNonce": 742246982,
+			"version": 131,
+			"versionNonce": 1385247907,
 			"isDeleted": false,
 			"id": "RQ_Eb2x-X47XHPNkkSHuw",
 			"fillStyle": "solid",
@@ -77043,7 +77245,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77102,8 +77304,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 802722182,
+			"version": 139,
+			"versionNonce": 1103371021,
 			"isDeleted": false,
 			"id": "PpoEQeROr_EDC-qrxnae7",
 			"fillStyle": "solid",
@@ -77123,7 +77325,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77214,8 +77416,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 119,
-			"versionNonce": 1528328390,
+			"version": 127,
+			"versionNonce": 1080600643,
 			"isDeleted": false,
 			"id": "BrH80b4qtYE794idRYQue",
 			"fillStyle": "solid",
@@ -77235,7 +77437,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77278,8 +77480,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 121,
-			"versionNonce": 697985030,
+			"version": 129,
+			"versionNonce": 1443311981,
 			"isDeleted": false,
 			"id": "3SSaIXHTR1KUQp7HZ_pMe",
 			"fillStyle": "solid",
@@ -77299,7 +77501,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77350,8 +77552,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 120,
-			"versionNonce": 458979142,
+			"version": 128,
+			"versionNonce": 1448126435,
 			"isDeleted": false,
 			"id": "F8VLtGUML-i6DltOAIHRI",
 			"fillStyle": "solid",
@@ -77371,7 +77573,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77418,8 +77620,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 123,
-			"versionNonce": 683187846,
+			"version": 131,
+			"versionNonce": 1918401485,
 			"isDeleted": false,
 			"id": "5LbTlzemgT7kdU7bZJh4T",
 			"fillStyle": "solid",
@@ -77439,7 +77641,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77498,8 +77700,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 125,
-			"versionNonce": 913235398,
+			"version": 133,
+			"versionNonce": 1515697027,
 			"isDeleted": false,
 			"id": "B6KsEcBg_AMePj4qrOQJs",
 			"fillStyle": "solid",
@@ -77519,7 +77721,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77586,8 +77788,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 151,
-			"versionNonce": 161166598,
+			"version": 159,
+			"versionNonce": 1590786605,
 			"isDeleted": false,
 			"id": "WDvK7KxpkW38lNfxEvPub",
 			"fillStyle": "solid",
@@ -77607,7 +77809,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77778,8 +77980,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 125,
-			"versionNonce": 1002087494,
+			"version": 133,
+			"versionNonce": 1287408419,
 			"isDeleted": false,
 			"id": "qgXPPLgm47Z5ChWu_Ysst",
 			"fillStyle": "solid",
@@ -77799,7 +78001,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77866,8 +78068,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 136,
-			"versionNonce": 782904198,
+			"version": 144,
+			"versionNonce": 609987725,
 			"isDeleted": false,
 			"id": "iPQhToeuICh813VsZaAge",
 			"fillStyle": "solid",
@@ -77887,7 +78089,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221484,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -77998,8 +78200,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 123,
-			"versionNonce": 10930886,
+			"version": 131,
+			"versionNonce": 569175747,
 			"isDeleted": false,
 			"id": "weVMJjLHaR4DbjKFngI4I",
 			"fillStyle": "solid",
@@ -78019,7 +78221,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78078,8 +78280,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 119,
-			"versionNonce": 5079558,
+			"version": 127,
+			"versionNonce": 1924174573,
 			"isDeleted": false,
 			"id": "BjFfNifIfCkAsXO9WOCPK",
 			"fillStyle": "solid",
@@ -78099,7 +78301,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78142,8 +78344,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 119,
-			"versionNonce": 547049798,
+			"version": 127,
+			"versionNonce": 1015553635,
 			"isDeleted": false,
 			"id": "mw3o6xImXO5Au8znjDWk2",
 			"fillStyle": "solid",
@@ -78163,7 +78365,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78206,8 +78408,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 135,
-			"versionNonce": 145816006,
+			"version": 143,
+			"versionNonce": 1180282189,
 			"isDeleted": false,
 			"id": "pdHPfjxUtsVqg5Wicav_R",
 			"fillStyle": "solid",
@@ -78227,7 +78429,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763826836,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78326,8 +78528,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 124,
-			"versionNonce": 1380511130,
+			"version": 132,
+			"versionNonce": 660363779,
 			"isDeleted": false,
 			"id": "LV8NUELLioMO4bVW6Ejcn",
 			"fillStyle": "solid",
@@ -78347,7 +78549,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763826836,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78402,8 +78604,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 123,
-			"versionNonce": 87675142,
+			"version": 131,
+			"versionNonce": 1320188845,
 			"isDeleted": false,
 			"id": "JV4hxwnDqIyUpEIzb6F4d",
 			"fillStyle": "solid",
@@ -78423,7 +78625,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763826836,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78474,8 +78676,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 124,
-			"versionNonce": 1623992922,
+			"version": 132,
+			"versionNonce": 258482595,
 			"isDeleted": false,
 			"id": "QPOPRzNrw9bkJgILrzJAa",
 			"fillStyle": "solid",
@@ -78495,7 +78697,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763826836,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78550,8 +78752,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 146,
-			"versionNonce": 24980186,
+			"version": 154,
+			"versionNonce": 333348365,
 			"isDeleted": false,
 			"id": "WCyEUOy8Y7OpSGAQEEffl",
 			"fillStyle": "solid",
@@ -78571,7 +78773,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763829492,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78774,8 +78976,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 107,
-			"versionNonce": 1080231878,
+			"version": 115,
+			"versionNonce": 2111436099,
 			"isDeleted": false,
 			"id": "_v8Xh9N5hoFRX_RdpB5A8",
 			"fillStyle": "solid",
@@ -78795,7 +78997,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763829492,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78846,8 +79048,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 108,
-			"versionNonce": 822525850,
+			"version": 116,
+			"versionNonce": 1558000749,
 			"isDeleted": false,
 			"id": "YppouKRcAlpPtJyE8iumZ",
 			"fillStyle": "solid",
@@ -78867,7 +79069,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763829492,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78922,8 +79124,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 105,
-			"versionNonce": 1467621126,
+			"version": 113,
+			"versionNonce": 1376802019,
 			"isDeleted": false,
 			"id": "IpQ6AVxHoYC8dKXvjSP9C",
 			"fillStyle": "solid",
@@ -78943,7 +79145,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763829492,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -78986,8 +79188,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 105,
-			"versionNonce": 201309274,
+			"version": 113,
+			"versionNonce": 1433804493,
 			"isDeleted": false,
 			"id": "Ib161gUXIvxko25g_adzT",
 			"fillStyle": "solid",
@@ -79007,7 +79209,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763829492,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79054,8 +79256,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 124,
-			"versionNonce": 36458054,
+			"version": 132,
+			"versionNonce": 2073673859,
 			"isDeleted": false,
 			"id": "cNQnFWIusWz6czvy1ZkBE",
 			"fillStyle": "solid",
@@ -79075,7 +79277,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763829492,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79198,8 +79400,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 107,
-			"versionNonce": 1561159942,
+			"version": 115,
+			"versionNonce": 1950530861,
 			"isDeleted": false,
 			"id": "rnqZycXrsmZTagMAuxrSK",
 			"fillStyle": "solid",
@@ -79219,7 +79421,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79278,8 +79480,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 110,
-			"versionNonce": 1254512710,
+			"version": 118,
+			"versionNonce": 1949612067,
 			"isDeleted": false,
 			"id": "3ykiBwaOap486IFIDkFI3",
 			"fillStyle": "solid",
@@ -79299,7 +79501,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79370,8 +79572,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 106,
-			"versionNonce": 1243570054,
+			"version": 114,
+			"versionNonce": 548179853,
 			"isDeleted": false,
 			"id": "VfCAfBlX5EZCFIa691OUj",
 			"fillStyle": "solid",
@@ -79391,7 +79593,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79446,8 +79648,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 105,
-			"versionNonce": 1599438534,
+			"version": 113,
+			"versionNonce": 2043657155,
 			"isDeleted": false,
 			"id": "GJYlFn5wJ5ZPzmRR3KeuX",
 			"fillStyle": "solid",
@@ -79467,7 +79669,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79518,8 +79720,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 104,
-			"versionNonce": 2131080710,
+			"version": 112,
+			"versionNonce": 418190829,
 			"isDeleted": false,
 			"id": "2pLvmOzIht2dUc0ppI6PO",
 			"fillStyle": "solid",
@@ -79539,7 +79741,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79586,8 +79788,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 108,
-			"versionNonce": 36504902,
+			"version": 116,
+			"versionNonce": 143215459,
 			"isDeleted": false,
 			"id": "wkDNljgx9w-YyN5zZKi7-",
 			"fillStyle": "solid",
@@ -79607,7 +79809,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79670,8 +79872,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 105,
-			"versionNonce": 438856838,
+			"version": 113,
+			"versionNonce": 403558477,
 			"isDeleted": false,
 			"id": "KZiCATqYcAMt9t3NESdNw",
 			"fillStyle": "solid",
@@ -79691,7 +79893,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79742,8 +79944,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 102,
-			"versionNonce": 1152707526,
+			"version": 110,
+			"versionNonce": 347072259,
 			"isDeleted": false,
 			"id": "AID-2IqkeLeWNo9hZd_z9",
 			"fillStyle": "solid",
@@ -79763,7 +79965,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79802,8 +80004,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 131,
-			"versionNonce": 1072661254,
+			"version": 139,
+			"versionNonce": 1005076141,
 			"isDeleted": false,
 			"id": "LnzeB9mNuLbi_dJb5vi4m",
 			"fillStyle": "solid",
@@ -79823,7 +80025,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -79978,8 +80180,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 105,
-			"versionNonce": 2119512646,
+			"version": 113,
+			"versionNonce": 79826595,
 			"isDeleted": false,
 			"id": "hw484G7CPsIjy_qpIhcrE",
 			"fillStyle": "solid",
@@ -79999,7 +80201,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80050,8 +80252,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 104,
-			"versionNonce": 448985478,
+			"version": 112,
+			"versionNonce": 723902733,
 			"isDeleted": false,
 			"id": "E2txh30_qkViblmgr1QTP",
 			"fillStyle": "solid",
@@ -80071,7 +80273,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80118,8 +80320,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 103,
-			"versionNonce": 1282791622,
+			"version": 111,
+			"versionNonce": 1802388035,
 			"isDeleted": false,
 			"id": "ajylF3BJvzfVYBWXjk9Yi",
 			"fillStyle": "solid",
@@ -80139,7 +80341,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80182,8 +80384,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 135,
-			"versionNonce": 1527435270,
+			"version": 143,
+			"versionNonce": 2067806061,
 			"isDeleted": false,
 			"id": "qbVb7EagKwebfKQ8MD3RX",
 			"fillStyle": "solid",
@@ -80203,7 +80405,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763818206,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80374,8 +80576,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 64,
-			"versionNonce": 1488631814,
+			"version": 72,
+			"versionNonce": 26411491,
 			"isDeleted": false,
 			"id": "vxe60wLEJN6uroKWt12Db",
 			"fillStyle": "solid",
@@ -80395,7 +80597,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80486,8 +80688,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 54,
-			"versionNonce": 795947866,
+			"version": 62,
+			"versionNonce": 1451278797,
 			"isDeleted": false,
 			"id": "DNGFnK-If8x5VeNCDXB3y",
 			"fillStyle": "solid",
@@ -80507,7 +80709,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80558,8 +80760,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 53,
-			"versionNonce": 569493318,
+			"version": 61,
+			"versionNonce": 1614728579,
 			"isDeleted": false,
 			"id": "0I3dlo3Xxgz7uetR60W-5",
 			"fillStyle": "solid",
@@ -80579,7 +80781,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80626,8 +80828,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 54,
-			"versionNonce": 73775130,
+			"version": 62,
+			"versionNonce": 1644232749,
 			"isDeleted": false,
 			"id": "Cnb9aN335FOhUbU42DEyu",
 			"fillStyle": "solid",
@@ -80647,7 +80849,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80698,8 +80900,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 53,
-			"versionNonce": 671411846,
+			"version": 61,
+			"versionNonce": 2058364195,
 			"isDeleted": false,
 			"id": "q5TCOCvzvnXWFbQ6cBO3h",
 			"fillStyle": "solid",
@@ -80719,7 +80921,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80766,8 +80968,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 53,
-			"versionNonce": 2045486298,
+			"version": 61,
+			"versionNonce": 1672114829,
 			"isDeleted": false,
 			"id": "UjT32U7j5SMrBw9I-bHDA",
 			"fillStyle": "solid",
@@ -80787,7 +80989,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -80834,8 +81036,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 87,
-			"versionNonce": 665923014,
+			"version": 95,
+			"versionNonce": 1482000579,
 			"isDeleted": false,
 			"id": "tHRlqfX_OK_LGXA8AaXy5",
 			"fillStyle": "solid",
@@ -80855,7 +81057,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81038,8 +81240,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 57,
-			"versionNonce": 1234565530,
+			"version": 65,
+			"versionNonce": 674666733,
 			"isDeleted": false,
 			"id": "kXm7EpuQ-th6D5XN6wGtt",
 			"fillStyle": "solid",
@@ -81059,7 +81261,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81122,8 +81324,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 77,
-			"versionNonce": 1041466630,
+			"version": 85,
+			"versionNonce": 248346723,
 			"isDeleted": false,
 			"id": "7jfpYa6SDsLckZS6HoRhF",
 			"fillStyle": "solid",
@@ -81143,7 +81345,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81286,8 +81488,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 81,
-			"versionNonce": 43497050,
+			"version": 89,
+			"versionNonce": 690942797,
 			"isDeleted": false,
 			"id": "0UzPxKRApkQgC1pYHclxm",
 			"fillStyle": "solid",
@@ -81307,7 +81509,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81466,8 +81668,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 80,
-			"versionNonce": 1554576454,
+			"version": 88,
+			"versionNonce": 2078700547,
 			"isDeleted": false,
 			"id": "S3K8NifWy0S_DBrfaUTPT",
 			"fillStyle": "solid",
@@ -81487,7 +81689,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81646,8 +81848,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 80,
-			"versionNonce": 1438898970,
+			"version": 88,
+			"versionNonce": 1928135085,
 			"isDeleted": false,
 			"id": "_v018VgP5MVQeELAFcfdF",
 			"fillStyle": "solid",
@@ -81667,7 +81869,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81826,8 +82028,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 52,
-			"versionNonce": 1028553606,
+			"version": 60,
+			"versionNonce": 1067383715,
 			"isDeleted": false,
 			"id": "j4jVFuAqc0gbdJEPxdYjI",
 			"fillStyle": "solid",
@@ -81847,7 +82049,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81894,8 +82096,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 53,
-			"versionNonce": 1636657114,
+			"version": 61,
+			"versionNonce": 1251623949,
 			"isDeleted": false,
 			"id": "WUUpUAfemJn7gIyOk8SiF",
 			"fillStyle": "solid",
@@ -81915,7 +82117,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -81966,8 +82168,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 53,
-			"versionNonce": 1447107270,
+			"version": 61,
+			"versionNonce": 1982172995,
 			"isDeleted": false,
 			"id": "-J8OQUKOx0LP22_JsWETt",
 			"fillStyle": "solid",
@@ -81987,7 +82189,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82038,8 +82240,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 53,
-			"versionNonce": 2114411674,
+			"version": 61,
+			"versionNonce": 338705005,
 			"isDeleted": false,
 			"id": "lY4N165MPXBK8LKRodCb6",
 			"fillStyle": "solid",
@@ -82059,7 +82261,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82110,8 +82312,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 52,
-			"versionNonce": 1310577158,
+			"version": 60,
+			"versionNonce": 836284131,
 			"isDeleted": false,
 			"id": "7x0758DqCGVZ04qDI23um",
 			"fillStyle": "solid",
@@ -82131,7 +82333,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82178,8 +82380,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 53,
-			"versionNonce": 149207386,
+			"version": 61,
+			"versionNonce": 2021156045,
 			"isDeleted": false,
 			"id": "wBtohzfNu3gpU_wauNBO7",
 			"fillStyle": "solid",
@@ -82199,7 +82401,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82262,8 +82464,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 69,
-			"versionNonce": 1877057862,
+			"version": 77,
+			"versionNonce": 893835907,
 			"isDeleted": false,
 			"id": "NnVdK93nlAD64w2_WqUfI",
 			"fillStyle": "solid",
@@ -82283,7 +82485,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82410,8 +82612,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 54,
-			"versionNonce": 829980186,
+			"version": 62,
+			"versionNonce": 1259094829,
 			"isDeleted": false,
 			"id": "6AAFUEKcrbEG3TpgagST6",
 			"fillStyle": "solid",
@@ -82431,7 +82633,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82498,8 +82700,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 51,
-			"versionNonce": 518621318,
+			"version": 59,
+			"versionNonce": 1831768611,
 			"isDeleted": false,
 			"id": "GoHY2jnBCyzzWj_LAuWMz",
 			"fillStyle": "solid",
@@ -82519,7 +82721,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82574,8 +82776,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 60,
-			"versionNonce": 1152756442,
+			"version": 68,
+			"versionNonce": 810898829,
 			"isDeleted": false,
 			"id": "KpeFl2sdhH47glqF66exB",
 			"fillStyle": "solid",
@@ -82595,7 +82797,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815434,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82686,8 +82888,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 54,
-			"versionNonce": 1257408454,
+			"version": 62,
+			"versionNonce": 712922563,
 			"isDeleted": false,
 			"id": "hKgUAQROutI8ka-h_QZCs",
 			"fillStyle": "solid",
@@ -82707,7 +82909,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815435,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82794,8 +82996,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 49,
-			"versionNonce": 2033139610,
+			"version": 57,
+			"versionNonce": 59579373,
 			"isDeleted": false,
 			"id": "dQlQOU4f91y3vgFiLNORP",
 			"fillStyle": "solid",
@@ -82815,7 +83017,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815435,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82882,8 +83084,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "freedraw",
-			"version": 44,
-			"versionNonce": 1679400710,
+			"version": 52,
+			"versionNonce": 475309411,
 			"isDeleted": false,
 			"id": "yu6FOKDOYEBYPGsrgqFrx",
 			"fillStyle": "solid",
@@ -82903,7 +83105,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"frameId": "5EjYXMf5TSN21I-2ZBq6z",
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709763815435,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -82950,8 +83152,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "frame",
-			"version": 591,
-			"versionNonce": 991444058,
+			"version": 599,
+			"versionNonce": 2092766797,
 			"isDeleted": false,
 			"id": "5EjYXMf5TSN21I-2ZBq6z",
 			"fillStyle": "solid",
@@ -82976,7 +83178,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 					"type": "arrow"
 				}
 			],
-			"updated": 1709763815435,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"customData": {
@@ -82990,8 +83192,8 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 92,
-			"versionNonce": 1475333018,
+			"version": 100,
+			"versionNonce": 167772419,
 			"isDeleted": false,
 			"id": "R_dpuzwgZr11aL_VALmIS",
 			"fillStyle": "solid",
@@ -83013,7 +83215,7 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709763815437,
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -83041,43 +83243,4210 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			]
 		},
 		{
-			"id": "03ZDgdNZ",
 			"type": "image",
-			"x": 9726.592738145057,
-			"y": 291.37868020130793,
-			"width": 786.2291102255545,
-			"height": 451.3537484628183,
-			"angle": 0,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
+			"version": 146,
+			"versionNonce": 381600941,
+			"isDeleted": false,
+			"id": "03ZDgdNZ",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"roundness": null,
+			"angle": 0,
+			"x": 9726.592738145057,
+			"y": 291.37868020130793,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"width": 786.2291102255545,
+			"height": 451.3537484628183,
 			"seed": 67489,
-			"version": 138,
-			"versionNonce": 1564082063,
-			"updated": 1710025719464,
-			"isDeleted": false,
 			"groupIds": [],
+			"frameId": "fewJj9TXIohZos2Qi9UJt",
+			"roundness": null,
 			"boundElements": [],
+			"updated": 1710373221485,
 			"link": null,
 			"locked": false,
+			"status": "pending",
 			"fileId": "eb4695d1f65ee904fad0d568f28e821ba79e6acd",
 			"scale": [
 				1,
 				1
-			],
-			"frameId": "fewJj9TXIohZos2Qi9UJt"
+			]
 		},
 		{
-			"id": "IbJ1mIUA",
 			"type": "text",
-			"x": 10380.105616563025,
-			"y": 496.46458718373015,
-			"width": 9.999984741210938,
+			"version": 690,
+			"versionNonce": 873252003,
+			"isDeleted": true,
+			"id": "65xnI0RF",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -1403.0720470185695,
+			"y": 573.3043082725941,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"width": 9.019989013671875,
+			"height": 22.557427253316646,
+			"seed": 827920954,
+			"groupIds": [],
+			"frameId": "k-bvrnA_XdqlTetk6H_1S",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1710373221470,
+			"link": null,
+			"locked": false,
+			"fontSize": 18.045941802653317,
+			"fontFamily": 1,
+			"text": "",
+			"rawText": "",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.25,
+			"baseline": 15
+		},
+		{
+			"type": "text",
+			"version": 644,
+			"versionNonce": 1597626125,
+			"isDeleted": true,
+			"id": "WTsOb88P",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -532.6576663562838,
+			"y": 582.8262648133755,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"width": 10,
+			"height": 25,
+			"seed": 695850086,
+			"groupIds": [],
+			"frameId": "AB_AUxtFrfszy784T4KjC",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1710373234743,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "",
+			"rawText": "",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.25,
+			"baseline": 18
+		},
+		{
+			"id": "G5jpX4HPMHOKoZ9ouxTrr",
+			"type": "freedraw",
+			"x": -530.8624695901138,
+			"y": 583.3438697765639,
+			"width": 0.0001,
+			"height": 0.0001,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "AB_AUxtFrfszy784T4KjC",
+			"roundness": null,
+			"seed": 608977677,
+			"version": 7,
+			"versionNonce": 370899309,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373234743,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.0001,
+					0.0001
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				0.0001,
+				0.0001
+			]
+		},
+		{
+			"id": "jZHX367LddHjbcL5BRA2N",
+			"type": "freedraw",
+			"x": -530.8624695901138,
+			"y": 583.3438697765639,
+			"width": 0.0001,
+			"height": 0.0001,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "AB_AUxtFrfszy784T4KjC",
+			"roundness": null,
+			"seed": 627745325,
+			"version": 7,
+			"versionNonce": 109371363,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373234743,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.0001,
+					0.0001
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				0.0001,
+				0.0001
+			]
+		},
+		{
+			"type": "text",
+			"version": 543,
+			"versionNonce": 454670317,
+			"isDeleted": true,
+			"id": "MiWYDiQf",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 481.8245369030401,
+			"y": 560.2028182554911,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"width": 840.7194213867188,
+			"height": 50,
+			"seed": 565489338,
+			"groupIds": [],
+			"frameId": "fM5kbr_4i-RMPS15XLB6c",
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1710373241965,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "Proporciona una alta ganancia de voltaje con una ganancia de corriente máxima de 1\nSu resistencia de entrada es baja",
+			"rawText": "Proporciona una alta ganancia de voltaje con una ganancia de corriente máxima de 1\nSu resistencia de entrada es baja",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Proporciona una alta ganancia de voltaje con una ganancia de corriente máxima de 1\nSu resistencia de entrada es baja",
+			"lineHeight": 1.25,
+			"baseline": 43
+		},
+		{
+			"id": "eykUb_nC2zSTcwJWCDPCZ",
+			"type": "freedraw",
+			"x": -850.2055444386777,
+			"y": 864.4095212699917,
+			"width": 752.4247790952464,
+			"height": 244.97550947287095,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 377448109,
+			"version": 213,
+			"versionNonce": 1291774115,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-9.84276600560645,
+					3.2809220018688166
+				],
+				[
+					-13.123688007475266,
+					6.561844003737633
+				],
+				[
+					-19.685532011212786,
+					19.685532011212786
+				],
+				[
+					-29.52829801681935,
+					52.49475202990095
+				],
+				[
+					-40.46470468971529,
+					95.14673805419545
+				],
+				[
+					-49.213830028032135,
+					144.36056808222747
+				],
+				[
+					-48.12018936074253,
+					183.73163210465327
+				],
+				[
+					-43.74562669158411,
+					203.41716411586617
+				],
+				[
+					-34.99650135326726,
+					211.0726487868933
+				],
+				[
+					-22.966454013081716,
+					212.16628945418302
+				],
+				[
+					-6.561844003737633,
+					208.88536745231409
+				],
+				[
+					12.03004734018566,
+					197.94896077941803
+				],
+				[
+					29.528298016819235,
+					179.35706943549485
+				],
+				[
+					40.46470468971529,
+					153.10969342054432
+				],
+				[
+					44.8392673588736,
+					125.7686767383043
+				],
+				[
+					45.93290802616332,
+					106.0831447270914
+				],
+				[
+					41.558345357004896,
+					100.61494139064337
+				],
+				[
+					34.99650135326726,
+					101.70858205793297
+				],
+				[
+					25.153735347660813,
+					113.73862939811863
+				],
+				[
+					16.404610009344083,
+					139.98600541306905
+				],
+				[
+					10.936406672895941,
+					174.98250676633643
+				],
+				[
+					9.84276600560645,
+					200.13624211399724
+				],
+				[
+					13.123688007475153,
+					213.2599301214725
+				],
+				[
+					22.966454013081602,
+					215.44721145605172
+				],
+				[
+					38.27742335513608,
+					214.353570788762
+				],
+				[
+					61.24387736821768,
+					204.51080478315566
+				],
+				[
+					77.64848737756176,
+					191.3871167756804
+				],
+				[
+					91.86581605232652,
+					171.70158476446773
+				],
+				[
+					99.52130072335376,
+					142.17328674764826
+				],
+				[
+					99.52130072335376,
+					112.64498873082903
+				],
+				[
+					87.49125338316821,
+					87.49125338316821
+				],
+				[
+					74.36756537569295,
+					76.55484671027216
+				],
+				[
+					56.86931469905937,
+					72.18028404111374
+				],
+				[
+					38.27742335513608,
+					74.36756537569295
+				],
+				[
+					21.872813345791997,
+					86.39761271587861
+				],
+				[
+					10.936406672895941,
+					108.2704260616706
+				],
+				[
+					6.561844003737519,
+					139.98600541306905
+				],
+				[
+					9.84276600560645,
+					165.1397407607301
+				],
+				[
+					21.872813345791997,
+					172.79522543175722
+				],
+				[
+					37.183782687846474,
+					170.607944097178
+				],
+				[
+					54.68203336448016,
+					162.95245942615088
+				],
+				[
+					72.18028404111374,
+					149.8287714186755
+				],
+				[
+					85.303972048589,
+					135.61144274391063
+				],
+				[
+					94.05309738690573,
+					113.73862939811863
+				],
+				[
+					100.61494139064337,
+					98.42766005606416
+				],
+				[
+					102.80222272522258,
+					92.95945671961624
+				],
+				[
+					103.89586339251218,
+					91.86581605232664
+				],
+				[
+					104.98950405980179,
+					102.80222272522258
+				],
+				[
+					106.0831447270914,
+					126.8623174055939
+				],
+				[
+					106.0831447270914,
+					155.29697475512353
+				],
+				[
+					102.80222272522258,
+					178.26342876820513
+				],
+				[
+					102.80222272522258,
+					191.3871167756804
+				],
+				[
+					102.80222272522258,
+					195.76167944483882
+				],
+				[
+					102.80222272522258,
+					196.85532011212854
+				],
+				[
+					102.80222272522258,
+					195.76167944483882
+				],
+				[
+					102.80222272522258,
+					184.82527277194276
+				],
+				[
+					109.36406672896021,
+					164.04610009344037
+				],
+				[
+					117.01955139998745,
+					141.07964608035866
+				],
+				[
+					127.9559580728835,
+					118.11319206727705
+				],
+				[
+					138.89236474577945,
+					104.98950405980179
+				],
+				[
+					146.54784941680668,
+					98.42766005606416
+				],
+				[
+					148.7351307513859,
+					97.33401938877455
+				],
+				[
+					148.7351307513859,
+					98.42766005606416
+				],
+				[
+					149.8287714186755,
+					110.45770739624982
+				],
+				[
+					150.9224120859651,
+					136.70508341120023
+				],
+				[
+					152.0160527532547,
+					166.23338142801958
+				],
+				[
+					153.10969342054432,
+					187.01255410652197
+				],
+				[
+					155.29697475512353,
+					194.66803877754933
+				],
+				[
+					156.39061542241313,
+					194.66803877754933
+				],
+				[
+					156.39061542241313,
+					188.1061947738117
+				],
+				[
+					160.76517809157156,
+					171.70158476446773
+				],
+				[
+					167.3270220953092,
+					150.9224120859651
+				],
+				[
+					177.16978810091553,
+					124.67503607101469
+				],
+				[
+					183.73163210465316,
+					112.64498873082903
+				],
+				[
+					185.91891343923237,
+					110.45770739624982
+				],
+				[
+					185.91891343923237,
+					115.92591073269784
+				],
+				[
+					184.82527277194276,
+					135.61144274391063
+				],
+				[
+					184.82527277194276,
+					166.23338142801958
+				],
+				[
+					188.10619477381158,
+					192.48075744297012
+				],
+				[
+					192.48075744297,
+					201.22988278128696
+				],
+				[
+					196.85532011212842,
+					204.51080478315566
+				],
+				[
+					201.22988278128685,
+					204.51080478315566
+				],
+				[
+					209.97900811960358,
+					196.85532011212854
+				],
+				[
+					218.72813345792042,
+					179.35706943549485
+				],
+				[
+					226.38361812894766,
+					159.67153742428195
+				],
+				[
+					234.0391027999749,
+					137.79872407848984
+				],
+				[
+					237.32002480184372,
+					123.58139540372508
+				],
+				[
+					237.32002480184372,
+					119.20683273456666
+				],
+				[
+					236.2263841345541,
+					120.30047340185627
+				],
+				[
+					232.9454621326853,
+					132.33052074204193
+				],
+				[
+					231.8518214653957,
+					157.48425608970274
+				],
+				[
+					234.0391027999749,
+					184.82527277194276
+				],
+				[
+					240.60094680371253,
+					201.22988278128696
+				],
+				[
+					250.44371280931887,
+					205.60444545044538
+				],
+				[
+					262.4737601495045,
+					205.60444545044538
+				],
+				[
+					277.784729491559,
+					197.94896077941803
+				],
+				[
+					292.00205816632376,
+					184.82527277194276
+				],
+				[
+					305.12574617379903,
+					166.23338142801958
+				],
+				[
+					309.50030884295745,
+					143.26692741493787
+				],
+				[
+					307.31302750837824,
+					121.39411406914587
+				],
+				[
+					295.2829801681926,
+					110.45770739624982
+				],
+				[
+					283.25293282800703,
+					107.176785394381
+				],
+				[
+					265.75468215137334,
+					110.45770739624982
+				],
+				[
+					252.63099414389808,
+					121.39411406914587
+				],
+				[
+					243.88186880558135,
+					141.07964608035866
+				],
+				[
+					241.69458747100214,
+					167.3270220953093
+				],
+				[
+					242.78822813829174,
+					188.1061947738117
+				],
+				[
+					251.53735347660847,
+					199.04260144670775
+				],
+				[
+					265.75468215137334,
+					202.32352344857645
+				],
+				[
+					287.62749549716534,
+					199.04260144670775
+				],
+				[
+					304.0321055065094,
+					190.2934761083909
+				],
+				[
+					319.3430748485639,
+					174.98250676633643
+				],
+				[
+					325.9049188523014,
+					159.67153742428195
+				],
+				[
+					326.998559519591,
+					149.8287714186755
+				],
+				[
+					321.5303561831431,
+					144.36056808222747
+				],
+				[
+					317.1557935139847,
+					143.26692741493787
+				],
+				[
+					314.9685121794055,
+					147.6414900840963
+				],
+				[
+					314.9685121794055,
+					159.67153742428195
+				],
+				[
+					314.9685121794055,
+					172.79522543175722
+				],
+				[
+					318.2494341812743,
+					181.54435077007406
+				],
+				[
+					321.5303561831431,
+					183.73163210465327
+				],
+				[
+					328.09220018688063,
+					181.54435077007406
+				],
+				[
+					337.9349661924871,
+					174.98250676633643
+				],
+				[
+					345.5904508635143,
+					169.5143034298885
+				],
+				[
+					352.15229486725195,
+					167.3270220953093
+				],
+				[
+					358.7141388709896,
+					167.3270220953093
+				],
+				[
+					366.3696235420167,
+					174.98250676633643
+				],
+				[
+					372.93146754575434,
+					188.1061947738117
+				],
+				[
+					374.02510821304395,
+					202.32352344857645
+				],
+				[
+					371.83782687846474,
+					214.353570788762
+				],
+				[
+					364.1823422074375,
+					226.38361812894777
+				],
+				[
+					348.87137286538314,
+					237.32002480184383
+				],
+				[
+					322.6239968504327,
+					242.78822813829174
+				],
+				[
+					290.90841749903416,
+					243.88186880558146
+				],
+				[
+					260.2864788149253,
+					244.97550947287095
+				],
+				[
+					238.41366546913332,
+					240.60094680371253
+				],
+				[
+					231.8518214653957,
+					238.41366546913332
+				],
+				[
+					235.1327434672645,
+					235.13274346726462
+				],
+				[
+					254.8182754784773,
+					234.0391027999749
+				],
+				[
+					288.72113616445495,
+					234.0391027999749
+				],
+				[
+					329.18584085417024,
+					235.13274346726462
+				],
+				[
+					365.2759828747271,
+					235.13274346726462
+				],
+				[
+					393.71064022425685,
+					236.2263841345541
+				],
+				[
+					414.48981290275924,
+					236.2263841345541
+				],
+				[
+					424.3325789083657,
+					235.13274346726462
+				],
+				[
+					425.4262195756553,
+					234.0391027999749
+				],
+				[
+					424.3325789083657,
+					230.7581807981062
+				],
+				[
+					421.0516569064969,
+					223.10269612707884
+				],
+				[
+					416.67709423733845,
+					209.9790081196038
+				],
+				[
+					410.1152502336008,
+					190.2934761083909
+				],
+				[
+					400.2724842279945,
+					165.1397407607301
+				],
+				[
+					389.3360775550984,
+					136.70508341120023
+				],
+				[
+					374.02510821304395,
+					107.176785394381
+				],
+				[
+					356.5268575364104,
+					82.02305004672019
+				],
+				[
+					345.5904508635143,
+					64.5247993700865
+				],
+				[
+					340.1222475270663,
+					49.213830028032135
+				],
+				[
+					343.4031695289351,
+					38.27742335513608
+				],
+				[
+					351.05865419996235,
+					32.80922001868805
+				],
+				[
+					361.9950608728584,
+					28.43465734952963
+				],
+				[
+					374.02510821304395,
+					26.24737601495042
+				],
+				[
+					378.3996708822024,
+					25.153735347660813
+				],
+				[
+					378.3996708822024,
+					28.43465734952963
+				],
+				[
+					378.3996708822024,
+					43.74562669158411
+				],
+				[
+					380.5869522167816,
+					74.36756537569295
+				],
+				[
+					390.42971822238803,
+					125.7686767383043
+				],
+				[
+					401.3661248952841,
+					169.5143034298885
+				],
+				[
+					411.2088909008904,
+					191.3871167756804
+				],
+				[
+					422.1452975737865,
+					201.22988278128696
+				],
+				[
+					433.08170424668253,
+					205.60444545044538
+				],
+				[
+					441.83082958499926,
+					207.7917267850246
+				],
+				[
+					444.0181109195785,
+					207.7917267850246
+				],
+				[
+					444.0181109195785,
+					204.51080478315566
+				],
+				[
+					448.3926735887369,
+					192.48075744297012
+				],
+				[
+					453.8608769251849,
+					170.607944097178
+				],
+				[
+					462.61000226350177,
+					145.45420874951708
+				],
+				[
+					476.82733093826664,
+					124.67503607101469
+				],
+				[
+					497.60650361676903,
+					102.80222272522258
+				],
+				[
+					521.6665982971402,
+					79.83576871214098
+				],
+				[
+					552.2885369812492,
+					54.68203336448016
+				],
+				[
+					582.910475665358,
+					33.90286068597766
+				],
+				[
+					610.2514923475982,
+					19.685532011212786
+				],
+				[
+					628.8433836915214,
+					14.217328674764872
+				],
+				[
+					635.405227695259,
+					13.123688007475266
+				],
+				[
+					636.4988683625485,
+					14.217328674764872
+				],
+				[
+					637.5925090298382,
+					17.49825067663369
+				],
+				[
+					637.5925090298382,
+					18.59189134392318
+				],
+				[
+					634.3115870279693,
+					19.685532011212786
+				],
+				[
+					621.187899020494,
+					25.153735347660813
+				],
+				[
+					600.4087263419916,
+					38.27742335513608
+				],
+				[
+					571.974068992462,
+					62.33751803550729
+				],
+				[
+					541.3521303083531,
+					96.24037872148506
+				],
+				[
+					509.6365509569547,
+					137.79872407848984
+				],
+				[
+					482.29553427471456,
+					176.07614743362592
+				],
+				[
+					466.9845649326602,
+					195.76167944483882
+				],
+				[
+					463.7036429307914,
+					205.60444545044538
+				],
+				[
+					466.9845649326602,
+					209.9790081196038
+				],
+				[
+					477.92097160555625,
+					213.2599301214725
+				],
+				[
+					505.26198828779627,
+					213.2599301214725
+				],
+				[
+					542.4457709756427,
+					213.2599301214725
+				],
+				[
+					579.6295536634892,
+					213.2599301214725
+				],
+				[
+					621.187899020494,
+					208.88536745231409
+				],
+				[
+					656.1844003737614,
+					199.04260144670775
+				],
+				[
+					681.3381357214222,
+					190.2934761083909
+				],
+				[
+					696.6491050634767,
+					184.82527277194276
+				],
+				[
+					702.1173083999246,
+					183.73163210465327
+				],
+				[
+					703.2109490672143,
+					187.01255410652197
+				],
+				[
+					703.2109490672143,
+					190.2934761083909
+				],
+				[
+					702.1173083999246,
+					191.3871167756804
+				],
+				[
+					702.1173083999246,
+					191.3871167756804
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				702.1173083999246,
+				191.3871167756804
+			]
+		},
+		{
+			"id": "SYIf4KKEF9_nmLESHY376",
+			"type": "freedraw",
+			"x": -891.7638897956826,
+			"y": 903.7805852924174,
+			"width": 33.90286068597777,
+			"height": 173.88886609904682,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1786027565,
+			"version": 21,
+			"versionNonce": 893101837,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-1.0936406672896055,
+					5.468203336448028
+				],
+				[
+					-2.187281334579211,
+					12.03004734018566
+				],
+				[
+					-5.468203336448028,
+					37.183782687846474
+				],
+				[
+					-10.936406672896055,
+					71.08664337382413
+				],
+				[
+					-21.87281334579211,
+					113.73862939811863
+				],
+				[
+					-30.621938684108954,
+					146.5478494168068
+				],
+				[
+					-32.809220018688166,
+					165.13974076072998
+				],
+				[
+					-30.621938684108954,
+					172.79522543175733
+				],
+				[
+					-29.528298016819235,
+					173.88886609904682
+				],
+				[
+					-28.434657349529743,
+					162.95245942615077
+				],
+				[
+					-22.966454013081602,
+					145.45420874951708
+				],
+				[
+					-16.40461000934397,
+					124.67503607101469
+				],
+				[
+					-8.749125338316844,
+					103.89586339251218
+				],
+				[
+					-3.2809220018688166,
+					92.95945671961624
+				],
+				[
+					0,
+					87.49125338316821
+				],
+				[
+					1.0936406672896055,
+					87.49125338316821
+				],
+				[
+					1.0936406672896055,
+					87.49125338316821
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				1.0936406672896055,
+				87.49125338316821
+			]
+		},
+		{
+			"id": "Smkc-juoxeFvqLoNGudn1",
+			"type": "freedraw",
+			"x": -943.165001158294,
+			"y": 900.4996632905486,
+			"width": 359.8077795382791,
+			"height": 168.4206627625988,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 508349869,
+			"version": 135,
+			"versionNonce": 184540227,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					18.591891343923294
+				],
+				[
+					0,
+					30.62193868410884
+				],
+				[
+					0,
+					49.213830028032135
+				],
+				[
+					1.0936406672896055,
+					53.58839269719056
+				],
+				[
+					2.187281334579211,
+					42.6519860242945
+				],
+				[
+					2.187281334579211,
+					28.43465734952963
+				],
+				[
+					-1.0936406672896055,
+					15.310969342054477
+				],
+				[
+					-3.280922001868703,
+					6.561844003737633
+				],
+				[
+					-3.280922001868703,
+					2.187281334579211
+				],
+				[
+					-3.280922001868703,
+					1.0936406672896055
+				],
+				[
+					3.2809220018688166,
+					3.2809220018688166
+				],
+				[
+					21.87281334579211,
+					8.749125338316844
+				],
+				[
+					50.30747069532174,
+					9.84276600560645
+				],
+				[
+					74.36756537569295,
+					8.749125338316844
+				],
+				[
+					91.86581605232664,
+					5.468203336448028
+				],
+				[
+					97.33401938877455,
+					3.2809220018688166
+				],
+				[
+					95.14673805419534,
+					3.2809220018688166
+				],
+				[
+					86.39761271587861,
+					5.468203336448028
+				],
+				[
+					76.55484671027216,
+					8.749125338316844
+				],
+				[
+					69.99300270653453,
+					12.03004734018566
+				],
+				[
+					60.15023670092819,
+					22.966454013081602
+				],
+				[
+					48.12018936074253,
+					44.83926735887371
+				],
+				[
+					31.715579351398446,
+					75.46120604298255
+				],
+				[
+					13.123688007475266,
+					103.89586339251218
+				],
+				[
+					1.0936406672896055,
+					127.9559580728835
+				],
+				[
+					0,
+					136.70508341120035
+				],
+				[
+					8.749125338316844,
+					144.36056808222747
+				],
+				[
+					25.153735347660813,
+					147.6414900840964
+				],
+				[
+					42.6519860242945,
+					147.6414900840964
+				],
+				[
+					60.15023670092819,
+					138.89236474577956
+				],
+				[
+					76.55484671027216,
+					122.48775473643548
+				],
+				[
+					85.303972048589,
+					101.70858205793297
+				],
+				[
+					85.303972048589,
+					88.58489405045782
+				],
+				[
+					78.74212804485137,
+					84.2103313812994
+				],
+				[
+					72.18028404111374,
+					83.11669071400979
+				],
+				[
+					64.52479937008661,
+					90.77217538503703
+				],
+				[
+					59.05659603363847,
+					108.2704260616706
+				],
+				[
+					55.77567403176977,
+					130.14323940746272
+				],
+				[
+					57.96295536634898,
+					145.4542087495172
+				],
+				[
+					66.71208070466582,
+					153.10969342054432
+				],
+				[
+					80.92940937943058,
+					155.29697475512353
+				],
+				[
+					98.42766005606427,
+					149.82877141867561
+				],
+				[
+					117.01955139998745,
+					136.70508341120035
+				],
+				[
+					133.42416140933153,
+					117.01955139998745
+				],
+				[
+					139.98600541306905,
+					94.05309738690585
+				],
+				[
+					137.79872407848984,
+					72.18028404111374
+				],
+				[
+					127.9559580728835,
+					59.056596033638584
+				],
+				[
+					113.73862939811875,
+					52.49475202990095
+				],
+				[
+					100.61494139064348,
+					51.401111362611346
+				],
+				[
+					89.67853471774743,
+					52.49475202990095
+				],
+				[
+					79.83576871214098,
+					61.24387736821768
+				],
+				[
+					72.18028404111374,
+					78.74212804485137
+				],
+				[
+					66.71208070466582,
+					101.70858205793297
+				],
+				[
+					66.71208070466582,
+					119.20683273456666
+				],
+				[
+					73.27392470840346,
+					125.7686767383043
+				],
+				[
+					83.11669071400979,
+					127.9559580728835
+				],
+				[
+					96.24037872148506,
+					122.48775473643548
+				],
+				[
+					109.36406672896032,
+					110.45770739624982
+				],
+				[
+					125.7686767383043,
+					92.95945671961624
+				],
+				[
+					139.98600541306905,
+					72.18028404111374
+				],
+				[
+					146.54784941680668,
+					59.056596033638584
+				],
+				[
+					148.7351307513859,
+					53.58839269719056
+				],
+				[
+					148.7351307513859,
+					56.86931469905937
+				],
+				[
+					148.7351307513859,
+					73.27392470840334
+				],
+				[
+					148.7351307513859,
+					98.42766005606427
+				],
+				[
+					148.7351307513859,
+					129.04959874017322
+				],
+				[
+					147.6414900840964,
+					150.9224120859651
+				],
+				[
+					148.7351307513859,
+					157.48425608970274
+				],
+				[
+					149.82877141867561,
+					157.48425608970274
+				],
+				[
+					150.9224120859651,
+					156.39061542241325
+				],
+				[
+					153.10969342054432,
+					142.17328674764826
+				],
+				[
+					159.67153742428195,
+					122.48775473643548
+				],
+				[
+					167.3270220953092,
+					98.42766005606427
+				],
+				[
+					176.07614743362603,
+					77.64848737756176
+				],
+				[
+					183.73163210465316,
+					65.6184400373761
+				],
+				[
+					187.01255410652197,
+					62.33751803550729
+				],
+				[
+					187.01255410652197,
+					66.71208070466571
+				],
+				[
+					189.1998354411012,
+					84.2103313812994
+				],
+				[
+					190.2934761083908,
+					109.36406672896021
+				],
+				[
+					193.5743981102596,
+					130.14323940746272
+				],
+				[
+					194.6680387775492,
+					142.17328674764826
+				],
+				[
+					196.85532011212842,
+					145.4542087495172
+				],
+				[
+					196.85532011212842,
+					142.17328674764826
+				],
+				[
+					203.41716411586606,
+					124.6750360710148
+				],
+				[
+					211.0726487868933,
+					99.52130072335376
+				],
+				[
+					220.91541479249975,
+					75.46120604298255
+				],
+				[
+					228.57089946352687,
+					63.43115870279689
+				],
+				[
+					229.66454013081648,
+					62.33751803550729
+				],
+				[
+					230.75818079810608,
+					63.43115870279689
+				],
+				[
+					230.75818079810608,
+					78.74212804485137
+				],
+				[
+					230.75818079810608,
+					106.0831447270914
+				],
+				[
+					230.75818079810608,
+					133.42416140933165
+				],
+				[
+					231.8518214653957,
+					147.6414900840964
+				],
+				[
+					235.1327434672645,
+					150.9224120859651
+				],
+				[
+					240.60094680371253,
+					141.07964608035877
+				],
+				[
+					248.25643147473977,
+					122.48775473643548
+				],
+				[
+					255.911916145767,
+					98.42766005606427
+				],
+				[
+					262.4737601495045,
+					80.92940937943058
+				],
+				[
+					263.56740081679413,
+					76.55484671027216
+				],
+				[
+					264.66104148408374,
+					76.55484671027216
+				],
+				[
+					264.66104148408374,
+					86.39761271587861
+				],
+				[
+					265.75468215137334,
+					109.36406672896021
+				],
+				[
+					267.94196348595256,
+					133.42416140933165
+				],
+				[
+					273.4101668224006,
+					145.4542087495172
+				],
+				[
+					278.8783701588486,
+					149.82877141867561
+				],
+				[
+					287.62749549716546,
+					148.7351307513859
+				],
+				[
+					297.4702615027719,
+					142.17328674764826
+				],
+				[
+					307.31302750837824,
+					126.86231740559401
+				],
+				[
+					317.1557935139847,
+					104.98950405980179
+				],
+				[
+					322.6239968504327,
+					79.83576871214098
+				],
+				[
+					321.5303561831431,
+					63.43115870279689
+				],
+				[
+					314.9685121794055,
+					52.49475202990095
+				],
+				[
+					306.21938684108864,
+					50.30747069532174
+				],
+				[
+					294.1893395009031,
+					53.58839269719056
+				],
+				[
+					282.1592921607174,
+					68.89936203924492
+				],
+				[
+					273.4101668224006,
+					95.14673805419545
+				],
+				[
+					271.2228854878214,
+					122.48775473643548
+				],
+				[
+					274.5038074896902,
+					144.36056808222747
+				],
+				[
+					282.1592921607174,
+					152.01605275325483
+				],
+				[
+					296.3766208354823,
+					152.01605275325483
+				],
+				[
+					318.2494341812743,
+					139.98600541306905
+				],
+				[
+					339.0286068597768,
+					118.11319206727705
+				],
+				[
+					353.24593553454156,
+					97.33401938877466
+				],
+				[
+					356.5268575364104,
+					80.92940937943058
+				],
+				[
+					349.96501353267274,
+					73.27392470840334
+				],
+				[
+					343.4031695289351,
+					72.18028404111374
+				],
+				[
+					340.1222475270663,
+					73.27392470840334
+				],
+				[
+					332.46676285603917,
+					87.49125338316821
+				],
+				[
+					328.09220018688075,
+					100.61494139064337
+				],
+				[
+					325.90491885230153,
+					114.83227006540824
+				],
+				[
+					316.0621528466951,
+					168.4206627625988
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				316.0621528466951,
+				168.4206627625988
+			]
+		},
+		{
+			"id": "p99a5o4Wo_bhEVqhyaGN0",
+			"type": "freedraw",
+			"x": -945.3522824928732,
+			"y": 875.3459279428878,
+			"width": 356.5268575364104,
+			"height": 193.5743981102596,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1712111597,
+			"version": 168,
+			"versionNonce": 179125613,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					2.187281334579211,
+					16.40461000934397
+				],
+				[
+					4.374562669158422,
+					27.341016682240024
+				],
+				[
+					6.561844003737633,
+					42.6519860242945
+				],
+				[
+					8.749125338316844,
+					52.49475202990084
+				],
+				[
+					9.84276600560645,
+					54.68203336448005
+				],
+				[
+					9.84276600560645,
+					47.02654869345281
+				],
+				[
+					8.749125338316844,
+					32.80922001868805
+				],
+				[
+					4.374562669158422,
+					14.217328674764758
+				],
+				[
+					-1.0936406672894918,
+					0
+				],
+				[
+					-5.468203336447914,
+					-6.561844003737633
+				],
+				[
+					-6.561844003737633,
+					-7.655484671027239
+				],
+				[
+					-1.0936406672894918,
+					-4.374562669158422
+				],
+				[
+					15.310969342054477,
+					0
+				],
+				[
+					38.27742335513608,
+					1.0936406672896055
+				],
+				[
+					62.3375180355074,
+					0
+				],
+				[
+					84.2103313812994,
+					-3.2809220018688166
+				],
+				[
+					97.33401938877455,
+					-6.561844003737633
+				],
+				[
+					98.42766005606427,
+					-7.655484671027239
+				],
+				[
+					96.24037872148506,
+					-8.749125338316844
+				],
+				[
+					89.67853471774743,
+					-8.749125338316844
+				],
+				[
+					84.2103313812994,
+					-6.561844003737633
+				],
+				[
+					77.64848737756176,
+					-3.2809220018688166
+				],
+				[
+					67.80572137195531,
+					4.374562669158422
+				],
+				[
+					56.86931469905937,
+					18.59189134392318
+				],
+				[
+					43.74562669158411,
+					41.558345357004896
+				],
+				[
+					27.341016682240024,
+					73.27392470840334
+				],
+				[
+					14.217328674764872,
+					101.70858205793297
+				],
+				[
+					9.84276600560645,
+					122.48775473643548
+				],
+				[
+					14.217328674764872,
+					135.61144274391063
+				],
+				[
+					21.87281334579211,
+					142.17328674764826
+				],
+				[
+					32.809220018688166,
+					143.26692741493787
+				],
+				[
+					43.74562669158411,
+					141.07964608035866
+				],
+				[
+					57.96295536634898,
+					132.3305207420418
+				],
+				[
+					73.27392470840346,
+					115.92591073269784
+				],
+				[
+					85.303972048589,
+					98.42766005606416
+				],
+				[
+					89.67853471774743,
+					82.02305004672019
+				],
+				[
+					88.58489405045782,
+					74.36756537569295
+				],
+				[
+					80.92940937943058,
+					71.08664337382413
+				],
+				[
+					71.08664337382424,
+					73.27392470840334
+				],
+				[
+					62.3375180355074,
+					80.92940937943058
+				],
+				[
+					55.77567403176977,
+					96.24037872148494
+				],
+				[
+					54.68203336448016,
+					113.73862939811863
+				],
+				[
+					59.05659603363847,
+					130.1432394074626
+				],
+				[
+					67.80572137195531,
+					137.79872407848984
+				],
+				[
+					77.64848737756176,
+					138.89236474577945
+				],
+				[
+					89.67853471774743,
+					135.61144274391063
+				],
+				[
+					102.80222272522269,
+					124.67503607101457
+				],
+				[
+					117.01955139998745,
+					106.0831447270914
+				],
+				[
+					124.67503607101469,
+					83.11669071400979
+				],
+				[
+					124.67503607101469,
+					56.86931469905926
+				],
+				[
+					119.20683273456666,
+					40.46470468971529
+				],
+				[
+					109.36406672896032,
+					32.80922001868805
+				],
+				[
+					98.42766005606427,
+					30.62193868410884
+				],
+				[
+					87.49125338316821,
+					32.80922001868805
+				],
+				[
+					79.83576871214098,
+					41.558345357004896
+				],
+				[
+					74.36756537569295,
+					56.86931469905926
+				],
+				[
+					71.08664337382424,
+					75.46120604298255
+				],
+				[
+					71.08664337382424,
+					91.86581605232652
+				],
+				[
+					74.36756537569295,
+					101.70858205793297
+				],
+				[
+					78.74212804485137,
+					107.176785394381
+				],
+				[
+					83.11669071400979,
+					108.2704260616706
+				],
+				[
+					92.95945671961624,
+					106.0831447270914
+				],
+				[
+					106.0831447270914,
+					97.33401938877455
+				],
+				[
+					122.48775473643548,
+					80.92940937943058
+				],
+				[
+					136.70508341120035,
+					62.33751803550729
+				],
+				[
+					143.26692741493798,
+					48.120189360742415
+				],
+				[
+					145.4542087495172,
+					42.6519860242945
+				],
+				[
+					145.4542087495172,
+					41.558345357004896
+				],
+				[
+					145.4542087495172,
+					48.120189360742415
+				],
+				[
+					144.36056808222747,
+					67.80572137195531
+				],
+				[
+					143.26692741493798,
+					97.33401938877455
+				],
+				[
+					143.26692741493798,
+					125.76867673830418
+				],
+				[
+					145.4542087495172,
+					137.79872407848984
+				],
+				[
+					147.6414900840964,
+					141.07964608035866
+				],
+				[
+					148.7351307513859,
+					141.07964608035866
+				],
+				[
+					150.9224120859651,
+					134.51780207662102
+				],
+				[
+					155.29697475512353,
+					118.11319206727705
+				],
+				[
+					161.85881875886116,
+					96.24037872148494
+				],
+				[
+					168.4206627625988,
+					68.89936203924492
+				],
+				[
+					173.88886609904682,
+					48.120189360742415
+				],
+				[
+					178.26342876820524,
+					38.27742335513608
+				],
+				[
+					179.35706943549485,
+					37.183782687846474
+				],
+				[
+					179.35706943549485,
+					48.120189360742415
+				],
+				[
+					180.45071010278446,
+					71.08664337382413
+				],
+				[
+					182.63799143736367,
+					98.42766005606416
+				],
+				[
+					184.82527277194288,
+					113.73862939811863
+				],
+				[
+					187.01255410652197,
+					119.20683273456666
+				],
+				[
+					188.10619477381158,
+					120.30047340185627
+				],
+				[
+					190.2934761083908,
+					110.45770739624982
+				],
+				[
+					196.85532011212842,
+					91.86581605232652
+				],
+				[
+					206.69808611773487,
+					63.43115870279689
+				],
+				[
+					214.3535707887621,
+					41.558345357004896
+				],
+				[
+					216.54085212334132,
+					38.27742335513608
+				],
+				[
+					215.44721145605172,
+					43.74562669158411
+				],
+				[
+					214.3535707887621,
+					64.5247993700865
+				],
+				[
+					214.3535707887621,
+					89.67853471774731
+				],
+				[
+					215.44721145605172,
+					107.176785394381
+				],
+				[
+					217.63449279063093,
+					114.83227006540824
+				],
+				[
+					218.72813345792053,
+					117.01955139998745
+				],
+				[
+					219.82177412521014,
+					117.01955139998745
+				],
+				[
+					222.00905545978935,
+					112.64498873082903
+				],
+				[
+					228.57089946352687,
+					99.52130072335376
+				],
+				[
+					237.32002480184372,
+					78.74212804485137
+				],
+				[
+					244.97550947287095,
+					61.24387736821768
+				],
+				[
+					247.16279080745016,
+					55.775674031769654
+				],
+				[
+					247.16279080745016,
+					57.962955366348865
+				],
+				[
+					247.16279080745016,
+					74.36756537569295
+				],
+				[
+					249.35007214202938,
+					96.24037872148494
+				],
+				[
+					254.8182754784774,
+					110.45770739624982
+				],
+				[
+					259.1928381476358,
+					115.92591073269784
+				],
+				[
+					262.47376014950464,
+					117.01955139998745
+				],
+				[
+					267.94196348595256,
+					113.73862939811863
+				],
+				[
+					275.5974481569798,
+					103.89586339251218
+				],
+				[
+					288.72113616445506,
+					84.2103313812994
+				],
+				[
+					297.4702615027719,
+					62.33751803550729
+				],
+				[
+					298.5639021700615,
+					43.74562669158411
+				],
+				[
+					293.0956988336135,
+					34.99650135326726
+				],
+				[
+					282.1592921607174,
+					30.62193868410884
+				],
+				[
+					269.03560415324216,
+					32.80922001868805
+				],
+				[
+					259.1928381476358,
+					42.6519860242945
+				],
+				[
+					252.6309941438982,
+					60.150236700928076
+				],
+				[
+					252.6309941438982,
+					80.92940937943058
+				],
+				[
+					258.0991974803462,
+					99.52130072335376
+				],
+				[
+					265.75468215137334,
+					107.176785394381
+				],
+				[
+					275.5974481569798,
+					107.176785394381
+				],
+				[
+					290.9084174990343,
+					99.52130072335376
+				],
+				[
+					305.12574617379903,
+					83.11669071400979
+				],
+				[
+					312.78123084482627,
+					65.6184400373761
+				],
+				[
+					314.9685121794055,
+					54.68203336448005
+				],
+				[
+					309.50030884295745,
+					49.21383002803202
+				],
+				[
+					299.6575428373511,
+					47.02654869345281
+				],
+				[
+					294.1893395009031,
+					49.21383002803202
+				],
+				[
+					292.0020581663239,
+					55.775674031769654
+				],
+				[
+					292.0020581663239,
+					65.6184400373761
+				],
+				[
+					295.2829801681927,
+					75.46120604298255
+				],
+				[
+					299.6575428373511,
+					83.11669071400979
+				],
+				[
+					305.12574617379903,
+					89.67853471774731
+				],
+				[
+					309.50030884295745,
+					95.14673805419534
+				],
+				[
+					313.8748715121159,
+					100.61494139064337
+				],
+				[
+					314.9685121794055,
+					113.73862939811863
+				],
+				[
+					313.8748715121159,
+					137.79872407848984
+				],
+				[
+					302.9384648392198,
+					164.04610009344037
+				],
+				[
+					285.44021416258624,
+					176.07614743362592
+				],
+				[
+					259.1928381476358,
+					182.63799143736355
+				],
+				[
+					227.47725879623727,
+					184.82527277194276
+				],
+				[
+					196.85532011212842,
+					184.82527277194276
+				],
+				[
+					174.98250676633643,
+					182.63799143736355
+				],
+				[
+					164.04610009344037,
+					177.16978810091564
+				],
+				[
+					165.13974076072998,
+					169.5143034298883
+				],
+				[
+					181.54435077007406,
+					160.76517809157167
+				],
+				[
+					209.9790081196037,
+					159.67153742428195
+				],
+				[
+					242.78822813829174,
+					158.57789675699246
+				],
+				[
+					285.44021416258624,
+					160.76517809157167
+				],
+				[
+					318.2494341812743,
+					166.23338142801958
+				],
+				[
+					339.0286068597768,
+					170.607944097178
+				],
+				[
+					347.77773219809353,
+					170.607944097178
+				],
+				[
+					349.96501353267274,
+					170.607944097178
+				],
+				[
+					348.87137286538314,
+					166.23338142801958
+				],
+				[
+					346.6840915308039,
+					157.48425608970274
+				],
+				[
+					343.4031695289351,
+					145.45420874951708
+				],
+				[
+					342.3095288616455,
+					131.2368800747522
+				],
+				[
+					340.1222475270664,
+					122.48775473643548
+				],
+				[
+					340.1222475270664,
+					118.11319206727705
+				],
+				[
+					340.1222475270664,
+					118.11319206727705
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				340.1222475270664,
+				118.11319206727705
+			]
+		},
+		{
+			"id": "He_fk-rl8Zsvm2x6LaPZL",
+			"type": "freedraw",
+			"x": -921.2921878125019,
+			"y": 942.0580086475535,
+			"width": 153.10969342054432,
+			"height": 123.58139540372508,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 78299277,
+			"version": 64,
+			"versionNonce": 803298275,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					1.0936406672896055
+				],
+				[
+					1.0936406672894918,
+					18.591891343923294
+				],
+				[
+					2.187281334579211,
+					39.371064022425685
+				],
+				[
+					3.280922001868703,
+					50.30747069532174
+				],
+				[
+					4.374562669158422,
+					53.58839269719056
+				],
+				[
+					5.468203336447914,
+					53.58839269719056
+				],
+				[
+					7.655484671027125,
+					50.30747069532174
+				],
+				[
+					10.936406672896055,
+					34.99650135326726
+				],
+				[
+					10.936406672896055,
+					19.685532011212786
+				],
+				[
+					10.936406672896055,
+					3.2809220018688166
+				],
+				[
+					9.842766005606336,
+					-2.187281334579211
+				],
+				[
+					10.936406672896055,
+					-2.187281334579211
+				],
+				[
+					22.966454013081602,
+					2.187281334579211
+				],
+				[
+					44.83926735887371,
+					4.374562669158422
+				],
+				[
+					66.71208070466571,
+					4.374562669158422
+				],
+				[
+					87.49125338316821,
+					1.0936406672896055
+				],
+				[
+					100.61494139064337,
+					-2.187281334579211
+				],
+				[
+					100.61494139064337,
+					-3.2809220018688166
+				],
+				[
+					96.24037872148494,
+					-3.2809220018688166
+				],
+				[
+					87.49125338316821,
+					-2.187281334579211
+				],
+				[
+					77.64848737756165,
+					3.2809220018688166
+				],
+				[
+					67.80572137195531,
+					16.404610009344083
+				],
+				[
+					56.86931469905926,
+					36.09014202055687
+				],
+				[
+					48.120189360742415,
+					63.43115870279689
+				],
+				[
+					42.6519860242945,
+					91.86581605232675
+				],
+				[
+					41.55834535700478,
+					108.27042606167072
+				],
+				[
+					47.02654869345292,
+					117.01955139998756
+				],
+				[
+					57.962955366348865,
+					120.30047340185627
+				],
+				[
+					71.08664337382413,
+					117.01955139998756
+				],
+				[
+					84.21033138129928,
+					106.08314472709151
+				],
+				[
+					96.24037872148494,
+					88.58489405045782
+				],
+				[
+					100.61494139064337,
+					71.08664337382413
+				],
+				[
+					95.14673805419534,
+					62.33751803550729
+				],
+				[
+					86.3976127158785,
+					60.150236700928076
+				],
+				[
+					80.92940937943058,
+					62.33751803550729
+				],
+				[
+					76.55484671027216,
+					73.27392470840334
+				],
+				[
+					76.55484671027216,
+					89.67853471774754
+				],
+				[
+					83.11669071400979,
+					107.176785394381
+				],
+				[
+					90.77217538503692,
+					113.73862939811863
+				],
+				[
+					100.61494139064337,
+					115.92591073269784
+				],
+				[
+					113.73862939811852,
+					112.64498873082914
+				],
+				[
+					131.2368800747522,
+					102.80222272522258
+				],
+				[
+					143.26692741493787,
+					88.58489405045782
+				],
+				[
+					152.0160527532547,
+					67.80572137195531
+				],
+				[
+					153.10969342054432,
+					43.74562669158411
+				],
+				[
+					146.54784941680668,
+					30.62193868410884
+				],
+				[
+					136.70508341120023,
+					24.060094680371208
+				],
+				[
+					127.9559580728835,
+					22.966454013081602
+				],
+				[
+					121.39411406914587,
+					25.153735347660813
+				],
+				[
+					115.92591073269773,
+					32.80922001868805
+				],
+				[
+					109.36406672896021,
+					42.6519860242945
+				],
+				[
+					103.89586339251218,
+					54.68203336448016
+				],
+				[
+					98.42766005606416,
+					64.5247993700865
+				],
+				[
+					97.33401938877455,
+					71.08664337382413
+				],
+				[
+					98.42766005606416,
+					75.46120604298255
+				],
+				[
+					103.89586339251218,
+					78.74212804485137
+				],
+				[
+					114.83227006540824,
+					79.83576871214098
+				],
+				[
+					133.42416140933142,
+					80.92940937943058
+				],
+				[
+					139.98600541306905,
+					79.83576871214098
+				],
+				[
+					139.98600541306905,
+					79.83576871214098
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				139.98600541306905,
+				79.83576871214098
+			]
+		},
+		{
+			"id": "USHqJfagSjGBdA9JUNSmQ",
+			"type": "freedraw",
+			"x": -919.1049064779227,
+			"y": 917.9979139671823,
+			"width": 306.21938684108864,
+			"height": 145.4542087495172,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1176751661,
+			"version": 149,
+			"versionNonce": 1046284237,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.0936406672894918,
+					2.187281334579211
+				],
+				[
+					1.0936406672894918,
+					3.2809220018688166
+				],
+				[
+					3.280922001868703,
+					17.498250676633575
+				],
+				[
+					5.468203336447914,
+					40.46470468971529
+				],
+				[
+					5.468203336447914,
+					53.58839269719044
+				],
+				[
+					6.561844003737633,
+					59.05659603363847
+				],
+				[
+					6.561844003737633,
+					60.150236700928076
+				],
+				[
+					7.655484671027125,
+					49.21383002803202
+				],
+				[
+					4.374562669158422,
+					31.715579351398446
+				],
+				[
+					-3.2809220018689302,
+					10.936406672895941
+				],
+				[
+					-13.123688007475266,
+					-3.2809220018688166
+				],
+				[
+					-17.49825067663369,
+					-8.749125338316844
+				],
+				[
+					-13.123688007475266,
+					-5.468203336448028
+				],
+				[
+					0,
+					2.187281334579211
+				],
+				[
+					16.40461000934397,
+					6.561844003737519
+				],
+				[
+					37.18378268784636,
+					8.74912533831673
+				],
+				[
+					56.86931469905926,
+					7.655484671027125
+				],
+				[
+					69.99300270653453,
+					4.374562669158308
+				],
+				[
+					79.83576871214086,
+					0
+				],
+				[
+					85.303972048589,
+					-3.2809220018688166
+				],
+				[
+					85.303972048589,
+					-4.374562669158422
+				],
+				[
+					84.21033138129928,
+					-4.374562669158422
+				],
+				[
+					79.83576871214086,
+					-4.374562669158422
+				],
+				[
+					72.18028404111374,
+					-2.187281334579211
+				],
+				[
+					62.33751803550729,
+					2.187281334579211
+				],
+				[
+					51.40111136261123,
+					9.842766005606336
+				],
+				[
+					37.18378268784636,
+					19.685532011212786
+				],
+				[
+					20.77917267850239,
+					34.99650135326726
+				],
+				[
+					7.655484671027125,
+					57.962955366348865
+				],
+				[
+					-2.187281334579211,
+					82.02305004672007
+				],
+				[
+					-8.749125338316844,
+					101.70858205793297
+				],
+				[
+					-9.84276600560645,
+					118.11319206727717
+				],
+				[
+					-7.655484671027239,
+					127.9559580728835
+				],
+				[
+					-5.468203336448141,
+					132.33052074204193
+				],
+				[
+					0,
+					132.33052074204193
+				],
+				[
+					8.749125338316844,
+					127.9559580728835
+				],
+				[
+					19.685532011212786,
+					115.92591073269796
+				],
+				[
+					29.528298016819235,
+					101.70858205793297
+				],
+				[
+					37.18378268784636,
+					89.67853471774731
+				],
+				[
+					38.27742335513608,
+					83.11669071400968
+				],
+				[
+					34.99650135326715,
+					79.83576871214098
+				],
+				[
+					30.62193868410884,
+					79.83576871214098
+				],
+				[
+					27.341016682240024,
+					79.83576871214098
+				],
+				[
+					25.153735347660813,
+					83.11669071400968
+				],
+				[
+					19.685532011212786,
+					90.77217538503692
+				],
+				[
+					16.40461000934397,
+					104.98950405980179
+				],
+				[
+					14.217328674764758,
+					119.20683273456666
+				],
+				[
+					15.310969342054364,
+					132.33052074204193
+				],
+				[
+					20.77917267850239,
+					136.70508341120035
+				],
+				[
+					28.43465734952963,
+					136.70508341120035
+				],
+				[
+					41.55834535700478,
+					130.14323940746272
+				],
+				[
+					54.68203336448005,
+					118.11319206727717
+				],
+				[
+					65.6184400373761,
+					100.61494139064337
+				],
+				[
+					71.08664337382402,
+					82.02305004672007
+				],
+				[
+					68.89936203924492,
+					66.71208070466571
+				],
+				[
+					61.24387736821768,
+					56.86931469905926
+				],
+				[
+					52.49475202990084,
+					51.40111136261123
+				],
+				[
+					44.83926735887371,
+					48.120189360742415
+				],
+				[
+					40.46470468971529,
+					48.120189360742415
+				],
+				[
+					37.18378268784636,
+					48.120189360742415
+				],
+				[
+					31.715579351398446,
+					54.68203336448005
+				],
+				[
+					28.43465734952963,
+					69.99300270653453
+				],
+				[
+					27.341016682240024,
+					85.30397204858889
+				],
+				[
+					28.43465734952963,
+					92.95945671961613
+				],
+				[
+					32.80922001868794,
+					95.14673805419534
+				],
+				[
+					40.46470468971529,
+					95.14673805419534
+				],
+				[
+					51.40111136261123,
+					89.67853471774731
+				],
+				[
+					63.43115870279689,
+					78.74212804485137
+				],
+				[
+					74.36756537569295,
+					64.5247993700865
+				],
+				[
+					83.11669071400979,
+					51.40111136261123
+				],
+				[
+					85.303972048589,
+					44.8392673588736
+				],
+				[
+					85.303972048589,
+					49.21383002803202
+				],
+				[
+					85.303972048589,
+					64.5247993700865
+				],
+				[
+					84.21033138129928,
+					86.3976127158785
+				],
+				[
+					84.21033138129928,
+					108.2704260616706
+				],
+				[
+					83.11669071400979,
+					119.20683273456666
+				],
+				[
+					84.21033138129928,
+					122.48775473643536
+				],
+				[
+					85.303972048589,
+					122.48775473643536
+				],
+				[
+					85.303972048589,
+					121.39411406914587
+				],
+				[
+					87.49125338316821,
+					110.45770739624982
+				],
+				[
+					92.95945671961613,
+					94.05309738690573
+				],
+				[
+					102.80222272522258,
+					73.27392470840334
+				],
+				[
+					111.55134806353931,
+					55.775674031769654
+				],
+				[
+					118.11319206727694,
+					47.02654869345281
+				],
+				[
+					120.30047340185615,
+					44.8392673588736
+				],
+				[
+					121.39411406914587,
+					47.02654869345281
+				],
+				[
+					122.48775473643536,
+					61.24387736821768
+				],
+				[
+					125.7686767383043,
+					82.02305004672007
+				],
+				[
+					127.9559580728835,
+					100.61494139064337
+				],
+				[
+					130.1432394074626,
+					111.55134806353954
+				],
+				[
+					130.1432394074626,
+					113.73862939811875
+				],
+				[
+					130.1432394074626,
+					112.64498873082903
+				],
+				[
+					131.2368800747522,
+					103.89586339251218
+				],
+				[
+					136.70508341120023,
+					85.30397204858889
+				],
+				[
+					145.45420874951708,
+					64.5247993700865
+				],
+				[
+					153.10969342054432,
+					50.307470695321626
+				],
+				[
+					157.48425608970274,
+					45.932908026163204
+				],
+				[
+					157.48425608970274,
+					44.8392673588736
+				],
+				[
+					157.48425608970274,
+					47.02654869345281
+				],
+				[
+					158.57789675699235,
+					60.150236700928076
+				],
+				[
+					158.57789675699235,
+					78.74212804485137
+				],
+				[
+					159.67153742428184,
+					100.61494139064337
+				],
+				[
+					160.76517809157144,
+					112.64498873082903
+				],
+				[
+					161.85881875886105,
+					117.01955139998745
+				],
+				[
+					164.04610009344026,
+					110.45770739624982
+				],
+				[
+					170.6079440971779,
+					95.14673805419534
+				],
+				[
+					177.16978810091553,
+					74.36756537569295
+				],
+				[
+					182.63799143736355,
+					60.150236700928076
+				],
+				[
+					184.82527277194276,
+					55.775674031769654
+				],
+				[
+					184.82527277194276,
+					54.68203336448005
+				],
+				[
+					184.82527277194276,
+					59.05659603363847
+				],
+				[
+					184.82527277194276,
+					74.36756537569295
+				],
+				[
+					185.91891343923237,
+					95.14673805419534
+				],
+				[
+					190.2934761083908,
+					109.36406672896032
+				],
+				[
+					195.76167944483882,
+					115.92591073269796
+				],
+				[
+					200.13624211399713,
+					115.92591073269796
+				],
+				[
+					207.79172678502437,
+					112.64498873082903
+				],
+				[
+					219.82177412521003,
+					100.61494139064337
+				],
+				[
+					231.8518214653957,
+					83.11669071400968
+				],
+				[
+					239.5073061364228,
+					62.33751803550729
+				],
+				[
+					238.4136654691332,
+					44.8392673588736
+				],
+				[
+					229.66454013081648,
+					36.09014202055687
+				],
+				[
+					217.63449279063082,
+					30.62193868410884
+				],
+				[
+					205.60444545044516,
+					30.62193868410884
+				],
+				[
+					195.76167944483882,
+					34.99650135326726
+				],
+				[
+					188.10619477381158,
+					47.02654869345281
+				],
+				[
+					182.63799143736355,
+					64.5247993700865
+				],
+				[
+					180.45071010278434,
+					87.4912533831681
+				],
+				[
+					187.01255410652197,
+					102.80222272522258
+				],
+				[
+					194.6680387775492,
+					107.17678539438111
+				],
+				[
+					209.97900811960358,
+					107.17678539438111
+				],
+				[
+					227.47725879623727,
+					98.42766005606416
+				],
+				[
+					242.78822813829163,
+					86.3976127158785
+				],
+				[
+					253.72463481118768,
+					71.08664337382413
+				],
+				[
+					255.9119161457669,
+					59.05659603363847
+				],
+				[
+					249.35007214202926,
+					52.49475202990084
+				],
+				[
+					242.78822813829163,
+					50.307470695321626
+				],
+				[
+					239.5073061364228,
+					50.307470695321626
+				],
+				[
+					235.1327434672645,
+					55.775674031769654
+				],
+				[
+					234.0391027999749,
+					60.150236700928076
+				],
+				[
+					229.66454013081648,
+					80.92940937943058
+				],
+				[
+					229.66454013081648,
+					95.14673805419534
+				],
+				[
+					231.8518214653957,
+					109.36406672896032
+				],
+				[
+					239.5073061364228,
+					117.01955139998745
+				],
+				[
+					288.72113616445495,
+					1.0936406672896055
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				288.72113616445495,
+				1.0936406672896055
+			]
+		},
+		{
+			"id": "kUEPdahrAnxTBoXFrvxyr",
+			"type": "freedraw",
+			"x": -926.7603911489499,
+			"y": 904.874225959707,
+			"width": 657.278041041051,
+			"height": 238.41366546913332,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1668820397,
+			"version": 202,
+			"versionNonce": 665970563,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					1.0936406672896055
+				],
+				[
+					0,
+					4.374562669158422
+				],
+				[
+					0,
+					16.404610009344083
+				],
+				[
+					0,
+					30.62193868410884
+				],
+				[
+					1.0936406672896055,
+					37.183782687846474
+				],
+				[
+					2.1872813345790973,
+					39.371064022425685
+				],
+				[
+					3.2809220018688166,
+					39.371064022425685
+				],
+				[
+					6.561844003737519,
+					37.183782687846474
+				],
+				[
+					9.84276600560645,
+					29.528298016819235
+				],
+				[
+					10.936406672895941,
+					16.404610009344083
+				],
+				[
+					9.84276600560645,
+					4.374562669158422
+				],
+				[
+					6.561844003737519,
+					-1.0936406672896055
+				],
+				[
+					5.468203336448028,
+					-2.187281334579211
+				],
+				[
+					10.936406672895941,
+					-3.2809220018688166
+				],
+				[
+					22.966454013081602,
+					-3.2809220018688166
+				],
+				[
+					37.183782687846474,
+					-5.468203336448028
+				],
+				[
+					56.86931469905937,
+					-8.749125338316844
+				],
+				[
+					74.36756537569295,
+					-10.936406672896055
+				],
+				[
+					79.83576871214098,
+					-13.123688007475266
+				],
+				[
+					80.92940937943047,
+					-13.123688007475266
+				],
+				[
+					78.74212804485126,
+					-13.123688007475266
+				],
+				[
+					75.46120604298255,
+					-13.123688007475266
+				],
+				[
+					72.18028404111374,
+					-9.84276600560645
+				],
+				[
+					65.6184400373761,
+					-3.2809220018688166
+				],
+				[
+					55.775674031769654,
+					7.655484671027239
+				],
+				[
+					41.558345357004896,
+					29.528298016819235
+				],
+				[
+					27.341016682240024,
+					57.962955366348865
+				],
+				[
+					13.123688007475153,
+					92.95945671961624
+				],
+				[
+					7.655484671027239,
+					119.20683273456666
+				],
+				[
+					8.74912533831673,
+					134.51780207662114
+				],
+				[
+					12.03004734018566,
+					136.70508341120035
+				],
+				[
+					16.404610009344083,
+					135.61144274391063
+				],
+				[
+					25.153735347660813,
+					127.9559580728835
+				],
+				[
+					36.09014202055687,
+					114.83227006540824
+				],
+				[
+					45.93290802616332,
+					98.42766005606416
+				],
+				[
+					52.49475202990095,
+					80.92940937943058
+				],
+				[
+					54.68203336448016,
+					69.99300270653453
+				],
+				[
+					53.58839269719044,
+					65.6184400373761
+				],
+				[
+					51.40111136261123,
+					63.43115870279689
+				],
+				[
+					47.02654869345281,
+					64.5247993700865
+				],
+				[
+					42.65198602429439,
+					73.27392470840334
+				],
+				[
+					38.27742335513608,
+					89.67853471774743
+				],
+				[
+					37.183782687846474,
+					107.176785394381
+				],
+				[
+					42.65198602429439,
+					119.20683273456666
+				],
+				[
+					48.12018936074253,
+					122.48775473643559
+				],
+				[
+					57.962955366348865,
+					122.48775473643559
+				],
+				[
+					69.99300270653453,
+					115.92591073269784
+				],
+				[
+					83.11669071400968,
+					104.98950405980179
+				],
+				[
+					96.24037872148494,
+					87.49125338316821
+				],
+				[
+					101.70858205793297,
+					65.6184400373761
+				],
+				[
+					101.70858205793297,
+					49.213830028032135
+				],
+				[
+					95.14673805419545,
+					39.371064022425685
+				],
+				[
+					84.2103313812994,
+					33.90286068597766
+				],
+				[
+					74.36756537569295,
+					32.80922001868805
+				],
+				[
+					64.5247993700865,
+					33.90286068597766
+				],
+				[
+					55.775674031769654,
+					41.558345357004896
+				],
+				[
+					49.21383002803202,
+					55.77567403176977
+				],
+				[
+					47.02654869345281,
+					72.18028404111374
+				],
+				[
+					47.02654869345281,
+					82.02305004672019
+				],
+				[
+					51.40111136261123,
+					87.49125338316821
+				],
+				[
+					57.962955366348865,
+					87.49125338316821
+				],
+				[
+					66.71208070466571,
+					85.303972048589
+				],
+				[
+					75.46120604298255,
+					79.83576871214098
+				],
+				[
+					87.4912533831681,
+					66.71208070466571
+				],
+				[
+					97.33401938877466,
+					50.30747069532174
+				],
+				[
+					106.0831447270914,
+					37.183782687846474
+				],
+				[
+					108.2704260616706,
+					31.715579351398446
+				],
+				[
+					108.2704260616706,
+					32.80922001868805
+				],
+				[
+					109.36406672896021,
+					43.74562669158411
+				],
+				[
+					109.36406672896021,
+					63.43115870279689
+				],
+				[
+					110.45770739624982,
+					90.77217538503703
+				],
+				[
+					112.64498873082903,
+					111.55134806353942
+				],
+				[
+					113.73862939811863,
+					120.30047340185638
+				],
+				[
+					114.83227006540824,
+					121.39411406914587
+				],
+				[
+					114.83227006540824,
+					113.73862939811863
+				],
+				[
+					119.20683273456655,
+					98.42766005606416
+				],
+				[
+					126.8623174055939,
+					76.55484671027216
+				],
+				[
+					135.61144274391074,
+					55.77567403176977
+				],
+				[
+					144.36056808222747,
+					39.371064022425685
+				],
+				[
+					147.6414900840963,
+					32.80922001868805
+				],
+				[
+					148.7351307513859,
+					31.715579351398446
+				],
+				[
+					148.7351307513859,
+					32.80922001868805
+				],
+				[
+					149.8287714186755,
+					44.83926735887371
+				],
+				[
+					153.10969342054432,
+					68.89936203924492
+				],
+				[
+					156.39061542241313,
+					95.14673805419534
+				],
+				[
+					159.67153742428195,
+					109.36406672896021
+				],
+				[
+					161.85881875886116,
+					113.73862939811863
+				],
+				[
+					161.85881875886116,
+					111.55134806353942
+				],
+				[
+					164.04610009344037,
+					101.70858205793297
+				],
+				[
+					170.6079440971779,
+					83.11669071400979
+				],
+				[
+					177.16978810091553,
+					60.150236700928076
+				],
+				[
+					183.73163210465316,
+					39.371064022425685
+				],
+				[
+					188.10619477381158,
+					28.43465734952963
+				],
+				[
+					188.10619477381158,
+					27.341016682240024
+				],
+				[
+					188.10619477381158,
+					33.90286068597766
+				],
+				[
+					188.10619477381158,
+					52.49475202990095
+				],
+				[
+					189.1998354411012,
+					78.74212804485137
+				],
+				[
+					194.6680387775492,
+					106.0831447270914
+				],
+				[
+					199.04260144670764,
+					117.01955139998745
+				],
+				[
+					201.22988278128685,
+					119.20683273456666
+				],
+				[
+					202.32352344857645,
+					119.20683273456666
+				],
+				[
+					205.60444545044516,
+					110.45770739624982
+				],
+				[
+					212.1662894541828,
+					94.05309738690585
+				],
+				[
+					220.91541479249963,
+					71.08664337382413
+				],
+				[
+					228.57089946352687,
+					51.401111362611346
+				],
+				[
+					230.75818079810608,
+					43.74562669158411
+				],
+				[
+					230.75818079810608,
+					41.558345357004896
+				],
+				[
+					229.66454013081648,
+					43.74562669158411
+				],
+				[
+					227.47725879623727,
+					55.77567403176977
+				],
+				[
+					227.47725879623727,
+					76.55484671027216
+				],
+				[
+					229.66454013081648,
+					98.42766005606416
+				],
+				[
+					235.1327434672645,
+					113.73862939811863
+				],
+				[
+					239.50730613642293,
+					119.20683273456666
+				],
+				[
+					244.97550947287084,
+					119.20683273456666
+				],
+				[
+					253.72463481118768,
+					112.64498873082903
+				],
+				[
+					264.66104148408374,
+					98.42766005606416
+				],
+				[
+					274.5038074896902,
+					79.83576871214098
+				],
+				[
+					281.0656514934278,
+					60.150236700928076
+				],
+				[
+					282.1592921607174,
+					42.6519860242945
+				],
+				[
+					277.784729491559,
+					32.80922001868805
+				],
+				[
+					269.03560415324216,
+					28.43465734952963
+				],
+				[
+					259.1928381476357,
+					27.341016682240024
+				],
+				[
+					249.35007214202926,
+					32.80922001868805
+				],
+				[
+					239.50730613642293,
+					45.93290802616332
+				],
+				[
+					234.0391027999749,
+					69.99300270653453
+				],
+				[
+					234.0391027999749,
+					90.77217538503703
+				],
+				[
+					238.41366546913332,
+					103.89586339251218
+				],
+				[
+					242.78822813829174,
+					107.176785394381
+				],
+				[
+					252.63099414389808,
+					107.176785394381
+				],
+				[
+					265.75468215137334,
+					98.42766005606416
+				],
+				[
+					281.0656514934278,
+					84.2103313812994
+				],
+				[
+					293.09569883361337,
+					66.71208070466571
+				],
+				[
+					297.4702615027718,
+					54.68203336448016
+				],
+				[
+					296.3766208354822,
+					51.401111362611346
+				],
+				[
+					294.189339500903,
+					51.401111362611346
+				],
+				[
+					289.81477683174455,
+					57.962955366348865
+				],
+				[
+					286.53385482987574,
+					73.27392470840334
+				],
+				[
+					284.3465734952965,
+					91.86581605232664
+				],
+				[
+					286.53385482987574,
+					108.2704260616706
+				],
+				[
+					290.90841749903416,
+					114.83227006540824
+				],
+				[
+					296.3766208354822,
+					115.92591073269784
+				],
+				[
+					309.50030884295745,
+					110.45770739624982
+				],
+				[
+					328.09220018688063,
+					99.52130072335376
+				],
+				[
+					348.87137286538314,
+					80.92940937943058
+				],
+				[
+					367.4632642093063,
+					56.86931469905926
+				],
+				[
+					376.21238954762316,
+					33.90286068597766
+				],
+				[
+					377.30603021491277,
+					13.123688007475266
+				],
+				[
+					369.6505455438855,
+					0
+				],
+				[
+					358.7141388709896,
+					-8.749125338316844
+				],
+				[
+					353.24593553454156,
+					-10.936406672896055
+				],
+				[
+					353.24593553454156,
+					-9.84276600560645
+				],
+				[
+					355.43321686912077,
+					-3.2809220018688166
+				],
+				[
+					361.9950608728583,
+					5.468203336448028
+				],
+				[
+					372.93146754575434,
+					14.217328674764872
+				],
+				[
+					390.42971822238803,
+					20.77917267850239
+				],
+				[
+					419.95801623920727,
+					25.153735347660813
+				],
+				[
+					440.73718891770966,
+					29.528298016819235
+				],
+				[
+					445.1117515868681,
+					31.715579351398446
+				],
+				[
+					444.0181109195785,
+					34.99650135326726
+				],
+				[
+					437.45626691584096,
+					45.93290802616332
+				],
+				[
+					428.7071415775241,
+					61.24387736821768
+				],
+				[
+					415.58345357004885,
+					78.74212804485137
+				],
+				[
+					400.2724842279945,
+					88.58489405045782
+				],
+				[
+					388.2424368878088,
+					92.95945671961624
+				],
+				[
+					384.96151488594,
+					94.05309738690585
+				],
+				[
+					386.0551555532296,
+					94.05309738690585
+				],
+				[
+					395.89792155883606,
+					91.86581605232664
+				],
+				[
+					416.67709423733845,
+					88.58489405045782
+				],
+				[
+					442.92447025228887,
+					86.39761271587861
+				],
+				[
+					470.265486934529,
+					86.39761271587861
+				],
+				[
+					491.0446596130314,
+					86.39761271587861
+				],
+				[
+					501.98106628592745,
+					90.77217538503703
+				],
+				[
+					501.98106628592745,
+					95.14673805419534
+				],
+				[
+					495.4192222821898,
+					106.0831447270914
+				],
+				[
+					477.92097160555625,
+					122.48775473643559
+				],
+				[
+					448.3926735887369,
+					141.07964608035877
+				],
+				[
+					409.0216095663112,
+					158.57789675699246
+				],
+				[
+					356.5268575364104,
+					174.98250676633643
+				],
+				[
+					297.4702615027718,
+					187.01255410652197
+				],
+				[
+					237.32002480184372,
+					199.04260144670775
+				],
+				[
+					191.3871167756804,
+					215.44721145605172
+				],
+				[
+					165.13974076072998,
+					224.19633679436856
+				],
+				[
+					155.29697475512353,
+					225.28997746165805
+				],
+				[
+					154.20333408783392,
+					222.00905545978935
+				],
+				[
+					164.04610009344037,
+					211.0726487868933
+				],
+				[
+					189.1998354411012,
+					202.32352344857645
+				],
+				[
+					224.19633679436845,
+					194.66803877754933
+				],
+				[
+					273.4101668224006,
+					188.1061947738117
+				],
+				[
+					324.8112781850118,
+					182.63799143736355
+				],
+				[
+					381.6805928840712,
+					174.98250676633643
+				],
+				[
+					444.0181109195785,
+					166.23338142801958
+				],
+				[
+					503.07470695321706,
+					160.76517809157167
+				],
+				[
+					558.8503809849867,
+					152.01605275325483
+				],
+				[
+					600.4087263419916,
+					138.89236474577956
+				],
+				[
+					631.0306650261006,
+					129.04959874017322
+				],
+				[
+					649.6225563700237,
+					125.7686767383043
+				],
+				[
+					657.278041041051,
+					124.6750360710148
+				],
+				[
+					657.278041041051,
+					124.6750360710148
+				]
+			],
+			"pressures": [],
+			"simulatePressure": true,
+			"lastCommittedPoint": [
+				657.278041041051,
+				124.6750360710148
+			]
+		},
+		{
+			"id": "cE6HAMhu",
+			"type": "text",
+			"x": -281.5123974480846,
+			"y": 607.4039644569352,
+			"width": 396.69970703125,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#f08c00",
@@ -83088,25 +87457,210 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 			"roughness": 2,
 			"opacity": 100,
 			"groupIds": [],
-			"frameId": "fewJj9TXIohZos2Qi9UJt",
+			"frameId": "AB_AUxtFrfszy784T4KjC",
 			"roundness": null,
-			"seed": 1823927969,
+			"seed": 868850477,
 			"version": 4,
-			"versionNonce": 1358564609,
+			"versionNonce": 1732569987,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710025719464,
+			"updated": 1710373234743,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
+			"text": "Voltage Gain (Av): Unity or slightly less.",
+			"rawText": "Voltage Gain (Av): Unity or slightly less.",
 			"fontSize": 20,
 			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 16,
+			"baseline": 18,
 			"containerId": null,
-			"originalText": "",
+			"originalText": "Voltage Gain (Av): Unity or slightly less.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "oLrPSWB7",
+			"type": "text",
+			"x": -281.5123974480846,
+			"y": 642.4039644569352,
+			"width": 351.2997131347656,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "AB_AUxtFrfszy784T4KjC",
+			"roundness": null,
+			"seed": 2073213475,
+			"version": 4,
+			"versionNonce": 1282654765,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373234743,
+			"link": null,
+			"locked": false,
+			"text": "Current Gain (Ai): High current gain.",
+			"rawText": "Current Gain (Ai): High current gain.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Current Gain (Ai): High current gain.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "OQ7clG3B",
+			"type": "text",
+			"x": -281.5123974480846,
+			"y": 677.4039644569352,
+			"width": 272.499755859375,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": "AB_AUxtFrfszy784T4KjC",
+			"roundness": null,
+			"seed": 1202171277,
+			"version": 3,
+			"versionNonce": 927105827,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373234743,
+			"link": null,
+			"locked": false,
+			"text": "Input Impedance (Zin): High.",
+			"rawText": "Input Impedance (Zin): High.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Input Impedance (Zin): High.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "dla93DW5",
+			"type": "text",
+			"x": -281.5123974480846,
+			"y": 712.4039644569352,
+			"width": 309.39971923828125,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 706575811,
+			"version": 2,
+			"versionNonce": 1565139651,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"text": "Output Impedance (Zout): Low.",
+			"rawText": "Output Impedance (Zout): Low.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Output Impedance (Zout): Low.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "qdfavPqO",
+			"type": "text",
+			"x": -281.5123974480846,
+			"y": 747.4039644569352,
+			"width": 496.4207763671875,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 785675245,
+			"version": 2,
+			"versionNonce": 233873133,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"text": "hFE Parameter: Typically close to unity (hFE ≈ 1).",
+			"rawText": "hFE Parameter: Typically close to unity (hFE ≈ 1).",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "hFE Parameter: Typically close to unity (hFE ≈ 1).",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "lRxRjac3",
+			"type": "text",
+			"x": -281.5123974480846,
+			"y": 782.4039644569352,
+			"width": 631.7994995117188,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 768527715,
+			"version": 2,
+			"versionNonce": 2115949155,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1710373221486,
+			"link": null,
+			"locked": false,
+			"text": "Inversion: No inversion of voltage or current gain in the output.",
+			"rawText": "Inversion: No inversion of voltage or current gain in the output.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "Inversion: No inversion of voltage or current gain in the output.",
 			"lineHeight": 1.25
 		}
 	],
@@ -83125,10 +87679,10 @@ eb4695d1f65ee904fad0d568f28e821ba79e6acd: [[mosfet-eq.png]]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -8008.813807480994,
-		"scrollY": 1326.9971552173931,
+		"scrollX": 1553.5786641442617,
+		"scrollY": 427.93081533119073,
 		"zoom": {
-			"value": 0.39999999999999997
+			"value": 0.614377116643189
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
