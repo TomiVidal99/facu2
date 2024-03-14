@@ -36002,8 +36002,8 @@ e7c7d0c0ddc88c8c50da956cb04c379f5f1f7023: [[Pasted Image 20240313201720_476.png]
 		},
 		{
 			"type": "text",
-			"version": 289,
-			"versionNonce": 1156137257,
+			"version": 290,
+			"versionNonce": 1648260393,
 			"isDeleted": false,
 			"id": "t2D9AVrL",
 			"fillStyle": "solid",
@@ -36016,14 +36016,14 @@ e7c7d0c0ddc88c8c50da956cb04c379f5f1f7023: [[Pasted Image 20240313201720_476.png]
 			"y": 1519.7885957547971,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 1385.9067373287737,
-			"height": 74.81643611343095,
+			"width": 1385.946044921875,
+			"height": 74.81643611343097,
 			"seed": 1942897155,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710424918447,
+			"updated": 1710425638545,
 			"link": null,
 			"locked": false,
 			"fontSize": 59.85314889074477,
@@ -36035,7 +36035,7 @@ e7c7d0c0ddc88c8c50da956cb04c379f5f1f7023: [[Pasted Image 20240313201720_476.png]
 			"containerId": null,
 			"originalText": "Y la ganancia de la etapa de emisor común es:",
 			"lineHeight": 1.25,
-			"baseline": 51.999999999999986
+			"baseline": 52
 		},
 		{
 			"type": "freedraw",
@@ -46323,8 +46323,8 @@ e7c7d0c0ddc88c8c50da956cb04c379f5f1f7023: [[Pasted Image 20240313201720_476.png]
 		},
 		{
 			"type": "text",
-			"version": 244,
-			"versionNonce": 1435066599,
+			"version": 245,
+			"versionNonce": 1055755751,
 			"isDeleted": false,
 			"id": "6NSUyVNN",
 			"fillStyle": "solid",
@@ -46337,14 +46337,14 @@ e7c7d0c0ddc88c8c50da956cb04c379f5f1f7023: [[Pasted Image 20240313201720_476.png]
 			"y": 1742.488537593752,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 792.981054409229,
-			"height": 44.662061052539975,
+			"width": 792.8765869140625,
+			"height": 44.66206105253998,
 			"seed": 851581389,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710424918449,
+			"updated": 1710425638546,
 			"link": null,
 			"locked": false,
 			"fontSize": 35.729648842031985,
@@ -46356,7 +46356,7 @@ e7c7d0c0ddc88c8c50da956cb04c379f5f1f7023: [[Pasted Image 20240313201720_476.png]
 			"containerId": null,
 			"originalText": "ME DA QUE ES INVERSORA Y NO DEBERÍA",
 			"lineHeight": 1.25,
-			"baseline": 30.999999999999993
+			"baseline": 31
 		},
 		{
 			"type": "image",
@@ -105940,10 +105940,10 @@ e7c7d0c0ddc88c8c50da956cb04c379f5f1f7023: [[Pasted Image 20240313201720_476.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1337.3858488610344,
-		"scrollY": -1218.3566690115008,
+		"scrollX": 1095.1574509489506,
+		"scrollY": -1288.3559373295288,
 		"zoom": {
-			"value": 1.339178991715689
+			"value": 1.7467218682318384
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

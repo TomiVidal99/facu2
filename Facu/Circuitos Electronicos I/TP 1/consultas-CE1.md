@@ -3,4 +3,5 @@
 
 2. Me da que la etapa del Q2 es inversora en la tensión (y es emisor común, no deberia) [[CE1-TP1-EJ11]]
 
-   
+
+3. En configuración cascode cómo hay mejor ancho de banda si la entrada sigue estando en el CE?
