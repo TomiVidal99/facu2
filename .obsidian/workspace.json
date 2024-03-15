@@ -11,68 +11,13 @@
             "id": "04b85eed4ba56e52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02f9153bbb3a2392",
-            "type": "leaf",
-            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/CE1-TP1-EJ11.md"
-              }
-            }
-          },
-          {
-            "id": "0a800da42a196e42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14a9c4340944f772",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "c260f1c0da7c9217",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf"
-              }
-            }
-          },
-          {
-            "id": "210bc41683d454bb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md"
+                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md"
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
+                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
+                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md"
+                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md"
               }
             }
           }
@@ -202,17 +147,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "210bc41683d454bb",
+  "active": "04b85eed4ba56e52",
   "lastOpenFiles": [
-    "Pasted Image 20240314112051_106.png",
-    "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
-    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
-    "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
-    "Excalidraw/Laboratorio1-CE1.md",
-    "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
-    "Facu/Circuitos Electronicos I/TP 1/TP1-EJ11.asc",
+    "Excalidraw/CE1-TP1-EJ11.md",
+    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
+    "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
+    "Pasted Image 20240314112051_106.png",
+    "Excalidraw/Laboratorio1-CE1.md",
+    "Facu/Circuitos Electronicos I/TP 1/TP1-EJ11.asc",
     "Pasted Image 20240313201720_476.png",
     "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md",
     "Pasted Image 20240310105654_947.png",
@@ -235,7 +180,6 @@
     "Facu/Circuitos Electronicos I/TP 1/tp1ej3.pdf",
     "Facu/Circuitos Electronicos I/tp1problema3.md",
     "Facu/Circuitos Electronicos I/Untitled.md",
-    "Facu/mosfet-eq.png",
     "Facu/Circuitos Electronicos I/MOSFET.md",
     "Excalidraw/Drawing 2024-03-09 20.05.58.excalidraw.md",
     "Excalidraw/Drawing 2024-03-09 20.06.33.excalidraw.md",
