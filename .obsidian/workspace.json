@@ -6,14 +6,46 @@
       {
         "id": "ee507bb272057bb9",
         "type": "tabs",
+        "dimension": 29.423592493297583,
         "children": [
           {
-            "id": "04b85eed4ba56e52",
+            "id": "3425f5de8c781bf2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md"
+                "file": "Facu/medidas/Medidas (clase 6).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a335418cb856835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Facu/medidas/preguntas-consultas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0537dc0cd6150f50",
+        "type": "tabs",
+        "dimension": 70.57640750670241,
+        "children": [
+          {
+            "id": "cab0e0a7aabf7d0d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/medidas/D6-2022-1.pdf"
               }
             }
           }
@@ -84,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
+                "file": "Facu/medidas/Medidas (clase 6).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
+                "file": "Facu/medidas/Medidas (clase 6).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md"
+                "file": "Facu/medidas/Medidas (clase 6).md"
               }
             }
           }
@@ -147,12 +179,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "04b85eed4ba56e52",
+  "active": "3425f5de8c781bf2",
   "lastOpenFiles": [
+    "Facu/medidas/D6-2022-1.pdf",
+    "Facu/medidas/Medidas (clase 6).md",
+    "Facu/medidas/preguntas-consultas.md",
+    "Facu/medidas/Medidas.md",
+    "Facu/medidas/Plan_Actividades_2024-1.pdf",
+    "Facu/Control Automatico 2/TP2_CA2_2023.pdf",
+    "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
+    "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
+    "Facu/Control Automatico 2/sarrus.png",
+    "Facu/Control Automatico 2/Repaso Algebra/repasoAlgebra.pdf",
+    "Facu/Control Automatico 2/prop determinante e inversa.png",
+    "Facu/Control Automatico 2/propiedades del determinante.png",
+    "Facu/Control Automatico 2/TP1_CA2_2023.pdf",
+    "Facu/medidas/Medidas (clase 5).md",
+    "Facu/medidas/D5-2022-1.pdf",
+    "Facu/medidas/Medidas (clase 4).md",
+    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
+    "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
-    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
     "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
     "Pasted Image 20240314112051_106.png",
@@ -166,32 +215,16 @@
     "Pasted Image 20240306182737_091.png",
     "Pasted Image 20240306182501_221.png",
     "Pasted Image 20240306182329_190.png",
-    "Pasted image 20240305232046.png",
-    "Pasted Image 20240305192306_636.png",
-    "Facu/Arquitectura de computadores/CAPTURAS/ARQUITECTURAS_4_BIT_ADDER.png",
-    "Facu/Arquitectura de computadores/CAPTURAS",
     "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.13_0.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.13.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.12_0.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.12.excalidraw.md",
-    "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md",
-    "Facu/Arquitectura de computadores",
-    "Facu/Circuitos Electronicos I/TP 1/tp1ej3.pdf",
     "Facu/Circuitos Electronicos I/tp1problema3.md",
     "Facu/Circuitos Electronicos I/Untitled.md",
     "Facu/Circuitos Electronicos I/MOSFET.md",
     "Excalidraw/Drawing 2024-03-09 20.05.58.excalidraw.md",
     "Excalidraw/Drawing 2024-03-09 20.06.33.excalidraw.md",
-    "2024-03-09.md",
-    "Facu/Circuitos Electronicos I/TP 1/01 Introducción a CE1.pdf",
-    "Facu/Control Automatico 2/Control Automático 2.md",
-    "Facu/medidas/medidas 2.md",
-    "Facu/medidas/D2-2022-1.pdf",
-    "Facu/Control Automatico 2/consultas-control.md",
-    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
-    "Excalidraw shortcuts.md",
-    "Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024.html",
-    "Awesome Excalidraw Keyboard Shortcuts (With Printable Pdf) - 2024_files"
+    "2024-03-09.md"
   ]
 }
