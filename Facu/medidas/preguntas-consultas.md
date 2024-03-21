@@ -2,5 +2,6 @@
 - [ ] Propagacion de errores, desarrollo de Taylo ke?
 - [ ] ![[Pasted image 20240304172617.png]]
 
-- [ ] Fondo de escala
+- [x] Fondo de escala
 - [ ] Clases
+- [ ] Errores de digitalización. Error de linealidad y error de conmutación
