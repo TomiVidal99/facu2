@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf"
+                "file": "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf"
               }
             }
           }
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5110321044922,
-    "collapsed": true
+    "width": 299.5110321044922
   },
   "right": {
     "id": "2c632b2a1eb56415",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
+                "file": "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
+                "file": "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf"
+                "file": "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf"
               }
             }
           }
@@ -149,6 +148,9 @@
   },
   "active": "210bc41683d454bb",
   "lastOpenFiles": [
+    "Facu/medidas/Medidas.md",
+    "Facu/medidas/D4-2022-1-1.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
     "Facu/Control Automatico 2/Repaso Algebra/repasoAlgebra.pdf",
     "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf",
     "Facu/Control Automatico 2/Repaso Algebra",
@@ -157,11 +159,8 @@
     "Facu/Circuitos Electronicos I/TODOS LOS PDFS/01 Introducción a CE1.pdf",
     "Facu/Circuitos Electronicos I/TODOS LOS PDFS",
     "Facu/Circuitos Electronicos I/Lab1/Reglamento Laboratorios 2024.pdf",
-    "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf",
-    "Facu/Circuitos Electronicos I/Lab1",
     "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
     "Pasted Image 20240314112051_106.png",
-    "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Excalidraw/Laboratorio1-CE1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
