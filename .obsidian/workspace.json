@@ -16,8 +16,19 @@
                 "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio2-CE1.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "b0099235eadbd242",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio2-CE1.excalidraw.md",
+                "file": "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio2-CE1.excalidraw.md",
+                "file": "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/Laboratorio2-CE1.excalidraw.md"
+                "file": "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md"
               }
             }
           }
@@ -147,40 +158,42 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "210bc41683d454bb",
+  "active": "b0099235eadbd242",
   "lastOpenFiles": [
+    "Facu/Circuitos Electronicos I/Lab1/informe_lab1.synctex(busy)",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex538951.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex538525.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex537870.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex537814.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex537280.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex536909.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex536222.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex536197.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex535945.fls",
+    "Facu/Circuitos Electronicos I/Lab1/pdflatex535511.fls",
+    "Facu/Circuitos Electronicos I/Lab1/placaDePruebas2.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/placaDePruebas1.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/linealidad2.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/linealidad.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/linealiadad2.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/nolinealidad2.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/nolinealidad.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/instrumentos.jpeg",
+    "Facu/Circuitos Electronicos I/Lab1/diagramaPlaca2.png",
+    "Facu/Circuitos Electronicos I/Lab1/placaDePruebas2.jpg",
+    "Facu/Circuitos Electronicos I/TP 1/Laboratorio2-CE1.excalidraw.md",
+    "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
-    "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
-    "Facu/Control Automatico 2/sarrus.png",
-    "Facu/Control Automatico 2/prop determinante e inversa.png",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
-    "Facu/Control Automatico 2/propiedades del determinante.png",
     "Facu/medidas/Medidas (clase 6).md",
     "Facu/medidas/Medidas (clase 5).md",
-    "Facu/medidas/D6-2022-1.pdf",
-    "Facu/medidas/D5-2022-1.pdf",
     "Facu/medidas/Medidas.md",
-    "Facu/medidas/D4-2022-1-1.pdf",
-    "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
-    "Facu/Control Automatico 2/Repaso Algebra/repasoAlgebra.pdf",
-    "Facu/Control Automatico 2/Repaso Algebra",
-    "Facu/Control Automatico 2/Lab/Laboratorio 1 CAII v3.pdf",
-    "Facu/Circuitos Electronicos I/TODOS LOS PDFS/Reglamento de cursada Circuitos Electrónicos.pdf",
-    "Facu/Circuitos Electronicos I/TODOS LOS PDFS/01 Introducción a CE1.pdf",
-    "Facu/Circuitos Electronicos I/TP 1/Laboratorio2-CE1.excalidraw.md",
-    "Pasted Image 20240314112051_106.png",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
-    "Pasted Image 20240313201720_476.png",
     "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md",
-    "Pasted Image 20240310105654_947.png",
-    "Pasted Image 20240305191151_611.png",
-    "Pasted Image 20240306182737_091.png",
-    "Pasted Image 20240306182501_221.png",
-    "Pasted Image 20240306182329_190.png",
     "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.13_0.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.13.excalidraw.md",
@@ -192,7 +205,6 @@
     "Facu/Circuitos Electronicos I/MOSFET.md",
     "Excalidraw/Drawing 2024-03-09 20.05.58.excalidraw.md",
     "Excalidraw/Drawing 2024-03-09 20.06.33.excalidraw.md",
-    "2024-03-09.md",
-    "Facu/Control Automatico 2/Control Automático 2.md"
+    "2024-03-09.md"
   ]
 }
