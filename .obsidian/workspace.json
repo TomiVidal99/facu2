@@ -6,7 +6,6 @@
       {
         "id": "ee507bb272057bb9",
         "type": "tabs",
-        "dimension": 51.77270519669743,
         "children": [
           {
             "id": "210bc41683d454bb",
@@ -17,25 +16,19 @@
                 "file": "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "c78ae01c9e6ccdfd",
-        "type": "tabs",
-        "dimension": 48.22729480330257,
-        "children": [
+          },
           {
-            "id": "eba6d9c81d6edca8",
+            "id": "ddfcbc22035cd786",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md"
+                "file": "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
+                "file": "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
+                "file": "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md"
+                "file": "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf"
               }
             }
           }
@@ -165,8 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eba6d9c81d6edca8",
+  "active": "ddfcbc22035cd786",
   "lastOpenFiles": [
+    "Excalidraw/Laboratorio1-CE1.md",
+    "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf",
     "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
     "Facu/Control Automatico 2/sarrus.png",
@@ -184,11 +179,9 @@
     "Facu/Control Automatico 2/Repaso Algebra",
     "Facu/Control Automatico 2/Lab/Laboratorio 1 CAII v3.pdf",
     "Facu/Circuitos Electronicos I/TODOS LOS PDFS/Reglamento de cursada Circuitos Electrónicos.pdf",
-    "Facu/Circuitos Electronicos I/TODOS LOS PDFS/01 Introducción a CE1.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
     "Pasted Image 20240314112051_106.png",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
-    "Excalidraw/Laboratorio1-CE1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
