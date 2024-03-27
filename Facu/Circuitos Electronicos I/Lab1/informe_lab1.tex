@@ -75,7 +75,7 @@
 \newcommand{\image}[2] {
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.43\textwidth]{../figures/#1.png}
+    \includegraphics[width=0.43\textwidth]{./#1.png}
     \caption{#2}
     \label{fig:#1}
   \end{figure}
@@ -93,96 +93,73 @@
 \pagestyle{empty}
 
 \section{INTRODUCCCI\'ON}
-A continuación se detallan los procedimientos y resultados del laboratorio de Circuitos Electrónicos 1. Se emplearon dos configuraciones para un amplificador operacional (inversora y no inversora), se efecturaron análisis de frecuencias y ganancias para diferentes valores de los componentes involucrados, los mismos se especifican en los resultados. Se concluye que el producto de ganancia ancho de banda se conserva para una misma topología. Posteriormente se realizaron pruebas sobre una placa de ensayo en la que aparecían no linealidades, y luego de activar la realimentación desde la salida se solucionó la no linealidad.
+A continuación se detallan los procedimientos y resultados del laboratorio de Circuitos Electrónicos 1. Se emplearon dos configuraciones para un amplificador operacional (\textit{inversora} y \textit{no inversora}), se efecturaron análisis de frecuencias y ganancias para diferentes valores de los componentes involucrados, los mismos se especifican en los resultados. Se concluye que el producto de ganancia ancho de banda se conserva para una misma topología. Posteriormente se realizaron pruebas sobre una placa de ensayo en la que aparecían no linealidades, y luego de activar la realimentación desde la salida se solucionó la no linealidad.
+
+\section{Topologías empleadas}
+\subsection{Elementos de trabajo}
+Para realizar las pruebas se emplearon diversos instrumentos de laboratorio: \textit{osciloscopio}\footnote{Instrumento utilizado para visualizar y analizar formas de onda eléctricas.}, \textit{multímetro}\footnote{Dispositivo que se utiliza para medir magnitudes eléctricas como corriente, voltaje y resistencia.}, \textit{fuente regulable}\footnote{Dispositivo que proporciona una corriente o voltaje de salida regulable y estable.}, \textit{generador de funciones}\footnote{Dispositivo utilizado para generar señales eléctricas de forma controlada (en amplitud y frecuencia), como ondas sinusoidales, cuadradas, etc. }, y las placas de ensayos provistas a las cuales se las referirá como \textit{1} (\ref{placaDePruebas1})\footnote{Breve descripción de la placa de ensayo 1.} y \textit{2} (\ref{placaDePruebas2})\footnote{Breve descripción de la placa de ensayo 2.}. 
+
+\subsection{Placa de ensayos 1}
+La placa de ensayos \textbf{1} permite recrear diversas topologías de una etapa de amplificación con un amplificador operacional 741\footnote{Para ver las especificaciones vea la hoja de datos del fabricante \href{https://www.ti.com/lit/ds/symlink/lm741-mil.pdf}{https://www.ti.com/lit/ds/symlink/lm741-mil.pdf}}, esta placa es la síntesis correspondiente al diagrama circuital de la figura \ref{diagramaPlaca1}. En particular se trabajó con las topologías realimentadas negativamente (realimentación por entrada no inversora) de tal manera que una de ellas sea inversora \ref{diagramaConfigInversora} (es decir crea un desfase de 90°) y otra no inversora \ref{diagramaConfigNoInversora} (no hay desfase).
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.43\textwidth]{./placaDePruebas1.jpg}
+  \caption{Diagrama correspondiente a la placa de ensayos 1}
+  \label{placaDePruebas1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  % TODO
+  \includegraphics[width=0.43\textwidth]{./placaDePruebas2.jpg}
+  \caption{Diagrama correspondiente a la placa de ensayos 1}
+  \label{placaDePruebas2}
+\end{figure}
+
+Para poder construir estas topologías se configuraron los \textit{jumpers}\footnote{Un \textit{jumper} o \textit{puente} es un elemento de electrónica que permite abrir o cerrar un circuito eléctrico mediante terminales.} de la placa de pruebas 1. Posteriormente se midió la entrada y la salida del circuito con las sondas del osciloscopio, canal 1 en la entrada (\textit{color amarillo en la pantalla}) y el 2 en la salida (\textit{color azul en la pantalla}). Luego se conectó a la entrada el generador de señales y se alimentó la placa (+12V, GND y -12V) con la fuente regulable. De esta manera se pudo analizar la ganancia y la frecuencia de corte de -3dB del amplificador para diferentes valores de los resistores involucrados y en las dos topologías (inversora y no inversora).
+
+\subsection{Resultados de la topología inversora}
 
 
-\section{Circuito a trabajar}
-\begin{circuitikz}
-    % Op-Amp
-    \draw (2,0) node[op amp] (opamp) {};
-    
-    % Inputs
-    \draw (opamp.-) to ++(-1,0) node[left] {$V_{in}$};
-    \draw (opamp.+) to ++(-1,0) node[left] {$V_{in}^+$};
-    
-    % Feedback resistor
-    \draw (opamp.out) -- ++(1,0) to [R=$R_f$] ++(0,-2) node[ground]{};
-    
-    % Input resistor
-    \draw (opamp.-) -- ++(0,1) to [R=$R_1$] ++(-2,0) node[ground]{};
-    
-    % Output
-    \draw (opamp.out) -- ++(1,0) node[right] {$V_{out}$};
-\end{circuitikz}
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.43\textwidth]{./diagramaPlaca1.png}
+   \caption{Diagrama correspondiente a la placa de ensayos 1}
+   \label{diagramaPlaca1}
+ \end{figure}
 
-% \subsection{Obtenci\'on de la ecuaci\'on del sistema}
-% Analizando el diagrama en bloques provisto se obtiene la siguiente ecuaci\'on que describe su comportamiento.
-% \begin{equation} \label{eq:y}
-%   y[n] = \frac{1}{2}x[n] + \frac{1}{2}x[n-1] + R^{L}y[n-L]
-% \end{equation}
-% Se obtiene la transferencia del sistema transformando ec. \ref{eq:y} con la transformanda $Z$.
-% \begin{equation} \label{eq:Hz}
-%   H(z) = \frac{Y(z)}{X(z)} = (\frac{1}{2})\frac{1 + z^{-1}}{1 - R^{L}z^{-L}}
-% \end{equation}
-% 
-% Mediante la funci\'on de transferencia se obtiene la respuesta en frecuencia (fig. \ref{fig:HfreqResp}) del sistema de la siguiente manera
-% \begin{equation*}
-%   H(e^{j2{\pi}s}) = (\frac{1}{2})\frac{1 + {e^{-j2{\pi}s}}}{1 - R^{L}{e^{-j2{\pi}sL}}}
-% \end{equation*}
-% % TODO hacer una animación para diferentes valores de L y R
-% \image{HfreqResp}{Respuesta en frecuencia del sistema (ec. \ref{eq:y})}
-% 
-% \subsection{Polos y ceros de H(z)}
-% Se grafican los polos y los ceros de la funci\'on de transferencia (ec. \ref{eq:Hz}) con el siguiente c\'odigo
-% % Codigo
-% % TODO: actualizar esto con el correspondiente codigo
-% \begin{lstlisting}[style=Matlab-editor]
-% % tf y pzmap son del paquete de control
-% pkg load control;
-% % Se define el tipo de z
-% z = tf('z', Ts);
-% % Se define la funcion de transferencia H(z) como H
-% H = @(r, l) (1/2)*( (1+z^(-1)) / (1-(r^l)*(z^(-l))) );
-% % Se define una secuencia aleatoria uniforme de longitud 100
-% x = rand(100);
-% L = length(x);
-% R = .1;
-% % Se grafican los zeros y polos de H
-% pzmap(H(R, L));
-% \end{lstlisting}
-% 
-% \image{Hz-pzmap-1}{Polos y ceros de la función de transferencia (ec. \ref{eq:Hz}), con R=10}
-% \image{Hz-pzmap-2}{Polos y ceros de la función de transferencia (ec. \ref{eq:Hz}), con R=5}
-% \image{Hz-pzmap-3}{Polos y ceros de la función de transferencia (ec. \ref{eq:Hz}), con R=1}
-% \image{Hz-pzmap-4}{Polos y ceros de la función de transferencia (ec. \ref{eq:Hz}), con R=0,5}
-% \image{Hz-pzmap-5}{Polos y ceros de la función de transferencia (ec. \ref{eq:Hz}), con R=0,1}
-% \image{Hz-pzmap-6}{Polos y ceros de la función de transferencia (ec. \ref{eq:Hz}), con R=0,01}
-% 
-% Haciendo un an\'alisis de la ec. \ref{eq:Hz} podemos observar que el numerador tiende a cero cuando $z$ tiende a $-1$, y el denominador cuando $z$ tiende a $R$; por lo que los polos se encuentran en la circunferencia de radio $R$ y son L (en cantidad), adem\'as tiene un cero en $z=-1$, que es acorde con lo que se ver en los gr\'aficos anteriores.
-% 
-% \subsection{Estabilidad del sistema}
-% Para que el sistema sea estable y causal todos los polos se deben encontrar dentro de la circunferencia de radio unitario. Por lo que para valores de $0<R<1$ el sistema es estable.
-% 
-% \section{Inciso 2}
-% \subsection{Filtro de pasatodo}
-% Obtengo la ecuación (\ref{eq:yfiltro}) que describe el sistema a partir de los diagramas en bloques dados.
-% \begin{equation} \label{eq:yfiltro}
-%   y[n] = a.x[n] + x[n-1] - a.y[n-1]
-% \end{equation}
-% Calculo la función de transferencia a partir de la ecuación \ref{eq:yfiltro}.
-% \begin{equation} \label{eq:Hfiltro}
-%   H(z) = \frac{a + z^{-1}}{1+a.z^{-1}}
-% \end{equation}
-% \subsection{Fase del filtro}
-% En el siguiente se muestran diferentes fases de la respuesta en frecuencia del filtro (ec \ref{eq:yfiltro}).
-% \image{HPhiA}{Diferentes fases de la respuesta en frecuencia del filtro (ec. \ref{eq:yfiltro}).}
+\begin{figure}[H]
+  \centering
+  \begin{circuitikz}
+    \node[op amp] (opamp) at (0,0) {};
+    \draw (opamp.+) -- ++(-0.25,0) -- ++(0,-0.5) node[ground]{};
+    \draw (opamp.-) -- ++(-1,0) to[R=$R_1$] ++(-1.5,0) -- ++(-0.5,0) node[ocirc]{} coordinate (Vin) node[left] {$V_{in}^{+}$};
+    \draw (opamp.out) -- ++(0.25, 0) node[circ]{} -- ++(0,2) -- ++(-0.5,0) to[R=$R_f$] ++(-2,0) -- ++(-0.25,0) -- ++(0,-1.5) node[circ]{};
+    \draw (opamp.out) -- ++(1, 0) node[ocirc]{} coordinate (Vout) node[right] {$V_{out}^{+}$};
+  \end{circuitikz}
+  \caption{Amplificador operacional en configuración inversora}
+  \label{diagramaConfigInversora}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \begin{circuitikz}
+    \node[op amp] (opamp) at (0,0) {};
+    \draw (opamp.+) -- ++(-1,0) node[ocirc]{} coordinate (Vin) node[left] {$V_{in}^{+}$}; 
+    \draw (opamp.-) -- ++(-1,0) to[R=$R_1$] ++(-2,0) node[ground]{};
+    \draw (opamp.out) -- ++(0.25,0) -- ++(0,2) -- ++(-0.5,0) to[R=$R_f$] ++(-2.5,0) -- ++(0,-1.5) node[circ]{};
+    \draw (opamp.out) -- ++(0.25,0) node[circ]{} -- ++(1,0) node[ocirc]{} coordinate (Vout) node[right] {$V_{out}^{+}$};
+  \end{circuitikz}
+  \caption{Amplificador operacional en configuración no inversora}
+  \label{diagramaConfigNoInversora}
+\end{figure}
+\subsection{Topología inversora}
 
 \begin{thebibliography}{99}
 
 % TODO
-\bibitem{tftd_tp5}ANÁLISIS DE SISTEMAS Y SE\~{n}ALES - A\~{n}O 2022, Práctica 5 Transformada de Fourier de Tiempo Discreto (TFTD), Serie Discreta Fourier (SDF).
-\bibitem{tftd_teoria}ANÁLISIS DE SISTEMAS Y SE\~{n}ALES - A\~{n}O 2022, Filminas de teor\'ia 5: Transformada de Fourier de Tiempo Discreto (TFTD).
-
+\bibitem{tftd_tp5}TODO
+% \bibitem{tftd_tp5}ANÁLISIS DE SISTEMAS Y SE\~{n}ALES - A\~{n}O 2022, Práctica 5 Transformada de Fourier de Tiempo Discreto (TFTD), Serie Discreta Fourier (SDF).
+% \bibitem{tftd_teoria}ANÁLISIS DE SISTEMAS Y SE\~{n}ALES - A\~{n}O 2022, Filminas de teor\'ia 5: Transformada de Fourier de Tiempo Discreto (TFTD).
+%
 \end{thebibliography}
 
 \end{document}
