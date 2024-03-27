@@ -26,6 +26,16 @@
                 "file": "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf"
               }
             }
+          },
+          {
+            "id": "b0099235eadbd242",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -164,14 +174,9 @@
     "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
-    "Facu/Control Automatico 2/sarrus.png",
-    "Facu/Control Automatico 2/prop determinante e inversa.png",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
-    "Facu/Control Automatico 2/propiedades del determinante.png",
     "Facu/medidas/Medidas (clase 6).md",
     "Facu/medidas/Medidas (clase 5).md",
-    "Facu/medidas/D6-2022-1.pdf",
-    "Facu/medidas/D5-2022-1.pdf",
     "Facu/medidas/Medidas.md",
     "Facu/medidas/D4-2022-1-1.pdf",
     "Facu/Circuitos Electronicos I/TP 1/practica1-2023.pdf",
@@ -184,13 +189,7 @@
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
-    "Pasted Image 20240313201720_476.png",
     "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md",
-    "Pasted Image 20240310105654_947.png",
-    "Pasted Image 20240305191151_611.png",
-    "Pasted Image 20240306182737_091.png",
-    "Pasted Image 20240306182501_221.png",
-    "Pasted Image 20240306182329_190.png",
     "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.13_0.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 13.15.13.excalidraw.md",
@@ -202,7 +201,6 @@
     "Facu/Circuitos Electronicos I/MOSFET.md",
     "Excalidraw/Drawing 2024-03-09 20.05.58.excalidraw.md",
     "Excalidraw/Drawing 2024-03-09 20.06.33.excalidraw.md",
-    "2024-03-09.md",
-    "Facu/Control Automatico 2/Control Automático 2.md"
+    "2024-03-09.md"
   ]
 }
