@@ -95,14 +95,14 @@
 \pagestyle{empty}
 
 \section{INTRODUCCCI\'ON}
-A continuación se detallan los procedimientos y resultados del laboratorio de Circuitos Electrónicos 1. Se emplearon dos configuraciones para un amplificador operacional (\textit{inversora} y \textit{no inversora}), se efecturaron análisis de frecuencias y ganancias para diferentes valores de los componentes involucrados, los mismos se especifican en los resultados. Se concluye que el producto de ganancia ancho de banda se conserva para una misma topología. Posteriormente se realizaron pruebas sobre una placa de ensayo en la que aparecían no linealidades, y luego de activar la realimentación desde la salida se solucionó la no linealidad.
+A continuación se presentan los procedimientos experimentales y los resultados obtenidos del laboratorio de Circuitos Electrónicos 1. Se emplearon dos configuraciones diferentes para un amplificador operacional (\textit{inversora} y \textit{no inversora}), se efectuaron análisis de frecuencias y ganancias para diferentes valores de los componentes involucrados, los mismos se especifican en los resultados. Se concluye que el producto de ganancia ancho de banda se conserva para ambas misma topologías. Posteriormente se realizaron pruebas sobre una placa de ensayo en la que aparecían no linealidades, y luego de activar la realimentación desde la salida se compensó la no linealidad.
 
 \section{Análisis de producto ganancia - ancho de banda}
 \subsection{Elementos de trabajo}
-Para realizar las pruebas se emplearon diversos instrumentos de laboratorio: \textit{osciloscopio}\footnote{Instrumento utilizado para visualizar y analizar formas de onda eléctricas.}, \textit{multímetro}\footnote{Dispositivo que se utiliza para medir magnitudes eléctricas como corriente, voltaje y resistencia.}, \textit{fuente regulable}\footnote{Dispositivo que proporciona una corriente o voltaje de salida regulable y estable.}, \textit{generador de funciones}\footnote{Dispositivo utilizado para generar señales eléctricas de forma controlada (en amplitud y frecuencia), como ondas sinusoidales, cuadradas, etc. }, y las placas de ensayos provistas a las cuales se las referirá como \textit{1} (\ref{placaDePruebas1}) y \textit{2} (\ref{placaDePruebas2}). 
+Para realizar las pruebas se emplearon diversos instrumentos de laboratorio: \textit{osciloscopio}\footnote{Instrumento utilizado para visualizar y analizar formas de onda eléctricas.}, \textit{multímetro}\footnote{Dispositivo que se utiliza para medir magnitudes eléctricas como corriente, voltaje y resistencia.}, \textit{fuente regulable}\footnote{Dispositivo que proporciona una corriente o voltaje de salida regulable y estable.}, \textit{generador de funciones}\footnote{Dispositivo utilizado para generar señales eléctricas de forma controlada (en amplitud y frecuencia), como ondas sinusoidales, cuadradas, etc.}, y las placas de ensayos provistas a las cuales se las referirá como \textit{1} (ver Figura~\ref{placaDePruebas1}) y \textit{2} (ver Figura~\ref{placaDePruebas2}).
 
 \subsection{Placa de ensayos 1}
-La placa de ensayos \textbf{1} permite recrear diversas topologías de una etapa de amplificación con un amplificador operacional 741\footnote{Para ver las especificaciones vea la hoja de datos del fabricante \href{https://www.ti.com/lit/ds/symlink/lm741-mil.pdf}{https://www.ti.com/lit/ds/symlink/lm741-mil.pdf}}, esta placa es la síntesis correspondiente al diagrama circuital de la figura \ref{diagramaPlaca1}. En particular se trabajó con las topologías realimentadas negativamente (realimentación por entrada no inversora) de tal manera que una de ellas sea inversora \ref{diagramaConfigInversora} (es decir crea un desfase de 90°) y otra no inversora \ref{diagramaConfigNoInversora} (no hay desfase). \\
+La placa de ensayos \textbf{1} permite recrear diversas topologías de una etapa de amplificación con un amplificador operacional 741\footnote{Para ver las especificaciones vea la hoja de datos del fabricante \href{https://www.ti.com/lit/ds/symlink/lm741-mil.pdf}{https://www.ti.com/lit/ds/symlink/lm741-mil.pdf}}, esta placa es la síntesis correspondiente al diagrama circuital de la figura \ref{diagramaPlaca1}. En particular se trabajó con las topologías realimentadas negativamente\footnote{La conexión que hace la realimentación se conecta a la entrada inversora del amplificador operacional} de tal manera que una de ellas sea inversora (Fig. \ref{diagramaConfigInversora}), es decir crea un desfase de 90°; y otra no inversora (Fig. \ref{diagramaConfigNoInversora}), es decir no hay desfase. \\
 \hspace*{3pt} Las ganancias teóricas ideales de los amplificadores son $G=-\frac{R_f}{R_1}$ para la etapa inversora. Y $G=1+\frac{R_f}{R_1}$ para la no inversora.
 \begin{figure}[H]
   \centering
@@ -162,7 +162,7 @@ Para realizar el estudio de \textit{ganancia}, \textit{desfase} y \textit{frecue
 \label{tab:resultadosInversora}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-$R_{1} (\unit{\kilo\ohm})$ & $R_{f} (\unit{\kilo\ohm})$ & $G$ (veces) & $f_{-3dB}$ (\unit{\kilo\hertz}) & $|G.f_{-3dB}|$ \\
+$R_{1} (\unit{\kilo\ohm})$ & $R_{f} (\unit{\kilo\ohm})$ & $G$ (V/V) & $f_{-3dB}$ (\unit{\kilo\hertz}) & $|G.f_{-3dB}|$ \\
 \hline
 1 & 1 & -1 & 800 & 800 \\
 1 & 10 & -10 & 78 & 780 \\
@@ -176,7 +176,7 @@ $R_{1} (\unit{\kilo\ohm})$ & $R_{f} (\unit{\kilo\ohm})$ & $G$ (veces) & $f_{-3dB
 \label{tab:resultadosNoInversora}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-$R_{1} (\unit{\kilo\ohm})$ & $R_{f} (\unit{\kilo\ohm})$ & $G$ (veces) & $f_{-3dB}$ (\unit{\kilo\hertz}) & $|G.f_{-3dB}|$ \\
+$R_{1} (\unit{\kilo\ohm})$ & $R_{f} (\unit{\kilo\ohm})$ & $G$ (V/V) & $f_{-3dB}$ (\unit{\kilo\hertz}) & $|G.f_{-3dB}|$ \\
 \hline
 1 & 1 & 2 & 381 & 762 \\
 1 & 10 & 11 & 75 & 825 \\
@@ -185,10 +185,10 @@ $R_{1} (\unit{\kilo\ohm})$ & $R_{f} (\unit{\kilo\ohm})$ & $G$ (veces) & $f_{-3dB
 \end{tabular}
 \end{table}
 
-De los resultados en las tablas \ref{tab:resultadosInversora} y \ref{tab:resultadosNoInversora} se puede observar que el producto ganancia - ancho de banda se conserva, hay dispersión en los resultados debido a la forma en que se hicieron las mediciones, pero se puede establecer una media de los datos como $\overline{|G \cdot f_{\text{-3dB}}|} = 795.83 \approx 800 $.
+De los resultados en las tablas \ref{tab:resultadosInversora} y \ref{tab:resultadosNoInversora} se puede observar que el producto \textbf{ganancia - ancho de banda} se conserva, a pesar de que hay una \textit{``gran''} dispersión en los resultados debido a la forma en que se hicieron las mediciones, pero se puede establecer una media de los datos como $\overline{|G \cdot f_{\text{-3dB}}|} = 795.83 \approx 800 $.
 
 \section{Análisis de No Linealidad}
-Con la placa de ensayos 2, cuya disposición de elementos se puede observar mejor en su diagrama circuital \ref{diagramaPlaca2}, se analizó con el osciloscopio la no linealidad que presenta la misma cuando no se realimenta desde la salida, es decir el \textit{jumper} se encuentra entre los terminales 2 y 3, el resultado se puede apreciar en la imagen \ref{imagen:nolinealidad}
+Con la placa de ensayos 2, cuya disposición de elementos se puede observar mejor en su diagrama circuital \ref{diagramaPlaca2}, se analizó con el osciloscopio la no linealidad que se presenta entre la entrada y la salida de la placa de ensayos 2 cuando no se realimenta desde la salida, es decir el \textit{jumper} se encuentra entre los terminales 2 y 3, el resultado se puede apreciar en la imagen \ref{imagen:nolinealidad}
 
 \begin{figure}[H]
    \centering
@@ -205,7 +205,7 @@ Con la placa de ensayos 2, cuya disposición de elementos se puede observar mejo
    \label{diagramaPlaca2}
  \end{figure}
 
- El punto de no linealidad refiere a la parte donde es más horizontal la señal de salida, ya que no hay amplificación lineal en la salida para una señal de entrada, esto es debido a cómo se polarizan los transistores NPN y PNP. Pero luego de realimentar la salida, haciendo una conexión con el \textit{jumper} entre los terminales 1 y 2, se puede observar que la no linealidad desaparece, y por lo tanto el sistema es más estable, los resultados se pueden apreciar en la imagen \ref{imagen:linealidad}
+ El punto de no linealidad refiere a la parte donde es más horizontal la señal de salida, ya que no hay amplificación lineal en la salida para una señal de entrada, esto es debido a cómo se polarizan los transistores NPN y PNP. Pero luego de realimentar negativamente la salida (es decir, una parte de la señal de salida ingresa a la entrada no inversora del amplificador operacional), haciendo una conexión con el \textit{jumper} entre los terminales 1 y 2, se puede observar que la no linealidad se hace \textit{``insignificante''}, y por lo tanto el sistema es más estable; los resultados se pueden apreciar en la imagen \ref{imagen:linealidad}.
 
 \begin{figure}[H]
    \centering
