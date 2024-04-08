@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "210bc41683d454bb",
+            "id": "b1c567c5bd555ffd",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/TP2_CA2_2023.pdf"
+                "file": "Facu/Circuitos Electronicos I/TP 4/04 AO Realimentados topologías-1.pdf"
               }
             }
           }
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5110321044922
+    "width": 299.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "2c632b2a1eb56415",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/TP2_CA2_2023.pdf",
+                "file": "Facu/Circuitos Electronicos I/TP 4/04 AO Realimentados topologías-1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/TP2_CA2_2023.pdf",
+                "file": "Facu/Circuitos Electronicos I/TP 4/04 AO Realimentados topologías-1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/TP2_CA2_2023.pdf"
+                "file": "Facu/Circuitos Electronicos I/TP 4/04 AO Realimentados topologías-1.pdf"
               }
             }
           }
@@ -146,8 +147,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "210bc41683d454bb",
+  "active": "b1c567c5bd555ffd",
   "lastOpenFiles": [
+    "Facu/Circuitos Electronicos I/TP 3/03 Realimentacion topologías-1.pdf",
+    "Facu/Circuitos Electronicos I/TP 4/04 AO Realimentados topologías-1.pdf",
+    "Facu/Circuitos Electronicos I/TP 4",
+    "Facu/Control Automatico 2/TP2_CA2_2023.pdf",
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP6_CA2_res_2023.pdf",
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP5_CA2_res_2023.pdf",
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP4_CA2_res_2023.pdf",
@@ -155,19 +160,15 @@
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP3_CA2_resa_2023.pdf",
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP2_CA2_res_2023.pdf",
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP1_CA2_res_2023.pdf",
-    "Facu/Control Automatico 2/Ejercicios Resueltos",
-    "Facu/Control Automatico 2/Repaso Algebra/P0_2024.pdf",
     "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
     "Facu/medidas/medidas 1.md",
     "Facu/medidas/Medidas.md",
-    "Facu/Circuitos Electronicos I/Lab1/Guías de Laboratorios.pdf",
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
     "Facu/medidas/Medidas (clase 6).md",
     "Facu/medidas/Medidas (clase 5).md",
-    "Facu/medidas/D4-2022-1-1.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
     "Pasted Image 20240314112051_106.png",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
