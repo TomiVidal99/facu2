@@ -1,0 +1,2 @@
+- [ ] Cómo pasar de Laplaca a VE? con los polos (autovectores), pero los ceros?
+- [ ] Forma canónica observable. A0 = Ac^T? a que refiere?
