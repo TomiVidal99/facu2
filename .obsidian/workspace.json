@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "8747dd82579d96e0",
+            "id": "a770140fd42bb349",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP 2 Notas.md"
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
               }
             }
           }
@@ -180,13 +180,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8747dd82579d96e0",
+  "active": "b1c567c5bd555ffd",
   "lastOpenFiles": [
+    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
+    "Facu/Control Automatico 2/consultas-control.md",
     "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
     "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
-    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Pasted image 20240407223459.png",
-    "Facu/Control Automatico 2/consultas-control.md",
     "Pasted image 20240407223211.png",
     "Pasted image 20240407223138.png",
     "Pasted image 20240407222514.png",

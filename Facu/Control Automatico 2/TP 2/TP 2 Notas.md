@@ -35,3 +35,11 @@ Por lo que las matrices A,B y C resultan:
 ![[Pasted image 20240407223459.png]]
 
 Despues faltarían las transformaciones, cómo ir de variables de estados a transformaciones con propiedades matriciales.
+
+
+## Comandos Matlab
+- sys = ss(A,B,C,D)
+- sys2 = ss2ss(sys,M)
+	$$X=M\overline X$$
+	$$ \overline X = MX$$
+	
