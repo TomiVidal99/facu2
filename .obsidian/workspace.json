@@ -6,19 +6,8 @@
       {
         "id": "ee507bb272057bb9",
         "type": "tabs",
+        "dimension": 39.19378338999515,
         "children": [
-          {
-            "id": "b1c567c5bd555ffd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "a79aaf8fafc8eb02",
             "type": "leaf",
@@ -32,12 +21,61 @@
             }
           },
           {
+            "id": "ece7b6641dcd1f07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Facu/Control Automatico 2/Notas Ogata.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6bd506876ce020a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf"
+              }
+            }
+          },
+          {
+            "id": "08101e5064ca2f4b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5db3111f61127aa5",
+        "type": "tabs",
+        "dimension": 60.80621661000486,
+        "children": [
+          {
             "id": "c265586fa0871b77",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
+              }
+            }
+          },
+          {
+            "id": "87c50de89a3a168a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf"
               }
             }
           }
@@ -174,11 +212,14 @@
   },
   "active": "a79aaf8fafc8eb02",
   "lastOpenFiles": [
-    "Facu/Control Automatico 2/Notas Ogata.md",
-    "Facu/Control Automatico 2/consultas-control.md",
-    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
-    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
+    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+    "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf",
+    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
+    "Pasted image 20240411150915.png",
+    "Facu/Control Automatico 2/consultas-control.md",
+    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Pasted image 20240407223459.png",
     "Pasted image 20240407223211.png",
     "Pasted image 20240407223138.png",
@@ -188,17 +229,14 @@
     "Pasted image 20240407222004.png",
     "Pasted image 20240407221945.png",
     "Pasted image 20240407210327.png",
-    "Pasted image 20240407210129.png",
     "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
     "Facu/Control Automatico 2/Control Automático 2.md",
     "Facu/Control Automatico 2/TP 1/Linealizacion.pdf",
     "Facu/Control Automatico 2/TP 1/TP1_CA2_2023.pdf",
     "Facu/Control Automatico 2/TP 2",
     "Facu/Control Automatico 2/TP 1",
-    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP6_CA2_res_2023.pdf",
     "Facu/Control Automatico 2/Ejercicios Resueltos/TP5_CA2_res_2023.pdf",
-    "Facu/Control Automatico 2/Ejercicios Resueltos/TP4_CA2_res_2023.pdf",
     "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
     "Facu/medidas/medidas 1.md",
     "Facu/medidas/Medidas.md",
