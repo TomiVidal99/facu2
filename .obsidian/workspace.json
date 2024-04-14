@@ -6,77 +6,34 @@
       {
         "id": "ee507bb272057bb9",
         "type": "tabs",
-        "dimension": 43.07909604519774,
+        "dimension": 33.10991957104557,
         "children": [
           {
-            "id": "a79aaf8fafc8eb02",
+            "id": "669b5e7dfbf4c720",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Facu/Control Automatico 2/consultas-control.md",
+                "file": "Facu/medidas/Lab2/Medidas (clase 8).md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "2308c15d7604ba63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6bd506876ce020a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf"
-              }
-            }
-          },
-          {
-            "id": "08101e5064ca2f4b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "5db3111f61127aa5",
+        "id": "298e812ea6ad1146",
         "type": "tabs",
-        "dimension": 56.92090395480226,
+        "dimension": 66.89008042895442,
         "children": [
           {
-            "id": "c265586fa0871b77",
+            "id": "37d1623c8b2c792a",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
-              }
-            }
-          },
-          {
-            "id": "87c50de89a3a168a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf"
+                "file": "Facu/medidas/Lab2/D6-2022-1.pdf"
               }
             }
           }
@@ -147,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+                "file": "Facu/medidas/Lab2/Medidas (clase 8).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+                "file": "Facu/medidas/Lab2/Medidas (clase 8).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
+                "file": "Facu/medidas/Lab2/Medidas (clase 8).md"
               }
             }
           }
@@ -210,19 +167,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c265586fa0871b77",
+  "active": "669b5e7dfbf4c720",
   "lastOpenFiles": [
+    "Facu/medidas/Lab2/D6-2022-1.pdf",
+    "Facu/medidas/Lab2/Medidas (clase 8).md",
+    "d6.md",
+    "Facu/medidas/Medidas.md",
+    "Facu/medidas/Lab2/Medidas (clase 6).md",
+    "Facu/medidas/Lab2/Medidas (clase 7).md",
+    "Facu/medidas/Lab1/medidas 3.md",
+    "Facu/medidas/Lab1/medidas 1.md",
+    "Facu/medidas/Lab1/Medidas (clase 4).md",
+    "Facu/medidas/Lab1/Medidas (clase 5).md",
+    "Facu/medidas/Lab1/D1-2022-1.pdf",
+    "Facu/medidas/Lab1",
+    "Facu/medidas/Lab2/D8-2022-2.pdf",
+    "Facu/medidas/Lab2/D7-2022-1.pdf",
+    "Facu/medidas/Lab2",
+    "Facu/medidas/Nueva carpeta",
+    "Facu/Control Automatico 2/consultas-control.md",
     "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
+    "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf",
+    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
     "Pasted image 20240413090750.png",
     "Pasted image 20240413090633.png",
     "Pasted image 20240413085707.png",
-    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
     "Pasted image 20240413084056.png",
     "Pasted image 20240413082611.png",
-    "Facu/Control Automatico 2/consultas-control.md",
-    "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
-    "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf",
-    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
     "Pasted image 20240411150915.png",
     "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Pasted image 20240407223459.png",
@@ -231,31 +203,16 @@
     "Pasted image 20240407222514.png",
     "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
     "Facu/Control Automatico 2/Control Automático 2.md",
-    "Facu/Control Automatico 2/TP 1/Linealizacion.pdf",
-    "Facu/Control Automatico 2/TP 1/TP1_CA2_2023.pdf",
-    "Facu/Control Automatico 2/TP 2",
-    "Facu/Control Automatico 2/TP 1",
-    "Facu/Control Automatico 2/Ejercicios Resueltos/TP6_CA2_res_2023.pdf",
-    "Facu/Control Automatico 2/Ejercicios Resueltos/TP5_CA2_res_2023.pdf",
     "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
-    "Facu/medidas/medidas 1.md",
-    "Facu/medidas/Medidas.md",
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
-    "Facu/medidas/Medidas (clase 6).md",
-    "Facu/medidas/Medidas (clase 5).md",
     "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 13.15.13_0.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 13.15.13.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 13.15.12_0.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 13.15.12.excalidraw.md",
-    "Facu/Arquitectura de computadores/TP_1_PROBLEMA_1.md"
+    "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md"
   ]
 }
