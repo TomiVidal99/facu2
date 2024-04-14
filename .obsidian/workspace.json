@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/consultas-control.md",
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/consultas-control.md",
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/consultas-control.md"
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
               }
             }
           }
@@ -172,10 +172,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a79aaf8fafc8eb02",
+  "active": "c265586fa0871b77",
   "lastOpenFiles": [
-    "Facu/Control Automatico 2/Notas Ogata.md",
     "Facu/Control Automatico 2/consultas-control.md",
+    "Facu/Control Automatico 2/Notas Ogata.md",
     "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
     "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
