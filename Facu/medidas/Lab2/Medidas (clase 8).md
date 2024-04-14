@@ -1,0 +1,1 @@
+Una forma de evitar que afecten señales acopladas en serie es tomar un voltímetro que mida con CAD de Doble Rampa. Entonces se toma el periodo del CAD (T) tal que sea un múltiplo del periodo de la señal que afecta.
