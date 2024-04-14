@@ -23,7 +23,13 @@ $$x(t)=e^{\textbf{A}(t-\tau)}\textbf{x}(\tau)=\phi(t-\tau)\textbf{x}(\tau)$$
 Donde a $\phi(t)$ se la denomina **Matriz de Transición de Estados**
 La salida $y(t)$ queda fácilmente determinada con esta matriz de transición de estados, ya que son combinaciones lineales de los estados:
 $$y(t)=\textbf{C}\phi(t)\textbf{x}_0$$
-
+## Propiedades de la matriz de transición de estados
+**Para un sistema lineal e invariante en el tiempo**
+![[Pasted image 20240413082611.png]]
+## Cómo encontrar/calcular $\phi(t)$?
+Bueno básicamente existen 3 formas: por $Laplace$, haciendo diagonalización y por Cayley-Hamilton. La solución por diagonalización es simplemente llevar la matriz $\textbf{A}$ a su forma diagonal si se puede, y expresar el resultado *fácilmente* a partir de esta nueva matriz: $e^{\textbf{A}t}=e^{\textbf{P}^{-1}\textbf{D}\textbf{P}t}=\textbf{P}^{-1}e^{\textbf{A}t}\textbf{P}$
+En particular si la matriz $\textbf{A}$ es diagonalizable y contiene $n$ autovalores distintos, entonces contendrá $n$ exponenciales:
+![[Pasted image 20240413084056.png]]
 ### Solución por $Laplace$ 
 Básicamente tomando la transformada de Laplace y su anti transformada para resolver el sistema de ecuaciones diferenciales se tiene lo siguiente:
 $$ x(t) = \mathcal{L}^{-1}[(s\textbf{I}-\textbf{A})^{-1}]\textbf{x}(0) $$
@@ -33,10 +39,17 @@ Donde se ve claramente que $\phi(t)$ es $\mathcal{L}^{-1}[(s\textbf{I}-\textbf{A
 ![[Pasted image 20240411150915.png]]
 También recordar de que la independencia en el tiempo para autovalores iguales se logra agregando $t, t^{2}, t^{3}, \dots$ 
 
-## TODO: propiedades de la matriz de transición de estados
+# Solución de $\phi(t)$ no homogénea
+![[Pasted image 20240413085707.png]]
+Donde se ve claramente que el primer término es la respuesta del sistema al estado inicial y el segundo término es la respuesta a una entrada forzada.
+Nuevamente aparecen métodos para resolver esta ecuación:
+## Por $Laplace$
+![[Pasted image 20240413090750.png]]
+
 
 # El teorema de Cayley-Hamilton
 Explicita que una matriz cuadrada de $n$x$n$ satisface su propia ecuación característica $p(\lambda)=0 \rightarrow p(\textbf{A})=0$ .
+Hay que fijarse igual que $p(\lambda)$ sea el **polinomio de grado mínimo**, ya que es este el que tiene a $\textbf{A}$ como raíz.
 Esto sirve por ejemplo para reducir los cálculos cuando tenemos matrices elevadas a un cierto exponente $n$.
 Ya que por ejemplo si $n=2$ entonces:
 Si tenemos un sistema con dinámica representada por $\textbf{A}$ talque tenga la ecuación característica es $p(\lambda)=\lambda^{2}-\lambda-2$, entonces:

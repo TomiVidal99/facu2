@@ -6,7 +6,7 @@
       {
         "id": "ee507bb272057bb9",
         "type": "tabs",
-        "dimension": 39.19378338999515,
+        "dimension": 43.07909604519774,
         "children": [
           {
             "id": "a79aaf8fafc8eb02",
@@ -58,7 +58,7 @@
       {
         "id": "5db3111f61127aa5",
         "type": "tabs",
-        "dimension": 60.80621661000486,
+        "dimension": 56.92090395480226,
         "children": [
           {
             "id": "c265586fa0871b77",
@@ -130,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5110321044922,
+    "width": 480.5086555480957,
     "collapsed": true
   },
   "right": {
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md",
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md",
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md"
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
               }
             }
           }
@@ -210,11 +210,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2308c15d7604ba63",
+  "active": "c265586fa0871b77",
   "lastOpenFiles": [
-    "Facu/Control Automatico 2/consultas-control.md",
     "Facu/Control Automatico 2/Notas Ogata.md",
+    "Pasted image 20240413090750.png",
+    "Pasted image 20240413090633.png",
+    "Pasted image 20240413085707.png",
     "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+    "Pasted image 20240413084056.png",
+    "Pasted image 20240413082611.png",
+    "Facu/Control Automatico 2/consultas-control.md",
     "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
     "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf",
     "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
@@ -224,11 +229,6 @@
     "Pasted image 20240407223211.png",
     "Pasted image 20240407223138.png",
     "Pasted image 20240407222514.png",
-    "Pasted image 20240407222356.png",
-    "Pasted image 20240407222120.png",
-    "Pasted image 20240407222004.png",
-    "Pasted image 20240407221945.png",
-    "Pasted image 20240407210327.png",
     "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
     "Facu/Control Automatico 2/Control Automático 2.md",
     "Facu/Control Automatico 2/TP 1/Linealizacion.pdf",
