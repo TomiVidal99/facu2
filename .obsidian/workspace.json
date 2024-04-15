@@ -26,53 +26,9 @@
                 "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf"
               }
             }
-          },
-          {
-            "id": "4f77ee47fd142835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b0fb9bfcc95eab9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf"
-              }
-            }
-          },
-          {
-            "id": "3df796a0e7ecb323",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
-              }
-            }
-          },
-          {
-            "id": "acf317ac6167a6d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Facu/Control Automatico 2/consultas-control.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
+                "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
+                "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf"
+                "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf"
               }
             }
           }
@@ -202,13 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2b0fb9bfcc95eab9",
+  "active": "714329df0cbdea21",
   "lastOpenFiles": [
-    "Facu/Control Automatico 2/Notas Ogata.md",
-    "Pasted image 20240415112754.png",
-    "Facu/Control Automatico 2/consultas-control.md",
     "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+    "Facu/Control Automatico 2/consultas-control.md",
     "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
+    "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
+    "Pasted image 20240415112754.png",
     "Facu/medidas/Lab2/D8-2022-2.pdf",
     "Facu/medidas/Lab2/Medidas (clase 8).md",
     "Facu/Circuitos Electronicos I/Lab1/VIDAL_69854_INFORME_LAB_1.pdf",
@@ -225,7 +182,6 @@
     "Facu/medidas/Lab1/Medidas (clase 5).md",
     "Facu/medidas/Lab1/D1-2022-1.pdf",
     "Facu/medidas/Lab1",
-    "Facu/medidas/Lab2",
     "Pasted image 20240413090750.png",
     "Pasted image 20240413090633.png",
     "Pasted image 20240413085707.png",

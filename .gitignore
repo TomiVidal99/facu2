@@ -3,4 +3,4 @@
 *.fls
 *.log
 *.synctex.gz
-.obsidian/workspace.json
+.obsidian/*
