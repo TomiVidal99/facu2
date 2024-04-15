@@ -18,6 +18,9 @@ $$x(t)=\left(\textbf{I}+\textbf{A}t + \frac{\textbf{A}^{2}t^{2}}{2} + \frac{\tex
 Donde $\textbf{A}$ es la matriz del espacio de estados, $\textbf{I}$ es la matriz identidad y $\textbf{x}_0$ es el vector de condiciones iniciales (considerando $t=0$, pero se podría tomar un tiempo distinto también).
 Pero para que sea  más fácil denotar todo esto, se usa la siguiente notación (*que no es calculable*)
 $$x(t)=e^{\textbf{A}t}\textbf{x}_0=\phi(t)\textbf{x}_0$$
+
+## $e^{\textbf{A}t}=\phi(t)$ se cumple siempre si el sistema es LIT
+
 Si se considera un $t\neq0$ entonces:
 $$x(t)=e^{\textbf{A}(t-\tau)}\textbf{x}(\tau)=\phi(t-\tau)\textbf{x}(\tau)$$
 Donde a $\phi(t)$ se la denomina **Matriz de Transición de Estados**
@@ -64,3 +67,5 @@ Hasta ahora con lo que voy leyendo podría ser capaz de calcular $\phi(t)=e^{\te
 2. Con el método de $Laplace$.
 Ahora se introduce un nuevo método que es la interpolación de Sylvester. Es básicamente plantear un determinante enorme que es igual a cero y que contiene $e^{\textbf{A}t}$, entonces de ahí se despeja el $\phi$ que queremos.
 No es tan difícil en la práctica, pero es medio engorroso acordarse las formas, más si tiene raíces múltiples, que cambia un poco la forma del determinante.
+*Nosotros lo vemos a este teorema como la resolución de Cayley-Hamilton*
+![[Pasted image 20240415112754.png]]
