@@ -13,6 +13,16 @@
             "state": {
               "type": "pdf",
               "state": {
+                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf"
+              }
+            }
+          },
+          {
+            "id": "1474483f56a04d87",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
                 "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf"
               }
             }
@@ -84,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
+                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
+                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf"
+                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf"
               }
             }
           }
@@ -149,22 +159,22 @@
   },
   "active": "37d1623c8b2c792a",
   "lastOpenFiles": [
-    "Facu/Circuitos Electronicos I/TP 3/03 Realimentacion topologías-1.pdf",
-    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
-    "Facu/Circuitos Electronicos I/TP 4/04 AO Realimentados topologías-1.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/07 AO Modelos y Aplicaciones.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/06 Instrumentacion electronica.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/04 AO Realimentados topologías.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/02 Realimentacion Generalidades.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/01 Introducción a CE1.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1",
     "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
-    "Facu/Circuitos Electronicos I/TP 2/02 Realimentacion Generalidades-1.pdf",
+    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
+    "Facu/Circuitos Electronicos I/TP 3/03 Realimentacion topologías-1.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
-    "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf",
-    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
-    "Facu/medidas/Lab2/D8-2022-2.pdf",
-    "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
-    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
     "Facu/Control Automatico 2/consultas-control.md",
     "Facu/Control Automatico 2/Notas Ogata.md",
     "Pasted image 20240415112754.png",
     "Facu/medidas/Lab2/Medidas (clase 8).md",
-    "Facu/Circuitos Electronicos I/Lab1/VIDAL_69854_INFORME_LAB_1.pdf",
     "Facu/medidas/Lab2/Medidas (clase 7).md",
     "d6.md",
     "Facu/medidas/Medidas.md",
