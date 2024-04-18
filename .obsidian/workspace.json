@@ -13,22 +13,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/medidas/Lab2/D8-2022-2.pdf"
-              }
-            }
-          },
-          {
-            "id": "714329df0cbdea21",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf"
+                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
+                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
+                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf"
+                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf"
               }
             }
           }
@@ -158,21 +147,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "714329df0cbdea21",
+  "active": "37d1623c8b2c792a",
   "lastOpenFiles": [
+    "Facu/Circuitos Electronicos I/TP 3/03 Realimentacion topologías-1.pdf",
+    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
+    "Facu/Circuitos Electronicos I/TP 4/04 AO Realimentados topologías-1.pdf",
+    "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
+    "Facu/Circuitos Electronicos I/TP 2/02 Realimentacion Generalidades-1.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
+    "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf",
+    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
+    "Facu/medidas/Lab2/D8-2022-2.pdf",
+    "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
     "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
     "Facu/Control Automatico 2/consultas-control.md",
-    "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
     "Facu/Control Automatico 2/Notas Ogata.md",
-    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
     "Pasted image 20240415112754.png",
-    "Facu/medidas/Lab2/D8-2022-2.pdf",
     "Facu/medidas/Lab2/Medidas (clase 8).md",
     "Facu/Circuitos Electronicos I/Lab1/VIDAL_69854_INFORME_LAB_1.pdf",
-    "Facu/Circuitos Electronicos I/Lab1/VIDAL_69854.pdf",
     "Facu/medidas/Lab2/Medidas (clase 7).md",
-    "Facu/medidas/Lab2/D7-2022-1.pdf",
-    "Facu/medidas/Lab2/D6-2022-1.pdf",
     "d6.md",
     "Facu/medidas/Medidas.md",
     "Facu/medidas/Lab2/Medidas (clase 6).md",
@@ -180,8 +173,6 @@
     "Facu/medidas/Lab1/medidas 1.md",
     "Facu/medidas/Lab1/Medidas (clase 4).md",
     "Facu/medidas/Lab1/Medidas (clase 5).md",
-    "Facu/medidas/Lab1/D1-2022-1.pdf",
-    "Facu/medidas/Lab1",
     "Pasted image 20240413090750.png",
     "Pasted image 20240413090633.png",
     "Pasted image 20240413085707.png",
@@ -203,7 +194,6 @@
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 13.15.13_1.excalidraw.md"
+    "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md"
   ]
 }
