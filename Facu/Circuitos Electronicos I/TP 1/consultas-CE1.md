@@ -5,3 +5,9 @@
 
 
 3. En configuración cascode cómo hay mejor ancho de banda si la entrada sigue estando en el CE?
+
+4. Ventajas de la realimentación no me quedan claras
+
+5. No entiendo la variación relativa y absoluta (matematicamente)
+![[Pasted image 20240418205039.png]]
+![[Pasted image 20240418205027.png]]

@@ -20,37 +20,18 @@
             }
           },
           {
-            "id": "07bd55d22bf8671f",
+            "id": "33740f61922a756a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
-              }
-            }
-          },
-          {
-            "id": "f48999404c3f59a7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/Lab/Laboratorio 1 CAII v3.pdf"
-              }
-            }
-          },
-          {
-            "id": "09841cde202c9605",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf"
+                "file": "Facu/Control Automatico 2/Notas Ogata.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/Lab/Laboratorio 1 CAII v3.pdf",
+                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/Lab/Laboratorio 1 CAII v3.pdf",
+                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/Lab/Laboratorio 1 CAII v3.pdf"
+                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf"
               }
             }
           }
@@ -180,26 +161,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f48999404c3f59a7",
+  "active": "37d1623c8b2c792a",
   "lastOpenFiles": [
-    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
-    "Facu/Control Automatico 2/Lab/Laboratorio 1 CAII v3.pdf",
-    "Facu/Control Automatico 2/TP 4/TP 4 Notas.md",
-    "Facu/Control Automatico 2/Control Automático 2.md",
-    "Facu/Control Automatico 2/TP 3/TP3_CA2_2023.pdf",
-    "Facu/Control Automatico 2/TP 4",
-    "Facu/medidas/Lab2/D8-2022-2.pdf",
-    "Facu/medidas/Lab2/Gabinete-UT2-2022-v2.pdf",
-    "Facu/Control Automatico 2/consultas-control.md",
     "Facu/Control Automatico 2/Notas Ogata.md",
-    "Facu/Control Automatico 2/TP 2/TP2_CA2_2023.pdf",
+    "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
+    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
+    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
+    "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
+    "Pasted image 20240418205039.png",
+    "Pasted image 20240418205027.png",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/07 AO Modelos y Aplicaciones.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/06 Instrumentacion electronica.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/04 AO Realimentados topologías.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/02 Realimentacion Generalidades.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/01 Introducción a CE1.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
+    "Facu/Control Automatico 2/consultas-control.md",
     "Pasted image 20240415112754.png",
     "Facu/medidas/Lab2/Medidas (clase 8).md",
-    "Facu/Circuitos Electronicos I/Lab1/VIDAL_69854_INFORME_LAB_1.pdf",
-    "Facu/Circuitos Electronicos I/Lab1/VIDAL_69854.pdf",
     "Facu/medidas/Lab2/Medidas (clase 7).md",
-    "Facu/medidas/Lab2/D7-2022-1.pdf",
-    "Facu/medidas/Lab2/D6-2022-1.pdf",
     "d6.md",
     "Facu/medidas/Medidas.md",
     "Facu/medidas/Lab2/Medidas (clase 6).md",
@@ -213,10 +196,7 @@
     "Pasted image 20240413084056.png",
     "Pasted image 20240413082611.png",
     "Pasted image 20240411150915.png",
-    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Pasted image 20240407223459.png",
-    "Pasted image 20240407223211.png",
-    "Pasted image 20240407223138.png",
     "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
     "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
@@ -224,7 +204,6 @@
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
     "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
-    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
     "Excalidraw/CE1-TP1-EJ11.md",
     "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
     "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md"
