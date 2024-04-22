@@ -13,29 +13,19 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf"
+                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf"
               }
             }
           },
           {
-            "id": "d7499aaf9acd6e57",
+            "id": "33740f61922a756a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
+                "file": "Facu/Control Automatico 2/Notas Ogata.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1474483f56a04d87",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Circuitos Electronicos I/topologias_resumen.pdf"
               }
             }
           }
@@ -106,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
+                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
+                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf"
+                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf"
               }
             }
           }
@@ -171,10 +161,14 @@
   },
   "active": "37d1623c8b2c792a",
   "lastOpenFiles": [
+    "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
+    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
+    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
+    "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
     "Pasted image 20240418205039.png",
     "Pasted image 20240418205027.png",
-    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/07 AO Modelos y Aplicaciones.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/06 Instrumentacion electronica.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
@@ -182,11 +176,8 @@
     "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/02 Realimentacion Generalidades.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/01 Introducción a CE1.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1",
-    "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Facu/Control Automatico 2/consultas-control.md",
-    "Facu/Control Automatico 2/Notas Ogata.md",
     "Pasted image 20240415112754.png",
     "Facu/medidas/Lab2/Medidas (clase 8).md",
     "Facu/medidas/Lab2/Medidas (clase 7).md",
@@ -203,7 +194,6 @@
     "Pasted image 20240413084056.png",
     "Pasted image 20240413082611.png",
     "Pasted image 20240411150915.png",
-    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Pasted image 20240407223459.png",
     "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
     "Facu/Control Automatico 2/Control Automático 2.md",
