@@ -8,26 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37d1623c8b2c792a",
+            "id": "33740f61922a756a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Facu/Control Automatico 2/Control Automático 2.md",
+                "file": "Facu/Arquitectura de computadores/Marie.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "33740f61922a756a",
+            "id": "4ebd98cca3dbeb25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md",
-                "mode": "source",
-                "source": false
+                "file": "Facu/Arquitectura de computadores/Arquitectura 2022 Practica 1.pdf"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
+                "file": "Facu/Arquitectura de computadores/Marie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
+                "file": "Facu/Arquitectura de computadores/Marie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf"
+                "file": "Facu/Arquitectura de computadores/Marie.md"
               }
             }
           }
@@ -161,9 +159,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37d1623c8b2c792a",
+  "active": "33740f61922a756a",
   "lastOpenFiles": [
+    "Facu/Arquitectura de computadores/Arquitectura 2022 Practica 1.pdf",
+    "Facu/Arquitectura de computadores/Marie.md",
+    "Pasted image 20240422222316.png",
+    "Pasted image 20240422222102.png",
+    "Pasted image 20240422221945.png",
+    "Pasted image 20240422221114.png",
     "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+    "Facu/Control Automatico 2/TP 4/TP 4 Notas.md",
+    "Facu/Control Automatico 2/Control Automático 2.md",
     "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
     "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
     "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
@@ -176,8 +183,6 @@
     "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/04 AO Realimentados topologías.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/02 Realimentacion Generalidades.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/01 Introducción a CE1.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Facu/Control Automatico 2/consultas-control.md",
     "Pasted image 20240415112754.png",
@@ -193,10 +198,6 @@
     "Pasted image 20240413090750.png",
     "Pasted image 20240413090633.png",
     "Pasted image 20240413085707.png",
-    "Pasted image 20240413084056.png",
-    "Pasted image 20240413082611.png",
-    "Pasted image 20240411150915.png",
-    "Pasted image 20240407223459.png",
     "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
     "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
@@ -204,8 +205,6 @@
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
     "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
-    "Excalidraw/CE1-TP1-EJ11.md",
-    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md"
+    "Excalidraw/CE1-TP1-EJ11.md"
   ]
 }
