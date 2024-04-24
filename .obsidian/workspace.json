@@ -25,11 +25,12 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/Arquitectura de computadores/Arquitectura 2022 Practica 1.pdf"
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Arquitectura de computadores/Marie.md",
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Arquitectura de computadores/Marie.md",
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Arquitectura de computadores/Marie.md"
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf"
               }
             }
           }
@@ -159,10 +160,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33740f61922a756a",
+  "active": "4ebd98cca3dbeb25",
   "lastOpenFiles": [
     "Facu/Arquitectura de computadores/Arquitectura 2022 Practica 1.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
     "Facu/Arquitectura de computadores/Marie.md",
+    "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
+    "Facu/Arquitectura de computadores/MARIE/integrador.mas",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
+    "Facu/Arquitectura de computadores/MARIE",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/04 AO Realimentados topologías.pdf",
+    "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
+    "Facu/Arquitectura de computadores/RESUMEN_MARIE.pdf",
     "Pasted image 20240422222316.png",
     "Pasted image 20240422222102.png",
     "Pasted image 20240422221945.png",
@@ -173,16 +182,9 @@
     "Facu/Control Automatico 2/Control Automático 2.md",
     "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
     "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
-    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
     "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
-    "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
     "Pasted image 20240418205039.png",
     "Pasted image 20240418205027.png",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/07 AO Modelos y Aplicaciones.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/06 Instrumentacion electronica.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/04 AO Realimentados topologías.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Facu/Control Automatico 2/consultas-control.md",
     "Pasted image 20240415112754.png",
@@ -204,7 +206,6 @@
     "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
-    "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
-    "Excalidraw/CE1-TP1-EJ11.md"
+    "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md"
   ]
 }

@@ -1,0 +1,32 @@
+/ algoritmo de ordenamiento en marie
+/ nombre completo y número de alumno: tomás vidal (69854/4)
+/ algoritmo utilizado: bubble sorting
+/ ocupación de memoria de programa: ...
+/ ocupación de memoria de datos (sin incluir el vector): ...
+/ performance
+/ vector ordenado -3,-2,-1,0,1,2,3 : ... instrucciones
+/ vector invertido 3,2,1,0,-1,-2,-3 : ... instrucciones
+/ vector desordenado 0,-2,1,3,-1,2,-3 : ... instrucciones
+/ org 000 ->????
+
+jump ordenar
+
+/ vector de reset
+vector, dec 7
+dec -3
+dec -2
+dec -1
+dec 0
+dec 1
+dec 2
+dec 3
+
+/ largo del vector
+/ primer elemento del vector
+p1, dec 0
+p2, dec 0
+...
+/ variables y constantes
+/ nombrar adecuadamente y describir su utilización
+ordenar,...
+...
