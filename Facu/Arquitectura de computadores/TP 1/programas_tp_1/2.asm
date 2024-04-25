@@ -5,13 +5,20 @@
 / Por lo tanto la longitud de cadena de texto calculada al final no tiene en cuenta el CR
 / (que es como funciona comúnmente)
 
+/ La información la presenté de dos formas diferentes:
+/ Primero en el simulador de marie.js ponga el formato de UNICODE
+/ y verá como se imprime en pantalla la cadena de texto leída desde la memoria
+/ y luego ponga el modo DEC y el último número que se imprime corresponde al tamaño de 
+/ la cadena de texto.
+/ Iba a hacer que se imprima todo en ASCII, pero era ya demasiado complejo para el problema resuelto.
+
 / Comienza el programa
-ORG 100
+ORG 03E
 
 Loop,   LoadI StrPointer
 
         / print(Value(StrPointer))
-        / Output
+        Output
 
         / if (CurrChar == CR) terminar
         Subt CR
@@ -73,7 +80,7 @@ MyString,           DEC 72    / 'H'
                     DEC 114   / 'r'
                     DEC 97    / 'a'
                     DEC 13    / Carriage return (CR)
-StrPointer,         DEC 273   / El contador comienza al principio de MyString en memoria
+StrPointer,         HEX 50    / El contador comienza al principio de MyString en memoria
 CR,                 DEC 13
 Counter,            DEC 0
 One,                DEC 1
@@ -81,3 +88,4 @@ ASCII_NUMBERS,      DEC 30
 ASCII_SPACE,        DEC 32
 ASCII_LPARENT,      DEC 40
 ASCII_RPARENT,      DEC 41
+
