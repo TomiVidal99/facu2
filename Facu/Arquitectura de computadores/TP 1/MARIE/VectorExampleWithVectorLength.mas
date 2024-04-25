@@ -1,0 +1,33 @@
+ORG 100
+
+/ Comienza el codigo
+Load StartAddr
+Store Index
+Add VectorLength
+Store VectorLength
+LoadI Index
+Output
+Loop,	Load Index / Index++
+		Add  One
+		Store Index
+        
+        LoadI Index /Vector[Index]
+        Output
+        
+        Load Index
+        Subt VectorLength
+        Skipcond 400
+        Jump Loop
+Halt
+        
+/ Definición de constantes
+Index,		DEC	1
+Vector,		DEC 1
+			DEC 2
+            DEC 3
+            DEC 4
+            DEC 5
+            DEC 6
+VectorLength, DEC 5
+One,		DEC 1
+StartAddr,  DEC 273

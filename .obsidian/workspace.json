@@ -13,31 +13,24 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf"
+                "file": "Facu/Arquitectura de computadores/Marie.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "160ca23f54eed213",
+            "id": "4ebd98cca3dbeb25",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
-              }
-            }
-          },
-          {
-            "id": "44335112a5f5c3c6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf"
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf",
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf",
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf"
+                "file": "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf"
               }
             }
           }
@@ -167,25 +160,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33740f61922a756a",
+  "active": "4ebd98cca3dbeb25",
   "lastOpenFiles": [
-    "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
-    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
-    "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf",
-    "Facu/Control Automatico 2/Control Automático 2.md",
-    "Facu/Control Automatico 2/Notas Ogata.md",
-    "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
-    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
-    "Facu/Circuitos Electronicos I/TP 2/practica2-2023.pdf",
-    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
+    "Facu/Arquitectura de computadores/Arquitectura 2022 Practica 1.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
+    "Facu/Arquitectura de computadores/Marie.md",
     "Facu/Circuitos Electronicos I/topologias_resumen.pdf",
-    "Pasted image 20240418205039.png",
-    "Pasted image 20240418205027.png",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/07 AO Modelos y Aplicaciones.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/06 Instrumentacion electronica.pdf",
+    "Facu/Arquitectura de computadores/MARIE/integrador.mas",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
+    "Facu/Arquitectura de computadores/MARIE",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/04 AO Realimentados topologías.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
+    "Facu/Arquitectura de computadores/RESUMEN_MARIE.pdf",
+    "Pasted image 20240422222316.png",
+    "Pasted image 20240422222102.png",
+    "Pasted image 20240422221945.png",
+    "Pasted image 20240422221114.png",
+    "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+    "Facu/Control Automatico 2/TP 4/TP 4 Notas.md",
+    "Facu/Control Automatico 2/Control Automático 2.md",
+    "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
+    "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
+    "Facu/Circuitos Electronicos I/TP 1/consultas-CE1.md",
+    "Pasted image 20240418205039.png",
+    "Pasted image 20240418205027.png",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Facu/Control Automatico 2/consultas-control.md",
     "Pasted image 20240415112754.png",
@@ -201,19 +200,12 @@
     "Pasted image 20240413090750.png",
     "Pasted image 20240413090633.png",
     "Pasted image 20240413085707.png",
-    "Pasted image 20240413084056.png",
-    "Pasted image 20240413082611.png",
-    "Pasted image 20240411150915.png",
-    "Pasted image 20240407223459.png",
     "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
     "Facu/Circuitos Electronicos I/Lab1/Lab1CE1.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso Matrices.excalidraw.md",
     "Excalidraw/Laboratorio1-CE1.md",
     "Facu/Control Automatico 2/Repaso Algebra/Repaso matrices.md",
-    "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md",
-    "Excalidraw/CE1-TP1-EJ11.md",
-    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-13 20.15.53.excalidraw.md"
+    "Facu/Circuitos Electronicos I/TP 1/Laboratorio1-CE1.excalidraw.md"
   ]
 }
