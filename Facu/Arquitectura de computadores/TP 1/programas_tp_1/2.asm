@@ -13,7 +13,7 @@
 / Iba a hacer que se imprima todo en ASCII, pero era ya demasiado complejo para el problema resuelto.
 
 / Comienza el programa
-ORG 03E
+ORG 041
 
 Loop,   LoadI StrPointer
 
@@ -27,15 +27,8 @@ Loop,   LoadI StrPointer
 
 
         / Se muestra la cantidad de caracteres que tiene la cadena de texto
-        Load ASCII_SPACE
-        /Output
-        Load ASCII_LPARENT
-        /Output
         Load Counter
-        /Add ASCII_NUMBERS
         Output
-        Load ASCII_RPARENT
-        /Output
 
         Halt
 
@@ -80,12 +73,7 @@ MyString,           DEC 72    / 'H'
                     DEC 114   / 'r'
                     DEC 97    / 'a'
                     DEC 13    / Carriage return (CR)
-StrPointer,         HEX 50    / El contador comienza al principio de MyString en memoria
+StrPointer,         HEX 50    / El puntero al character actual comienza al principio de MyString en memoria
 CR,                 DEC 13
 Counter,            DEC 0
 One,                DEC 1
-ASCII_NUMBERS,      DEC 30
-ASCII_SPACE,        DEC 32
-ASCII_LPARENT,      DEC 40
-ASCII_RPARENT,      DEC 41
-
