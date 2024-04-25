@@ -8,26 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37d1623c8b2c792a",
+            "id": "33740f61922a756a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/Control Automático 2.md",
-                "mode": "source",
-                "source": false
+                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf"
               }
             }
           },
           {
-            "id": "33740f61922a756a",
+            "id": "160ca23f54eed213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Facu/Control Automatico 2/Notas Ogata.md",
-                "mode": "source",
-                "source": false
+                "file": "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf"
+              }
+            }
+          },
+          {
+            "id": "44335112a5f5c3c6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf"
               }
             }
           }
@@ -98,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
+                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
+                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf"
+                "file": "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf"
               }
             }
           }
@@ -161,8 +167,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37d1623c8b2c792a",
+  "active": "33740f61922a756a",
   "lastOpenFiles": [
+    "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
+    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+    "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf",
+    "Facu/Control Automatico 2/Control Automático 2.md",
     "Facu/Control Automatico 2/Notas Ogata.md",
     "Facu/Control Automatico 2/TP 4/Controlabilidad y observabilidad.pdf",
     "Facu/Control Automatico 2/TP 2/TP 2 Notas.md",
@@ -176,8 +186,6 @@
     "Facu/Circuitos Electronicos I/Filminas Mod 1/05 Circuitos Electrónicos Realimentados.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/04 AO Realimentados topologías.pdf",
     "Facu/Circuitos Electronicos I/Filminas Mod 1/03 Realimentacion topologías.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/02 Realimentacion Generalidades.pdf",
-    "Facu/Circuitos Electronicos I/Filminas Mod 1/01 Introducción a CE1.pdf",
     "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
     "Facu/Control Automatico 2/consultas-control.md",
     "Pasted image 20240415112754.png",
