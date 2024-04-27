@@ -5,6 +5,22 @@
 / Comienza el programa
 ORG 100
 
+/ Esto lo hago para no tener que estar accediendo
+/ indirectamente al dato, además la aprovecho para indexar el vector
+/ la substracción la hago para comparar si es menor
+LoadI DataLengthPtr
+Store DataLength
+
+/ if (DataLength <= 0) {exit}
+Skipcond 800
+Jump Terminate
+
+/ Condiciones iniciales, limpio la memoria, por si se quiere correr varias veces el codigo
+Load DataLengthPtr
+Store CurrDataPtr
+Load Zero
+Store Counter
+
           / *CurrDataPtr++
           / avanzo a la siguiente posición de memoria del vector de datos
 Loop,     Load CurrDataPtr
@@ -14,22 +30,21 @@ Loop,     Load CurrDataPtr
           / if (number < 0)
           / Counter++
           LoadI CurrDataPtr
+          Add One
           Skipcond 800
           Jump IncrementCounter
 
-          / Index++
-ReturnIncrementCounter, Load Index
-          Add  One
-          Store Index
+          / DataLength--
+ReturnIncrementCounter, Load DataLength
+          Subt One
+          Store DataLength
 
-          / do-while (Index < DataLength)
-          Subt DataLength
+          / do-while (DataLength > 0)
           Skipcond 400
           Jump Loop
 
-Load Counter
+Terminate, Load Counter
 Output
-
 Halt
 
 IncrementCounter, Load  Counter
@@ -39,13 +54,9 @@ IncrementCounter, Load  Counter
 
 
 / Constantes
-DataLength,         DEC 5  / Puntero al tamaño del vector de datos (esto ya estaría seteado en memoria)
-Data,               DEC 1  / este es el vector de datos (ya estaría seteado en memoria)
-                    DEC -1
-                    DEC -10
-                    DEC 8
-                    DEC 20
-CurrDataPtr,        DEC 276  / Puntero al dato actual del vector
+DataLengthPtr,      HEX 0010  / Puntero al tamaño del vector de datos (esto ya estaría seteado en memoria)
+CurrDataPtr,        HEX 0010  / Puntero al dato actual del vector, el loop comienza sumandole 1
 One,                DEC 1
+Zero,               DEC 0
 Counter,            DEC 0
-Index,              DEC 0
+DataLength,         DEC 0
