@@ -1,7 +1,6 @@
-/ Problema 3. Practica 1 Arquitectura de Computadoras
+/ Problema 4. Practica 1 Arquitectura de Computadoras
 / Nombre: Tomás Vidal (69854/4)
-/ El programa simplemente itera sobre el vector comparando si el numero es
-/ Ni<0 y si se cumple suma uno a un contador, al finalizar imprime el contador
+/ ??????????????????????????????
 
 / Comienza el programa
 ORG 100
