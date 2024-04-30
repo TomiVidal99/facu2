@@ -106,12 +106,9 @@ LoadTestData, Load  Index  / Index++
               Store Index
               Output
 
-              / Corroboro que no sea la ultima posición de memoria del vector
-              Load      MyVectorLength
-              StoreI    DataLengthPtr
-              Subt      Index
-              Skipcond  800
-              Jump      TestDataLoaded
+              / Cargar dato en la posición a[i]
+              LoadI     TempAddr
+              StoreI    DataPtr
 
               / Dirección del vector de datos mio
               / TempAddr++
@@ -119,15 +116,18 @@ LoadTestData, Load  Index  / Index++
               Add       One
               Store     TempAddr
 
-              / Cargar dato en la posición a[i]
-              LoadI     TempAddr
-              StoreI    DataPtr
-
               / Dirección del vector de datos 'dado'
               / DataPtr++
               Load      DataPtr
               Add       One
               Store     DataPtr
+
+              / Corroboro que no sea la ultima posición de memoria del vector
+              Load      MyVectorLength
+              StoreI    DataLengthPtr
+              Subt      Index
+              Skipcond  800
+              Jump      TestDataLoaded
 
               Jump      LoadTestData
 
@@ -158,7 +158,7 @@ TempAddr,         HEX 0001
 Index,            DEC 0
 One,              DEC 1
 Zero,             DEC 0
-TestDataAddr,     HEX 0142
+TestDataAddr,     HEX 0144
 
 / Testing Data
 MyVector,         DEC 0
