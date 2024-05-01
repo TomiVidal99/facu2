@@ -19,34 +19,40 @@
 / implementé el Terminate en vez de simplemente usar Halt, por si 
 / necesitaba o se desea ampliar a una funcion de clean up.
 
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Comienza el programa
 ORG 100
 
-/ Condiciones iniciales
-Jump LoadIntialConditions
+Jump LoadIntialConditions / Condiciones iniciales
 
-InitConditionsLoaded, Jump LoadTestData
-TestDataLoaded,       Jump Terminate
+InitConditionsLoaded, Jump  LoadTestData  / Cargo datos de prueba en la posición donde irían los datos
+
+/ Vuelvo a cargar las condiciones inciales
+TestDataLoaded,       Load  Zero / Index = 0
+                      Store Index
+
+                      Load    InitialDataAddr / DataPtr = 0x0002
+                      Store   DataPtr
+
+                      Load    TestDataAddr / TempAddr = TestDataAddr
+                      Store   TempAddr
+
+                      Jump    BubbleSort
 
 / TODO: corroborar condiciones inciales
 / *DataLengthPtr > 0?
 / Jump Terminate
 
 Jump BubbleSort
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Entry Point del algoritmo de ordenamiento
 / es un bucle 'while' que itera cada posición del vector de datos
 / y los va ordenando en la misma posición de memoria
 BubbleSort,   Load  Index  / Index++
               Add   One
               Store Index
-
-              / Corroboro que no sea la ultima posición de memoria del vector
-              / if (*DataLengthPtr <= Index) { return };
-              LoadI     DataLengthPtr
-              Subt      Index
-              Skipcond  800
-              Jump      Sorted
 
               / Almaceno temporalemente el dato
               / del valor actual: a[i]
@@ -67,7 +73,7 @@ BubbleSort,   Load  Index  / Index++
               / con el siguiente, es decir: a[i] > a[i+1] ? permutar() : continue
               LoadI DataPtr
               Subt  Temp
-              Skipcond 800 / if (a[i+1]-a[i] < 0) { permutar() } else { continue };
+              Skipcond 000 / if (a[i+1]-a[i] < 0) { permutar() } else { continue };
               Jump BubbleSort / continuar el loop
 
               / Ahora si, si se requiere a partir de
@@ -80,19 +86,29 @@ BubbleSort,   Load  Index  / Index++
               LoadI   Temp / Cargo en ACC a[i] que estaba en Temp
               StoreI  DataPtr / Se almacena en &a[i+1]
 
+              / Corroboro que no sea la ultima posición de memoria del vector
+              / if (*DataLengthPtr <= Index) { return };
+              LoadI     DataLengthPtr
+              Subt      Index
+              Skipcond  800
+              Jump      Sorted
+
+              / TODO: sacar esto?
               Jump BubbleSort / continuar el bucle
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Una vez que se termina el ordenamiento por Bubble Sort
 / se salta a esta subrutina que termina el programa
 Sorted,     Load    Index
             Output
             Jump    Terminate
 
-Terminate,  Load  One
-            Output
-            Halt
+Terminate,  Halt
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Esto es para mi básicamente, es para testear
 / Con esto genero datos en las posiciones de memoria
 / correspondientes para no tener que hacerlo manualmente
@@ -104,7 +120,6 @@ GenerateData, Load    MyVectorLength / Carga el tamaño del vector en memoria
 LoadTestData, Load  Index  / Index++
               Add   One
               Store Index
-              Output
 
               / Cargar dato en la posición a[i]
               LoadI     TempAddr
@@ -130,8 +145,10 @@ LoadTestData, Load  Index  / Index++
               Jump      TestDataLoaded
 
               Jump      LoadTestData
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Cargo las condiciones iniciales
 LoadIntialConditions,   Load    Zero  / Index = 0
                         Store   Index
@@ -143,11 +160,7 @@ LoadIntialConditions,   Load    Zero  / Index = 0
                         Store   TempAddr
 
                         Jump    InitConditionsLoaded
-
-
-/ Asignación de los valores de prueba para el vector de datos
-
-/ Algoritmo de ordenamiento
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 / Constantes
 DataLengthPtr,    HEX 0001
@@ -158,7 +171,7 @@ TempAddr,         HEX 0001
 Index,            DEC 0
 One,              DEC 1
 Zero,             DEC 0
-TestDataAddr,     HEX 0144
+TestDataAddr,     HEX 0147
 
 / Testing Data
 MyVector,         DEC 0
