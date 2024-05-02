@@ -25,83 +25,109 @@ ORG 100
 
 Jump LoadIntialConditions / Condiciones iniciales
 
-InitConditionsLoaded, Jump  LoadTestData  / Cargo datos de prueba en la posición donde irían los datos
+InitConditionsLoaded, Jump  GenerateData  / Cargo datos de prueba en la posición donde irían los datos
 
 / Vuelvo a cargar las condiciones inciales
-TestDataLoaded,       Load  Zero / Index = 0
-                      Store Index
+TestDataLoaded,       Load  Zero / iIndex = 0
+                      Store iIndex
 
                       Load    InitialDataAddr / DataPtr = 0x0002
                       Store   DataPtr
 
-                      Load    TestDataAddr / TempAddr = TestDataAddr
-                      Store   TempAddr
+                      Load    TestDataAddr / aJAddr = TestDataAddr
+                      Store   aJAddr
 
-                      Jump    BubbleSort
+                      Jump    BubbleSortInit
 
 / TODO: corroborar condiciones inciales
 / *DataLengthPtr > 0?
 / Jump Terminate
 
-Jump BubbleSort
+/ Jump BubbleSortInit
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Entry Point del algoritmo de ordenamiento
 / es un bucle 'while' que itera cada posición del vector de datos
 / y los va ordenando en la misma posición de memoria
-BubbleSort,   Load  Index  / Index++
-              Add   One
-              Store Index
+/ -> Esto replica tal cual el diagrama de flujo provisto
+BubbleSortInit, Load  Zero
+                Store iIndex / i = 0
+                Store jIndex / i = 0
 
-              / Almaceno temporalemente el dato
-              / del valor actual: a[i]
-              / y su posición de memoria: &a[i]
-              / Temp = *DataPtr
-              LoadI DataPtr
-              Store Temp
+                / i < n ?
+                / si -> ir a (j<n-i-1?)
+                / no -> terminar bucle
+StartILoop,     LoadI     DataLengthPtr
+                Subt      iIndex
+                Skipcond  800
+                Jump      SortEnded 
 
-              / TempAddr = &(*DataPtr)
-              Load  DataPtr
-              Store TempAddr
+                / j < n-i-1 ?
+                / si -> ver si permutar datos
+                / no -> i++
+AfterStartILoop,LoadI     DataLengthPtr
+                Subt      iIndex
+                Subt      One
+                Subt      jIndex
+                Skipcond  800
+                Jump      IncrementI
 
-              / Leo el siguiente dato: a[i+1]
-              Add   One
-              Store DataPtr
+                / Compruebo si se tienen que permutar los datos
+                / para eso debo guardo temporalemente el dato a[j]
+                / y la dirección de a[j] (&a[j])
+                Load      DataPtr
+                Add       jIndex
+                Store     aJAddr
 
-              / Veo si el dato actual requiere permutación
-              / con el siguiente, es decir: a[i] > a[i+1] ? permutar() : continue
-              LoadI DataPtr
-              Subt  Temp
-              Skipcond 000 / if (a[i+1]-a[i] < 0) { permutar() } else { continue };
-              Jump BubbleSort / continuar el loop
+                / incremento la dirección &a[j+1]
+                Add       One
+                Store     aJ1Addr
 
-              / Ahora si, si se requiere a partir de
-              / acá empieza a hacerse la permutación
-              / de a[i] con a[i+1]
+                / temp = a[j]
+                LoadI     aJAddr
+                Store     aJData
 
-              LoadI   DataPtr / Cargo en ACC el siguiente dato: a[i+1]
-              StoreI  TempAddr / se almacena en: &a[i]
+                / a[j] > a[j+1] ?
+                / si -> permutar
+                / no -> j++
+                LoadI     aJ1Addr     / a[j+1]
+                Subt      aJData      / a[j]
+                Skipcond  000
+                Jump      IncrementJ
 
-              LoadI   Temp / Cargo en ACC a[i] que estaba en Temp
-              StoreI  DataPtr / Se almacena en &a[i+1]
+                / Se permutan los datos
 
-              / Corroboro que no sea la ultima posición de memoria del vector
-              / if (*DataLengthPtr <= Index) { return };
-              LoadI     DataLengthPtr
-              Subt      Index
-              Skipcond  800
-              Jump      Sorted
+                / almaceno en &a[j] el dato de a[j+1]
+                LoadI     aJ1Addr
+                StoreI    aJAddr
 
-              / TODO: sacar esto?
-              Jump BubbleSort / continuar el bucle
+                / almaceno en &a[j+1] el dato temporal (antiguo a[j])
+                Load      aJData
+                StoreI    aJAddr
+
+                / j++
+IncrementJ,     Load      jIndex
+                Add       One
+                Store     jIndex
+
+                Jump      AfterStartILoop
+
+
+                / i++
+IncrementI,     Load  iIndex
+                Add   One
+                Store iIndex
+                Jump  StartILoop
+
+
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Una vez que se termina el ordenamiento por Bubble Sort
 / se salta a esta subrutina que termina el programa
-Sorted,     Load    Index
+SortEnded,  Load    iIndex
             Output
             Jump    Terminate
 
@@ -117,19 +143,19 @@ GenerateData, Load    MyVectorLength / Carga el tamaño del vector en memoria
               StoreI  DataLengthPtr
 
               / Cargo el vector en memoria
-LoadTestData, Load  Index  / Index++
+LoadTestData, Load  iIndex  / iIndex++
               Add   One
-              Store Index
+              Store iIndex
 
-              / Cargar dato en la posición a[i]
-              LoadI     TempAddr
+              / Cargar dato en la posición a[j]
+              LoadI     aJAddr
               StoreI    DataPtr
 
               / Dirección del vector de datos mio
-              / TempAddr++
-              Load      TempAddr
+              / &a[j]++
+              Load      aJAddr
               Add       One
-              Store     TempAddr
+              Store     aJAddr
 
               / Dirección del vector de datos 'dado'
               / DataPtr++
@@ -139,8 +165,7 @@ LoadTestData, Load  Index  / Index++
 
               / Corroboro que no sea la ultima posición de memoria del vector
               Load      MyVectorLength
-              StoreI    DataLengthPtr
-              Subt      Index
+              Subt      iIndex
               Skipcond  800
               Jump      TestDataLoaded
 
@@ -150,14 +175,14 @@ LoadTestData, Load  Index  / Index++
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Cargo las condiciones iniciales
-LoadIntialConditions,   Load    Zero  / Index = 0
-                        Store   Index
+LoadIntialConditions,   Load    Zero  / iIndex = 0
+                        Store   iIndex
 
                         Load    InitialDataAddr / DataPtr = 0x0002
                         Store   DataPtr
 
                         Load    TestDataAddr
-                        Store   TempAddr
+                        Store   aJAddr
 
                         Jump    InitConditionsLoaded
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -166,12 +191,16 @@ LoadIntialConditions,   Load    Zero  / Index = 0
 DataLengthPtr,    HEX 0001
 DataPtr,          HEX 0002
 InitialDataAddr,  HEX 0002
-Temp,             DEC 0
-TempAddr,         HEX 0001
-Index,            DEC 0
+aJ1Addr,          DEC 0
+aJ1Data,          DEC 0
+aJAddr,           DEC 0
+aJData,           DEC 0
+iIndex,           DEC 0
+jIndex,           DEC 0
 One,              DEC 1
 Zero,             DEC 0
-TestDataAddr,     HEX 0147
+TestDataAddr,     HEX 0157
+Neg,              DEC -1
 
 / Testing Data
 MyVector,         DEC 0
