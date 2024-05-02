@@ -63,6 +63,10 @@ StartILoop,     LoadI     DataLengthPtr
                 Skipcond  800
                 Jump      SortEnded 
 
+                / j = 0
+                Load      Zero
+                Store     jIndex
+
                 / j < n-i-1 ?
                 / si -> ver si permutar datos
                 / no -> i++
@@ -104,7 +108,7 @@ AfterStartILoop,LoadI     DataLengthPtr
 
                 / almaceno en &a[j+1] el dato temporal (antiguo a[j])
                 Load      aJData
-                StoreI    aJAddr
+                StoreI    aJ1Addr
 
                 / j++
 IncrementJ,     Load      jIndex
@@ -199,7 +203,7 @@ iIndex,           DEC 0
 jIndex,           DEC 0
 One,              DEC 1
 Zero,             DEC 0
-TestDataAddr,     HEX 0157
+TestDataAddr,     HEX 0159
 Neg,              DEC -1
 
 / Testing Data
