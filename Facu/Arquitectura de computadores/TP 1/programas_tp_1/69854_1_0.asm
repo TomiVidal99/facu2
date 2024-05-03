@@ -14,10 +14,9 @@
 / los datos.
 
 / Sobre el programa: el entry point sería BubbleSort.
-/ 
-/ TODO: conservar esto???
-/ implementé el Terminate en vez de simplemente usar Halt, por si 
-/ necesitaba o se desea ampliar a una funcion de clean up.
+
+/ TODO: corroborar condiciones inciales
+/ *DataLengthPtr > 0?
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Comienza el programa
@@ -31,19 +30,16 @@ InitConditionsLoaded, Jump  GenerateData  / Cargo datos de prueba en la posició
 TestDataLoaded,       Load  Zero / iIndex = 0
                       Store iIndex
 
-                      Load    InitialDataAddr / DataPtr = 0x0002
-                      Store   DataPtr
-
-                      Load    TestDataAddr / aJAddr = TestDataAddr
+                      / aJAddr = TestDataAddr
+                      Load    TestDataAddr
                       Store   aJAddr
 
-                      Jump    BubbleSortInit
+                      / DataPtr = DataPtrAddr
+                      Load    DataPtrAddr
+                      Store   DataPtr
 
-/ TODO: corroborar condiciones inciales
-/ *DataLengthPtr > 0?
-/ Jump Terminate
+                      Jump    DisplayVector
 
-/ Jump BubbleSortInit
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -54,6 +50,11 @@ TestDataLoaded,       Load  Zero / iIndex = 0
 BubbleSortInit, Load  Zero
                 Store iIndex / i = 0
                 Store jIndex / i = 0
+
+                / DisplayRtrnPath++
+                Load    DisplayRtrnPath
+                Add     One
+                Store   DisplayRtrnPath
 
                 / i < n ?
                 / si -> ir a (j<n-i-1?)
@@ -131,11 +132,9 @@ IncrementI,     Load  iIndex
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Una vez que se termina el ordenamiento por Bubble Sort
 / se salta a esta subrutina que termina el programa
-SortEnded,  Load    iIndex
-            Output
-            Jump    Terminate
+SortEnded,    Jump  DisplayVector
+AfterFinish,  Halt
 
-Terminate,  Halt
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -182,31 +181,68 @@ LoadTestData, Load  iIndex  / iIndex++
 LoadIntialConditions,   Load    Zero  / iIndex = 0
                         Store   iIndex
 
-                        Load    InitialDataAddr / DataPtr = 0x0002
-                        Store   DataPtr
-
                         Load    TestDataAddr
                         Store   aJAddr
 
                         Jump    InitConditionsLoaded
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+/ Muestro el vector resultante en la salida
+DisplayVector,          Load    Zero  / iIndex = 0
+                        Store   iIndex
+
+                        / print(a[i])
+iLoopDisplay,           Load    DataPtr
+                        Add     iIndex
+                        Store   aJAddr
+                        LoadI   aJAddr
+                        Output
+
+                        / i++
+                        Load    iIndex
+                        Add     One
+                        Store   iIndex
+
+                        / i < n ?
+                        LoadI   DataLengthPtr
+                        Subt    iIndex
+                        Skipcond 800
+                        Jump    FinishDisplayVector
+
+                        Jump    iLoopDisplay
+
+                        / verifico a donde debe ir cuando termine
+                        / el bucle
+                        / switch (DisplayRtrnPath) {
+                        /  case 0: Goto BubbleSortInit
+                        /  case 1: Goto AfterFinish
+                        / }
+FinishDisplayVector,    Load  DisplayRtrnPath
+                        Output
+                        Skipcond  400
+                        Jump  AfterFinish
+                        Jump  BubbleSortInit
+/ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
 / Constantes
-DataLengthPtr,    HEX 0001
+DataPtrAddr,      HEX 0002
+One,              DEC 1
+Zero,             DEC 0
+
+/ Variables
 DataPtr,          HEX 0002
-InitialDataAddr,  HEX 0002
+DataLengthPtr,    HEX 0001
 aJ1Addr,          DEC 0
-aJ1Data,          DEC 0
 aJAddr,           DEC 0
 aJData,           DEC 0
 iIndex,           DEC 0
 jIndex,           DEC 0
-One,              DEC 1
-Zero,             DEC 0
-TestDataAddr,     HEX 0159
-Neg,              DEC -1
+DisplayRtrnPath,  DEC 0
+LoadICRtrnPath,   DEC 0
 
-/ Testing Data
+/ Testing Data (constantes)
+TestDataAddr,     HEX 016C
 MyVector,         DEC 0
                   DEC -1
                   DEC 10
