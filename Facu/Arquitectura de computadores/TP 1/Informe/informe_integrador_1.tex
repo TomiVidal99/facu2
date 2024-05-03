@@ -94,6 +94,8 @@ fill=green!30]
   literate={ñ}{{\~n}}1
 }
 
+\usepackage{listings}
+
 % The following packages can be found on http:\\www.ctan.org
 %\usepackage{graphics} % for pdf, bitmapped graphics files
 %\usepackage{epsfig} % for postscript graphics files
@@ -142,12 +144,13 @@ fill=green!30]
 % TODO
 
 \section{Bubble Sort} \label{sec:bubble_sort}
-Para resolver el problema se empleó el algoritmo de \textbf{Bubble Sort}, debido a que cumple con los requerimientos, es simple, facil de implementar y, solo necesita un espacio extra de memoria. Aunque no todo es perfecto, este algoritmo implica un coste de media de $\textbf{O}(n^{2})$, en el mejor de los casos es $\textbf{O}(n)$, y en el peor nuevamente es $\textbf{O}(n^{2})$; esto quiere decir que si se tiene un vector con $n$ elementos, se tienen que realizar de media $n^{2}$ operaciones para ordenar este vector con este algoritmo.
+Para resolver el problema se empleó el algoritmo de \textbf{Bubble Sort}, debido a que cumple con los requerimientos, es simple, facil de implementar y, solo necesita un espacio extra de memoria. Aunque no todo es perfecto, este algoritmo implica un coste de media de $\textbf{O}(n^{2})$, en el mejor de los casos es $\textbf{O}(n)$, y en el peor nuevamente es $\textbf{O}(n^{2})$; esto quiere decir que si se tiene un vector con $n$ elementos, se tienen que realizar de media $n^{2}$ operaciones para ordenar este vector con el algoritmo.
 
 \subsection{Espacio extra de memoria}
-La variable \textbf{Temp}, en el código, es un espacio de memoria extra requerido (mencionado previamente en \ref{sec:bubble_sort}) que se emplea para almacenar temporalmente el dato del vector que está siendo comparado, ya que la idea del algoritmo es utilizar las mismas posiciones de memoria y no crear nuevas; por ejemplo: si se tiene el vector $[a_0, a_1, a_2]$, $a_0=1$, $a_1=-1$ y $a_2=10$ y se está ordenando $a_0$, entonces almaceno temporalmente $a_0$ y copio el valor de $a_1$ en la posición de memoria de $a_0$ (ya que quiero ordenar de menor a mayor), y luego copio el valor almacenado en la memoria temporal en la posición de memoria del dato $a_1$. Si no se hubiera empleado un espacio extra de memoria, no se hubiera podido recuperar el valor de $a_0$ para copiarlo en $a_1$.
+La variable \textbf{aJData} (con dirección de memoria \textbf{aJAddr}), en el código (\ref{sec:bubble_sort}), es un espacio de memoria extra requerido (mencionado previamente en \ref{sec:bubble_sort}) que se emplea para almacenar temporalmente el dato del vector que está siendo comparado, ya que la idea del algoritmo es utilizar las mismas posiciones de memoria y no crear nuevas; por ejemplo: si se tiene el vector $[a_0, a_1, a_2]$, $a_0=1$, $a_1=-1$ y $a_2=10$ y se está ordenando $a_0$, entonces almaceno temporalmente $a_0$ y copio el valor de $a_1$ en la posición de memoria de $a_0$ (ya que quiero ordenar de menor a mayor), y luego copio el valor almacenado en la memoria temporal en la posición de memoria del dato $a_1$. Si no se hubiera empleado un espacio extra de memoria, no se hubiera podido recuperar el valor de $a_0$ para copiarlo en $a_1$.
 
 \subsection{Algoritmo implementado}
+El algoritmo de Bubble Sort implementado se puede observar en el diagrama de flujo \ref{diag:flujo}, en el mismo se puede apreciar que hay dos bucles independientes (el de \textbf{i} y el de \textbf{j}), estos fueron creados en el código de \textit{Ensamblador} ``iterando'' las \textit{variables} de \textbf{iIndex} y \textbf{jIndex} (ver)
 \begin{figure}[htbp]
   \footnotesize
   \centering
@@ -172,10 +175,6 @@ La variable \textbf{Temp}, en el código, es un espacio de memoria extra requeri
 
   \node (swap) [process, below of=a_gtr_a1, yshift=-1.5cm] {permutar $ a[j] \leftrightarrow a[j+1]$};
 
-  % \node (pro2b) [process, right of=i_less_n, xshift=2cm] {Process 2b};
-  % \node (out1) [io, below of=j_less_n] {Output};
-  % \node (stop) [startstop, below of=out1] {Stop};
-
   \draw [arrow] (start) -- (initcond);
   \draw [arrow] (initcond) -- (def_i_j);
   \draw [arrow] (def_i_j) -- (i_less_n);
@@ -192,6 +191,8 @@ La variable \textbf{Temp}, en el código, es un espacio de memoria extra requeri
 
 \end{tikzpicture}
 \end{figure}
+
+\lstinputlisting[firstline=45, lastline=129, frame=L, basicstyle=\tiny, caption={Fragmento del código \textit{``69854\_1\_0.asm''}}, label={code:bubbleSort}]{../programas_tp_1/69854_1_0.asm} 
 
 % \begin{thebibliography}{99}
 

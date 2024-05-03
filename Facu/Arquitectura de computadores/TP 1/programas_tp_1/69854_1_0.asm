@@ -1,15 +1,15 @@
 / Proyecto Integrador. Practica 1 Arquitectura de Computadoras
-/ Nombre: Tomás Vidal (69854/4)
+/ Nombre: Tomas Vidal (69854/4)
 / Algoritmo utilizado: Bubble sort
-/ Ocupación de memoria de programa: ...
-/ Ocupación de memoria de datos (sin incluir el vector): ...
+/ Ocupacion de memoria de programa: ...
+/ Ocupacion de memoria de datos (sin incluir el vector): ...
 / Performance
 / Vector ordenado -3,-2,-1,0,1,2,3 : ... instrucciones
 / Vector invertido 3,2,1,0,-1,-2,-3 : ... instrucciones
 / Vector desordenado 0,-2,1,3,-1,2,-3 : ... instrucciones
 
 / El algoritmo es muy sencillo, simplemente veo si el numero actual es menor o mayor que 
-/ el siguiente y en base a eso los intercambio de posición o no. Por esto  es que solamente
+/ el siguiente y en base a eso los intercambio de posicion o no. Por esto  es que solamente
 / require un espacio extra de memoria, ya que necesito un lugar donde almacenar temporalemente
 / los datos.
 
@@ -24,7 +24,7 @@ ORG 100
 
 Jump LoadIntialConditions / Condiciones iniciales
 
-InitConditionsLoaded, Jump  GenerateData  / Cargo datos de prueba en la posición donde irían los datos
+InitConditionsLoaded, Jump  GenerateData  / Cargo datos de prueba en la posicion donde irían los datos
 
 / Vuelvo a cargar las condiciones inciales
 TestDataLoaded,       Load  Zero / iIndex = 0
@@ -44,8 +44,8 @@ TestDataLoaded,       Load  Zero / iIndex = 0
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Entry Point del algoritmo de ordenamiento
-/ es un bucle 'while' que itera cada posición del vector de datos
-/ y los va ordenando en la misma posición de memoria
+/ es un bucle 'while' que itera cada posicion del vector de datos
+/ y los va ordenando en la misma posicion de memoria
 / -> Esto replica tal cual el diagrama de flujo provisto
 BubbleSortInit, Load  Zero
                 Store iIndex / i = 0
@@ -80,12 +80,12 @@ AfterStartILoop,LoadI     DataLengthPtr
 
                 / Compruebo si se tienen que permutar los datos
                 / para eso debo guardo temporalemente el dato a[j]
-                / y la dirección de a[j] (&a[j])
+                / y la direccion de a[j] (&a[j])
                 Load      DataPtr
                 Add       jIndex
                 Store     aJAddr
 
-                / incremento la dirección &a[j+1]
+                / incremento la direccion &a[j+1]
                 Add       One
                 Store     aJ1Addr
 
@@ -138,7 +138,7 @@ AfterFinish,  Halt
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-/ Esto es para mi básicamente, es para testear
+/ Esto es para mi basicamente, es para testear
 / Con esto genero datos en las posiciones de memoria
 / correspondientes para no tener que hacerlo manualmente
 / en 'marie.js'
@@ -150,23 +150,23 @@ LoadTestData, Load  iIndex  / iIndex++
               Add   One
               Store iIndex
 
-              / Cargar dato en la posición a[j]
+              / Cargar dato en la posicion a[j]
               LoadI     aJAddr
               StoreI    DataPtr
 
-              / Dirección del vector de datos mio
+              / Direccion del vector de datos mio
               / &a[j]++
               Load      aJAddr
               Add       One
               Store     aJAddr
 
-              / Dirección del vector de datos 'dado'
+              / Direccion del vector de datos 'dado'
               / DataPtr++
               Load      DataPtr
               Add       One
               Store     DataPtr
 
-              / Corroboro que no sea la ultima posición de memoria del vector
+              / Corroboro que no sea la ultima posicion de memoria del vector
               Load      MyVectorLength
               Subt      iIndex
               Skipcond  800
