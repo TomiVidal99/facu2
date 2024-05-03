@@ -15,8 +15,8 @@
 
 / Sobre el programa: el entry point sería BubbleSort.
 
-/ TODO: corroborar condiciones inciales
-/ *DataLengthPtr > 0?
+/ Arreglos posibles: 
+/ corroborar condiciones inciales: *DataLengthPtr > 0 ?
 
 / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 / Comienza el programa

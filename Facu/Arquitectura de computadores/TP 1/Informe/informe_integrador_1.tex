@@ -38,6 +38,14 @@ minimum width=6em,
 minimum height=2em, text centered, 
 draw=black, fill=blue!30]
 
+\tikzstyle{block} = [rectangle, 
+minimum width=8em, 
+minimum height=3em, 
+text centered, 
+text width=7.5em, 
+draw=black, 
+fill=white!30]
+
 \tikzstyle{def} = [rectangle, 
 minimum width=14em, 
 minimum height=3em, 
@@ -45,6 +53,14 @@ text centered,
 text width=12em, 
 draw=black, 
 fill=purple!30]
+
+\tikzstyle{swap_proccess} = [rectangle, 
+minimum width=8em, 
+minimum height=2em, 
+text centered, 
+text width=8em, 
+draw=black, 
+fill=orange!30]
 
 \tikzstyle{process} = [rectangle, 
 minimum width=6em, 
@@ -143,19 +159,46 @@ fill=green!30]
 %\section{INTRODUCCCI\'ON}
 % TODO
 
-\section{Bubble Sort} \label{sec:bubble_sort}
+\section{Algoritmo elegido} \label{sec:bubble_sort}
 Para resolver el problema se empleó el algoritmo de \textbf{Bubble Sort}, debido a que cumple con los requerimientos, es simple, facil de implementar y, solo necesita un espacio extra de memoria. Aunque no todo es perfecto, este algoritmo implica un coste de media de $\textbf{O}(n^{2})$, en el mejor de los casos es $\textbf{O}(n)$, y en el peor nuevamente es $\textbf{O}(n^{2})$; esto quiere decir que si se tiene un vector con $n$ elementos, se tienen que realizar de media $n^{2}$ operaciones para ordenar este vector con el algoritmo.
 
-\subsection{Espacio extra de memoria}
-La variable \textbf{aJData} (con dirección de memoria \textbf{aJAddr}), en el código (\ref{sec:bubble_sort}), es un espacio de memoria extra requerido (mencionado previamente en \ref{sec:bubble_sort}) que se emplea para almacenar temporalmente el dato del vector que está siendo comparado, ya que la idea del algoritmo es utilizar las mismas posiciones de memoria y no crear nuevas; por ejemplo: si se tiene el vector $[a_0, a_1, a_2]$, $a_0=1$, $a_1=-1$ y $a_2=10$ y se está ordenando $a_0$, entonces almaceno temporalmente $a_0$ y copio el valor de $a_1$ en la posición de memoria de $a_0$ (ya que quiero ordenar de menor a mayor), y luego copio el valor almacenado en la memoria temporal en la posición de memoria del dato $a_1$. Si no se hubiera empleado un espacio extra de memoria, no se hubiera podido recuperar el valor de $a_0$ para copiarlo en $a_1$.
+\subsection{Lógica del programa}
+La implmentación del algoritmo \ref{diag:flujo} en sí se realizó en la subrutina \ref{sec:bubble_sort}, el resto del código se enfoca en cargar los datos de prueba y adecuar las posiciones de memoria especificadas correctamente. La extensión del código se debe a su \textit{alta organización}, \textit{documentación} y \textit{buenas prácticas generales}, porque de otra manera el algoritmo por sí solo no hubiera llevado tanto. \\
+\indent A continuación se presenta un diagrama que explica mejor el flujo general del programa.
+\begin{figure}[H]
+  \tiny
+  \centering
+  \label{diag:flujo_general}
+  \vspace{1cm}
+  \begin{tikzpicture}[node distance=2cm]
+
+  \node (start) [block] {Comienzo};
+  \node (ic1) [block, right of=start] {Cargar condiciones iniciales};
+  \node (test_data) [block, right of=ic1] {Cargar vector de prueba y su longitud};
+  \node (ic2) [block, right of=test_data] {Cargar condiciones iniciales};
+  \node (print1) [block, below of=ic2] {Mostrar vector en la salida};
+  \node (sort) [block, left of=print1] {Ordenar el vector de menor a mayor};
+  \node (print2) [block, left of=sort] {Mostrar vector en la salida};
+  \node (end) [block, left of=print2] {Fin};
+
+  \draw [arrow] (start) -- (ic1);
+  \draw [arrow] (ic1) -- (test_data);
+  \draw [arrow] (test_data) -- (ic2);
+  \draw [arrow] (ic2) -- (print1);
+  \draw [arrow] (print1) -- (sort);
+  \draw [arrow] (sort) -- (print2);
+  \draw [arrow] (print2) -- (end);
+
+\end{tikzpicture}
+\end{figure}
 
 \subsection{Algoritmo implementado}
-El algoritmo de Bubble Sort implementado se puede observar en el diagrama de flujo \ref{diag:flujo}, en el mismo se puede apreciar que hay dos bucles independientes (el de \textbf{i} y el de \textbf{j}), estos fueron creados en el código de \textit{Ensamblador} ``iterando'' las \textit{variables} de \textbf{iIndex} y \textbf{jIndex} (ver)
+El algoritmo de Bubble Sort implementado se hizo a partir del diagrama de flujo \ref{diag:flujo}, en el código de se puede apreciar que se documenta cada parte acorde a este diagrama. De todas formas se hará una breve explicación del mismo. La subrutina consiste básicamente en dos bucles (\textit{iIndex} y \textit{jIndex}) que basados en ciertas condiciones hacen cambiar el dato contenido en la posición de memoria: \textbf{0x0002 + j}, es decir $a[j]$, con el valor de $a[j+1]$. La condición justamente sería que si $a[j]$ es mayor que $a[j+1]$ (el valor anterior es mayor que el posterior) hay que hacer la permutación de los datos, para lo cual se debe almacenar temporalmente uno de los datos mientras se hace dicha permutación (en el código: \textit{aJAddr} y \textit{aJData}), una vez que se concreta el recorrido del bucle de \textit{iIndex} (que es el que contiene a \textit{jIndex}) se da por finalizada la organización del vector y se sale de esta subrutina. También cabe aclarar que esta subrutina tiene al comienzo una sección en al que se indican condiciones inciales.
 \begin{figure}[htbp]
   \footnotesize
   \centering
   \label{diag:flujo}
-  \caption{Diagrama de flujo}
+  \caption{Diagrama de flujo de Bubble Sort}
   \vspace{1cm}
   \begin{tikzpicture}[node distance=1.25cm]
 
@@ -173,7 +216,7 @@ El algoritmo de Bubble Sort implementado se puede observar en el diagrama de flu
   \node (a_gtr_a1) [decision, below of=j_less_n, yshift=-1.75cm] {$a[j]>a[j+1]$};
   \node (inc_j) [process, right of=a_gtr_a1, xshift=1.5cm] {$j = j+1$};
 
-  \node (swap) [process, below of=a_gtr_a1, yshift=-1.5cm] {permutar $ a[j] \leftrightarrow a[j+1]$};
+  \node (swap) [swap_proccess, below of=a_gtr_a1, yshift=-1.5cm] {permutar $ a[j] \leftrightarrow a[j+1]$};
 
   \draw [arrow] (start) -- (initcond);
   \draw [arrow] (initcond) -- (def_i_j);
