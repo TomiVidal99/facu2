@@ -219,7 +219,6 @@ iLoopDisplay,           Load    DataPtr
                         /  case 1: Goto AfterFinish
                         / }
 FinishDisplayVector,    Load  DisplayRtrnPath
-                        Output
                         Skipcond  400
                         Jump  AfterFinish
                         Jump  BubbleSortInit
@@ -242,13 +241,12 @@ DisplayRtrnPath,  DEC 0
 LoadICRtrnPath,   DEC 0
 
 / Testing Data (constantes)
-TestDataAddr,     HEX 016C
-MyVector,         DEC 0
+TestDataAddr,     HEX 016B
+MyVector,         DEC -3
+                  DEC -2
                   DEC -1
-                  DEC 10
-                  DEC -50
+                  DEC 0
+                  DEC 1
+                  DEC 2
                   DEC 3
-                  DEC 33
-                  DEC 100
-                  DEC -20
-MyVectorLength,   DEC 8
+MyVectorLength,   DEC 7

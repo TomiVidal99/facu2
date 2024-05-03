@@ -24,8 +24,8 @@
 
 % Elementos del diagrama
 \tikzstyle{startstop} = [rectangle, rounded corners, 
-minimum width=3cm, 
-minimum height=1cm,
+minimum width=6em, 
+minimum height=2em,
 text centered, 
 draw=black, 
 fill=red!30]
@@ -34,21 +34,29 @@ fill=red!30]
 trapezium stretches=true, % A later addition
 trapezium left angle=70, 
 trapezium right angle=110, 
-minimum width=3cm, 
-minimum height=1cm, text centered, 
+minimum width=6em, 
+minimum height=2em, text centered, 
 draw=black, fill=blue!30]
 
-\tikzstyle{process} = [rectangle, 
-minimum width=3cm, 
-minimum height=1cm, 
+\tikzstyle{def} = [rectangle, 
+minimum width=14em, 
+minimum height=3em, 
 text centered, 
-text width=3cm, 
+text width=12em, 
+draw=black, 
+fill=purple!30]
+
+\tikzstyle{process} = [rectangle, 
+minimum width=6em, 
+minimum height=2em, 
+text centered, 
+text width=6em, 
 draw=black, 
 fill=orange!30]
 
 \tikzstyle{decision} = [diamond, 
-minimum width=3cm, 
-minimum height=1cm, 
+minimum width=6em, 
+minimum height=6em, 
 text centered, 
 draw=black, 
 fill=green!30]
@@ -141,18 +149,28 @@ La variable \textbf{Temp}, en el código, es un espacio de memoria extra requeri
 
 \subsection{Algoritmo implementado}
 \begin{figure}[htbp]
+  \footnotesize
   \centering
   \label{diag:flujo}
   \caption{Diagrama de flujo}
   \vspace{1cm}
-\begin{tikzpicture}[node distance=2cm]
+  \begin{tikzpicture}[node distance=1.25cm]
 
   \node (start) [startstop] {Comienzo};
-  \node (initcond) [process, below of=start] {a = $<a_0, a_1, \dots, a_n>$};
-  \node (def_i_j) [process, below of=initcond] {i=0; j=0};
+  \node (initcond) [def, below of=start] {a = $<a_0, a_1, \dots, a_n>$};
+  \node (def_i_j) [def, below of=initcond] {i=0; j=0};
+
   \node (i_less_n) [decision, below of=def_i_j, yshift=-0.5cm] {$i<n$};
-  \node (j_less_n) [decision, below of=i_less_n, yshift=-0.5cm] {$j<n-i-1$};
-  \node (a_gtr_a1) [decision, below of=j_less_n, yshift=-1.5cm] {$a[j]>a[j+1]$};
+  \node (print_arr) [process, right of=i_less_n, xshift=2.75cm] {Imprimir arreglo};
+  \node (end) [startstop, below of=print_arr, yshift=-0.25cm] {Terminar};
+
+  \node (j_less_n) [decision, below of=i_less_n, yshift=-1.5cm] {$j<n-i-1$};
+  \node (inc_i) [process, left of=j_less_n, xshift=-1.4cm, yshift=1.75cm] {$i = i+1$};
+
+  \node (a_gtr_a1) [decision, below of=j_less_n, yshift=-1.75cm] {$a[j]>a[j+1]$};
+  \node (inc_j) [process, right of=a_gtr_a1, xshift=1.5cm] {$j = j+1$};
+
+  \node (swap) [process, below of=a_gtr_a1, yshift=-1.5cm] {permutar $ a[j] \leftrightarrow a[j+1]$};
 
   % \node (pro2b) [process, right of=i_less_n, xshift=2cm] {Process 2b};
   % \node (out1) [io, below of=j_less_n] {Output};
@@ -160,13 +178,17 @@ La variable \textbf{Temp}, en el código, es un espacio de memoria extra requeri
 
   \draw [arrow] (start) -- (initcond);
   \draw [arrow] (initcond) -- (def_i_j);
-  %\draw [arrow] (def_i_j) -- (pro1);
-  %\draw [arrow] (pro1) -- (dec1);
-  %\draw [arrow] (dec1) -- node[anchor=east] {yes} (pro2a);
-  %\draw [arrow] (dec1) -- node[anchor=south] {no} (pro2b);
-  %\draw [arrow] (pro2b) |- (pro1);
-  %\draw [arrow] (pro2a) -- (out1);
-  %\draw [arrow] (out1) -- (stop);
+  \draw [arrow] (def_i_j) -- (i_less_n);
+  \draw [arrow] (i_less_n) -- node[anchor=south] {no} (print_arr);
+  \draw [arrow] (print_arr) -- (end);
+  \draw [arrow] (i_less_n) -- node[anchor=west] {yes} (j_less_n);
+  \draw [arrow] (j_less_n) -| node[anchor=south, xshift=1cm] {no} (inc_i);
+  \draw [arrow] (j_less_n) -- node[anchor=west] {yes} (a_gtr_a1);
+  \draw [arrow] (inc_i.north) |- (i_less_n.west);
+  \draw [arrow] (a_gtr_a1) -- node[anchor=west] {yes} (swap);
+  \draw [arrow] (a_gtr_a1) -- node[anchor=south] {no} (inc_j);
+  \draw [arrow] (swap) -| (inc_j);
+  \draw [arrow] (inc_j.north) |- (j_less_n.north);
 
 \end{tikzpicture}
 \end{figure}
