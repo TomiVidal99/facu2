@@ -20,7 +20,10 @@
 
 % Para los diagramas de flujo
 \usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{positioning}
+
+% colores!
+\usepackage{xcolor}
 
 % Elementos del diagrama
 \tikzstyle{startstop} = [rectangle, rounded corners, 
@@ -177,115 +180,87 @@ En el diagrama \ref{fig:diag_elect_esq} se pueden identificar diferentes bloques
   \label{fig:diag_elec_esq_etapas}
 \end{figure}
 
-%\subsection{Lógica del programa}
-%La implmentación del algoritmo de la figura \ref{diag:flujo} en sí se realizó en la subrutina de la figura \ref{code:bubble_sort}, el resto del código se enfoca en cargar los datos de prueba y adecuar las posiciones de memoria especificadas correctamente. La extensión del código se debe a su \textit{alta organización}, \textit{documentación} y \textit{buenas prácticas generales}, porque de otra manera el algoritmo por sí solo no hubiera llevado tantas líneas. El siguiente diagrama explica mejor el flujo general del programa.
-%\begin{figure}[H]
-%  \tiny
-%  \centering
-%  \label{diag:bloques_gen}
-%  \begin{tikzpicture}[node distance=2cm]
-%
-%  \node (start) [block] {Comienzo};
-%  \node (ic1) [block, right of=start] {Cargar condiciones iniciales};
-%  \node (test_data) [block, right of=ic1] {Cargar vector de prueba y su longitud};
-%  \node (ic2) [block, right of=test_data] {Cargar condiciones iniciales};
-%  \node (print1) [block, below of=ic2] {Mostrar vector en la salida};
-%  \node (sort) [block, left of=print1] {Ordenar el vector de menor a mayor};
-%  \node (print2) [block, left of=sort] {Mostrar vector en la salida};
-%  \node (end) [block, left of=print2] {Fin};
-%
-%  \draw [arrow] (start) -- (ic1);
-%  \draw [arrow] (ic1) -- (test_data);
-%  \draw [arrow] (test_data) -- (ic2);
-%  \draw [arrow] (ic2) -- (print1);
-%  \draw [arrow] (print1) -- (sort);
-%  \draw [arrow] (sort) -- (print2);
-%  \draw [arrow] (print2) -- (end);
-%
-%\end{tikzpicture}
-%\end{figure}
-%Como se puede observar se cargan dos veces las condiciones iniciales (es una forma de decirle a los valores que toman las variables inicialmente), esto se debe a que el primer \textit{seteo} es por si se quiere reiniciar el programa sin tener que reensamblar el código, y la segunda condición es debido a que al principio se cargan los datos del vector de prueba en la posición de memoria correcta, y para esto se reutilizan variables empleadas posteriormente en el algoritmo de organización del vector de datos, por lo que se requiere un reestablecimiento de los valores inciales de las mismas.
-%
-%\subsection{Algoritmo implementado}
-%El algoritmo de Bubble Sort implementado se hizo a partir del diagrama de flujo \ref{diag:flujo}, en el código de se puede apreciar que se documenta cada parte acorde a este diagrama. De todas formas se hará una breve explicación del mismo. La subrutina consiste básicamente en dos bucles (\textit{iIndex} y \textit{jIndex}) que basados en ciertas condiciones hacen cambiar el dato contenido en la posición de memoria: \textbf{0x0002 + j}, es decir $a[j]$, con el valor de $a[j+1]$. La condición justamente sería que si $a[j]$ es mayor que $a[j+1]$ (el valor anterior es mayor que el posterior) hay que hacer la permutación de los datos, para lo cual se debe almacenar temporalmente uno de los datos mientras se hace dicha permutación (en el código: \textit{aJAddr} y \textit{aJData}), una vez que se concreta el recorrido del bucle de \textit{iIndex} (que es el que contiene a \textit{jIndex}) se da por finalizada la organización del vector y se sale de esta subrutina. También cabe aclarar que esta subrutina tiene al comienzo una sección en la que se indican condiciones inciales.
-%\begin{figure}[H]
-%  \footnotesize
-%  % \centering
-%  \begin{tikzpicture}[node distance=1.1cm]
-%
-%    \node (start) [startstop] {Comienzo};
-%    \node (initcond) [def, below of=start] {a = $<a_0, a_1, \dots, a_n>$};
-%    \node (def_i_j) [def, below of=initcond] {i=0; j=0};
-%
-%    \node (i_less_n) [decision, below of=def_i_j, yshift=-0.5cm] {$i<n$};
-%    \node (print_arr) [process, right of=i_less_n, xshift=2.75cm] {Imprimir arreglo};
-%    \node (end) [startstop, below of=print_arr, yshift=-0.25cm] {Terminar};
-%
-%    \node (j_less_n) [decision, below of=i_less_n, yshift=-1.5cm] {$j<n-i-1$};
-%    \node (inc_i) [process, left of=j_less_n, xshift=-1.4cm, yshift=1.75cm] {$i = i+1$};
-%
-%    \node (a_gtr_a1) [decision, below of=j_less_n, yshift=-1.75cm] {$a[j]>a[j+1]$};
-%    \node (inc_j) [process, right of=a_gtr_a1, xshift=1.5cm] {$j = j+1$};
-%
-%    \node (swap) [swap_proccess, below of=a_gtr_a1, yshift=-1cm] {permutar $ a[j] \leftrightarrow a[j+1]$};
-%
-%    \draw [arrow] (start) -- (initcond);
-%    \draw [arrow] (initcond) -- (def_i_j);
-%    \draw [arrow] (def_i_j) -- (i_less_n);
-%    \draw [arrow] (i_less_n) -- node[anchor=south] {no} (print_arr);
-%    \draw [arrow] (print_arr) -- (end);
-%    \draw [arrow] (i_less_n) -- node[anchor=west] {si} (j_less_n);
-%    \draw [arrow] (j_less_n) -| node[anchor=south, xshift=1cm] {no} (inc_i);
-%    \draw [arrow] (j_less_n) -- node[anchor=west] {si} (a_gtr_a1);
-%    \draw [arrow] (inc_i.north) |- (i_less_n.west);
-%    \draw [arrow] (a_gtr_a1) -- node[anchor=west] {si} (swap);
-%    \draw [arrow] (a_gtr_a1) -- node[anchor=south] {no} (inc_j);
-%    \draw [arrow] (swap) -| (inc_j);
-%    \draw [arrow] (inc_j.north) |- (j_less_n.north);
-%
-%  \end{tikzpicture}
-%  \caption{Diagrama de flujo de Bubble Sort}
-%  \label{diag:flujo}
-%\end{figure}
-%
-%\begin{figure}
-%  \lstinputlisting[breaklines=false, firstline=45, lastline=129, frame=L, basicstyle=\tiny, caption={Fragmento del código \textit{``69854\_1\_0.asm''}}, label={code:bubbleSort}]{../programas_tp_1/69854_1_0.asm}
-%  \caption{Segmento del código que contiene la subrutina de ordenamiento}
-%  \label{code:bubble_sort}
-%\end{figure}
-%
-%\subsection{Memoria ocupada}
-%Para poder funcionar, el programa ocupa 122 instrucciones en total, contenidas en las direcciones \textbf{0x0100} hasta \textbf{0x0179} (en hexadecimal); de las cuales 9 son empleadas para variables (memoria de datos).
-%
-%\section{Resultados de instrucciones}
-%Para analizar el rendimiento o eficacia del programa una metrica que se puede emplear es la cantidad de instrucciones que le lleva al programa efectuar la organización de los datos, y esta misma es la forma en que se midió el rendimiento. Como se explicó previamente en la sección \ref{sec:bubble_sort} se espera que la cantidad de instrucciones para cada vector sea aproximadamente la misma, independientemente de los datos de los vectores \textit{(suponiendo vectores de mismas dimensiones)}, aunque primero se analizará como son los resultados relativos. Imaginemos que tenemos un vector ya \textbf{ordenado}, entonces nunca se entraría en el bucle de permutar los datos, por lo cual este sería el caso con menos instrucciones. Ahora si imaginamos un vector con todos los datos desordenados (vector \textbf{invertido}), es decir que habría que permutarlos a todos, en este caso se ejecutarían la máxima cantidad de instrucciones, por lo que sería el caso con más instrucciones. Y por último (caso más típico) si tenemos un vector con sólo algunos datos ordenados (vector \textbf{desordenado}), llevaría más instrucciones que el primer caso, pero menos que el segundo. Y esto mismo ocurrió en el resultado de la tabla \ref{tab:instrucciones}.
-%
-%\begin{table}[H]
-%  \centering
-%  \begin{tabular}{|l|l|l|l|}
-%    \hline
-%                  & Ordenado & Desordenado & Invertido \\ \hline
-%    Solo ordenamiento & 534      & 567         & 597       \\ \hline
-%    Programa entero   & 853      & 886         & 916       \\ \hline
-%  \end{tabular}
-%  \caption{Instrucciones para organizar cada vector}
-%  \label{tab:instrucciones}
-%\end{table}
-%
-%Los vectores empleados para realizar la tabla \ref{tab:instrucciones} son los siguientes:
-%
-%\begin{table}[H]
-%  \centering
-%  \begin{tabular}{|l|l|l|}
-%    \hline
-%    Ordenado                                & Desordenado                             & Invertido                               \\ \hline
-%    \textless-3,-2,-1,0,1,2,3\textgreater   & \textless0,-2,1,3,-1,2,-3\textgreater   & \textless3,2,1,0,-1,-2,-3\textgreater   \\ \hline
-%  \end{tabular}
-%  \caption{Vectores empleados para en análisis}
-%  \label{tab:vectores}
-%\end{table}
-%
-%\section{Conclusiones}
-%Se concluye que el algoritmo funciona como se esperaba, y que la ventaja del mismo es que no depende tanto de los datos, sino que lo hace más de su dimensión. Además se debe tener en cuenta que si bien la dimensión de los vectores es $7$ y que las instrucciones medidas fueron de media $566$ (es decir que uno esperaría que fueran $7^{2}$) no significa que esté mal, sino que es el conjunto de instrucciones que permutan los datos, los que son ejecutados $49$ veces, y que en la arquitectura MARIE se está limitado a hacer ciertas tareas básicas, como alojar datos en una variable o redirijir el flujo del programa, con varias instrucciones, por esto mismo es que le lleva tantos ciclos de reloj a la arquitectura completar la tarea.
+Además se pueden identificar tres bloques principales que están compuestos por los previos. Los mismos se pueden identificar en \ref{fig:diag_elec_esq_bloques_principales} y corresponden a:
+\begin{itemize}
+  \item \textbf{S:} Bloque de control.
+  \item \textbf{H:} Bloque de lo que simula ser el sistema o la computadora analógica.
+  \item \textbf{I:} Bloque de compensación o de corrección de errores.
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.43\textwidth]{./Imagenes/DiagElecEsquematicoBloquesPrincipales.png}
+  \caption{Bloques principales del diagrama \ref{fig:diag_elect_esq}}
+  \label{fig:diag_elec_esq_bloques_principales}
+\end{figure}
+
+\subsection{Transferencias de los bloques}
+
+\begin{itemize}
+  \item Sistema
+    \begin{equation} \label{eq:trans_H}
+      \begin{cases}
+        X_2 = \frac{U}{C_1R_2S}                     \\
+        X_1 = \frac{U}{(C_1R_2S)(C_2R_5S)}          \\
+        \frac{X_1}{U} = \frac{1}{(C_1R_2S)(C_2R_5S)} \\
+        H = \frac{X_1}{U} = \frac{H_0}{s^2}           \\
+        H_0 = \frac{1}{C_1R_2C_2R_5}
+      \end{cases}
+    \end{equation}
+  \item Control
+    \begin{equation}
+      \begin{cases}
+        R = U - a_ix_{int} - a_2x_2 - a_1x_1             \\
+        a_i = \frac{R_{22}}{R_{int}}                     \\
+        a_1 = \frac{R_{22}}{R_{12}}                     \\
+        a_i = \frac{R_{22}}{R_{11}}
+      \end{cases}
+    \end{equation}
+  \item Compensador
+    \begin{equation}
+      X_{int} = \frac{-(R-X_1)}{R_{10}C_3S}
+    \end{equation}
+\end{itemize}
+
+\subsection{Controlabilidad y Observabilidad}
+Para analizar la controlabilidad primero se determinaron las matrices \textbf{A} y \textbf{B} del sistema \textbf{H}, y luego se llevó a \textbf{A} a su forma canónica controlable:
+\begin{equation} \label{mat:a_de_h_cano_contr}
+  A =
+  \begin{bmatrix}
+    0 & 1\\
+    0 & 0
+  \end{bmatrix}
+\end{equation} 
+
+\begin{equation} \label{mat:b_de_h_cano_contr}
+  B =
+  \begin{bmatrix}
+    0\\
+    1
+  \end{bmatrix}
+\end{equation} 
+
+\begin{equation} \label{mat:c_de_h_cano_contr}
+  C =
+  \begin{bmatrix}
+    H_0 & 0
+  \end{bmatrix}
+\end{equation} 
+
+Como se puede observar en \ref{mat:a_de_h_cano_contr}, el sistema tiene un polo doble en el origen, debido a que los autovalores de la misma son $\lambda^{2}=0$, que concuerda con lo que se observa en las Transferencias obtenidas previamente en \ref{eq:trans_H}.
+
+Para analizar la observabilidad se llevó a su forma canónica observable y como el rango de la matriz de observabilidad es de rango se concluye que es observable.
+\begin{equation} \label{mat:observabilidad}
+  O =
+  \begin{bmatrix}
+    H_0 & 0\\
+    0   & H_0\\
+    0   & 0\\
+    0   & H_0
+  \end{bmatrix}
+\end{equation} 
+
+\section{Posible análisis experimental}
+Para poder analizar que la respuesta del sistema corresponda con lo teórico, se podría llevar el sistema a un estado de oscilación, ya que su condición de establidad es crítica va a tener una respuesta oscilatoria correspondiente a la de un sistema de orden 2 cuando se efectúe en la realidad, entonces una vez en este estado oscilatorio se podría medir la constante de tiempo y así determinar los parámetros correspondientes.
 
 \end{document}
