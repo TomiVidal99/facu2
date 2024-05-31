@@ -2,7 +2,7 @@
 ; problema_9.asm
 ;
 ; Created: 18/5/2024 22:51:21
-; Author : tomi
+; Author : Tomás Vidal
 ;
 ;	Supongo que el clock es de 16MHz
 ;	Entonces 0.05s -> 800 000 ciclos de reloj
@@ -26,7 +26,7 @@ RESET:
   out SPH, r16
 
   ; seteo el pin 3 (del arduino) como salida
-  sbi DDRD, PD3
+  sbi DDRB, PB5
 
 MAIN_LOOP:
   call PIN_HIGH
@@ -52,9 +52,9 @@ inner_loop:
     ret
 
 PIN_HIGH:
-  sbi PORTD, PD3
+  sbi PORTB, PB5
   ret
 
 PIN_LOW:
-  cbi PORTD, PD3
+  cbi PORTB, PB5
   ret
