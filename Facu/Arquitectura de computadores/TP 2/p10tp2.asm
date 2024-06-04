@@ -77,6 +77,8 @@ RESET:
   ldi TEMP, (1 << INT0)
   out EIMSK, TEMP
 
+  rcall ELP; hablito el bajo consumo
+
   sei ; habilita las interrupciones
 ; --------------------------------------------------------------------------------
 
@@ -91,6 +93,8 @@ MAIN_LOOP:
 ; esta es la rutina que se llama cuando la
 ; interrupcion del detector se dispara
 INT_DET:
+  rcall DLP ; desabilita el bajo consumo
+
   ; Reset signal counter
   ldi SIG_CNTR, 0
 
@@ -130,6 +134,27 @@ TIMER1_COMPA_ISR:
   ldi TEMP, 0
   sts TIMSK1, TEMP
 
+  rcall ELP ; se habilita el bajo consumo nuevamente
+
 TIMER1_COMPA_ISR_END:
   reti
+; --------------------------------------------------------------------------------
+
+
+; --------------------------------------------------------------------------------
+; se habilita el bajo consumo
+; se usa el modo: power-down
+; porque permite interrupciones de pines externos
+ELP:
+  ldi TEMP, (1 << SE) | (1 << SM1)
+  out SMCR, TEMP
+  ret
+; --------------------------------------------------------------------------------
+
+; --------------------------------------------------------------------------------
+; desabilita el bajo consumo
+DLP:
+  ldi TEMP, 0
+  out SMCR, TEMP
+  ret
 ; --------------------------------------------------------------------------------
