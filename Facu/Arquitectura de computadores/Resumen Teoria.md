@@ -19,3 +19,15 @@ En vez de acceder a cada bit individualmente se accede por bloques. En vez de te
 - Pilas
 - Big-endian / little-endian
 - Port mapped I/O (un espacio para IO y otro para datos). Memory mapped (IO y datos en un espacio contiguo)
+
+
+## Clase 06?
+
+## Clase 07
+Calculo de potencia: $P=fCV^2$
+
+## Clase 08
+Se usa para medir el performance el Spedup $S=\frac{T_a}{T_b}$
+
+## Clase 09
+# Hay cosas para estudiar (calculo de energía)
