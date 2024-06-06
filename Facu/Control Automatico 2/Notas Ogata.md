@@ -96,3 +96,13 @@ Como se dijo anteriormente es necesario que la matriz sea observable
 
 una vez seleccionados los valores propios deseados (o la ecuación característica deseada), se puede diseñar el observador de estado de orden completo, si la planta es completamente observable. Los valores propios deseados de la ecuación característica se deberían escoger de forma que el observador de estado responda al menos de dos a cinco veces más rápido que el sistema en lazo cerrado considerado. La ecuación para el observador de estado completo:![[Ogata - ingenieria-de-control-moderna-5ed.pdf#page=767&rect=222,435,369,456|Ogata - ingenieria-de-control-moderna-5ed, p.755]]
 # Ejemplo de observadores de estados: pág 757
+
+# Conclusiones importantes
+1. Al diseñar un sistema regulador, obsérvese que si los polos dominantes del controlador se colocan suficientemente lejos a la izquierda del eje ju, los elementos de la matriz de ganancia de realimentación del estado K se harán grandes. Grandes valores de la ganancia harán que la salida del actuador sea también grande, de manera que puede dar lugar a saturación. Entonces el sistema diseñado no se comportará como estaba previsto.
+2. También, al colocar los polos del observador suficientemente lejos a la izquierda del eje ju, el controlador observador se hace inestable, aunque el sistema en lazo cerrado es estable. Un controlador observador inestable no es aceptable.
+3. Si el controlador observador se hace inestable, se mueven los polos del observador a la derecha en el semiplano izquierdo del plano s hasta que se estabilice. También, la localización de los polos en lazo cerrado deseados pueden tener que modificarse.
+4. Obsérvese que si los polos del observador se colocan suficientemente lejos a la izquierda del eje ju, el ancho de banda del observador aumentará y originará problemas de ruido. Si hay un problema de ruido serio, los polos del observador no deberían colocarse demasiado lejos a la izquierda del eje ju. El requisito general es que el ancho de banda debería ser suficientemente bajo para que el ruido del sensor no se convierta en un problema.
+5. El ancho de banda del sistema con el observador de orden mínimo es más grande que con el observador de orden completo, ya que los polos múltiples del observador se sitúan en el mismo lugar para ambos observadores. Si el ruido del sensor es un problema serio, se recomienda utilizar un observador de orden completo.
+
+![[Ogata - ingenieria-de-control-moderna-5ed.pdf#page=804&rect=86,36,519,291|Ogata - ingenieria-de-control-moderna-5ed, p.792]]
+![[Ogata - ingenieria-de-control-moderna-5ed.pdf#page=805&rect=79,469,513,651|Ogata - ingenieria-de-control-moderna-5ed, p.793]]
