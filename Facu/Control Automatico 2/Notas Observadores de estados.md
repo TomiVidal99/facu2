@@ -12,3 +12,8 @@ No se tiene que hacer el desarrollo completo para obtener los polos del LC y los
 # De orden reducido
 ![[Teorías VE 7 y 8 .pdf#page=22&rect=10,8,709,506|Teorías VE 7 y 8 , p.22]]
 
+## Apuntes del PDF de observadores
+Los autovalores del sistema completo (lazo cerrado con observador) pueden ser calculados a partir de la ecuación característica:
+![[Observadores.pdf#page=4&rect=161,92,433,113|Observadores, p.4]]
+![[Observadores.pdf#page=5&rect=115,575,479,772|Observadores, p.5]]
+![[Observadores.pdf#page=5&rect=65,209,533,351|Observadores, p.5]]
