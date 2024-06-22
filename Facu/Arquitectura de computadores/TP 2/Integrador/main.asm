@@ -8,23 +8,29 @@
 ; La obtencion de numeros aleatorios se hace
 ; haciendo lecturas del ADC
 
-; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
-; -  -  -  -  -  -  -  Constantes - - - - -  -  -  -  -  -  -  - 
-; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
-.set VEC_LEN = 255
-.set VEC_START_ADDR = 0x0100
-.set ADC_CHANNEL = PD0
-.set MASK = 0x3F ; esta mascara es para hacer mas random el numero
-.set LED_PIN = PB5
+.include "m328Pdef.inc"
+; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -   
+; -  -  -  -  -  -  -  Constantes - - - - -  -  -  -  -  -  -- 
+; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -   
+.def ZERO = r1
+.def TEMP = r18
+.def Counter = r19
+.def I = r20
+.def J = r21
+.def currVal = r22
+.def nextVal = r23
 
-.def TEMP = r16
-.def adc_low = r17
-.def Counter = r18
-.def I = r19
-.def J = r20
-.def currVal = r21
-.def nextVal = r22
+.equ VECT_LEN = 255
+.equ VECT_START_MEM = 0x0100
+.equ ADC_CHANNEL = PD0
+.equ LED_PIN = PB5
+.equ TIME_AVG_MAX_COUNTS = 20
 
+.dseg
+.org VECT_START_MEM
+VECT: .byte VECT_LEN
+
+.cseg
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 ; -  -  -  -  -  -  -  MACROS - - - - -  -  -  -  -  -  -  - 
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
@@ -35,36 +41,87 @@
   out @0, TEMP
 .endmacro
 
-.macro LDX
-ldi r26, LOW(@0)
-ldi r27, HIGH(@0)
+.macro ldx
+  ;.if @0 == X ?
+  ldi XL, LOW(@0)
+  ldi XH, HIGH(@0)
 .endmacro
+
+.macro ldy
+  ldi YL, LOW(@0)
+  ldi YH, HIGH(@0)
+.endmacro
+
+
+; Inicializo el ADC
+.macro INIT_ADC
+  ; @0 es un registro temporal
+  ldi @0, (1<<ADEN) | (1<<ADPS2) | (1<<ADPS1) | (1<<ADPS0) ; habilito el ADC y selecciono el prescaler
+  sts ADCSRA, @0
+  ldi @0, (1<<REFS0) ; seteo la referencia
+  sts ADMUX, TEMP
+.endmacro
+
+; Pone el LED_PIN en salida
+.macro SETUP_LED
+  sbi DDRB, PB5
+.endmacro
+
+; prendo el LED del pin 13 como indicador de que comenzo el contador
+.macro LED_HIGH
+  sbi PORTB, LED_PIN
+.endmacro
+
+; apago el LED indicador
+.macro LED_LOW
+  cbi PORTB, LED_PIN
+.endmacro
+
+; set AND in data space
+; es para setear un inmediato en el espacio de datos
+.macro SORDS
+  ; @0 es el registro que se va a modificar
+  ; @1 es el inmediato que se va a hacer AND con
+  lds TEMP, @0
+  ori TEMP, @1
+  sts ADCSRA, TEMP
+.endmacro
+
+.macro SANDDS
+  ; @0 es el registro que se va a modificar
+  ; @1 es el inmediato que se va a hacer OR con
+  lds TEMP, @0
+  andi TEMP, @1
+  sts ADCSRA, TEMP
+.endmacro
+
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 ; -  -  -  -  -  -  -  SETUP  -  -  -  -  -  -  -  - 
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
 .org 0x0000 rjmp RESET
-
-.dseg
-.org VEC_START_ADDR
-VECT: .byte VEC_LEN
-
-.cseg
 RESET:
-  ; inicializo el Stack Pointer
+  ; Cargo cero en un registro, es para hacer operaciones con carry
+  clr ZERO
+
+  ; Inicializo el Stack Pointer
   lior SPL, LOW(RAMEND)
   lior SPH, HIGH(RAMEND)
 
-  sbi DDRB, LED_PIN ; seteo el pin 3 como salida
+  ; Configuro el LED
+  SETUP_LED
 
-  rcall INIT_ADC
+  ; Inicializo el ADC
+  INIT_ADC TEMP
 
-  rcall CREATE_RND_VECT
+  call TIME_AVG_BUBBLE_SORT
+
   rjmp MAIN_LOOP
-  rcall BUBBLE_SORT
+
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
-; -  -  -  -  -  -  -  MAIN  -  -  -  -  -  -  -  - 
+; -  -  -  -  -  -  -  LOOP PRINCIPAL  -  -  -  -  -  -  -  - 
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 MAIN_LOOP:
   rjmp MAIN_LOOP
@@ -74,106 +131,113 @@ MAIN_LOOP:
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 ; -  -  -  -  -  -  -  FUNCIONES  -  -  -  -  -  -  -  - 
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
-CREATE_RND_VECT:
-  sbi PORTB, LED_PIN ; seteo el pin a alto
+; Uso el vector X como puntero al dato iesimo
+; Uso el vector Y como contador, ya que VECT_LEN > 255
+LOAD_RND_VECTOR:
+  ldx VECT_START_MEM
+  ldy VECT_LEN
+lrv_loop:
 
-  ldi Counter, VEC_LEN
-  ldx VEC_START_ADDR
+  ;rcall READ_ADC ; Cargo la parte baja de la lectura del ADC 0 en TEMP
+  mov TEMP, YL
 
-push_element:
-  ; empujar un nuevo valor al vector
-  rcall READ_ADC
-  st X+, adc_low
+  st X+, TEMP ; VECT[X*] = TEMP
 
-  ; continuar iterando si no se llego a completar el vector
-  dec Counter
-  brne push_element
+  sbiw Y, 1 ; Y--
+  brne lrv_loop
 
-  cbi PORTB, LED_PIN ; seteo el pin a bajo
   ret
 
-INIT_ADC:
-  ldi TEMP, (1<<REFS0)
-  sts ADMUX, TEMP
-  ldi TEMP, (1<<ADEN) | (1<<ADPS2) | (1<<ADPS1) | (1<<ADPS0)
-  sts ADCSRA, TEMP
-  ret
-
-; Obtengo una muestra del ADC
-READ_ADC:
-  ; se prepara el ADC para la conversion
-  lds TEMP, ADMUX
-  andi TEMP, 0xF0
-  ori TEMP, ADC_CHANNEL
-  sts ADMUX, TEMP
-
-  ; se comienza la conversion
-  lds TEMP, ADCSRA
-  ori TEMP, (1 << ADSC)
-  sts ADCSRA, TEMP
-WAIT_FOR_CONVERSION:
-  lds TEMP, ADCSRA
-  sbrs TEMP, ADSC
-  rjmp WAIT_FOR_CONVERSION ; se espera hasta que el bit de terminado sea cero
-
-  lds adc_low, ADCL
-  andi adc_low, MASK ; se aplica una mascara para hacer mas aleatorio el resultado
-  ret
-
-; este es el entry point del algoritmo
+; Este es el entry point del algoritmo
 ; de Bubble Sort
+; Registros usados:
+; I - contador del loop exterior
+; J - contador del loop interior
+; TEMP - temporal
+; currVal - valor actual del vector
+; nextVal - valor siguiente del vector
 BUBBLE_SORT:
-  sbi PORTB, LED_PIN ; seteo el pin a alto
-
-  ; i=0
-  ldi I, 0
-
-loop_i:
+  ; i=0, j=0
+  clr I
+  clr J
+start_i_loop:
   ; i < n ?
-  cpi I, VEC_LEN
-  brlt sort_ended ; si i >= VEC_LEN terminar
+  ; si -> ir a (j<n-i-1?)
+  ; no -> terminar bucle
+  cpi I, VECT_LEN
+  brsh end_sorted
 
   ; j=0
-  ldi J, 0
+  clr J
 
-loop_j:
-  ; j < n - i - 1 ?
-  ldi TEMP, VEC_LEN
-  sub TEMP, I
-  dec TEMP
+  ; j < n-i-1 ?
+  ; si -> ver si permutar datos
+  ; no -> i++
+after_start_i_loop:
+  ldi TEMP, (VECT_LEN-1)
   cp J, TEMP
-  brlt increment_i
+  brsh increment_i
 
-  ldx VEC_START_ADDR ; cargo la direccion inicial del vector de datos
+  ; Cargo el puntero  actual
+  ldx VECT_START_MEM
   add XL, J
+  adc XH, ZERO
 
-  ; cargo el valor actual y el siguiente
-  ; a[j] y a[j+1]
-  ld currVal, X
-  adiw XL, 1
+  ; currVal = a[j]
+  ; nextVal = a[j+1]
+  ld currVal, X+
   ld nextVal, X
-  sbiw XL, 1
 
   ; a[j] > a[j+1] ?
+  ; si -> permutar
+  ; no -> j++
   cp currVal, nextVal
-  brlt increment_j
+  brlo increment_j
+  breq increment_j
 
-  ; intercambiar a[j] y a[j+1]
-  mov TEMP, currVal
-  st X, nextVal
-  adiw XL, 1
-  st X, TEMP
-  sbiw XL, 1
+  ; Se permutan los datos
+  st X, currVal
+  st -X, nextVal
 
+  ; j++
 increment_j:
-  ; incrementar J
+  sbiw X, 1 ; aca decremento X porque de antes me habia quedado avanzado en 1
   inc J
-  rjmp loop_j
+  rjmp after_start_i_loop
 
+  ; i++
 increment_i:
   inc I
-  rjmp loop_i
+  rjmp start_i_loop
 
-sort_ended:
-  cbi PORTB, LED_PIN ; seteo el pin a bajo
+end_sorted:
+  ret
+
+READ_ADC:
+  ; Se comienza la conversion/lectura
+  SORDS ADMUX, (1 << MUX0)
+  SORDS ADCSRA, (1 << ADSC)
+wait_for_conversion:
+  lds TEMP, ADCSRA
+  sbrc TEMP, ADIF
+  rjmp wait_for_conversion ; se espera hasta que ADSC sea cero
+
+  SORDS ADCSRA, (1 << ADIF) ; limpio ADIF para la siguiente conversion
+
+  ldi TEMP, ADCL ; guardo el resultado en el registro temporal
+
+  ret
+
+TIME_AVG_BUBBLE_SORT:
+  LED_HIGH
+  ldi Counter, TIME_AVG_MAX_COUNTS
+tavbs_loop:
+
+  rcall LOAD_RND_VECTOR
+  rcall BUBBLE_SORT
+
+  dec Counter
+  brne tavbs_loop
+
+  LED_LOW
   ret

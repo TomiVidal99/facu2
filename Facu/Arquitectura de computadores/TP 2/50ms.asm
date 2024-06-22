@@ -8,7 +8,7 @@
 ;	Entonces 0.05s -> 800 000 ciclos de reloj
 ;
 
-.include "m328pdef.inc"
+.include "m328Pdef.inc"
 
 ; Comenzar en la posición cero
 .org 0x0000
