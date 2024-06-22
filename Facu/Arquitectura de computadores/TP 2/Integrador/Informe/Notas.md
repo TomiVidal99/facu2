@@ -1,4 +1,3 @@
-
 # algoritmo
 se implementó el mismo algoritmo de ordenamiento que en el Trabajo N°1, el algoritmo de Bubble Sort. La diferencia es que ahora se disponen de múltiples registros para almacenar datos temporalmente, por lo que se usaron dos registros para almacenar el dato actual y el dato siguiente del vector (a[j] y a[j+1]).  Además se usó un registro temporal para hacer calculo sobre las condiciones en el algoritmo. Luego para hacer los direccionamientos de memoria se usó el registro X (que son dos registros de 8 bits r27:r26), este registro de 16 bits es un puntero al dato en memoria
 
@@ -14,8 +13,6 @@ Da un valor de aproximadamente 1.64 segundos totales, que resultan en 82ms ambas
 
 
 (Mostrar diagrama de flujo)
-
-
 
 
 ## Numeros aleatorios
