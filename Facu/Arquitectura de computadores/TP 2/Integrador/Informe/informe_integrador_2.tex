@@ -245,6 +245,18 @@ Los resultados de la tabla \ref{tab:mediciones_proteus} son congruentes con la t
 \end{figure}
 
 \section{Comparaciones AVR y MARIE}
+El algoritmo de ordenamiento implementado en assembler lleva \textbf{1297958} cantidad instrucciones (según el debuger de Microchip Studio), que son una cantidad considerable más que las que llevaba en MARIE (eran unas 600), pero hay que tener en cuenta que en MARIE se procesaba un vector con 7 elementos, y en AVR se procesó uno con 256, entonces son muchos los parámetros para tener en cuenta.
 
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|l|l|l|}
+    \hline
+                      & Cantidad de instrucciones   & Porcentaje sobre el total   \\ \hline
+    Memoria programa  & 160                         & 0.5\%                       \\ \hline
+    Memoria datos     & 256                         & 12.5\%                      \\ \hline
+  \end{tabular}
+  \caption{Espacio que ocupa el programa según Microchip Studio}
+  \label{tab:memorio_resultado}
+\end{table}
 
 \end{document}

@@ -138,8 +138,8 @@ LOAD_RND_VECTOR:
   ldy VECT_LEN
 lrv_loop:
 
-  ;rcall READ_ADC ; Cargo la parte baja de la lectura del ADC 0 en TEMP
-  mov TEMP, YL
+  rcall READ_ADC ; Cargo la parte baja de la lectura del ADC 0 en TEMP
+  ;mov TEMP, YL ; use esto para debugear
 
   st X+, TEMP ; VECT[X*] = TEMP
 
