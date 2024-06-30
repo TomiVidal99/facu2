@@ -67,7 +67,7 @@
   Tom\'as Vidal\\
   {\it Circuitos Electrónicos 1}\\
   {\it Facultad de Ingenier\'ia, UNLP, La Plata, Argentina.}\\
-  {\it 21 de Junio, 2024.}
+  {\it 29 de Junio, 2024.}
 }                                            % <-this % stops a space
 
 
@@ -113,21 +113,47 @@ A partir del circuito dado (\ref{pic:circuito_completo}) se pueden identificar 3
   \centering
   \begin{circuitikz}
     \node[npn] (npn) at (0,0) {};
-    \draw (npn.base) -- ++(-1, 0) -- ++(0, -1) to[R=$\textbf{39k}\Omega$] ++(0, -1.5) -- ++(0, -0.5) node[ground]{};
-    \draw (npn.base) -- ++(-1, 0) -- ++(0, 1.5) to[R=$\textbf{100k}\Omega$] ++(0, 1.5) -- ++(0, 0.5) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$+V$}; 
-    \draw (npn.collector) -- ++(0, 0.75) to[R=$\textbf{560}\Omega$] ++(0, 1.5) -- ++(0, 0.5) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$+V$};
+    \draw (npn.base) -- ++(-1, 0) -- ++(0, -1) to[R=$\qty{39}{\kilo\ohm}$] ++(0, -1.5) -- ++(0, -0.5) node[ground]{};
+    \draw (npn.base) -- ++(-1, 0) -- ++(0, 1.5) to[R=$\qty{100}{\kilo\ohm}$] ++(0, 1.5) -- ++(0, 0.5) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$+V$}; 
+    \draw (npn.collector) -- ++(0, 0.75) to[R=$\qty{560}{\ohm}$] ++(0, 1.5) -- ++(0, 0.5) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$+V$};
     % TODO: buscar el simbolo de pico para los faradios
-    \draw (npn.collector) -- ++(0, 0.5) node[circ]{} -- ++(-0.75, 0) to[C=$\textbf{10}p F$] ++(-0.5, 0) -- ++(-0.6, 0) node[circ]{};
-    \draw (npn.collector) node[circ]{} -- ++(1, 0) to[C=$\textbf{10}\mu F$] ++(1, 0) -- ++(0.75, 0) node[ocirc]{} coordinate (Vin) node[right, font=\large] {$V_{s}$};
-    \draw (npn.emitter) -- ++(0, -0.25) to[R=$\textbf{100}\Omega$] ++(0, -1.5) -- ++(0, -0.5) node[ground]{};
-    \draw (npn.base) -- ++(-1, 0) node[circ]{} -- ++(-1, 0) to[C=$\textbf{10}\mu F$] ++(-1, 0) -- ++(-0.75, 0) node[ocirc]{} coordinate (Vin) node[left, font=\large] {$V_{e}$};
+    \draw (npn.collector) -- ++(0, 0.5) node[circ]{} -- ++(-0.75, 0) to[C=$\qty{10}{\pico\farad}$] ++(-0.5, 0) -- ++(-0.6, 0) node[circ]{};
+    \draw (npn.collector) node[circ]{} -- ++(1, 0) to[C=$\qty{10}{\pico\farad}$] ++(1, 0) -- ++(0.75, 0) node[ocirc]{} coordinate (Vin) node[right, font=\large] {$V_{s}$};
+    \draw (npn.emitter) -- ++(0, -0.25) to[R=$\qty{100}{\ohm}$] ++(0, -1.5) -- ++(0, -0.5) node[ground]{};
+    \draw (npn.base) -- ++(-1, 0) node[circ]{} -- ++(-1, 0) to[C=$\qty{10}{\pico\farad}$] ++(-1, 0) -- ++(-0.75, 0) node[ocirc]{} coordinate (Vin) node[left, font=\large] {$V_{e}$};
   \end{circuitikz}
   \caption{Etapa individual en el lazo directo}
   \label{circ:etapa_individual}
 \end{figure}
+Este amplificador es uno de \textit{transadmitancia} ([A/V]), y sus parámetros más representativos para este análisis son: $Z_{in}$, $Z_{out}$, $A_{v}$; los mismos se obtuvieron aplicando el modelo de pequeña señal del BJT, y considerando que el capacitor de $\qty{10}{\pico\farad}$ están en circuito abierto y, los de $\qty{10}{\micro\farad}$ están en cortocircuito en pequeña señal.
 %TODO: agregar valores de parámetros
-%TODO: buscar el simbolo de pico para los faradios
-Este amplificador es uno de \textit{transimpedancia} ([A/V]), y sus parámetros más representativos son: $Z_{in} = $, $Z_{out} = $, $A_{v} = $; los mismos se obtuvieron aplicando el modelo de pequeña señal del BJT, y considerando que el capacitor de $10pF$ están en circuito abierto y, los de $10\mu F$ están en cortocircuito en pequeña señal.
-  
+% quizá hacer una tabla con Zin, Zout, Av, etc
+
+Para poder considerar la realimentación de estas tres etapas se considera el modelo con un bloque de ganancia de lazo directo \textbf{a} y una de realimentación \textbf{$\beta$}
+\begin{figure}[H]
+  \centering
+  \begin{circuitikz}
+
+    % bloque de lazo directo
+    \node (square) [draw,minimum width=2cm,minimum height=2cm,anchor=south west] at (0,0) {a};
+    \draw (square.west) |- ++(-2, 0.5) node[ocirc]{};
+    \draw (square.west) |- ++(-2, -0.5) node[ocirc]{};
+    \draw (square.east) |- ++(2, 0.5) node[ocirc]{};
+    \draw (square.east) |- ++(2, -0.5) node[ocirc]{};
+
+    % bloque de realimentación
+    \node (square_b) [draw,minimum width=1.5cm,minimum height=1.5cm,anchor=south west] at (0.25, -2) {$\beta$};
+    \draw (square_b.west) |- ++(-0.75, 0.5) -- ++(0, 2.25) node[circ]{};
+    \draw (square_b.west) |- ++(-1.25, -0.5) -- ++(0, 2.25) node[circ]{};
+    \draw (square_b.east) |- ++(0.75, 0.5) -- ++(0, 2.25) node[circ]{};
+    \draw (square_b.east) |- ++(1.25, -0.5) -- ++(0, 2.25) node[circ]{};
+
+  \end{circuitikz}
+  \caption{Circuito completo realimentado (transimpedancia)}
+  \label{diag:transimpedancia}
+\end{figure}
+
+La ganancia de lazo directo en el diagrama \ref{diag:transimpedancia} corresponde a las tres etapas en cascada considerando la última cargada con la resistencia de \qty{1}{\kilo\ohm}. La del bloque beta corresponde a la que se obtiene al aplicar los parámetros \textbf{Y}.
+Una vez obtenidas estas ganancias y el resto de parámetros correspondientes se puede calcular 
 
 \end{document}
