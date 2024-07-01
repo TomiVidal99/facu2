@@ -108,7 +108,7 @@
 \end{figure}
 \subsection{Circuito completo}
 A partir del circuito dado (\ref{pic:circuito_completo}) se pueden identificar 3 etapas individuales de amplificación y una realimentación de las mismas. Por lo que a continuación se analizan estas etapas individuales y el lazo de realimentación
-\subsection{Etapa aislada}
+\section{Etapa aislada}
 \begin{figure}[H]
   \centering
   \begin{circuitikz}
@@ -116,20 +116,36 @@ A partir del circuito dado (\ref{pic:circuito_completo}) se pueden identificar 3
     \draw (npn.base) -- ++(-1, 0) -- ++(0, -1) to[R=$\qty{39}{\kilo\ohm}$] ++(0, -1.5) -- ++(0, -0.5) node[ground]{};
     \draw (npn.base) -- ++(-1, 0) -- ++(0, 1.5) to[R=$\qty{100}{\kilo\ohm}$] ++(0, 1.5) -- ++(0, 0.5) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$+V$}; 
     \draw (npn.collector) -- ++(0, 0.75) to[R=$\qty{560}{\ohm}$] ++(0, 1.5) -- ++(0, 0.5) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$+V$};
-    % TODO: buscar el simbolo de pico para los faradios
     \draw (npn.collector) -- ++(0, 0.5) node[circ]{} -- ++(-0.75, 0) to[C=$\qty{10}{\pico\farad}$] ++(-0.5, 0) -- ++(-0.6, 0) node[circ]{};
-    \draw (npn.collector) node[circ]{} -- ++(1, 0) to[C=$\qty{10}{\pico\farad}$] ++(1, 0) -- ++(0.75, 0) node[ocirc]{} coordinate (Vin) node[right, font=\large] {$V_{s}$};
+    \draw (npn.collector) node[circ]{} -- ++(1, 0) to[C=$\qty{10}{\micro\farad}$] ++(1, 0) -- ++(0.75, 0) node[ocirc]{} coordinate (Vin) node[right, font=\large] {$V_{s}$};
     \draw (npn.emitter) -- ++(0, -0.25) to[R=$\qty{100}{\ohm}$] ++(0, -1.5) -- ++(0, -0.5) node[ground]{};
-    \draw (npn.base) -- ++(-1, 0) node[circ]{} -- ++(-1, 0) to[C=$\qty{10}{\pico\farad}$] ++(-1, 0) -- ++(-0.75, 0) node[ocirc]{} coordinate (Vin) node[left, font=\large] {$V_{e}$};
+    \draw (npn.base) -- ++(-1, 0) node[circ]{} -- ++(-1, 0) to[C=$\qty{10}{\micro\farad}$] ++(-1, 0) -- ++(-0.75, 0) node[ocirc]{} coordinate (Vin) node[left, font=\large] {$V_{e}$};
   \end{circuitikz}
-  \caption{Etapa individual en el lazo directo}
+  \caption{Etapa individual dentro del lazo directo}
   \label{circ:etapa_individual}
 \end{figure}
-Este amplificador es uno de \textit{transadmitancia} ([A/V]), y sus parámetros más representativos para este análisis son: $Z_{in}$, $Z_{out}$, $A_{v}$; los mismos se obtuvieron aplicando el modelo de pequeña señal del BJT, y considerando que el capacitor de $\qty{10}{\pico\farad}$ están en circuito abierto y, los de $\qty{10}{\micro\farad}$ están en cortocircuito en pequeña señal.
-%TODO: agregar valores de parámetros
-% quizá hacer una tabla con Zin, Zout, Av, etc
+Este amplificador es uno de \textit{transadmitancia} ($\left[ \frac{A}{V} \right]$), y sus parámetros más representativos para este análisis son los de la tabla \ref{tab:mod_transadmitancia}; los mismos se obtuvieron aplicando el modelo de pequeña señal del BJT, y considerando que el capacitor de $\qty{10}{\pico\farad}$ está en circuito abierto y, los de $\qty{10}{\micro\farad}$ están en cortocircuito en pequeña señal.
+\\
+\textit{Para calcular la ganancia total de las tres etapas en cascada, se consideró que la última contenía la carga (de \qty{1}{\kilo\ohm}) del circuito}
 
-Para poder considerar la realimentación de estas tres etapas se considera el modelo con un bloque de ganancia de lazo directo \textbf{a} y una de realimentación \textbf{$\beta$}
+\begin{table}[H]
+  \centering
+  \scalebox{0.85}{
+    \begin{tabular}{|l|l|l|}
+      \hline
+                                                & Analítico                                                                                 &  Aproximado       \\ \hline
+      $Z_{in}$                                  & $(\qty{100}{\kilo\ohm} // \qty{39}{\kilo\ohm}) // (\qty{100}{\ohm}(1+h_{fe}))$            & \qty{13.2}{\kilo\ohm}  \\ \hline
+      $Z_{out}$                                 & \qty{560}{\ohm}                                                                           & \qty{560}{\ohm}   \\ \hline
+      $A_{v}$                                   & $\frac{-\qty{560}{\ohm}}{\qty{100}{\ohm}}$                                           &  -5.6                  \\ \hline
+      $A_{v}$ (con \qty{1}{\kilo\ohm})  & $\frac{-(\qty{560}{\ohm} // \qty{1}{\kilo\ohm})}{\qty{100}{\ohm}}$                   &  -3.59                         \\ \hline
+    \end{tabular}
+  }
+  \caption{Parámetros del amplificador de transadmitancia}
+  \label{tab:mod_transadmitancia}
+\end{table}
+
+\section{Lazo directo y realimentación}
+Para poder obtener la ganancia de lazo cerrado total del circuito, primero se considera el modelo con un bloque de ganancia de lazo directo \textbf{a} y una de realimentación \textbf{$\beta$} conectados en paralelo, tal como se puede identificar en el circuito completo \ref{pic:circuito_completo}.
 \begin{figure}[H]
   \centering
   \begin{circuitikz}
@@ -153,7 +169,149 @@ Para poder considerar la realimentación de estas tres etapas se considera el mo
   \label{diag:transimpedancia}
 \end{figure}
 
-La ganancia de lazo directo en el diagrama \ref{diag:transimpedancia} corresponde a las tres etapas en cascada considerando la última cargada con la resistencia de \qty{1}{\kilo\ohm}. La del bloque beta corresponde a la que se obtiene al aplicar los parámetros \textbf{Y}.
-Una vez obtenidas estas ganancias y el resto de parámetros correspondientes se puede calcular 
+La ganancia de lazo directo \textbf{a} corresponde a las tres etapas en cascada considerando la última cargada con la resistencia de \qty{1}{\kilo\ohm}. La del bloque beta corresponde a la que se obtiene al aplicar los parámetros \textbf{Y} (en el bloque de realimentación \ref{diag:bloque_beta}). Estos valores se pueden observar en la tabla \ref{tab:ganancias_de_a_y_beta}. \textit{Posteriormente se refiere a la resistencia de la red de realimentación como $R_{f}$, de feedback, esta es la resistencia de \qty{1}{\kilo\ohm} en serie con el potenciómetro}
+
+\begin{figure}[H]
+  \centering
+  \begin{circuitikz}
+
+    % bloque de lazo directo
+    \node (square) [draw,minimum width=4cm,minimum height=3.5cm,anchor=south west] at (0,0) {$\beta$};
+    \draw (square.west) ++(-1, 0.75) node[ocirc]{} -- ++(1.5, 0) to[R=\qty{1}{\kilo\ohm}] ++(1.25, 0) to[vR=\qty{47}{\kilo\ohm}] ++(2,0) -- ++(1,0) -- ++(0.25,0) node[ocirc]{};
+    \draw (square.west) ++(-1, -0.75) node[ocirc]{} -- ++(6,0) node[ocirc]{};
+
+  \end{circuitikz}
+  \caption{Bloque beta de realimentación}
+  \label{diag:bloque_beta}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|l|l|l|l|}
+    \hline
+    Admitancias terminales                  & Analítico                       & $R_f=\qty{48}{\kilo\ohm}$  & $R_f=\qty{1}{\kilo\ohm}$            \\
+    \hline
+    De entrada $y_{11}$ & $\frac{1}{R_f}$   & \qty{20.8}{\micro\siemens}      & \qty{1}{\milli\siemens}                          \\
+    \hline
+    De salida $y_{22}$ & $\frac{1}{R_f}$    & \qty{20.8}{\micro\siemens}      & \qty{1}{\milli\siemens}                          \\
+    \hline
+  \end{tabular}
+  \caption{Parámetros de la realimentación}
+  \label{tab:param_bloque_beta}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \scalebox{0.85}{
+    \begin{tabular}{|l|l|l|}
+      \hline
+      Ganancia & Analítico & Aproximado \\
+      \hline
+      $a_v$ & $(A_v)(A_v)(A_{v cargado})$ & $(-5.6)(-5.6)(-3.39) \cong -112.6 \left[ \frac{V}{V} \right]$  \\
+      \hline
+      $ \beta_{max}$ & $ \frac{-1}{\qty{1}{\kilo\ohm}}$ & $ -1m \left[ \frac{A}{V} \right] $ \\
+      \hline
+      $ \beta_{min}$ & $\frac{-1}{\qty{48}{\kilo\ohm}}$ & $-20\mu \left[ \frac{A}{V} \right] $ \\
+      \hline
+    \end{tabular}
+  }
+  \caption{Ganancia de los bloques}
+  \label{tab:ganancias_de_a_y_beta}
+\end{table}
+
+\textit{El potenciómetro que ajusta la realimentación hace que la ganancia $\beta$ ($\beta_{max}$) sea máxima, cuando el potenciómetro está al mínimo (es decir \qty{0}{\ohm}), y de manera análoga, cuando el potenciómetro se encuentra la máximo (\qty{48}{\kilo\ohm}) la ganancia $\beta$ es mínima ($\beta_{min}$)}
+
+\subsection{Ganancia de transimpedancia}
+Hasta ahora la ganancia del lazo directo calculada es de tensión (tabla \ref{tab:ganancias_de_a_y_beta}), pero para hacer la realimentación del circuito completo se debe considerar una ganancia de transimpedancia a lazo abierto (\ref{eq:ganancia_de_transimpedancia_la}). \textit{Para obtenerla se aplicó la ley de Ohm en la entrada del circuito equivalente}
+
+\[ I_{in} . Z_{in} = V_{in} \]
+\begin{equation}
+  a_{zc} = a_{v} . Z_{in} \cong -1.5 M \left[ \frac{V}{A} \right]
+  \label{eq:ganancia_de_transimpedancia_la}
+\end{equation} 
+
+\begin{figure}[H]
+  \centering
+  \scalebox{0.85}{
+    \begin{circuitikz}
+
+      % bloque de lazo directo
+      \draw (0,0) node[ocirc]{} coordinate (Vp) node[left, font=\large] {$+$} -- ++(0.25, 0) to[short, f>^=$I_{zi}$] ++(0.75, 0) node[circ]{} -- ++(0, 0) to[R=$y_{11}^{-1}$] ++(0, -2) node[circ]{} -- ++(-1, 0) node[ocirc]{} coordinate (Vp) node[left, font=\large] {$-$};
+      \draw (0,0) -- ++(1.5,0) to[short, i=$I_{in}$] ++(0.5,0) -- ++(0.5,0) to[R=$Z_{in}$] ++(0, -2) -- ++(-2.5, 0);
+      \draw (0,0) ++(4,0) -- ++(0,0) to[american controlled voltage source, l=$a_{zc}.I_{in}$] ++(0, -2);
+      \draw (0,0) ++(4,0) -- ++(1, 0) to[R=$Z_{out}$] ++(1.5, 0) -- ++(1, 0) node[circ]{} -- ++(1,0) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$+$};
+      \draw (0,0) ++(7.5,0) to[R=$y_{22}^{-1}$] ++(0, -2) -- ++(-3.5, 0) ++(3.5, 0) node[circ]{} -- ++(1, 0) node[ocirc]{} coordinate (Vp) node[right, font=\large] {$-$};
+
+    \end{circuitikz}
+  }
+  \caption{Bloque de lazo directo cargado}
+  \label{diag:bloque_a_cargado}
+\end{figure}
+
+La tensión que se percibe a la salida entonces es la que se impone por el divisor resistivo entre $Z_{out}$ e $y_{22}$. Por lo que la tensión de salida es
+\[ V_{zo} = \frac{a_{zc}I_{in}{y_{22}}^{-1}}{Z_{out} + {y_{22}}^{-1}} \]
+Y la corriente en la entrada es la que impone el divisor de corriente de $Z_{in}$ e $y_{11}^{-1}$:
+\[ I_{zi} = I_{in}\left( 1 + \frac{Z_{in}}{y_{11}^{-1}} \right) \]
+
+Entonces para obtener la ganancia del lazo cargado se hace la tensión de salida sobre la corriente de entrada:
+\[ G_{zc} = \frac{V_{zo}}{I_{zi}} = \frac{a_{zc}}{(1+Z_{out}y_{22})(1+Z_{in}y_{11})} \]
+
+\subsection{Realimentación}
+A continuación se calcula la ganancia de realimentación del circuito de transimpedancia teniendo en cuenta la ecuación \ref{eq:teoria_realimentación}.
+\begin{equation}
+  A_{zr} = \frac{G_{zc}}{1 + \beta G_{zc}}
+  \label{eq:teoria_realimentación}
+\end{equation}
+
+Aunque como se cumple que $G_{zc} > \beta$ entonces se puede hacer la aproximación: $A_{zr} \cong \frac{1}{\beta}$
+\\
+También se debe tener que en cuenta que al realimentar, para esta topología, la impedancia de entrada se disminuye en un factor $1+\beta G_{zc}$. Por lo que para obtener la ganancia de tensión del circuito realimentado también se debe calcular esta nueva impedancia
+\[ Z_{ir} = \frac{y_{11}^{-1} Z_{in}}{y_{11}^{-1} + Z_{in}} . \frac{1}{1 + \beta G_{zc}} \]
+
+Ahora teniendo presente que queremos obtener tensión, se aplica la ley de Ohm en la entrada y se puede calcular la ganancia de tensión de la placa completa (es importante considerar las resistencias de \qty{10}{\ohm} y \qty{100}{\ohm} en la entrada). En la tabla \ref{tab:resultados_mediciones} se muestran los resultados
+
+\section{Resultados}
+
+\begin{table}[H]
+  \centering
+  \scalebox{0.85}{
+    \begin{tabular}{|l|l|l|l|}
+      \hline
+                & Analítico   & Medido    & error relativo porcentual \\
+      \hline
+      $A_{vmin}$  & -3.9382   & -4.75   & $20.6 \% $  \\
+      \hline
+      $A_{vmax}$  & -9.8987   & -9      & $9.07 \% $  \\
+      \hline
+    \end{tabular}
+  }
+  \caption{Resultados analíticos y empíricos}
+  \label{tab:resultados_mediciones}
+\end{table}
+
+\subsection{Polos medidos}
+Se hizo un barrido de frecuencia para los dos valores de $R_f$ y se encontraron los polos en: 840KHz y 1570KHz, para los valores mínimos y máximos de $R_f$ respectivamente.
+\\
+Si se considera que la placa provista es un sistema de orden 1, entonces el polo encontrado dicta la frecuencia de corte del sistema. De esta manera se puede calcular el producto ganancia por ancho de banda, como se muestra en la siguiente tabla \ref{tab:prod_gan_ancho}
+
+\begin{table}[H]
+  \centering
+  \scalebox{0.85}{
+    \begin{tabular}{|l|l|l|l|}
+      \hline
+      Frecuencia del polo [KHz]   & Ganancia & Producto \\
+      \hline
+      840                         & 9         & 7 560 000 \\
+      \hline
+      1570                        & 4.75      & 7 457 500 \\
+      \hline
+    \end{tabular}
+  }
+  \caption{Producto ganancia por ancho de banda}
+  \label{tab:prod_gan_ancho}
+\end{table}
+
+\section{Conclusiones}
+Las mediciones son bastante cercanas a lo que se predijo en el análisis hecho. Además se midieron los polos y se verificó el producto ganancia por ancho de banda, que resultaron en valores cercanos (solo difieren en 1.35\%). Por lo que todo funcionó según lo esperado.
 
 \end{document}

@@ -212,7 +212,7 @@ Para ordenar los datos, como se explicó previamente se hizo uso del algoritmo B
 La funcion TIME\_AVG\_BUBBLE\_SORT se encarga de ejecutar y repetir LOAD\_RND\_VECTOR y BUBBLE\_SORT en este orden 20 veces, antes de hacerlo enciende el LED 13 de la placa de desarrollo (PB5 en PORTB), y luego de finalizar el bucle apaja el LED, con esto se puede medir y promediar el tiempo de ejecución de estas funciones.
 
 \section{Mediciones y resultados}
-Para hacer las mediciones sobre la media que tardan conjuntamente LOAD\_RND\_VECTOR y BUBBLE\_SORT, se realizó una simulación en el software \textit{Proteus} (ver \ref{fig:proteus_captura}). Posteriormente se programó una placa de desarrollo con el Atmega328P \ref{fig:placa_real} y se midió el mismo tiempo grabando con una camara el tiempo que el LED se encontraba encendido.
+Para hacer las mediciones sobre la media que tardan conjuntamente LOAD\_RND\_VECTOR y BUBBLE\_SORT, se realizó una simulación en el software \textit{Proteus} (ver \ref{fig:proteus_captura}). Posteriormente se programó una placa de desarrollo con el Atmega328P (fig \ref{fig:placa_real}) y se midió el mismo tiempo grabando con una camara el tiempo que el LED se encontraba encendido.
 
 \begin{table}[H]
   \centering
@@ -245,7 +245,21 @@ Los resultados de la tabla \ref{tab:mediciones_proteus} son congruentes con la t
 \end{figure}
 
 \section{Comparaciones AVR y MARIE}
-El algoritmo de ordenamiento implementado en assembler lleva \textbf{1297958} cantidad instrucciones (según el debuger de Microchip Studio), que son una cantidad considerable más que las que llevaba en MARIE (eran unas 600), pero hay que tener en cuenta que en MARIE se procesaba un vector con 7 elementos, y en AVR se procesó uno con 256, entonces son muchos los parámetros para tener en cuenta.
+Para ver el rendimiento de la implementación en AVR, en comparación con la de MARIE, en el debuger de Microchip Studio se calculó cuantos ciclos de reloj le lleva al AVR concretar el ordenamiento, para el mejor y el peor de los casos de ordenamiento (y también el promedio entre ambos), aunque Bubble Sort tiene un coste aproximadamente constante, por lo que deberían ser resultados similares (cosa que ocurre como se puede apreciar en la tabla de resultados \ref{tab:cant_instrucciones}). Una vez que se tienen las instrucciones de ambas arquitecturas se pueden calcular los ciclos de reloj sabiendo que de media MARIE ejecuta una instrucción cada 7 ciclos de reloj, por lo tanto: $CPI_{MARIE} \cong 7$, entonces se puden aproximar los ciclos de reloj haciendo $instrucciones CPI \cong ciclos$; haciendo el mismo análisis para AVR se tiene que $CPI_{AVR} \cong 1.5$ (los resultados de los cálculos se pueden apreciar en la tabla \ref{tab:cant_instrucciones}).
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|l|l|l|}
+    \hline
+                  & Cantidad de                       & Cantidad de               \\ 
+                  & Instrucciones                     & Ciclos de reloj           \\ 
+                  &               (mín/media/máx)     & (mín/media/máx)           \\ \hline
+    AVR           & 918 / 939 / 960                   & 1377 / 1409 / 1440        \\ \hline
+    MARIE         & 534 / 566 / 597                   & 3738 / 3962 / 4179        \\ \hline
+  \end{tabular}
+  \caption{Instrucciones y ciclos de reloj en AVR y MARIE}
+  \label{tab:cant_instrucciones}
+\end{table}
 
 \begin{table}[H]
   \centering
@@ -258,5 +272,22 @@ El algoritmo de ordenamiento implementado en assembler lleva \textbf{1297958} ca
   \caption{Espacio que ocupa el programa según Microchip Studio}
   \label{tab:memorio_resultado}
 \end{table}
+
+Teniendo presente los calculos previos se puede calcular la mejora que tiene AVR sobre MARIE aplicando las siguientes ecuaciónes
+\begin{equation*}
+  t = \frac{N*CPI}{f_{reloj}}
+\end{equation*}
+Considerando un reloj de 16Mhz (aunque es indiferente para el Speedup)
+\begin{equation*}
+  t_{AVR} \cong 88\mu segundos
+\end{equation*}
+\begin{equation*}
+  t_{MARIE} \cong 248\mu segundos
+\end{equation*}
+\begin{equation*}
+  S (speedup) = \frac{t_{MARIE}}{t_{AVR}} \cong 2.8
+\end{equation*}
+
+Por lo que se concluye que la implementación en AVR es 2.8 veces mejor que la de MARIE.
 
 \end{document}

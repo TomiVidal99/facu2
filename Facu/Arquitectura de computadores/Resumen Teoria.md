@@ -1,4 +1,8 @@
 ## Filmina 01 (Memorias)
+### Diferencias entre ISA, organización y tecnología
+El ISA son las instrucciones, mientras que la organización son como se procesan esas instrucciones en ciclos de reloj (es decir, se usan buses compartidos o se usa maquina de estados, etc), y por último la tecnología es lo que se usa para hacer la implementación, tecnología de 10nm o de 4nm, que tan rápido pueden conmutar los circuitos, etc.
+En esencia una misma ISA puede ser implementada con diferentes organizaciones y/o tecnologías. Lo cual daría resultado a diferentes *performances*.
+Arquitectura = "Como deberian organizarse las cosas dentro del procesador" (organización = arquitectura)
 
 ### Von Neumann vs Hardvard
 Von Neumann tiene la memoria de datos e instrucciones juntas. En cambio la de Hardvard las tiene separadas. Hardvard tiene más sentido y aplicación en dispositivos DSP, en cambio en las computadoras actuales se usa Von Neumann
