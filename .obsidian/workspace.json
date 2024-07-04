@@ -1,0 +1,278 @@
+{
+  "main": {
+    "id": "acce270c335394ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f43aacb635da591",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e729efc048b40918",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/TP 5 Mod 2/08 Comportamiento Transitorio y Respuesta en Frecuencia.pdf",
+                "page": 35,
+                "left": -202,
+                "top": 546,
+                "zoom": 1.1305555555555555
+              }
+            }
+          },
+          {
+            "id": "cdae2575059aa380",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/TP 5 Mod 2/09 Respuesta en Frecuencia.pdf",
+                "page": 9,
+                "zoom": -0.022222222222222223
+              }
+            }
+          },
+          {
+            "id": "530a87878262d911",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/TP 5 Mod 2/practica5-2023.pdf",
+                "page": 1,
+                "zoom": -0.014253135689851768
+              }
+            }
+          },
+          {
+            "id": "f36e59376b751d50",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/TP 6/10 Amplificadores Diferenciales Transistorizados.pdf",
+                "page": 64,
+                "left": -202,
+                "top": 547,
+                "zoom": 1.1305555555555555
+              }
+            }
+          },
+          {
+            "id": "b4fd3921b116b852",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/TP 6/11 Electronica Integrada.pdf",
+                "page": 32,
+                "left": -202,
+                "top": 544,
+                "zoom": 1.1305555555555555
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f5282ad371c79f6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "491ba57362ba6d68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "818c0aa15b3e461a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d43b0a18938ec205",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f8a2df0c7cf68425",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.51103591918945,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ad1d7ff5e6a59cef",
+    "type": "split",
+    "children": [
+      {
+        "id": "684fdc5e5e1ec2a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efc8c330eff21a99",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/Mod 2 notas teoría 2 (TP 6).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "564fc9a988adb14b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/Mod 2 notas teoría 2 (TP 6).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34f6cc3e95c33863",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2f132092390c88fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Facu/Circuitos Electronicos I/Mod 2 notas teoría 2 (TP 6).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "floating": {
+    "id": "01e200139cf67816",
+    "type": "floating",
+    "children": [
+      {
+        "id": "59e0f131cf2f01e4",
+        "type": "window",
+        "children": [
+          {
+            "id": "f446bf914e1fa845",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8a9d9ac71e616ed3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Facu/Circuitos Electronicos I/Mod 2 notas teoría 2 (TP 6).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 120,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "8a9d9ac71e616ed3",
+  "lastOpenFiles": [
+    "Facu/Circuitos Electronicos I/TP 6/11 Electronica Integrada.pdf",
+    "Facu/Circuitos Electronicos I/Mod 2 notas teoría 2 (TP 6).md",
+    "Facu/Circuitos Electronicos I/TP 6/10 Amplificadores Diferenciales Transistorizados.pdf",
+    "Facu/Circuitos Electronicos I/TP 5 Mod 2/practica5-2023.pdf",
+    "Facu/Circuitos Electronicos I/TP 5 Mod 2/09 Respuesta en Frecuencia.pdf",
+    "Facu/Circuitos Electronicos I/TP 5 Mod 2/08 Comportamiento Transitorio y Respuesta en Frecuencia.pdf",
+    "Facu/Circuitos Electronicos I/Mod 2 notas de teoría.md",
+    "Facu/Control Automatico 2/Teorias VE 4 a 6 v5.0.pdf",
+    "Facu/Control Automatico 2/Teoria VE 1 a 3 V3.5.pdf",
+    "Facu/Control Automatico 2/Teorías VE 7 y 8 .pdf",
+    "Facu/Control Automatico 2/consultas-control.md",
+    "Facu/Circuitos Electronicos I/Guías de Laboratorios.pdf",
+    "Facu/Control Automatico 2/Notas Observadores de estados.md",
+    "Facu/Control Automatico 2/TP 5/TP5_CA2_2023.pdf",
+    "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
+    "Facu/Arquitectura de computadores/Resumen Teoria.md",
+    "clase 02.md",
+    "Facu/Arquitectura de computadores/TP 2/Integrador/Informe/Notas.md",
+    "Facu/Arquitectura de computadores/TP 2/Integrador/Informe/placa_real.jpeg",
+    "Facu/Arquitectura de computadores/TP 2/Integrador/Informe/WhatsApp Image 2024-06-22 at 18.42.47.jpeg",
+    "Facu/Arquitectura de computadores/TP 2/Integrador/Informe/proteus_captura.png",
+    "Facu/Circuitos Electronicos I/Lab2/Imagenes/v2_100hz.png",
+    "Facu/Circuitos Electronicos I/Lab2/Imagenes/v1_100hz.png",
+    "Facu/Circuitos Electronicos I/Lab2/Imagenes/topologia2_placa.png",
+    "Facu/Circuitos Electronicos I/Lab2/Imagenes/topologia2.png",
+    "Facu/Circuitos Electronicos I/Lab2/Imagenes/sin_entradas.jpeg",
+    "Facu/Circuitos Electronicos I/Lab2/Imagenes/integrador_20khz.jpeg",
+    "Facu/Circuitos Electronicos I/Lab2/Imagenes/integrador_1khz.jpeg"
+  ]
+}
