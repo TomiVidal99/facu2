@@ -35,6 +35,8 @@ También es importante que se usa $f_{t}$ para hacer los cálculos, ya que es un
 
 ### Etapas de amplificación en cascada
 Aparece un efecto de carga que es facil de razonar pensando que el producto A.BW se tiene que conservar. Por lo que si se aumenta A tiene que disminuir BW.![[09 Respuesta en Frecuencia.pdf#page=26&rect=19,42,709,512|09 Respuesta en Frecuencia, p.26]]
+![[09 Respuesta en Frecuencia.pdf#page=27&rect=39,121,249,187|09 Respuesta en Frecuencia, p.27]]
+Para n etapas identicas conectadas en cascada
 ### Método de las Constantes de Tiempo.
 Por un lado está el efecto de carga (resistivo) conocido, pero eso no es problema. El mayor problema para el cálculo es la presencia de los capacitores Cμ que conectan las salidas con las entradas, cuyo efecto ya hemos visto según el enfoque de Miller. Las aproximaciones realizadas para la etapa EC simple pueden no ser válidas por la carga capacitiva que representa la etapa siguiente
 Es un enfoque sistemático para el cálculo de los polos de amplificadores RC, que utilizaremos para calcular la respuesta a altas frecuencias y en particular el polo dominante. Recordemos algunos aspectos vinculados al concepto de polo dominante de la respuesta en alta frecuencia de un amplificador multietapa.
