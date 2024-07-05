@@ -6,7 +6,7 @@
 
 ## Preguntas
 
-- [ ] Polos en relación a autovalores en transferencia?
+- [ ]
 
 ## avrdude comando
 ```
