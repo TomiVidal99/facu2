@@ -23,8 +23,8 @@ Por lo que se usa el siguiente modelo: (similar al BJT pero sin $r_{\pi}$)
 La idea es que el sistema tiene que responder más rapido que la frecuencia a la que se envían los pulsos, y eso se verifica con las siguientes condiciones:
 ![[08 Comportamiento Transitorio y Respuesta en Frecuencia.pdf#page=34&rect=11,40,693,323|08 Comportamiento Transitorio y Respuesta en Frecuencia, p.34]]
 
-# Importante: llama $f_{T}$ al producto ganancia por ancho de banda
-Como para un sistema de orden 1 en ancho de banda es la frecuencia de corte, se puede calcular el producto gananacia por ancho de banda: $f_{T}=G_{0}f_c$
+# Importante: llama $f_{T}$ a la frecuencia que corta 0 dB
+Como para un sistema de orden 1 en ancho de banda es la frecuencia de corte, se puede calcular el producto gananacia por ancho de banda:
 ### Se puede obtener $C_{\mu}$
 ![[09 Respuesta en Frecuencia.pdf#page=4&rect=377,107,587,171|09 Respuesta en Frecuencia, p.4]]
 
