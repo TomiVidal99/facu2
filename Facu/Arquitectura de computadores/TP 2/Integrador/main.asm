@@ -28,7 +28,7 @@
 
 .dseg
 .org VECT_START_MEM
-VECT: .byte VECT_LEN
+VECT: .byte (VECT_LEN+1)
 
 .cseg
 ; -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
@@ -64,7 +64,7 @@ VECT: .byte VECT_LEN
 
 ; Pone el LED_PIN en salida
 .macro SETUP_LED
-  sbi DDRB, PB5
+  sbi DDRB, LED_PIN
 .endmacro
 
 ; prendo el LED del pin 13 como indicador de que comenzo el contador
