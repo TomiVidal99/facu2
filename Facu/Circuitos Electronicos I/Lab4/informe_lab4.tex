@@ -144,7 +144,7 @@ Los parámetros del modelo del BJT en base a la polarización son: $g_m \cong \q
 \end{figure}
 
 \subsection{Análisis frecuencias altas}
-El análisis de altas frecuencias es para encontrar el polo dominante, entonces se aproxima el sistema a uno de orden 1, por lo que este polo define la frecuencia de corte. Para hallar esta frecuencia se emplea el método de las constantes de tiempo. Considerando las impedancias ``vistas'' por $C_{\pi}$ y $C_{\mu}$ como $R_{\pi} \cong \qty{88.8374}{\ohm}$ y $R_{\mu} \cong \qty{9.7115}{\kilo\ohm}$ respectivamente. Por lo que $\omega_{H1} \cong \frac{1}{ C_{\mu}R_{\mu} + C_{\pi}R_{\pi} } \cong \qty{11.006}{\mega\radian\per\second}$ y $f_{H1} \cong \qty{1.7517}{\mega\hertz}$
+El análisis de altas frecuencias es para encontrar el polo dominante, entonces se aproxima el sistema a uno de orden 1, por lo que este polo define la frecuencia de corte. Para hallar esta frecuencia se emplea el método de las constantes de tiempo. Considerando las impedancias ``vistas'' por $C_{\pi}$ y $C_{\mu}$ como $R_{\pi} \cong \qty{88.8374}{\ohm}$ y $R_{\mu} \cong \qty{14.906}{\kilo\ohm}$ respectivamente. Por lo que $\omega_{H1} \cong \frac{1}{ C_{\mu}R_{\mu} + C_{\pi}R_{\pi} } \cong \qty{8.9578}{\mega\radian\per\second}$ y $f_{H1} \cong \qty{1.4257}{\mega\hertz}$
 
 \begin{figure}[H]
  \centering
@@ -188,14 +188,13 @@ Considerando las impedancias ``vistas'' por las capacidades $C_{\pi}$ y $C_{\mu}
    \begin{tabular}{|lll|ll|}
      \hline
      \multicolumn{3}{|c|}{Analítico}                                                    & \multicolumn{2}{c|}{Medido}                      \\ \hline
-     \multicolumn{1}{|l|}{Topologia}  & \multicolumn{1}{l|}{$f_H (MHz)$}  & $t_r (\mu S)$ & \multicolumn{1}{l|}{$f_H (MHz)$} & $t_r (\mu  S)$ \\ \hline
-     \multicolumn{1}{|l|}{1}          & \multicolumn{1}{l|}{1.7517}       & 199         & \multicolumn{1}{l|}{1.5}           & 300         \\ \hline
+     \multicolumn{1}{|l|}{Topologia}  & \multicolumn{1}{l|}{$f_H \left[MHz\right]$}  & $t_r \left[\mu S\right]$ & \multicolumn{1}{l|}{$f_H \left[MHz\right]$} & $t_r \left[\mu  S\right]$ \\ \hline
+     \multicolumn{1}{|l|}{1}          & \multicolumn{1}{l|}{1.4257}       & 245         & \multicolumn{1}{l|}{1.5}           & 300         \\ \hline
      \multicolumn{1}{|l|}{2}          & \multicolumn{1}{l|}{1.7600}       & 198         & \multicolumn{1}{l|}{1.55}          & 260         \\ \hline
-     \multicolumn{1}{|l|}{Diferencia} & \multicolumn{1}{l|}{0.0083}       & 1           & \multicolumn{1}{l|}{0.05}          & 40          \\ \hline
    \end{tabular}
  \end{table}
 
 \section{Conclusiones}
-La topología de cascode tiene mayor ancho de banda, como se puede observar en los cálculos y las mediciones. Aunque las mediciones no son exactamente iguales a lo esperado se acercan lo suficiente, con errores relativos de $f_H$ de 14\% y 11\% para las topologías 1 y 2 respectivamente. La diferencia es más notoria con el tiempo $t_r$, 34\% y 24\% de error relativo; pero probablemente la causa de tanta diferencia sea la forma en cómo se hicieron las mediciones, más que en la discrepancia de lo teórico con lo real.
+La topología de cascode tiene mayor ancho de banda, como se puede observar en los cálculos y las mediciones. Aunque las mediciones no son exactamente iguales a lo esperado se acercan lo suficiente, con errores relativos de $f_H$ de 5\% y 11\% para las topologías 1 y 2 respectivamente. La diferencia es más notoria con el tiempo $t_r$, 18\% y 24\% de error relativo; pero probablemente la causa de tanta diferencia sea la forma en cómo se hicieron las mediciones, más que en la discrepancia de lo teórico con lo real.
 
 \end{document}
