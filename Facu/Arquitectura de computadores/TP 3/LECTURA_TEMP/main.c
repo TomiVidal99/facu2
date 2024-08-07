@@ -9,6 +9,8 @@
 #include "UART.h"
 #include <avr/interrupt.h>
 #include <stdio.h>
+#include <util/delay.h>
+#include <avr/sleep.h>
 
 unsigned int temperature = 0;
 char message[]="Temp: 26°C \n";
@@ -20,8 +22,12 @@ int main(void) {
   USART_init(); //Llama la rutina de inicializaci�n de la USART
   INTERRUPT_INIT(); // habilita y configura las interrupciones
   TEMP_INIT(); // habilita el ADC para la medicion de la temperatura
+   
+  set_sleep_mode(SLEEP_MODE_PWR_DOWN); // Modo de bajo consumo: power-down
+
   while (1) {
     //_delay_ms(5000); //retardo de 5 segundos
+	sleep_mode();
   }
   return 0;
 }
