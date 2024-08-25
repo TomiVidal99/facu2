@@ -1,0 +1,478 @@
+{
+  "main": {
+    "id": "acce270c335394ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "3087989bf5c0c986",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d37f309018ed0678",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/bibliografia/Dhrystone Benchmark.pdf",
+                "page": 1,
+                "left": -520,
+                "top": 796,
+                "zoom": 0.7708333333333334
+              }
+            }
+          },
+          {
+            "id": "187fb0eb2981a753",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/bibliografia/M. Mano - Fundamentos de Diseño Lógico y de Computación.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "55f58b06a2e7213c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/bibliografia/T. Floyd - Fundamentos de sistemas digitales.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "967808bad68c6c51",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/bibliografia/Techzone Magazine tzm113-us.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "ffd22dcd4da657ac",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 00 - Introducción.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "ad839298c0c57fc8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 01 - Modelo y Memorias.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "50082a821e25c098",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 02 - Buses y el Ciclo de Instrucción.pdf",
+                "page": 13,
+                "zoom": -0.02962962962962963
+              }
+            }
+          },
+          {
+            "id": "09b84b4a003ff41f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 03 - Lenguaje Ensamblador.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "e5599485399b0913",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 04 - Mejoras ISA, parte 1.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "fbd52ca315bdcd0f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 05 - Mejoras ISA, parte 2.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "da0439ba6659dbd2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 06 - Mejoras en la Organización.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "0b7736eed61aba3c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 07 - Tecnología de implementación.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "087bd3ea253775f7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 08 - Medición de Performance.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "58335e46c8ef3eb0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 09 - Medición de Consumo.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "eab4acf0182210b3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 10 - DSP.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "21b3ee8b93c81154",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 11 - Sistemas Embebidos.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "443374ba3ebd9a03",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 12 - Programación en alto nivel.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "0128e127de13131e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "42f2ededd2de77e3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores de 8 bits - AVR, PIC y STM8.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "12f216cded359d39",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores de 16 bits - MSP430 y PIC24.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "bda6a620d723aebe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores de 32 bits - Cortex-M.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f5282ad371c79f6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "491ba57362ba6d68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "818c0aa15b3e461a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d43b0a18938ec205",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f8a2df0c7cf68425",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 551.5110359191895,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ad1d7ff5e6a59cef",
+    "type": "split",
+    "children": [
+      {
+        "id": "684fdc5e5e1ec2a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efc8c330eff21a99",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/bibliografia/Dhrystone Benchmark.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "564fc9a988adb14b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/bibliografia/Dhrystone Benchmark.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34f6cc3e95c33863",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2f132092390c88fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Facu/Arquitectura de computadores/bibliografia/Dhrystone Benchmark.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "floating": {
+    "id": "674cefeaee1e9434",
+    "type": "floating",
+    "children": [
+      {
+        "id": "17015b873f531cc1",
+        "type": "window",
+        "children": [
+          {
+            "id": "4982e330f54a8ee2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b1372747ae26bdd9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Facu/Arquitectura de computadores/Preparacion Final.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 0,
+        "width": 1024,
+        "height": 1040,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "d37f309018ed0678",
+  "lastOpenFiles": [
+    "Facu/Arquitectura de computadores/Preparacion Final.md",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 02 - Buses y el Ciclo de Instrucción.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 01 - Modelo y Memorias.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 00 - Introducción.pdf",
+    "Facu/Arquitectura de computadores/bibliografia/Techzone Magazine tzm113-us.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores de 32 bits - Cortex-M.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores de 16 bits - MSP430 y PIC24.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores de 8 bits - AVR, PIC y STM8.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 14 - Microcontroladores.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 12 - Programación en alto nivel.pdf",
+    "Facu/Arquitectura de computadores/Filminas teoria/Arquitectura 2024 Clase 11 - Sistemas Embebidos.pdf",
+    "Facu/Circuitos Electronicos I/TP 1/resumen-bjt-mosfet.excalidraw.md",
+    "Facu/Arquitectura de computadores/Resumen Teoria.md",
+    "Facu/Circuitos Electronicos I/TP 1/Circuitos Electronicos 1.md",
+    "2024-08-20.md",
+    "Excalidraw/Drawing 2024-08-20 19.03.12.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
+    "Facu/medidas/preguntas-consultas.md",
+    "Facu/medidas/Medidas.md",
+    "Facu/Circuitos Electronicos I/Mod 2 notas de teoría.md",
+    "Facu/Circuitos Electronicos I/Mod 2 Notas espejos de corriente.md",
+    "Facu/Circuitos Electronicos I/Mod 2 notas teoría 2 (TP 6).md",
+    "Facu/Circuitos Electronicos I/Lab5/Imagenes/topologia4.png",
+    "Facu/Circuitos Electronicos I/Lab5/Imagenes/topologia3.png",
+    "Facu/Circuitos Electronicos I/Lab5/Imagenes/topologia2.png",
+    "Facu/Circuitos Electronicos I/Lab5/Imagenes/topologia1.png",
+    "Facu/Circuitos Electronicos I/Lab5/Imagenes/circuito_presentado.png",
+    "Facu/Circuitos Electronicos I/Lab4/Imagenes/topologia2_fa.png",
+    "Facu/Circuitos Electronicos I/Lab4/Imagenes/topologia2_fm.png",
+    "Facu/Circuitos Electronicos I/Lab4/Imagenes/topologia2_dc.png",
+    "Facu/Circuitos Electronicos I/Lab4/Imagenes/topologia1_fa.png",
+    "Facu/Circuitos Electronicos I/Lab4/Imagenes/topologia1_fm.png",
+    "Facu/Control Automatico 2/consultas-control.md",
+    "Facu/Control Automatico 2/Control Automático 2.md",
+    "Facu/Control Automatico 2/TP 1/TP1 Notas.md",
+    "Facu/Circuitos Electronicos I/Meyer Notas.md",
+    "Facu/Control Automatico 2/Notas Ogata.md",
+    "Facu/Circuitos Electronicos I/Preguntas generales.md",
+    "Facu/Control Automatico 2/Notas Observadores de estados.md",
+    "clase 02.md",
+    "Facu/Arquitectura de computadores/TP 2/Integrador/Informe/Notas.md"
+  ]
+}
